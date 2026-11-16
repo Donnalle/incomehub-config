@@ -1,5 +1,179 @@
 {
- "updated": "2026-11-16T12:01:12.702Z",
+ "diag": {
+  "searches": [
+   {
+    "svc": "wf",
+    "skills": 4,
+    "got": 50
+   },
+   {
+    "svc": "wf",
+    "q": "flyer design",
+    "got": 50
+   },
+   {
+    "svc": "wf",
+    "q": "poster design",
+    "got": 50
+   },
+   {
+    "svc": "wf",
+    "q": "event flyer",
+    "got": 50
+   },
+   {
+    "svc": "wf",
+    "q": "canva flyer",
+    "got": 50
+   },
+   {
+    "svc": "wf",
+    "q": "menu design",
+    "got": 50
+   },
+   {
+    "svc": "wf",
+    "q": "leaflet design",
+    "got": 50
+   },
+   {
+    "svc": "cv",
+    "skills": 3,
+    "got": 15
+   },
+   {
+    "svc": "cv",
+    "q": "resume writing",
+    "got": 50
+   },
+   {
+    "svc": "cv",
+    "q": "cv writing",
+    "got": 50
+   },
+   {
+    "svc": "cv",
+    "q": "resume",
+    "got": 25
+   },
+   {
+    "svc": "cv",
+    "q": "cover letter",
+    "got": 50
+   },
+   {
+    "svc": "cv",
+    "q": "cv design",
+    "got": 50
+   },
+   {
+    "svc": "cv",
+    "q": "linkedin profile",
+    "got": 50
+   },
+   {
+    "svc": "ig",
+    "skills": 4,
+    "got": 50
+   },
+   {
+    "svc": "ig",
+    "q": "instagram post",
+    "got": 50
+   },
+   {
+    "svc": "ig",
+    "q": "instagram posts design",
+    "got": 50
+   },
+   {
+    "svc": "ig",
+    "q": "social media post",
+    "got": 50
+   },
+   {
+    "svc": "ig",
+    "q": "social media design",
+    "got": 50
+   },
+   {
+    "svc": "ig",
+    "q": "canva social media",
+    "got": 50
+   },
+   {
+    "svc": "ig",
+    "q": "facebook post design",
+    "got": 50
+   }
+  ],
+  "skills": {
+   "wf": [
+    "Brochure Design#310",
+    "Canva#2163",
+    "Flyer Design#412",
+    "Poster Design#408"
+   ],
+   "cv": [
+    "Cover Letter#2445",
+    "Linkedin#447",
+    "Resumes#360"
+   ],
+   "ig": [
+    "Canva#2163",
+    "Facebook Marketing#74",
+    "Instagram#758",
+    "Social Media Post Design#2552"
+   ]
+  },
+  "reasons": {
+   "off-topic": 847,
+   "kept": 19,
+   "excluded": 74,
+   "too big": 15,
+   "expert": 4,
+   "not english": 4
+  },
+  "ownerKeys": null,
+  "ownerLocation": null,
+  "projectKeys": [
+   "id",
+   "title",
+   "status",
+   "seo_url",
+   "currency",
+   "description",
+   "jobs",
+   "submitdate",
+   "preview_description",
+   "deleted",
+   "nonpublic",
+   "hidebids",
+   "type",
+   "bidperiod",
+   "budget",
+   "featured",
+   "urgent",
+   "bid_stats",
+   "time_submitted",
+   "time_updated",
+   "upgrades",
+   "language",
+   "hireme",
+   "frontend_project_status",
+   "location",
+   "local",
+   "time_free_bids_expire",
+   "pool_ids",
+   "enterprise_ids",
+   "is_escrow_project",
+   "is_seller_kyc_required",
+   "is_buyer_kyc_required",
+   "enterprises",
+   "group_ids"
+  ]
+ },
+ "updated": "2026-11-16T12:03:32.332Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -10,7 +184,7 @@
  },
  "counts": {
   "wf": 4,
-  "cv": 2,
+  "cv": 6,
   "ig": 9
  },
  "services": {
@@ -175,6 +349,122 @@
     "url": "https://www.freelancer.com/projects/content-writing/Modern-Office-Letter",
     "beginner": false,
     "summary": "Needs a polished set of application materials—CV, résumé, and cover letter—tailored specifically to office and…",
+    "practice": {
+     "q": "What does 'ATS-friendly' mean for your work?",
+     "options": [
+      "Colourful columns",
+      "Lots of graphics",
+      "Simple layout, the right keywords"
+     ],
+     "right": 2,
+     "why": "Hiring software reads plain layouts with the job's keywords. Fancy design can get it rejected.",
+     "need": "I'll keep it ATS-friendly with the right keywords.",
+     "keys": [
+      "ats",
+      "keyword"
+     ]
+    }
+   },
+   {
+    "id": "40815241",
+    "title": "ATS-Ready STEM Resume Revamp",
+    "brief": "I need a skilled resume writer to turn my existing CV into a clean, modern document that sails through Applicant Tracking Systems on Naukri and Indeed. My background: a STEM Master’s degree and more than three years of experience in data-focused environments. I am now targeting roles in data analytics, business intelligence, reporting, data science, machine learning, artificial intelligence, and, to a lesser extent, software development, cloud, or broader IT functions. Your task is to refashion the content with strong action verbs, tightly focused bullet points, and the right mix of keywords so recruiters can find me quickly. The design should be minimalist—no graphics that trip ATS—yet visu",
+    "min": 6,
+    "max": 16,
+    "cur": "USD",
+    "bids": 41,
+    "posted": "2026-11-12T15:34:05.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/ATS-Ready-STEM-Resume-Revamp",
+    "beginner": false,
+    "summary": "Needs a skilled resume writer to turn my existing CV into a clean, modern document that sails through Applicant…",
+    "practice": {
+     "q": "What does 'ATS-friendly' mean for your work?",
+     "options": [
+      "Lots of graphics",
+      "Simple layout, the right keywords",
+      "Colourful columns"
+     ],
+     "right": 1,
+     "why": "Hiring software reads plain layouts with the job's keywords. Fancy design can get it rejected.",
+     "need": "I'll keep it ATS-friendly with the right keywords.",
+     "keys": [
+      "ats",
+      "keyword"
+     ]
+    }
+   },
+   {
+    "id": "40814468",
+    "title": "ATS-Friendly Resume Rewrite",
+    "brief": "I'm seeking a professional resume rewrite to help me apply for an Armed Federal Security Guard position. The goal is to make my resume cleaner and optimized to pass Applicant Tracking Systems (ATS). Key Focus Areas: - Emphasize relevant skills and experience - Ensure formatting is ATS-friendly - Maintain clarity and professionalism Ideal skills and experience: - Proven expertise in resume writing - Familiarity with ATS requirements - Experience with security-related job applications",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 97,
+    "posted": "2026-11-12T05:31:07.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/content-writing/ATS-Friendly-Resume-Rewrite",
+    "beginner": false,
+    "summary": "Needs resume rewrite to help me apply for an Armed Federal Security Guard position.",
+    "practice": {
+     "q": "What does 'ATS-friendly' mean for your work?",
+     "options": [
+      "Simple layout, the right keywords",
+      "Lots of graphics",
+      "Colourful columns"
+     ],
+     "right": 0,
+     "why": "Hiring software reads plain layouts with the job's keywords. Fancy design can get it rejected.",
+     "need": "I'll keep it ATS-friendly with the right keywords.",
+     "keys": [
+      "ats",
+      "keyword"
+     ]
+    }
+   },
+   {
+    "id": "40813546",
+    "title": "Sales-Focused CV Creation",
+    "brief": "I want a brand-new CV built from my existing work history, positioned squarely for sales and customer service roles. The document should highlight achievements, metrics, and transferable soft skills in language that resonates with hiring managers and sails through ATS filters. A clean, modern layout that looks just as good in Word as it does in PDF is essential. I will supply my full employment chronology, education, and any figures you need. From there, I expect you to craft concise, persuasive wording, organise the sections logically, and weave in role-specific keywords without sounding forced. Please showcase your experience creating high-impact CVs—especially for sales or customer servic",
+    "min": 10,
+    "max": 30,
+    "cur": "USD",
+    "bids": 62,
+    "posted": "2026-11-11T15:13:53.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/sales/Sales-Focused-Creation",
+    "beginner": false,
+    "summary": "Needs a brand-new CV built from my existing work history, positioned squarely for sales and customer service roles.",
+    "practice": {
+     "q": "What does 'ATS-friendly' mean for your work?",
+     "options": [
+      "Simple layout, the right keywords",
+      "Lots of graphics",
+      "Colourful columns"
+     ],
+     "right": 0,
+     "why": "Hiring software reads plain layouts with the job's keywords. Fancy design can get it rejected.",
+     "need": "I'll keep it ATS-friendly with the right keywords.",
+     "keys": [
+      "ats",
+      "keyword"
+     ]
+    }
+   },
+   {
+    "id": "40810857",
+    "title": "Innovative Venture Builder CV Rewrite",
+    "brief": "I’m preparing to go into a startup-focused innovation role, specifically in venture building and new business and product development, and I need my existing CV transformed so it speaks the language that founders, VCs, and corporate venture arms expect. You’ll take my current résumé, dig into the achievements that prove I can spot opportunities, validate markets, and launch products, then recast them with clear impact metrics and keywords recruiters’ ATS systems flag—terms like “lean experimentation,” “MVP,” “go-to-market,” and “fund-raising.” The tone has to balance entrepreneurial energy with strategic rigour, showing I can move from vision to viable business while steering cross-functiona",
+    "min": 20,
+    "max": 169,
+    "cur": "USD",
+    "bids": 76,
+    "posted": "2026-11-10T03:23:17.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/business-development/Innovative-Venture-Builder-Rewrite",
+    "beginner": false,
+    "summary": "I’m preparing to go into a startup-focused innovation role, specifically in venture building and new business and…",
     "practice": {
      "q": "What does 'ATS-friendly' mean for your work?",
      "options": [
