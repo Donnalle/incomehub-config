@@ -22,21 +22,21 @@ const SERVICES = {
     strong: ["Flyer Design", "Poster Design", "Brochure Design", "Leaflet Design"],
     queries: ["flyer design", "poster design", "event flyer", "canva flyer", "menu design", "leaflet design"],
     must: /\b(flyers?|posters?|leaflets?|menus?|brochures?|banners?|invitations?)\b/i,
-    exclude: /\b(3d|animation|animated|video|motion|website|wordpress|shopify|app|logo only|packaging|label|illustrat\w*|book cover|album|mockups? only|developer|scraping|data entry)\b/i,
+    exclude: /\b(powerpoint|presentation|dieline|coreldraw|certificate|3d|animation|animated|video|motion|website|wordpress|shopify|app|logo only|packaging|label|illustrat\w*|book cover|album|mockups? only|developer|scraping|data entry)\b/i,
   },
   cv: {
     skills: ["Resume Writing", "Cover Letter", "CV Writing", "Resumes", "LinkedIn"],
     strong: ["Resume Writing", "Cover Letter", "CV Writing", "Resumes"],
     queries: ["resume writing", "cv writing", "resume", "cover letter", "cv design", "linkedin profile"],
     must: /\b(resumes?|résumé|cv|cvs|curriculum vitae|cover letters?|linkedin profile)\b/i,
-    exclude: /\b(parser|parsing|screening|ats software|developer|app|website|scrap\w*|database|python|recruit\w* platform|job portal|ai tool)\b/i,
+    exclude: /\b(add experience|fake|parser|parsing|screening|ats software|developer|app|website|scrap\w*|database|python|recruit\w* platform|job portal|ai tool)\b/i,
   },
   ig: {
     skills: ["Instagram", "Social Media Design", "Canva", "Social Media Post Design", "Facebook Marketing"],
     strong: ["Social Media Post Design", "Social Media Design"],
     queries: ["instagram post", "instagram posts design", "social media post", "social media design", "canva social media", "facebook post design"],
     must: /\b(instagram|social media|facebook|tiktok|canva|carousel|posts?)\b/i,
-    exclude: /\b(followers|likes|ads manager|ad campaign|paid ads|grow my|growth hack|seo|website|app|video edit\w*|reels? edit\w*|animation|3d|influencer|bot|automation|developer)\b/i,
+    exclude: /\b(manager|marketer|marketing (strategy|management)|sales|lead gen\w*|customer acquisition|recovery|appeal|disabled|osint|investigat\w*|run your own|ads setup|models?|followers|likes|ads manager|ad campaign|paid ads|grow my|growth hack|seo|website|app|video edit\w*|reels? edit\w*|animation|3d|influencer|bot|automation|developer)\b/i,
   },
 };
 
