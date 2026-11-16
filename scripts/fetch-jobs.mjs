@@ -11,8 +11,8 @@
 import { writeFileSync, readFileSync, existsSync } from "node:fs";
 
 const API = "https://www.freelancer.com/api/projects/0.1";
-const MAX_AGE_H = 72;          // only jobs posted in the last 48h
-const PER_SERVICE = 20;        // cap per service
+const MAX_AGE_H = 168;          // only jobs posted in the last 48h
+const PER_SERVICE = 25;        // cap per service
 const MIN_USD = 5, MAX_USD = 200;
 
 // ---------- services ----------
@@ -44,6 +44,7 @@ const EXPERT = /\b(senior|expert only|agency only|10\+ years|5\+ years|top rated
 // ---------- helpers ----------
 const NON_EN = /\b(necesito|para|publicaciones|nous|vous|pour|avec|recrutement|rémunéré|ich|wir|und|für|precisamos|preciso|cerco|abbiamo|sono)\b/i;
 const isEnglish = (t) => !NON_EN.test(t) && (t.match(/[^\x00-\x7F]/g) || []).length < t.length * 0.05;
+const DIAG = { searches: [], skills: {}, reasons: {} };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function get(path, params) {
   const u = new URL(API + path);
@@ -154,7 +155,7 @@ async function claudeEnrich(job, svc) {
   const prompt = `You help beginners in Africa practise freelancing. Service: ${svc === "wf" ? "WhatsApp/print flyers" : svc === "cv" ? "CV makeovers" : "Instagram posts"}.
 Job title: ${job.title}
 Brief: ${job.brief.slice(0, 1500)}
-Return ONLY JSON: {"summary": "max 110 chars, plain English, what the client wants", "q": "one short question testing if the reader understood what the client REALLY needs", "options": ["3 short options, max 45 chars each"], "right": 0-2, "why": "max 170 chars, coach tone, no emoji", "need": "one pitch sentence, max 90 chars, starting with I'll, referencing the brief", "keys": ["2-3 lowercase words from the brief the pitch should mention"]}`;
+Return ONLY JSON: {"fit": true/false (could a beginner who is learning this service realistically do this job? false for hiring/sales/recruiting, account recovery, video/filming, development, research, marketing strategy, anything needing years of experience), "summary": "max 110 chars, plain English, what the client wants", "q": "one short question testing if the reader understood what the client REALLY needs", "options": ["3 short options, max 45 chars each"], "right": 0-2, "why": "max 170 chars, coach tone, no emoji", "need": "one pitch sentence, max 90 chars, starting with I'll, referencing the brief", "keys": ["2-3 lowercase words from the brief the pitch should mention"]}`;
   try {
     const r = await fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
@@ -178,7 +179,7 @@ async function main() {
     for (const cur of c.result.currencies || []) if (fx[cur.code] && cur.exchange_rate) fx[cur.code] = +(1 / cur.exchange_rate).toFixed(2);
   } catch (e) { console.warn("currencies failed, using defaults"); }
 
-  const out = { updated: new Date().toISOString(), source: "freelancer.com", fx, counts: {}, services: {} };
+  const out = { diag: DIAG, updated: new Date().toISOString(), source: "freelancer.com", fx, counts: {}, services: {} };
   const seen = new Set();
   const prev = existsSync("jobs.json") ? JSON.parse(readFileSync("jobs.json", "utf8")) : { services: {} };
   const cache = new Map(Object.values(prev.services || {}).flat().filter((j) => j.ai).map((j) => [j.id, j]));
@@ -189,7 +190,7 @@ async function main() {
     try {
       const jd = await get("/jobs/", { job_names: conf.skills });
       skillIds = (jd.result || []).map((j) => j.id).filter(Boolean);
-      console.log(`${svc}: skills`, (jd.result || []).map((j) => j.name + "#" + j.id).join(", "));
+      DIAG.skills[svc] = (jd.result || []).map((j) => j.name + "#" + j.id);
     } catch (e) { console.warn(`${svc}: skill lookup failed`); }
     const searches = [...(skillIds.length ? [{ jobs: skillIds }] : []), ...conf.queries.map((query) => ({ query }))];
     for (const extra of searches) {
@@ -198,7 +199,8 @@ async function main() {
         full_description: "true", job_details: "true", user_details: "true", user_country_details: "true", user_location_details: "true",
         project_types: ["fixed"],
       });
-      if (!globalThis.__dumped && d.result.projects?.[0]) { globalThis.__dumped = 1; const u0 = Object.values(d.result.users || {})[0]; console.log("owner sample keys:", u0 && Object.keys(u0).join(","), JSON.stringify(u0?.location || null).slice(0, 200)); }
+      if (!globalThis.__dumped && d.result.projects?.[0]) { globalThis.__dumped = 1; const u0 = Object.values(d.result.users || {})[0]; DIAG.ownerKeys = u0 ? Object.keys(u0) : null; DIAG.ownerLocation = u0?.location || null; DIAG.projectKeys = Object.keys(d.result.projects[0]); }
+      DIAG.searches.push({ svc, ...(extra.query ? { q: extra.query } : { skills: extra.jobs.length }), got: (d.result.projects || []).length });
       const users = d.result.users || {};
       for (const p of d.result.projects || []) {
         if (jobs.has(p.id) || seen.has(p.id)) continue;
@@ -211,6 +213,7 @@ async function main() {
         const skillHit = (p.jobs || []).some((j) => skillIds.includes(j.id));
         const why = ageH > MAX_AGE_H ? "old" : !(conf.must.test(title) || (skillHit && conf.must.test(head))) ? "off-topic" : !isEnglish(text) ? "not english" : conf.exclude.test(text) ? "excluded" : SCAM.test(text) ? "scam" :
           EXPERT.test(text) ? "expert" : max < MIN_USD ? "too cheap" : min > MAX_USD ? "too big" : p.status !== "active" ? "closed" : brief.length < 40 ? "thin" : null;
+        DIAG.reasons[why || "kept"] = (DIAG.reasons[why || "kept"] || 0) + 1;
         if (why) continue;
         const owner = users[p.owner_id] || users[String(p.owner_id)];
         const bids = p.bid_stats?.bid_count ?? 0;
@@ -231,6 +234,7 @@ async function main() {
       const hit = cache.get(j.id);
       const ai = hit ? null : await claudeEnrich(j, svc);
       if (hit) { j.summary = hit.summary; j.practice = hit.practice; j.ai = true; }
+      else if (ai && ai.fit === false) { j.drop = true; continue; }
       else if (ai) { j.ai = true;
         j.summary = ai.summary;
         j.practice = { q: ai.q, options: ai.options, right: Math.max(0, Math.min(2, +ai.right || 0)), why: ai.why, need: ai.need, keys: (ai.keys || []).map((k) => String(k).toLowerCase()) };
@@ -240,8 +244,8 @@ async function main() {
       }
       delete j.seed;
     }
-    out.services[svc] = list;
-    out.counts[svc] = list.length;
+    out.services[svc] = list.filter((j) => !j.drop);
+    out.counts[svc] = out.services[svc].length;
     console.log(`${svc}: ${jobs.size} kept → ${list.length} published`);
   }
 
