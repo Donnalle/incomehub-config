@@ -173,9 +173,10 @@
   },
   "reasons": {
    "excluded": 182,
-   "kept": 23,
-   "off-topic": 843,
-   "too big": 27,
+   "kept": 22,
+   "off-topic": 846,
+   "scam": 7,
+   "too big": 25,
    "not english": 11,
    "expert": 4,
    "old": 1
@@ -219,7 +220,7 @@
    "group_ids"
   ]
  },
- "updated": "2026-11-16T12:09:47.755Z",
+ "updated": "2026-11-16T12:12:10.056Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -229,7 +230,7 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 10,
+  "wf": 9,
   "cv": 5,
   "ig": 8
  },
@@ -262,34 +263,6 @@
       "brand",
       "colour",
       "color"
-     ]
-    }
-   },
-   {
-    "id": "40820275",
-    "title": "Political Campaign Poster Design",
-    "brief": "I need a compelling and engaging campaign poster to get people to vote for our candidate. The poster should be designed for both print and social media formats. Requirements: - Eye-catching design - Clear, persuasive messaging - Cohesive branding across formats - High-resolution images and graphics - Experience in political campaign materials is a plus Ideal Skills & Experience: - Graphic design expertise - Strong understanding of political messaging - Proficiency in social media and print layout Please share your portfolio with relevant work.",
-    "min": 6,
-    "max": 16,
-    "cur": "USD",
-    "bids": 47,
-    "posted": "2026-11-16T07:02:52.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/advertisement-design/Political-Campaign-Poster-Design",
-    "beginner": true,
-    "summary": "Needs a compelling and engaging campaign poster to get people to vote for our candidate.",
-    "practice": {
-     "q": "What's the trap in this brief?",
-     "options": [
-      "There's no theme",
-      "The client hasn't paid yet",
-      "It needs more than one size"
-     ],
-     "right": 2,
-     "why": "More than one size means more than one layout. Say you'll deliver every size, it shows you actually read the brief.",
-     "need": "I'll deliver every size you need, including print and social.",
-     "keys": [
-      "print and social"
      ]
     }
    },
