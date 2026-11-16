@@ -41,7 +41,7 @@ const SERVICES = {
 };
 
 // scam / unsafe / off-limits
-const SCAM = /\b(telegram|whats\s?app me|contact me on|crypto|bitcoin|usdt|forex|betting|casino|adult|nsfw|onlyfans|registration fee|pay (a|the) fee|deposit first|unpaid|for free|free trial task|investment|loan|gift ?card)\b/i;
+const SCAM = /\b(political|election|candidate|vote for|telegram|whats\s?app me|contact me on|crypto|bitcoin|usdt|forex|betting|casino|adult|nsfw|onlyfans|registration fee|pay (a|the) fee|deposit first|unpaid|for free|free trial task|investment|loan|gift ?card)\b/i;
 const EXPERT = /\b(senior|expert only|agency only|10\+ years|5\+ years|top rated only|native .* only)\b/i;
 
 // ---------- helpers ----------
