@@ -159,13 +159,15 @@ async function claudeEnrich(job, svc) {
   const prompt = `You help beginners in Africa practise freelancing. Service: ${svc === "wf" ? "WhatsApp/print flyers" : svc === "cv" ? "CV makeovers" : "Instagram posts"}.
 Job title: ${job.title}
 Brief: ${job.brief.slice(0, 1500)}
-Return ONLY JSON: {"fit": true/false (could a beginner who is learning this service realistically do this job? false for hiring/sales/recruiting, account recovery, video/filming, development, research, marketing strategy, anything needing years of experience), "summary": "max 110 chars, plain English, what the client wants", "q": "one short question testing if the reader understood what the client REALLY needs", "options": ["3 short options, max 45 chars each"], "right": 0-2, "why": "max 170 chars, coach tone, no emoji", "need": "one pitch sentence, max 90 chars, starting with I'll, referencing the brief", "keys": ["2-3 lowercase words from the brief the pitch should mention"]}`;
+Return ONLY JSON: {"fit": true/false (could a beginner who is learning this service realistically do this job? false if the brief is not in English, false for hiring/sales/recruiting, errands, physical tasks, account recovery, video/filming, development, research, marketing strategy, anything needing years of experience), "summary": "max 110 chars, plain English, what the client wants", "q": "one short question testing if the reader understood what the client REALLY needs", "options": ["3 short options, max 45 chars each"], "right": 0-2, "why": "max 170 chars, coach tone, no emoji", "need": "one pitch sentence, max 90 chars, starting with I'll, referencing the brief", "keys": ["2-3 lowercase words from the brief the pitch should mention"]}`;
   try {
-    const r = await fetch("https://api.anthropic.com/v1/messages", {
+    const call = (extra) => fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
       headers: { "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json" },
-      body: JSON.stringify({ model: process.env.CLAUDE_MODEL || "claude-haiku-5-5", max_tokens: 1200, messages: [{ role: "user", content: prompt }] }),
+      body: JSON.stringify({ model: process.env.CLAUDE_MODEL || "claude-haiku-5-5", max_tokens: 2000, ...extra, messages: [{ role: "user", content: prompt }] }),
     });
+    let r = await call({ thinking: { type: "disabled" } });
+    if (r.status === 400) r = await call({});   // older API shape: no thinking param
     if (!r.ok) { DIAG.claude.fail++; DIAG.claude.lastError = r.status + " " + (await r.text()).slice(0, 300); return null; }
     const d = await r.json();
     const txt = (d.content || []).filter((c) => c.type === "text").map((c) => c.text).join("");
