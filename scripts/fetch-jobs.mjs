@@ -77,6 +77,24 @@ function summarise(desc, title) {
   return cap(s);
 }
 
+// ---------- course lessons each job can point to ----------
+const LESSONS = {
+  wf: { wf2: "Why most flyers get ignored", wf3: "Design basics for non-designers", wf4: "Briefing the client", wf5: "Anatomy of a flyer that works" },
+  cv: { cv2: "What a CV that gets called back looks like", cv3: "The structure, section by section", cv4: "Interviewing your client", cv5: "Write experience that gets interviews" },
+  ig: { ig2: "Pretty isn't the goal", ig3: "How Instagram works for local shops", ig4: "Onboarding a shop properly", ig5: "Anatomy of a post that sells" },
+};
+const LESSON_RULES = {
+  wf: [[/\b(event|opening|promo\w*|sale|offer|launch|discount|campaign)\b/i, "wf5"], [/\b(brief|requirements|details below|information|content provided)\b/i, "wf4"], [/\b(clean|modern|minimal\w*|layout|typography|premium|luxury|professional)\b/i, "wf3"]],
+  cv: [[/\b(experience|achievements?|results|impact|metrics|accomplishments)\b/i, "cv5"], [/\b(ats|structure|format|layout|sections?|pages?)\b/i, "cv3"], [/\b(graduate|career change|gap|no experience)\b/i, "cv4"]],
+  ig: [[/\b(sell|sales|product|promot\w*|offer|ads?)\b/i, "ig5"], [/\b(brand kit|onboard\w*|brand guide\w*|consistent|cohesive|brand)\b/i, "ig4"], [/\b(local|shop|store|salon|restaurant|caf\w*|gym)\b/i, "ig3"]],
+};
+const DEFAULT_LESSON = { wf: "wf5", cv: "cv2", ig: "ig2" };
+function lessonFor(job, svc) {
+  const t = job.title + " " + job.brief;
+  for (const [re, id] of LESSON_RULES[svc]) if (re.test(t)) return id;
+  return DEFAULT_LESSON[svc];
+}
+
 // ---------- practice question builder (rules) ----------
 // Each rule looks for a signal in the brief and returns a question,
 // 3 options (right one first; shuffled later), a "why", a "need" line and keys.
@@ -159,7 +177,7 @@ async function claudeEnrich(job, svc) {
   const prompt = `You help beginners in Africa practise freelancing. Service: ${svc === "wf" ? "WhatsApp/print flyers" : svc === "cv" ? "CV makeovers" : "Instagram posts"}.
 Job title: ${job.title}
 Brief: ${job.brief.slice(0, 1500)}
-Return ONLY JSON: {"fit": true/false (could a beginner who is learning this service realistically do this job? false if the brief is not in English, false for hiring/sales/recruiting, errands, physical tasks, account recovery, video/filming, development, research, marketing strategy, anything needing years of experience), "summary": "max 110 chars, plain English, what the client wants", "q": "one short question testing if the reader understood what the client REALLY needs", "options": ["3 short options, max 45 chars each"], "right": 0-2, "why": "max 170 chars, coach tone, no emoji", "need": "one pitch sentence, max 90 chars, starting with I'll, referencing the brief", "keys": ["2-3 lowercase words from the brief the pitch should mention"]}`;
+Return ONLY JSON: {"fit": true/false (could a beginner who is learning this service realistically do this job? false if the brief is not in English, false for hiring/sales/recruiting, errands, physical tasks, account recovery, video/filming, development, research, marketing strategy, anything needing years of experience), "summary": "max 110 chars, plain English, what the client wants", "q": "one short question testing if the reader understood what the client REALLY needs", "options": ["3 short options, max 45 chars each"], "right": 0-2, "why": "max 170 chars, coach tone, no emoji", "need": "one pitch sentence, max 90 chars, starting with I'll, referencing the brief", "keys": ["2-3 lowercase words from the brief the pitch should mention"], "lesson": "the ONE lesson id that best teaches the skill this job needs, from: ${Object.entries(LESSONS[svc]).map(([k, v]) => k + " = " + v).join("; ")}", "skill": "max 60 chars, the core skill this job tests, e.g. Making the offer impossible to miss"}`;
   try {
     const call = (extra) => fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
@@ -247,14 +265,18 @@ async function main() {
       seen.add(Number(j.id));
       const hit = cache.get(j.id);
       const ai = hit ? null : await claudeEnrich(j, svc);
-      if (hit) { j.summary = hit.summary; j.practice = hit.practice; j.ai = true; }
+      if (hit && hit.lesson) { j.summary = hit.summary; j.practice = hit.practice; j.lesson = hit.lesson; j.skill = hit.skill; j.ai = true; }
       else if (ai && ai.fit === false) { j.drop = true; continue; }
       else if (ai) { j.ai = true;
         j.summary = ai.summary;
+        j.lesson = LESSONS[svc][ai.lesson] ? ai.lesson : lessonFor(j, svc);
+        j.skill = ai.skill || "";
         j.practice = { q: ai.q, options: ai.options, right: Math.max(0, Math.min(2, +ai.right || 0)), why: ai.why, need: ai.need, keys: (ai.keys || []).map((k) => String(k).toLowerCase()) };
       } else {
         j.summary = summarise(j.brief, j.title);
         j.practice = practiceFor(j, svc);
+        j.lesson = lessonFor(j, svc);
+        j.skill = "";
       }
       delete j.seed;
     }
