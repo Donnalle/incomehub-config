@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 31
+    "got": 35
    },
    {
     "svc": "wf",
@@ -54,7 +54,7 @@
    {
     "svc": "cv",
     "skills": 3,
-    "got": 15
+    "got": 20
    },
    {
     "svc": "cv",
@@ -84,7 +84,7 @@
    {
     "svc": "cv",
     "q": "resume",
-    "got": 25
+    "got": 23
    },
    {
     "svc": "cv",
@@ -114,7 +114,7 @@
    {
     "svc": "ig",
     "skills": 4,
-    "got": 48
+    "got": 47
    },
    {
     "svc": "ig",
@@ -172,12 +172,12 @@
    ]
   },
   "reasons": {
-   "excluded": 182,
-   "kept": 22,
-   "off-topic": 846,
-   "scam": 7,
-   "too big": 25,
-   "not english": 11,
+   "excluded": 183,
+   "off-topic": 851,
+   "kept": 25,
+   "scam": 3,
+   "too big": 23,
+   "not english": 9,
    "expert": 4,
    "old": 1
   },
@@ -220,7 +220,7 @@
    "group_ids"
   ]
  },
- "updated": "2026-11-16T12:12:10.056Z",
+ "updated": "2026-11-16T17:05:05.412Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -230,12 +230,41 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 9,
+  "wf": 10,
   "cv": 5,
-  "ig": 8
+  "ig": 10
  },
  "services": {
   "wf": [
+   {
+    "id": "40821109",
+    "title": "Modern Medical Center Backlit Banner",
+    "brief": "I need a striking 14 ft × 8 ft back-lit banner for our medical center that instantly communicates a modern, premium feel. The doctors and their specialties must be the heroes of the design, supported by the center name, a concise list of core services, and any short contact line you feel balances the composition. You’ll receive professional headshots of our doctors; please blend these seamlessly with tasteful, high-quality medical stock imagery to reinforce each specialty. All photos will need colour correction and enhancement so they print crisply when the banner is illuminated. The overall aesthetic should be clean, contemporary and sophisticated—think confident typography, ample negative ",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 46,
+    "posted": "2026-11-16T16:47:41.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/adobe-photoshop/Modern-Medical-Center-Backlit-Banner",
+    "beginner": false,
+    "summary": "Needs a striking 14 ft × 8 ft back-lit banner for our medical center that instantly communicates a modern, premium feel.",
+    "practice": {
+     "q": "What should your pitch mention first?",
+     "options": [
+      "Your lowest price",
+      "Exactly what their design is for",
+      "How long you've designed"
+     ],
+     "right": 1,
+     "why": "Clients skim pitches. Repeat their exact need in your first line and you're already ahead of most bidders.",
+     "need": "I'll design it so the key details jump out first.",
+     "keys": [
+      "modern",
+      "medical"
+     ]
+    }
+   },
    {
     "id": "40820537",
     "title": "Logo Poster and Social Media Suite",
@@ -243,7 +272,7 @@
     "min": 99,
     "max": 150,
     "cur": "USD",
-    "bids": 68,
+    "bids": 88,
     "posted": "2026-11-16T09:44:09.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/poster-design/Logo-Poster-Social-Media-Suite",
@@ -273,7 +302,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 120,
+    "bids": 123,
     "posted": "2026-11-15T20:27:19.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/content-writing/Polished-Corporate-Caf-Profile-PDF",
@@ -301,7 +330,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 139,
+    "bids": 142,
     "posted": "2026-11-14T22:46:40.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Premium-Beauty-Salon-Print-Design",
@@ -330,7 +359,7 @@
     "min": 16,
     "max": 133,
     "cur": "USD",
-    "bids": 58,
+    "bids": 60,
     "posted": "2026-11-14T04:56:26.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/catalog-design/Mobile-Accessories-Digital-Catalogue",
@@ -359,7 +388,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 90,
+    "bids": 92,
     "posted": "2026-11-14T03:46:20.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Promotional-Poster-Design-40816691",
@@ -388,7 +417,7 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 36,
+    "bids": 37,
     "posted": "2026-11-11T06:01:09.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-photoshop/Design-Luxury-Fashion-Course-Brochures",
@@ -445,7 +474,7 @@
     "min": 133,
     "max": 399,
     "cur": "USD",
-    "bids": 84,
+    "bids": 85,
     "posted": "2026-11-10T03:48:25.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Instagram-Branding-Posts-Ads",
@@ -646,13 +675,71 @@
   ],
   "ig": [
    {
+    "id": "40820924",
+    "title": "Tustin CA Post Office Reship",
+    "brief": "Package being held at local post office 92782 I’m out the country for work Package need to have a new label for reshipping, label will be provided, you don’t have to actually pick it up doesn’t need to be opened, only place new label on box for reshipping that’s it, don’t have to walk out of post office with package at all",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 0,
+    "posted": "2026-11-16T14:23:11.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/logistics-shipping/Tustin-Post-Office-Reship-40820924",
+    "beginner": false,
+    "summary": "Package being held at local post office 92782 I’m out the country for work Package need to have a new label for…",
+    "practice": {
+     "q": "What should your pitch mention first?",
+     "options": [
+      "Their business and what they post",
+      "Your follower count",
+      "Your lowest price"
+     ],
+     "right": 0,
+     "why": "They want posts that fit their business. Mention it by name in your first line.",
+     "need": "I'll make posts that look like your brand and get noticed.",
+     "keys": [
+      "tustin",
+      "post"
+     ]
+    }
+   },
+   {
+    "id": "40820842",
+    "title": "Experienced Social Media & Digital Marketing Specialist",
+    "brief": "Experienced Social Media & Digital Marketing Specialist We are looking for an experienced Social Media & Digital Marketing Specialist to manage our company's Facebook, Instagram, and LinkedIn accounts. Responsibilities: - Create and publish a minimum of 5 professional posts per month. - Design high-quality images and marketing content. - Manage and grow our social media presence. - Promote our company, services, and brand. - Develop strategies to attract new customers and generate leads. Design Style: We are looking for a clean, elegant, modern, and professional corporate style. - Minimalist and sophisticated designs. - High-quality, realistic photography. - Professional graphics and layouts",
+    "min": 33,
+    "max": 275,
+    "cur": "USD",
+    "bids": 126,
+    "posted": "2026-11-16T13:37:40.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-management/Experienced-Social-Media-Digital",
+    "beginner": false,
+    "summary": "Experienced Social Media & Digital Marketing Specialist We are looking for an experienced Social Media & Digital…",
+    "practice": {
+     "q": "What should your pitch mention first?",
+     "options": [
+      "Your lowest price",
+      "Your follower count",
+      "Their business and what they post"
+     ],
+     "right": 2,
+     "why": "They want posts that fit their business. Mention it by name in your first line.",
+     "need": "I'll make posts that look like your brand and get noticed.",
+     "keys": [
+      "experienced",
+      "social"
+     ]
+    }
+   },
+   {
     "id": "40820004",
     "title": "Social Media Ad Design Specialist",
     "brief": "I need a creative designer to create engaging social media posts and ads for Instagram and Facebook. The main goal of these designs is to promote our Sports and fitness brand Key Requirements: - Create visually appealing and engaging designs. - Platform-specific designs for Instagram and Facebook. - Focus on product/service promotion. Ideal Skills and Experience: - Proven experience in social media design. - Strong portfolio showcasing relevant work. - Proficiency in design software (e.g., Adobe Creative Suite). - Ability to understand and incorporate brand guidelines. - Knowledge of current design trends and social media algorithms. Please provide a portfolio with your bids.",
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 31,
+    "bids": 32,
     "posted": "2026-11-16T03:32:11.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-creative-suite/Social-Media-Design-Specialist",
@@ -709,7 +796,7 @@
     "title": "Sell Household Items on FB Marketplace",
     "brief": "I need someone to help sell small home goods and décor on Facebook Marketplace in Kelowna, BC. The items are located at my home. Key tasks include: - Managing the full sale from photos to pickup. Ideal skills and experience: - Experience with Facebook Marketplace - Strong organizational skills - Good communication skills to interact with buyers",
     "min": 175,
-    "max": 525,
+    "max": 524,
     "cur": "USD",
     "bids": 14,
     "posted": "2026-11-13T21:48:00.000Z",
@@ -798,7 +885,7 @@
     "min": 33,
     "max": 275,
     "cur": "USD",
-    "bids": 237,
+    "bids": 239,
     "posted": "2026-11-11T16:10:21.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Canva-Social-Media-Graphics-40813629",
@@ -828,7 +915,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 158,
+    "bids": 159,
     "posted": "2026-11-10T21:01:38.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Social-Ads-Designer-for-Client",
