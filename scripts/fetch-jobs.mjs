@@ -36,7 +36,7 @@ const SERVICES = {
     strong: ["Social Media Post Design", "Social Media Design"],
     queries: ["instagram post", "instagram posts design", "social media post", "social media design", "canva social media", "facebook post design"],
     must: /\b(instagram|social media|facebook|tiktok|canva|carousel|posts?)\b/i,
-    exclude: /\b(manager|marketer|marketing (strategy|management)|sales|lead gen\w*|customer acquisition|recovery|appeal|disabled|osint|investigat\w*|run your own|ads setup|models?|followers|likes|ads manager|ad campaign|paid ads|grow my|growth hack|seo|website|app|video edit\w*|reels? edit\w*|animation|3d|influencer|bot|automation|developer)\b/i,
+    exclude: /\b(strategy|strategist|manager|marketer|marketing (strategy|management)|sales|lead gen\w*|customer acquisition|recovery|appeal|disabled|osint|investigat\w*|run your own|ads setup|models?|followers|likes|ads manager|ad campaign|paid ads|grow my|growth hack|seo|website|app|video edit\w*|reels? edit\w*|animation|3d|influencer|bot|automation|developer)\b/i,
   },
 };
 
