@@ -172,10 +172,10 @@
    ]
   },
   "reasons": {
-   "excluded": 145,
-   "kept": 44,
-   "off-topic": 837,
-   "too big": 32,
+   "excluded": 180,
+   "kept": 24,
+   "off-topic": 843,
+   "too big": 27,
    "not english": 11,
    "expert": 4,
    "old": 1
@@ -219,7 +219,7 @@
    "group_ids"
   ]
  },
- "updated": "2026-11-16T12:05:59.036Z",
+ "updated": "2026-11-16T12:08:23.665Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -229,9 +229,9 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 15,
-  "cv": 6,
-  "ig": 23
+  "wf": 10,
+  "cv": 5,
+  "ig": 9
  },
  "services": {
   "wf": [
@@ -262,64 +262,6 @@
       "brand",
       "colour",
       "color"
-     ]
-    }
-   },
-   {
-    "id": "40820476",
-    "title": "PowerPoint Presentation Creation for Training",
-    "brief": "I'm looking for someone to create a PowerPoint presentation for a training session aimed at customers or the general public. The goal of the presentation is to encourage the audience to take action, such as signing up, buying, or contacting us. Key Requirements: - Engaging and professional design - Clear and concise content - Action-oriented call-to-action slides - Ability to convey complex information simply Ideal Skills: - Proficiency in PowerPoint - Strong graphic design skills - Experience in creating training or educational content - Excellent written communication skills Please provide samples of previous work. Looking forward to your proposals!",
-    "min": 16,
-    "max": 133,
-    "cur": "USD",
-    "bids": 57,
-    "posted": "2026-11-16T09:10:36.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/training/PowerPoint-Presentation-Creation-for",
-    "beginner": false,
-    "summary": "Needs a PowerPoint presentation for a training session aimed at customers or the general public.",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "How long you've designed",
-      "Your lowest price",
-      "Exactly what their design is for"
-     ],
-     "right": 2,
-     "why": "Clients skim pitches. Repeat their exact need in your first line and you're already ahead of most bidders.",
-     "need": "I'll design it so the key details jump out first.",
-     "keys": [
-      "powerpoint",
-      "presentation"
-     ]
-    }
-   },
-   {
-    "id": "40820369",
-    "title": "Place Logo & Text Table onto Box Dieline in CorelDRAW (.CDR)",
-    "brief": "Project Title: Place Logo & Product Table onto Corrugated Box Dieline in CorelDRAW (.CDR) Project Description: I need a CorelDRAW designer to place my existing logo and compliance table onto my corrugated mailer box dieline (591.5 mm x 504 mm) for single-color Emerald Green flexo printing. All creative design, text, logo, and dieline PDF are already 100% ready—this is a straightforward DTP placement task. What I Will Provide: • Blank box dieline PDF (591.5 x 504 mm) • Brand vector logo file • Ready-to-copy text specification PDF & visual reference mockups Exact Scope of Work: • Place brand logo centered on the front lid panel (rotated 90° clockwise per guide) • Create an 8-row Legal Metrolog",
-    "min": 6,
-    "max": 6,
-    "cur": "USD",
-    "bids": 30,
-    "posted": "2026-11-16T07:49:09.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/coreldraw/Place-Logo-Text-Table-onto",
-    "beginner": true,
-    "summary": "Project Title: Place Logo & Product Table onto Corrugated Box Dieline in CorelDRAW (.CDR) Project Description: I…",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Exactly what their design is for",
-      "Your lowest price",
-      "How long you've designed"
-     ],
-     "right": 0,
-     "why": "Clients skim pitches. Repeat their exact need in your first line and you're already ahead of most bidders.",
-     "need": "I'll design it so the key details jump out first.",
-     "keys": [
-      "place",
-      "logo"
      ]
     }
    },
@@ -467,36 +409,6 @@
     }
    },
    {
-    "id": "40816660",
-    "title": "Digital Campaign Poster Design",
-    "brief": "I'm seeking a skilled Photoshop designer to create a digital presentation or poster for an upcoming event or campaign. Key Requirements: - Design should prominently feature our logo, brand colors, and product photos. - Should effectively promote a specific event or campaign. Ideal Skills & Experience: - Proficiency in Adobe Photoshop. - Strong graphic design skills. - Experience in creating digital presentations or posters. - Ability to work with provided brand materials and develop a cohesive design. Please share your portfolio with relevant work. Looking forward to your proposals!",
-    "min": 6,
-    "max": 16,
-    "cur": "USD",
-    "bids": 42,
-    "posted": "2026-11-13T13:48:15.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/adobe-photoshop/Digital-Campaign-Poster-Design",
-    "beginner": true,
-    "summary": "I'm seeking a skilled Photoshop designer to create a digital presentation or poster for an upcoming event or campaign.",
-    "practice": {
-     "q": "What will this client judge you on first?",
-     "options": [
-      "Sticking to their brand colours",
-      "How cheap you are",
-      "How many years you've worked"
-     ],
-     "right": 0,
-     "why": "They told you their colours. Anything that ignores them is out in 2 seconds.",
-     "need": "I'll stick to your brand colours.",
-     "keys": [
-      "brand",
-      "colour",
-      "color"
-     ]
-    }
-   },
-   {
     "id": "40812827",
     "title": "Design Luxury Fashion Course Brochures",
     "brief": "Hi, I am looking for a professional graphic designer to design 4 premium course brochures for BIFD (Bhuvan Institute of Fashion Design). Requirements: 1. 3 Aari Work Course Brochures (Basic, Advanced & Professional). 2. 1 Fashion Design Course Brochure. Design Expectations: - Premium, luxury and professional editorial-style design. - Elegant colour combinations with deep green, ivory/cream and champagne gold. - Professional typography with proper font pairing. - Clean layouts with sufficient whitespace. - High-quality fashion and embroidery photographs. - Consistent BIFD branding across all brochures. - Proper page alignment, hierarchy and readability. Deliverables: - Print-ready PDF (A4 siz",
@@ -550,34 +462,6 @@
      "keys": [
       "creative",
       "copywriter"
-     ]
-    }
-   },
-   {
-    "id": "40811342",
-    "title": "Poster and PowerPoint Design Needed",
-    "brief": "Hello! Thank you for sharing the project details. I would be happy to help create a professional and visually consistent poster and PowerPoint presentation. Here's what I can deliver: - A3 Poster Design: A clean, eye-catching, print-ready poster with balanced spacing and readable typography. - Multiple Formats: RGB and CMYK versions, along with a high-quality PDF. - Editable Source File: An editable design file for future updates. - PowerPoint Presentation: An 8–10 slide widescreen presentation that follows the same branding and visual style as the poster. - Consistent Branding: Proper use of your logo, colours, fonts, and supplied content. - Professional Formatting: Clean layouts, attractiv",
-    "min": 133,
-    "max": 399,
-    "cur": "USD",
-    "bids": 78,
-    "posted": "2026-11-10T09:37:11.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/poster-design/Poster-PowerPoint-Design-Needed",
-    "beginner": false,
-    "summary": "Thank you for sharing the project details.",
-    "practice": {
-     "q": "What's the trap in this brief?",
-     "options": [
-      "It needs more than one size",
-      "The client hasn't paid yet",
-      "There's no theme"
-     ],
-     "right": 0,
-     "why": "More than one size means more than one layout. Say you'll deliver every size, it shows you actually read the brief.",
-     "need": "I'll deliver every size you need, including A3.",
-     "keys": [
-      "a3"
      ]
     }
    },
@@ -638,65 +522,9 @@
       "pipe"
      ]
     }
-   },
-   {
-    "id": "40810319",
-    "title": "Modern Certificate Design",
-    "brief": "I'm looking for a modern and clean certificate of achievement design. This certificate will be used to recognize competition or event awards. Requirements: - Certificate should have a modern and clean design - Should include organizer name and signature line Ideal Skills and Experience: - Graphic design proficiency - Experience in creating certificates - Strong understanding of modern design aesthetics Please provide samples of previous work.",
-    "min": 30,
-    "max": 250,
-    "cur": "USD",
-    "bids": 255,
-    "posted": "2026-11-09T17:49:40.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Certificate-Design",
-    "beginner": false,
-    "summary": "I'm looking for a modern and clean certificate of achievement design.",
-    "practice": {
-     "q": "What's this client's real goal?",
-     "options": [
-      "Win a design award",
-      "Get people to show up or buy",
-      "Get a new logo"
-     ],
-     "right": 1,
-     "why": "The design has one job: bring people in. Lead with the date or the offer, everything else comes second.",
-     "need": "I'll make the event details impossible to miss.",
-     "keys": [
-      "event"
-     ]
-    }
    }
   ],
   "cv": [
-   {
-    "id": "40818020",
-    "title": "Add Experience",
-    "brief": "Looking for freelancers with a real LinkedIn profile to add a short Experience entry for our company,. What you’ll do: • Add one role under LinkedIn → Experience • Job title: Operations Associate • Employment type: Full-time • Company: (select our company page from the dropdown so the logo appears) • Location: Remote • Dates: start date I’ll send you after hire · End: Present • Short description I’ll provide (2 lines) • Send your profile link + a screenshot when it’s live • Leave the entry on your profile for at least 120 days This is a simple one-time task on your own account. No password share. No other work. I’ll give you the exact company page URL, start date, and description text in the",
-    "min": 10,
-    "max": 14,
-    "cur": "USD",
-    "bids": 52,
-    "posted": "2026-11-14T14:36:23.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/data-entry/Add-Experience",
-    "beginner": true,
-    "summary": "Looking for freelancers with a real LinkedIn profile to add a short Experience entry for our company,.",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Your lowest price",
-      "Your favourite CV template",
-      "The job they're applying for"
-     ],
-     "right": 2,
-     "why": "A CV is only as good as the job it's aimed at. Show you noticed theirs.",
-     "need": "I'll shape your CV around the exact job you want.",
-     "keys": [
-      "experience"
-     ]
-    }
-   },
    {
     "id": "40817695",
     "title": "Modern Office CV & Letter",
@@ -874,36 +702,6 @@
     }
    },
    {
-    "id": "40819232",
-    "title": "Instagram Product Promotion Posts",
-    "brief": "I need a creative content specialist who can craft scroll-stopping Instagram posts that put my products and services front and center. The aim is simple: turn casual scrollers into engaged shoppers through a mix of eye-catching visuals and persuasive, on-brand captions. You’ll receive brand guidelines, existing product photos, and any key selling points I want highlighted. From there, your job is to shape an engaging concept for each post, handle the graphic design (static image or carousel), write concise copy with a clear call-to-action, and attach a smart hashtag set that boosts reach without looking spammy. Deliverables • A cohesive batch of ready-to-publish Instagram posts (PNG/JPEG, 10",
-    "min": 133,
-    "max": 399,
-    "cur": "USD",
-    "bids": 48,
-    "posted": "2026-11-16T03:47:17.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/branding/Instagram-Product-Promotion-Posts",
-    "beginner": false,
-    "summary": "Needs a creative content specialist who can craft scroll-stopping Instagram posts that put my products and services…",
-    "practice": {
-     "q": "What will this client judge you on first?",
-     "options": [
-      "How cheap you are",
-      "Sticking to their brand colours",
-      "How many years you've worked"
-     ],
-     "right": 1,
-     "why": "They told you their colours. Anything that ignores them is out in 2 seconds.",
-     "need": "I'll stick to your brand colours.",
-     "keys": [
-      "brand",
-      "colour",
-      "color"
-     ]
-    }
-   },
-   {
     "id": "40820004",
     "title": "Social Media Ad Design Specialist",
     "brief": "I need a creative designer to create engaging social media posts and ads for Instagram and Facebook. The main goal of these designs is to promote our Sports and fitness brand Key Requirements: - Create visually appealing and engaging designs. - Platform-specific designs for Instagram and Facebook. - Focus on product/service promotion. Ideal Skills and Experience: - Proven experience in social media design. - Strong portfolio showcasing relevant work. - Proficiency in design software (e.g., Adobe Creative Suite). - Ability to understand and incorporate brand guidelines. - Knowledge of current design trends and social media algorithms. Please provide a portfolio with your bids.",
@@ -930,93 +728,6 @@
       "brand",
       "colour",
       "color"
-     ]
-    }
-   },
-   {
-    "id": "40819569",
-    "title": "Attention: Social Media Marketers",
-    "brief": "I run a media company that needs a reliable social media marketer who can turn work around quickly every single month. Your focus will be generating a steady flow of qualified enquiries for our shows, content collaborations and advertising packages. The channels you will manage are: • Instagram • Facebook • TikTok • LinkedIn • X (Twitter) • YouTube Day-to-day that means planning a lead-driven content calendar, creating thumb-stopping posts and short-form videos, scheduling them with appropriate hashtags, handling community engagement, and reporting on reach, clicks and conversions so we can refine what works. What I’d like from you when you apply: 1. Open with the number of years you’ve been",
-    "min": 30,
-    "max": 250,
-    "cur": "USD",
-    "bids": 54,
-    "posted": "2026-11-15T19:46:59.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-marketing/Attention-Social-Media-Marketers-40819569",
-    "beginner": false,
-    "summary": "I run a media company that needs a reliable social media marketer who can turn work around quickly every single month.",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Your lowest price",
-      "Your follower count",
-      "Their business and what they post"
-     ],
-     "right": 2,
-     "why": "They want posts that fit their business. Mention it by name in your first line.",
-     "need": "I'll make posts that look like your brand and get noticed.",
-     "keys": [
-      "attention",
-      "social"
-     ]
-    }
-   },
-   {
-    "id": "40819544",
-    "title": "Instagram Account Recovery specialist",
-    "brief": "Instagram Account Recovery Expert Required – Rejected Appeal & Failed Meta Support Experience Required: Expert Platform: Instagram / Meta Project Background My personal Instagram account was suspended on 26 October 2026. The suspension occurred around the same time as an issue involving another Instagram business account associated with me. I have already exhausted the standard recovery options, including: - Submitting an official Instagram appeal, which was rejected. - Subscribing to Meta Verified to access customer support. - Contacting Meta customer care through the available support channels. - Attempting to resolve the issue through the official recovery process. Despite these efforts, ",
-    "min": 6,
-    "max": 16,
-    "cur": "USD",
-    "bids": 3,
-    "posted": "2026-11-15T19:17:38.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/instagram/Instagram-Account-Recovery-specialist-40819544",
-    "beginner": false,
-    "summary": "Instagram Account Recovery Expert Required – Rejected Appeal & Failed Meta Support Experience Required: Expert…",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Your follower count",
-      "Their business and what they post",
-      "Your lowest price"
-     ],
-     "right": 1,
-     "why": "They want posts that fit their business. Mention it by name in your first line.",
-     "need": "I'll make posts that look like your brand and get noticed.",
-     "keys": [
-      "instagram",
-      "account"
-     ]
-    }
-   },
-   {
-    "id": "40819295",
-    "title": "Muscular Fitness Food Instagram Models",
-    "brief": "I’m putting together a series of Instagram posts that pair nutritious “food for fitness” with visibly muscular, fitness-focused bodies. I want models who already live the lifestyle: you fuel your training with clean meals and you’re comfortable showing both the food and the physique it supports. Here’s what I need from you: • 8–10 high-resolution images and 3–4 short Reels of you preparing, plating, or enjoying your favourite performance-oriented meals. • Each shot must highlight the dish clearly while also featuring your well-defined, healthy body. • Natural lighting or bright studio lighting only—no heavy filters. • Caption suggestions that briefly explain the meal’s macro focus or recover",
-    "min": 6,
-    "max": 16,
-    "cur": "USD",
-    "bids": 0,
-    "posted": "2026-11-15T15:08:49.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/photography/Muscular-Fitness-Food-Instagram-Models",
-    "beginner": true,
-    "summary": "I’m putting together a series of Instagram posts that pair nutritious “food for fitness” with visibly muscular,…",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Your follower count",
-      "Their business and what they post",
-      "Your lowest price"
-     ],
-     "right": 1,
-     "why": "They want posts that fit their business. Mention it by name in your first line.",
-     "need": "I'll make posts that look like your brand and get noticed.",
-     "keys": [
-      "muscular",
-      "fitness"
      ]
     }
    },
@@ -1108,92 +819,6 @@
     }
    },
    {
-    "id": "40816519",
-    "title": "Instagram & Facebook Sales Management",
-    "brief": "I’m launching an online shop and need both Instagram and Facebook built—and then actively managed—with one clear purpose: driving sales and enquiries. Starting from zero, I want you to: • Set up and optimise each profile so they look trustworthy and on-brand • Plan a content calendar that mixes product showcases, user-generated content, reels, stories, and promotional offers • Design engaging creatives and write captions that spark conversions • Schedule and publish posts at optimal times, monitoring comments and DMs for quick responses • Run targeted ad campaigns and boosted posts focused on catalogue sales and enquiry forms • Track performance in Meta Business Suite, delivering concise wee",
-    "min": 30,
-    "max": 250,
-    "cur": "USD",
-    "bids": 96,
-    "posted": "2026-11-13T11:48:31.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-management/Instagram-Facebook-Sales-Management",
-    "beginner": false,
-    "summary": "I’m launching an online shop and need both Instagram and Facebook built—and then actively managed—with one clear…",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Their business and what they post",
-      "Your follower count",
-      "Your lowest price"
-     ],
-     "right": 0,
-     "why": "They want posts that fit their business. Mention it by name in your first line.",
-     "need": "I'll make posts that look like your brand and get noticed.",
-     "keys": [
-      "instagram",
-      "facebook"
-     ]
-    }
-   },
-   {
-    "id": "40816137",
-    "title": "Start and run your own TikTok, Instagram, YouTube & Facebook accounts",
-    "brief": "No Limits (nolimits.ltd) is a marketing agency looking for adults 18+ to start and run their own TikTok, Instagram, YouTube and Facebook accounts (one account per platform) in a niche we suggest. The accounts are created under your own identity and stay yours; we never ask for your passwords. It takes about 30-60 minutes a day on your own schedule. Later you'll publish paid sponsored posts from our scripts, always with #ad or a paid partnership label. Pay: $50 fixed for launching and running your set of accounts for the first month, with raises as the accounts grow and extra pay per sponsored post. Requirements: 18+, a smartphone, stable internet, comfortable with TikTok and Instagram, good ",
-    "min": 30,
-    "max": 250,
-    "cur": "USD",
-    "bids": 17,
-    "posted": "2026-11-13T06:26:44.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/content-creation/Start-run-your-own-TikTok",
-    "beginner": false,
-    "summary": "No Limits (nolimits.ltd) is a marketing agency looking for adults 18+ to start and run their own TikTok, Instagram,…",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Your lowest price",
-      "Your follower count",
-      "Their business and what they post"
-     ],
-     "right": 2,
-     "why": "They want posts that fit their business. Mention it by name in your first line.",
-     "need": "I'll make posts that look like your brand and get noticed.",
-     "keys": [
-      "start"
-     ]
-    }
-   },
-   {
-    "id": "40814418",
-    "title": "US Customer Acquisition & Lead Gen Specialist – Business Flights",
-    "brief": "Project Overview: We are looking for an experienced Lead Generation / Social Media Marketing Specialist to promote exclusive Business & First Class flight deals flying from the USA (up to 70% off retail prices) to travelers located in the United States. Why This Offer Converts Easily: Users do not need to buy a ticket upfront or enter credit card details—they simply request a free flight quote through our official link to compare discounted Business Class rates. Mandatory Funnel & Target Requirements: • Target Country (GEO): United States (USA) residents/travelers ONLY. (Traffic from outside the USA does not qualify for this promotional offer and will be rejected). • Instagram Funnel Require",
-    "min": 30,
-    "max": 250,
-    "cur": "USD",
-    "bids": 35,
-    "posted": "2026-11-12T04:57:04.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/lead-generation/Customer-Acquisition-Lead-Gen-Specialist",
-    "beginner": false,
-    "summary": "Project Overview: We are looking for an experienced Lead Generation / Social Media Marketing Specialist to promote…",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Your follower count",
-      "Their business and what they post",
-      "Your lowest price"
-     ],
-     "right": 1,
-     "why": "They want posts that fit their business. Mention it by name in your first line.",
-     "need": "I'll make posts that look like your brand and get noticed.",
-     "keys": [
-      "customer",
-      "acquisition"
-     ]
-    }
-   },
-   {
     "id": "40814085",
     "title": "Minimalist Canva To-Do List Design",
     "brief": "I need a clean, minimalist two-page to-do list created in Canva, sized for US Letter. Both pages must be fully editable so I can tweak colours, text and layout later. Page one carries the main heading “TO DO LIST”, then splits into two even columns: “PERSONAL” on the left, “WORK” on the right. Under each column the weekdays Monday through Friday appear as simple text labels only—no boxes or separator lines—leaving open space beneath every day for handwriting. Page two repeats the “TO DO LIST” heading and uses the same two-column structure for “PERSONAL” and “WORK”, but this time only Saturday and Sunday sit under each column. Directly below, the page divides horizontally into three clear sec",
@@ -1253,35 +878,6 @@
     }
    },
    {
-    "id": "40813246",
-    "title": "Instagram Post Design & Graphics",
-    "brief": "I need a versatile social media designer who can turn my ideas into scroll-stopping visuals. My biggest priority is creating posts and graphics; once we lock in a polished look I can handle scheduling myself. The first platform on our roadmap is Instagram. The feed should feature two key styles: • Promotional posts for my products and services that drive clicks and sales. • Branding pieces with quotes, announcements, or quick updates that keep the profile cohesive. Deliverables • Editable source files (Canva or Adobe Photoshop preferred). • Optimised JPG/PNG exports sized for Instagram feed and Stories. • A simple style guide covering colours, fonts, and layout rules so every post feels on-b",
-    "min": 16,
-    "max": 133,
-    "cur": "USD",
-    "bids": 91,
-    "posted": "2026-11-11T11:16:57.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-marketing/Instagram-Post-Design-Graphics",
-    "beginner": false,
-    "summary": "Needs a versatile social media designer who can turn my ideas into scroll-stopping visuals.",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Their business and what they post",
-      "Your follower count",
-      "Your lowest price"
-     ],
-     "right": 0,
-     "why": "They want posts that fit their business. Mention it by name in your first line.",
-     "need": "I'll make posts that look like your brand and get noticed.",
-     "keys": [
-      "instagram",
-      "post"
-     ]
-    }
-   },
-   {
     "id": "40812254",
     "title": "Social Ads Designer for Client Packs",
     "brief": "Facebook and Instagram Ad Designer, Per-Project Work, English and Spanish. Rodgate Digital designs and runs ads for US small businesses. We need designers we can send ad packs to as clients order them. Typical order: 3 to 10 static ads in feed (1:1 or 4:5) and story (9:16) sizes, from a brief and brand kit we provide. Paid per pack through Freelancer.com. Our budget is about $100 for one 5-ad pack in 2 sizes. Work starts when a client orders. You have: - A portfolio of real social ads, not just posts - Editable source files (PSD, AI, Figma or Canva) with every order - A 48 to 72 hour turnaround on a 5-ad pack - Spanish is a plus In your bid, include: 1) Links to your 5 best ad designs. 2) Yo",
@@ -1306,35 +902,6 @@
      "need": "I'll deliver every size you need, including 2 sizes.",
      "keys": [
       "2 sizes"
-     ]
-    }
-   },
-   {
-    "id": "40811772",
-    "title": "Long-Term Social Media Manager",
-    "brief": "My goal is to expand our presence across Instagram and Facebook while steadily building audiences on LinkedIn, Twitter and YouTube. The priority is simple: consistent, measurable follower growth and wider organic reach on every platform we touch. To make that happen, I need a partner who can own the full social cycle—strategy, creation, scheduling, community engagement and performance analysis—without constant hand-holding. You should be comfortable producing eye-catching visuals and short-form video (Canva, Adobe Creative Suite, CapCut, Premiere-Rush or similar), scheduling through tools such as Later, Hootsuite or Meta Creator Studio, and pulling insights from native analytics, Sprout or G",
-    "min": 6,
-    "max": 16,
-    "cur": "USD",
-    "bids": 31,
-    "posted": "2026-11-10T14:37:19.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-management/Long-Term-Social-Media-Manager",
-    "beginner": true,
-    "summary": "My goal is to expand our presence across Instagram and Facebook while steadily building audiences on LinkedIn,…",
-    "practice": {
-     "q": "Why is this job worth more than it pays?",
-     "options": [
-      "It's very urgent",
-      "It's ongoing, so it repeats",
-      "The budget is huge"
-     ],
-     "right": 1,
-     "why": "A repeat client beats a one-off. Build a template once and each new round takes minutes.",
-     "need": "I'll build you one template so every update is quick.",
-     "keys": [
-      "long-term",
-      "template"
      ]
     }
    },
@@ -1364,151 +931,6 @@
      "keys": [
       "desain",
       "marketing"
-     ]
-    }
-   },
-   {
-    "id": "40810864",
-    "title": "Multi-Brand Social Media Ads Setup",
-    "brief": "Social Media & Ads Setup Specialist – 5 Business Pages (One-Time Project) I’m looking for an experienced professional to set up and optimise 5 business profiles across major platforms, along with a basic advertising setup. This is a one-time project, with potential for ongoing work if the results are good. Scope of Work: Create and professionally set up 5 business pages on: Facebook Instagram Ensure all profiles are fully optimised with: Consistent branding Business descriptions & bios Contact details Profile & cover images Advertising Setup: Set up Meta Business Manager (if not already set up) Create and configure Facebook & Instagram Ad Accounts Set up Google Ads account Launch basic ad ca",
-    "min": 16,
-    "max": 133,
-    "cur": "USD",
-    "bids": 40,
-    "posted": "2026-11-10T03:28:13.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-management/Multi-Brand-Social-Media-Ads",
-    "beginner": false,
-    "summary": "Social Media & Ads Setup Specialist – 5 Business Pages (One-Time Project) I’m looking for an experienced…",
-    "practice": {
-     "q": "Why is this job worth more than it pays?",
-     "options": [
-      "It's ongoing, so it repeats",
-      "It's very urgent",
-      "The budget is huge"
-     ],
-     "right": 0,
-     "why": "A repeat client beats a one-off. Build a template once and each new round takes minutes.",
-     "need": "I'll build you one template so every update is quick.",
-     "keys": [
-      "ongoing",
-      "template"
-     ]
-    }
-   },
-   {
-    "id": "40810758",
-    "title": "Private Instagram OSINT Investigation",
-    "brief": "I need a seasoned social-media investigator to look into a private Instagram profile. I already hold a legal or official case reference that authorises this work, so everything we do must stay fully within the law and platform terms. The main objective is to identify the likely person or organisation behind the account and verify whether the profile is authentic. I will supply any screenshots or messages I am authorised to share to help you correlate handles, phone numbers, emails, bios, follower links, or other open-source clues. What I expect from you • A concise, evidence-based report that explains your methodology, shows each finding, and cites verifiable sources (no assumptions). • Clea",
-    "min": 20,
-    "max": 169,
-    "cur": "USD",
-    "bids": 13,
-    "posted": "2026-11-10T01:47:36.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/osint/Private-Instagram-OSINT-Investigation",
-    "beginner": false,
-    "summary": "Needs a seasoned social-media investigator to look into a private Instagram profile.",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Your lowest price",
-      "Your follower count",
-      "Their business and what they post"
-     ],
-     "right": 2,
-     "why": "They want posts that fit their business. Mention it by name in your first line.",
-     "need": "I'll make posts that look like your brand and get noticed.",
-     "keys": [
-      "private",
-      "instagram"
-     ]
-    }
-   },
-   {
-    "id": "40810726",
-    "title": "AI-Savvy Social Media Manager",
-    "brief": "I’m looking for a marketer who can take full ownership of my Instagram, Facebook, TikTok, LinkedIn, and X (Twitter) accounts and get things moving immediately. The priority is straightforward: grow our follower base and overall brand awareness as fast as possible. You’ll need to rely heavily on your own AI-powered toolkit—whether that’s ChatGPT for copy, Midjourney or similar for visuals, or scheduling platforms that use machine learning for optimal posting times. I won’t be purchasing extra licences, so please come prepared with everything you need already set up under your own subscriptions. Here’s what I expect once we kick off: • A rapid audit of the current profiles and a 30-day content",
-    "min": 30,
-    "max": 250,
-    "cur": "USD",
-    "bids": 97,
-    "posted": "2026-11-10T01:05:58.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/content-creation/Savvy-Social-Media-Manager",
-    "beginner": false,
-    "summary": "I’m looking for a marketer who can take full ownership of my Instagram, Facebook, TikTok, LinkedIn, and X (Twitter)…",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Their business and what they post",
-      "Your follower count",
-      "Your lowest price"
-     ],
-     "right": 0,
-     "why": "They want posts that fit their business. Mention it by name in your first line.",
-     "need": "I'll make posts that look like your brand and get noticed.",
-     "keys": [
-      "ai-savvy",
-      "social"
-     ]
-    }
-   },
-   {
-    "id": "40810468",
-    "title": "Appeal Disabled Facebook Account Either Meta Background or Significant Meta Account Recovery",
-    "brief": "## MANDATORY QUALIFICATIONS — META SUPER LORD ONLY **I am looking for someone who has successfully recovered at least 10 Facebook accounts from disabled, suspended, or checkpoint-locked status, preferably with substantially more successful recoveries.** Ten successful recoveries is my absolute minimum requirement, not my ideal candidate. I strongly prefer someone with dozens or even hundreds of documented successes. **This is my personal Facebook account. It is not a testing ground for someone learning how Meta's systems work.** ### Before I will consider hiring you, you MUST: 1. **Demonstrate at least 10 successful account recoveries.** These must involve actual disabled, suspended, or chec",
-    "min": 30,
-    "max": 250,
-    "cur": "USD",
-    "bids": 26,
-    "posted": "2026-11-09T20:23:11.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-management/Appeal-Disabled-Facebook-Account-Either",
-    "beginner": false,
-    "summary": "## MANDATORY QUALIFICATIONS — META SUPER LORD ONLY **I am looking for someone who has successfully recovered at…",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Their business and what they post",
-      "Your follower count",
-      "Your lowest price"
-     ],
-     "right": 0,
-     "why": "They want posts that fit their business. Mention it by name in your first line.",
-     "need": "I'll make posts that look like your brand and get noticed.",
-     "keys": [
-      "appeal",
-      "disabled"
-     ]
-    }
-   },
-   {
-    "id": "40810303",
-    "title": "Social Media Manager",
-    "brief": "Project Title: Social Media Manager (Generalist with Strong B2B LinkedIn Focus) Project Overview We are looking for a versatile, self-driven Social Media Manager to handle and grow our presence across multiple platforms, with a heavy primary focus on LinkedIn. While you will oversee our accounts on LinkedIn, X (Twitter), Facebook, and Instagram, your core objective will be driving brand authority, engagement, and high-quality lead generation on LinkedIn. Key Responsibilities • Primary Focus — LinkedIn (60% of work): o Develop and execute a B2B LinkedIn content strategy tailored to our niche. o Write high-converting text posts, carousels, and thought-leadership content. o Engage with industry",
-    "min": 26,
-    "max": 330,
-    "cur": "USD",
-    "bids": 134,
-    "posted": "2026-11-09T17:37:16.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-management/Social-Media-Manager-40810303",
-    "beginner": false,
-    "summary": "Project Title: Social Media Manager (Generalist with Strong B2B LinkedIn Focus) Project Overview We are looking for…",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Their business and what they post",
-      "Your follower count",
-      "Your lowest price"
-     ],
-     "right": 0,
-     "why": "They want posts that fit their business. Mention it by name in your first line.",
-     "need": "I'll make posts that look like your brand and get noticed.",
-     "keys": [
-      "social",
-      "media"
      ]
     }
    }
