@@ -174,6 +174,7 @@ Return ONLY JSON: {"fit": true/false (could a beginner who is learning this serv
     const m = txt.match(/\{[\s\S]*\}/);
     if (!m) { DIAG.claude.fail++; DIAG.claude.lastError = "no json: " + JSON.stringify(d).slice(0, 300); return null; }
     const j = JSON.parse(m[0]);
+    if (j.fit === false) { DIAG.claude.ok++; DIAG.claude.dropped = (DIAG.claude.dropped || 0) + 1; return { fit: false }; }
     if (!j.summary || !Array.isArray(j.options) || j.options.length !== 3) { DIAG.claude.fail++; DIAG.claude.lastError = "bad json: " + txt.slice(0, 200); return null; }
     DIAG.claude.ok++;
     return j;
