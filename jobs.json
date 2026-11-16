@@ -218,9 +218,15 @@
    "is_buyer_kyc_required",
    "enterprises",
    "group_ids"
-  ]
+  ],
+  "claude": {
+   "keyPresent": true,
+   "ok": 0,
+   "fail": 25,
+   "lastError": "exception: Cannot read properties of undefined (reading 'match')"
+  }
  },
- "updated": "2026-11-16T17:05:05.412Z",
+ "updated": "2026-11-16T17:07:51.339Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
