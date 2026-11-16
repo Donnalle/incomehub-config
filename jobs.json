@@ -176,10 +176,10 @@
    "off-topic": 851,
    "kept": 25,
    "scam": 3,
-   "too big": 23,
+   "too big": 22,
    "not english": 9,
    "expert": 4,
-   "old": 1
+   "old": 2
   },
   "ownerKeys": null,
   "ownerLocation": null,
@@ -221,12 +221,13 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 12,
-   "fail": 6,
-   "lastError": "bad json: {\"fit\": false, \"summary\": \"\", \"q\": \"\", \"options\": [], \"right\": 0, \"why\": \"\", \"need\": \"\", \"keys\": []}"
+   "ok": 7,
+   "fail": 0,
+   "lastError": null,
+   "dropped": 6
   }
  },
- "updated": "2026-11-16T17:14:40.870Z",
+ "updated": "2026-11-16T17:16:11.626Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -236,9 +237,9 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 10,
-  "cv": 4,
-  "ig": 10
+  "wf": 9,
+  "cv": 5,
+  "ig": 5
  },
  "services": {
   "wf": [
@@ -249,12 +250,11 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 46,
+    "bids": 48,
     "posted": "2026-11-16T16:47:41.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-photoshop/Modern-Medical-Center-Backlit-Banner",
     "beginner": false,
-    "ai": true,
     "summary": "Design a 14x8 ft backlit medical center banner: doctors and specialties as heroes, with name, services, contact line.",
     "practice": {
      "q": "Which element should be the visual focus of this banner?",
@@ -271,7 +271,8 @@
       "specialties",
       "backlit"
      ]
-    }
+    },
+    "ai": true
    },
    {
     "id": "40820537",
@@ -378,7 +379,6 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/catalog-design/Mobile-Accessories-Digital-Catalogue",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a professional, editable digital catalogue of mobile accessories with photos, names, and model compatibility, for retailers.",
     "practice": {
      "q": "What format must the catalogue be delivered in so the client can update it later?",
@@ -395,7 +395,8 @@
       "catalogue",
       "model compatibility"
      ]
-    }
+    },
+    "ai": true
    },
    {
     "id": "40816691",
@@ -409,7 +410,6 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Promotional-Poster-Design-40816691",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants a bold, clean, modern promo poster matching their brand, easy to read at a glance, delivered as a 300 dpi CMYK PDF.",
     "practice": {
      "q": "What does the client really need from this poster?",
@@ -426,7 +426,8 @@
       "benefits",
       "print-ready"
      ]
-    }
+    },
+    "ai": true
    },
    {
     "id": "40812827",
@@ -460,35 +461,6 @@
     "ai": true
    },
    {
-    "id": "40811357",
-    "title": "Creative Copywriter Portfolio Design",
-    "brief": "I need a striking PDF portfolio that I can email directly to prospective clients and agencies. The document has to feel bold and highly visual while still letting the words do the storytelling, so smart use of colour, typography, and imagery is key. The content will present a balanced mix of my branding projects, brand-communication pieces, and social-media campaigns. Each case study should read like a short narrative: quick context, the idea, my copy role, and a highlight of results or engagement metrics. Think magazine-style pacing with full-bleed visuals, pull quotes, and clear section breaks that guide the reader smoothly from project to project. Please design it in Adobe InDesign (or a ",
-    "min": 6,
-    "max": 16,
-    "cur": "USD",
-    "bids": 30,
-    "posted": "2026-11-10T09:46:47.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/indesign/Creative-Copywriter-Portfolio-Design",
-    "beginner": true,
-    "summary": "Needs a striking PDF portfolio that I can email directly to prospective clients and agencies.",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Exactly what their design is for",
-      "Your lowest price",
-      "How long you've designed"
-     ],
-     "right": 0,
-     "why": "Clients skim pitches. Repeat their exact need in your first line and you're already ahead of most bidders.",
-     "need": "I'll design it so the key details jump out first.",
-     "keys": [
-      "creative",
-      "copywriter"
-     ]
-    }
-   },
-   {
     "id": "40810885",
     "title": "Instagram Branding Posts & Ads",
     "brief": "I own Shivam Medical Food Supplements Store together with the PodiaFitnessLife gym in Panipat-Safidon-Jind, Haryana. To strengthen the brand and earn greater trust online, I need a fresh set of Instagram-ready visuals—both regular feed content and paid ad creatives—that highlight our premium supplements, modern gym facility and authentic customer results. I already handle day-to-day sales and training, so what I need from you is design expertise: eye-catching layouts, consistent colour palettes, clear typography and imagery that speaks to fitness lovers in North India. Content should feel informative rather than pushy, focusing on product quality, workout tips, client testimonials and behind",
@@ -500,7 +472,6 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Instagram-Branding-Posts-Ads",
     "beginner": false,
-    "ai": true,
     "summary": "Design Instagram feed posts and paid ad visuals for a supplement store and gym in Haryana, India.",
     "practice": {
      "q": "What does the client actually want delivered for this job?",
@@ -517,7 +488,8 @@
       "ad creatives",
       "brand"
      ]
-    }
+    },
+    "ai": true
    },
    {
     "id": "40810352",
@@ -531,7 +503,6 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/product-design/Cement-Pipe-Brochure-Design",
     "beginner": true,
-    "ai": true,
     "summary": "Design a detailed product brochure for cement pipes, covering specs, project photos, and manufacturing quality for contractors and buyers.",
     "practice": {
      "q": "Who is the main audience for this brochure, and what must it cover?",
@@ -548,10 +519,42 @@
       "specifications",
       "contractors"
      ]
-    }
+    },
+    "ai": true
    }
   ],
   "cv": [
+   {
+    "id": "40817695",
+    "title": "Modern Office CV & Letter",
+    "brief": "I need a polished set of application materials—CV, résumé, and cover letter—tailored specifically to office and administration roles. The final documents must look contemporary and professional while remaining clean and ATS-friendly. Please craft the layout in Microsoft Word, Canva, or any comparable platform, then supply both the editable files and ready-to-send PDFs. I value precise formatting, flawless grammar, and consistent styling throughout; no typos or spacing mishaps should slip through. Timely delivery is equally important to me. If you have several years of experience writing CVs for administrative careers, I want to hear from you. When you respond, focus on that experience; a con",
+    "min": 6,
+    "max": 16,
+    "cur": "USD",
+    "bids": 47,
+    "posted": "2026-11-14T08:56:28.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/content-writing/Modern-Office-Letter",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants a polished CV, résumé, and cover letter for office/admin roles, ATS-friendly, as editable files and PDFs.",
+    "practice": {
+     "q": "Which deliverables does the client actually need, and what must the documents be?",
+     "options": [
+      "Just a cover letter in plain text",
+      "CV, résumé, and cover letter; editable and PDF; ATS-friendly",
+      "A LinkedIn profile and a portfolio website"
+     ],
+     "right": 1,
+     "why": "The brief asks for three documents, styled for office roles, delivered as editable files plus PDFs and kept ATS-friendly. Read every requirement before pitching.",
+     "need": "I'll build your CV, résumé, and cover letter for office and admin roles, ATS-friendly, in editable and PDF formats.",
+     "keys": [
+      "office",
+      "ats-friendly",
+      "pdf"
+     ]
+    }
+   },
    {
     "id": "40815241",
     "title": "ATS-Ready STEM Resume Revamp",
@@ -595,7 +598,6 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/content-writing/ATS-Friendly-Resume-Rewrite",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a clean, ATS-friendly resume rewrite for an Armed Federal Security Guard job, highlighting relevant skills.",
     "practice": {
      "q": "What does the client really need from this resume rewrite?",
@@ -612,7 +614,8 @@
       "security",
       "skills"
      ]
-    }
+    },
+    "ai": true
    },
    {
     "id": "40813546",
@@ -626,7 +629,6 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/sales/Sales-Focused-Creation",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants a new sales/customer-service CV from their work history, ATS-friendly and modern in Word and PDF.",
     "practice": {
      "q": "What does the client most need from this CV?",
@@ -643,7 +645,8 @@
       "ats",
       "achievements"
      ]
-    }
+    },
+    "ai": true
    },
    {
     "id": "40810857",
@@ -657,7 +660,6 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/business-development/Innovative-Venture-Builder-Rewrite",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants their CV rewritten for venture building and innovation roles, with impact metrics and ATS keywords.",
     "practice": {
      "q": "What is the main thing the client wants from this CV rewrite?",
@@ -674,68 +676,11 @@
       "metrics",
       "keywords"
      ]
-    }
+    },
+    "ai": true
    }
   ],
   "ig": [
-   {
-    "id": "40820924",
-    "title": "Tustin CA Post Office Reship",
-    "brief": "Package being held at local post office 92782 I’m out the country for work Package need to have a new label for reshipping, label will be provided, you don’t have to actually pick it up doesn’t need to be opened, only place new label on box for reshipping that’s it, don’t have to walk out of post office with package at all",
-    "min": 30,
-    "max": 250,
-    "cur": "USD",
-    "bids": 0,
-    "posted": "2026-11-16T14:23:11.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/logistics-shipping/Tustin-Post-Office-Reship-40820924",
-    "beginner": false,
-    "summary": "Package being held at local post office 92782 I’m out the country for work Package need to have a new label for…",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Their business and what they post",
-      "Your follower count",
-      "Your lowest price"
-     ],
-     "right": 0,
-     "why": "They want posts that fit their business. Mention it by name in your first line.",
-     "need": "I'll make posts that look like your brand and get noticed.",
-     "keys": [
-      "tustin",
-      "post"
-     ]
-    }
-   },
-   {
-    "id": "40820842",
-    "title": "Experienced Social Media & Digital Marketing Specialist",
-    "brief": "Experienced Social Media & Digital Marketing Specialist We are looking for an experienced Social Media & Digital Marketing Specialist to manage our company's Facebook, Instagram, and LinkedIn accounts. Responsibilities: - Create and publish a minimum of 5 professional posts per month. - Design high-quality images and marketing content. - Manage and grow our social media presence. - Promote our company, services, and brand. - Develop strategies to attract new customers and generate leads. Design Style: We are looking for a clean, elegant, modern, and professional corporate style. - Minimalist and sophisticated designs. - High-quality, realistic photography. - Professional graphics and layouts",
-    "min": 33,
-    "max": 275,
-    "cur": "USD",
-    "bids": 127,
-    "posted": "2026-11-16T13:37:40.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-management/Experienced-Social-Media-Digital",
-    "beginner": false,
-    "summary": "Experienced Social Media & Digital Marketing Specialist We are looking for an experienced Social Media & Digital…",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Your lowest price",
-      "Your follower count",
-      "Their business and what they post"
-     ],
-     "right": 2,
-     "why": "They want posts that fit their business. Mention it by name in your first line.",
-     "need": "I'll make posts that look like your brand and get noticed.",
-     "keys": [
-      "experienced",
-      "social"
-     ]
-    }
-   },
    {
     "id": "40820004",
     "title": "Social Media Ad Design Specialist",
@@ -748,7 +693,6 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-creative-suite/Social-Media-Design-Specialist",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants eye-catching Instagram and Facebook posts and ads that promote their sports and fitness brand, tailored to each platform.",
     "practice": {
      "q": "Which deliverable best matches what the client really needs?",
@@ -765,64 +709,8 @@
       "facebook",
       "brand guidelines"
      ]
-    }
-   },
-   {
-    "id": "40817307",
-    "title": "Daily Instagram & Facebook Reels (15 static ppsts and 15 reels)",
-    "brief": "I run an online store that relies heavily on visual storytelling, and I need a steady stream of content to widen our reach. Every single day I want one feed post and one short-form video (Reel/Short) prepared for Instagram and Facebook. Consistency is everything here, so drafts must be scheduled at least three days ahead through Creator Studio or a similar scheduler. Primary objective: rapid follower growth and stronger organic reach. Each asset should therefore be thumb-stopping from the first second—strong hooks, captions that invite saves or shares, trending audio where it makes sense, and hashtags researched for discovery. Occasionally I’ll cross-post to YouTube Shorts and X; edits just ",
-    "min": 133,
-    "max": 399,
-    "cur": "USD",
-    "bids": 80,
-    "posted": "2026-11-14T01:39:11.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-management/Daily-Instagram-Facebook-Reels-static",
-    "beginner": false,
-    "summary": "I run an online store that relies heavily on visual storytelling, and I need a steady stream of content to widen our…",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Your follower count",
-      "Their business and what they post",
-      "Your lowest price"
-     ],
-     "right": 1,
-     "why": "They want posts that fit their business. Mention it by name in your first line.",
-     "need": "I'll make posts that look like your brand and get noticed.",
-     "keys": [
-      "daily",
-      "instagram"
-     ]
-    }
-   },
-   {
-    "id": "40817175",
-    "title": "Sell Household Items on FB Marketplace",
-    "brief": "I need someone to help sell small home goods and décor on Facebook Marketplace in Kelowna, BC. The items are located at my home. Key tasks include: - Managing the full sale from photos to pickup. Ideal skills and experience: - Experience with Facebook Marketplace - Strong organizational skills - Good communication skills to interact with buyers",
-    "min": 175,
-    "max": 525,
-    "cur": "USD",
-    "bids": 14,
-    "posted": "2026-11-13T21:48:00.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/customer-service/Sell-Household-Items-Marketplace",
-    "beginner": false,
-    "summary": "Needs help sell small home goods and décor on Facebook Marketplace in Kelowna, BC.",
-    "practice": {
-     "q": "What's this client's real goal?",
-     "options": [
-      "Win a design award",
-      "Get people to show up or buy",
-      "Get a new logo"
-     ],
-     "right": 1,
-     "why": "The design has one job: bring people in. Lead with the date or the offer, everything else comes second.",
-     "need": "I'll make the sale details impossible to miss.",
-     "keys": [
-      "sale"
-     ]
-    }
+    },
+    "ai": true
    },
    {
     "id": "40817060",
@@ -898,7 +786,6 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Canva-Social-Media-Graphics-40813629",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants on-brand Canva graphics for Instagram, Facebook, and LinkedIn, all editable, each promoting products or services.",
     "practice": {
      "q": "What must every graphic do, and what must stay consistent across all of them?",
@@ -915,7 +802,8 @@
       "editable canva",
       "platform dimensions"
      ]
-    }
+    },
+    "ai": true
    },
    {
     "id": "40812254",
@@ -929,7 +817,6 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Social-Ads-Designer-for-Client",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants 3-10 static Facebook/Instagram ads per pack (1:1 or 4:5 feed, 9:16 story) built from their brief and brand kit, in editable source files.",
     "practice": {
      "q": "What does the client actually need delivered for each order?",
@@ -946,36 +833,8 @@
       "editable source",
       "brand kit"
      ]
-    }
-   },
-   {
-    "id": "40811134",
-    "title": "Desain & Marketing Sosial Media",
-    "brief": "Saya sedang mencari bantuan untuk menangani desain sekaligus pemasaran di media sosial—fokus utamanya Instagram, TikTok, dan Facebook. Target saya jelas: menarik pelanggan baru sebanyak mungkin. Apa yang saya butuhkan: • Rencana konten mingguan yang relevan dengan brand dan tren terkini di ketiga platform. • Visual posts (gambar, reels, atau carousel) yang menarik, dengan copy singkat yang menggugah. • Penjadwalan dan publikasi konten menggunakan tools bawaan platform atau aplikasi seperti Meta Business Suite dan TikTok Scheduler. • Optimasi hashtag, tag lokasi, serta penulisan caption yang ramah algoritma. • Analisis performa sederhana setiap akhir minggu—engagement, reach, dan rekomendasi ",
-    "min": 10,
-    "max": 30,
-    "cur": "USD",
-    "bids": 23,
-    "posted": "2026-11-10T06:58:43.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-marketing/Desain-Marketing-Sosial-Media",
-    "beginner": true,
-    "summary": "Saya sedang mencari bantuan untuk menangani desain sekaligus pemasaran di media sosial—fokus utamanya Instagram,…",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Your lowest price",
-      "Your follower count",
-      "Their business and what they post"
-     ],
-     "right": 2,
-     "why": "They want posts that fit their business. Mention it by name in your first line.",
-     "need": "I'll make posts that look like your brand and get noticed.",
-     "keys": [
-      "desain",
-      "marketing"
-     ]
-    }
+    },
+    "ai": true
    }
   ]
  }
