@@ -8,6 +8,21 @@
    },
    {
     "svc": "wf",
+    "skills": 4,
+    "got": 31
+   },
+   {
+    "svc": "wf",
+    "skills": 4,
+    "got": 0
+   },
+   {
+    "svc": "wf",
+    "skills": 4,
+    "got": 0
+   },
+   {
+    "svc": "wf",
     "q": "flyer design",
     "got": 50
    },
@@ -43,6 +58,21 @@
    },
    {
     "svc": "cv",
+    "skills": 3,
+    "got": 0
+   },
+   {
+    "svc": "cv",
+    "skills": 3,
+    "got": 0
+   },
+   {
+    "svc": "cv",
+    "skills": 3,
+    "got": 0
+   },
+   {
+    "svc": "cv",
     "q": "resume writing",
     "got": 50
    },
@@ -75,6 +105,21 @@
     "svc": "ig",
     "skills": 4,
     "got": 50
+   },
+   {
+    "svc": "ig",
+    "skills": 4,
+    "got": 50
+   },
+   {
+    "svc": "ig",
+    "skills": 4,
+    "got": 48
+   },
+   {
+    "svc": "ig",
+    "skills": 4,
+    "got": 0
    },
    {
     "svc": "ig",
@@ -127,12 +172,13 @@
    ]
   },
   "reasons": {
-   "off-topic": 847,
-   "kept": 19,
-   "excluded": 74,
-   "too big": 15,
+   "excluded": 145,
+   "kept": 44,
+   "off-topic": 837,
+   "too big": 32,
+   "not english": 11,
    "expert": 4,
-   "not english": 4
+   "old": 1
   },
   "ownerKeys": null,
   "ownerLocation": null,
@@ -173,7 +219,7 @@
    "group_ids"
   ]
  },
- "updated": "2026-11-16T12:03:32.332Z",
+ "updated": "2026-11-16T12:05:59.036Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -183,9 +229,9 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 4,
+  "wf": 15,
   "cv": 6,
-  "ig": 9
+  "ig": 23
  },
  "services": {
   "wf": [
@@ -220,6 +266,64 @@
     }
    },
    {
+    "id": "40820476",
+    "title": "PowerPoint Presentation Creation for Training",
+    "brief": "I'm looking for someone to create a PowerPoint presentation for a training session aimed at customers or the general public. The goal of the presentation is to encourage the audience to take action, such as signing up, buying, or contacting us. Key Requirements: - Engaging and professional design - Clear and concise content - Action-oriented call-to-action slides - Ability to convey complex information simply Ideal Skills: - Proficiency in PowerPoint - Strong graphic design skills - Experience in creating training or educational content - Excellent written communication skills Please provide samples of previous work. Looking forward to your proposals!",
+    "min": 16,
+    "max": 133,
+    "cur": "USD",
+    "bids": 57,
+    "posted": "2026-11-16T09:10:36.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/training/PowerPoint-Presentation-Creation-for",
+    "beginner": false,
+    "summary": "Needs a PowerPoint presentation for a training session aimed at customers or the general public.",
+    "practice": {
+     "q": "What should your pitch mention first?",
+     "options": [
+      "How long you've designed",
+      "Your lowest price",
+      "Exactly what their design is for"
+     ],
+     "right": 2,
+     "why": "Clients skim pitches. Repeat their exact need in your first line and you're already ahead of most bidders.",
+     "need": "I'll design it so the key details jump out first.",
+     "keys": [
+      "powerpoint",
+      "presentation"
+     ]
+    }
+   },
+   {
+    "id": "40820369",
+    "title": "Place Logo & Text Table onto Box Dieline in CorelDRAW (.CDR)",
+    "brief": "Project Title: Place Logo & Product Table onto Corrugated Box Dieline in CorelDRAW (.CDR) Project Description: I need a CorelDRAW designer to place my existing logo and compliance table onto my corrugated mailer box dieline (591.5 mm x 504 mm) for single-color Emerald Green flexo printing. All creative design, text, logo, and dieline PDF are already 100% ready—this is a straightforward DTP placement task. What I Will Provide: • Blank box dieline PDF (591.5 x 504 mm) • Brand vector logo file • Ready-to-copy text specification PDF & visual reference mockups Exact Scope of Work: • Place brand logo centered on the front lid panel (rotated 90° clockwise per guide) • Create an 8-row Legal Metrolog",
+    "min": 6,
+    "max": 6,
+    "cur": "USD",
+    "bids": 30,
+    "posted": "2026-11-16T07:49:09.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/coreldraw/Place-Logo-Text-Table-onto",
+    "beginner": true,
+    "summary": "Project Title: Place Logo & Product Table onto Corrugated Box Dieline in CorelDRAW (.CDR) Project Description: I…",
+    "practice": {
+     "q": "What should your pitch mention first?",
+     "options": [
+      "Exactly what their design is for",
+      "Your lowest price",
+      "How long you've designed"
+     ],
+     "right": 0,
+     "why": "Clients skim pitches. Repeat their exact need in your first line and you're already ahead of most bidders.",
+     "need": "I'll design it so the key details jump out first.",
+     "keys": [
+      "place",
+      "logo"
+     ]
+    }
+   },
+   {
     "id": "40820275",
     "title": "Political Campaign Poster Design",
     "brief": "I need a compelling and engaging campaign poster to get people to vote for our candidate. The poster should be designed for both print and social media formats. Requirements: - Eye-catching design - Clear, persuasive messaging - Cohesive branding across formats - High-resolution images and graphics - Experience in political campaign materials is a plus Ideal Skills & Experience: - Graphic design expertise - Strong understanding of political messaging - Proficiency in social media and print layout Please share your portfolio with relevant work.",
@@ -230,7 +334,7 @@
     "posted": "2026-11-16T07:02:52.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/advertisement-design/Political-Campaign-Poster-Design",
-    "beginner": false,
+    "beginner": true,
     "summary": "Needs a compelling and engaging campaign poster to get people to vote for our candidate.",
     "practice": {
      "q": "What's the trap in this brief?",
@@ -248,6 +352,92 @@
     }
    },
    {
+    "id": "40819596",
+    "title": "Polished Corporate Café Profile PDF",
+    "brief": "I’m putting together a sleek, email-ready PDF that introduces our café to corporate clients and partners. The document has to impress at first glance, so I’m looking for a designer-copywriter who can blend engaging visuals with concise, persuasive text. The profile must centre on two pillars: • our food and drink menu—quality, fresh ingredients, and the signature items that set us apart; • our corporate catering, event support, and partnership services, showing decision-makers exactly how we can enhance their meetings and functions. I’ll provide logos, colour guidelines, basic copy points, and photos. You refine the messaging, source any complementary imagery if required, and build a clean, ",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 120,
+    "posted": "2026-11-15T20:27:19.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/content-writing/Polished-Corporate-Caf-Profile-PDF",
+    "beginner": false,
+    "summary": "I’m putting together a sleek, email-ready PDF that introduces our café to corporate clients and partners.",
+    "practice": {
+     "q": "What's this client's real goal?",
+     "options": [
+      "Get a new logo",
+      "Win a design award",
+      "Get people to show up or buy"
+     ],
+     "right": 2,
+     "why": "The design has one job: bring people in. Lead with the date or the offer, everything else comes second.",
+     "need": "I'll make the event details impossible to miss.",
+     "keys": [
+      "event"
+     ]
+    }
+   },
+   {
+    "id": "40818480",
+    "title": "Premium Beauty Salon Print Design Suite",
+    "brief": "We are looking for a graphic designer to create a cohesive collection of printed promotional and informational materials for our beauty salon in Santa Monica, California. I’m attaching photos of our salon interior. All designs should complement the interior, match its colors and overall aesthetic, and look beautiful together. We want a modern, stylish, premium editorial look — not generic beauty salon templates. ### Materials Needed **1. Beauty Service Cards** - 5–6 promotional cards featuring nails, lashes, brows,, etc. - Beautiful photography, minimal text, consistent design. - For display in our waiting area and at reception. **2. Outdoor Advertising Board** - Redesign our existing rectan",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 139,
+    "posted": "2026-11-14T22:46:40.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/print-design/Premium-Beauty-Salon-Print-Design",
+    "beginner": false,
+    "summary": "Needs a cohesive collection of printed promotional and informational materials for our beauty salon in Santa Monica,…",
+    "practice": {
+     "q": "What should your pitch mention first?",
+     "options": [
+      "Exactly what their design is for",
+      "Your lowest price",
+      "How long you've designed"
+     ],
+     "right": 0,
+     "why": "Clients skim pitches. Repeat their exact need in your first line and you're already ahead of most bidders.",
+     "need": "I'll design it so the key details jump out first.",
+     "keys": [
+      "premium",
+      "beauty"
+     ]
+    }
+   },
+   {
+    "id": "40817439",
+    "title": "Mobile Accessories Digital Catalogue",
+    "brief": "I'm seeking a designer to create a professional digital catalogue for my mobile accessories. This catalogue will be used primarily for retailers and distributors. The catalogue should include: - Product photos - Product name - Model compatibility The final deliverable should be an editable design file, allowing for future updates as needed. Ideal skills and experience: - Proficiency in graphic design software (e.g., Adobe InDesign, Canva) - Experience in creating professional product catalogues - Strong attention to detail and design aesthetics - Ability to provide an editable format for future modifications",
+    "min": 16,
+    "max": 133,
+    "cur": "USD",
+    "bids": 58,
+    "posted": "2026-11-14T04:56:26.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/catalog-design/Mobile-Accessories-Digital-Catalogue",
+    "beginner": false,
+    "summary": "Needs a professional digital catalogue for my mobile accessories.",
+    "practice": {
+     "q": "What should your pitch mention first?",
+     "options": [
+      "Your lowest price",
+      "Exactly what their design is for",
+      "How long you've designed"
+     ],
+     "right": 1,
+     "why": "Clients skim pitches. Repeat their exact need in your first line and you're already ahead of most bidders.",
+     "need": "I'll design it so the key details jump out first.",
+     "keys": [
+      "mobile",
+      "accessories"
+     ]
+    }
+   },
+   {
     "id": "40816691",
     "title": "Modern Promotional Poster Design",
     "brief": "I’m looking for a designer who can translate my business message into a clean, creative, and modern promotional poster. The poster’s sole purpose is to promote our product / service, so it has to capture attention quickly, communicate benefits at a glance, and remain consistent with our existing brand style. Here’s what I have in mind: • Visual approach: bold yet tidy layout, contemporary typography, and a colour palette that feels fresh without straying from our current branding. • Readability: information must be organised so a first-time viewer instantly grasps the key points and call-to-action. • Print-ready: final artwork should be supplied as a high-resolution PDF (CMYK, 300 dpi) along",
@@ -258,7 +448,7 @@
     "posted": "2026-11-14T03:46:20.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Promotional-Poster-Design-40816691",
-    "beginner": false,
+    "beginner": true,
     "summary": "I’m looking for a designer who can translate my business message into a clean, creative, and modern promotional poster.",
     "practice": {
      "q": "What should your pitch mention first?",
@@ -287,7 +477,7 @@
     "posted": "2026-11-13T13:48:15.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-photoshop/Digital-Campaign-Poster-Design",
-    "beginner": false,
+    "beginner": true,
     "summary": "I'm seeking a skilled Photoshop designer to create a digital presentation or poster for an upcoming event or campaign.",
     "practice": {
      "q": "What will this client judge you on first?",
@@ -305,6 +495,177 @@
       "color"
      ]
     }
+   },
+   {
+    "id": "40812827",
+    "title": "Design Luxury Fashion Course Brochures",
+    "brief": "Hi, I am looking for a professional graphic designer to design 4 premium course brochures for BIFD (Bhuvan Institute of Fashion Design). Requirements: 1. 3 Aari Work Course Brochures (Basic, Advanced & Professional). 2. 1 Fashion Design Course Brochure. Design Expectations: - Premium, luxury and professional editorial-style design. - Elegant colour combinations with deep green, ivory/cream and champagne gold. - Professional typography with proper font pairing. - Clean layouts with sufficient whitespace. - High-quality fashion and embroidery photographs. - Consistent BIFD branding across all brochures. - Proper page alignment, hierarchy and readability. Deliverables: - Print-ready PDF (A4 siz",
+    "min": 6,
+    "max": 16,
+    "cur": "USD",
+    "bids": 36,
+    "posted": "2026-11-11T06:01:09.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/adobe-photoshop/Design-Luxury-Fashion-Course-Brochures",
+    "beginner": true,
+    "summary": "Needs 4 premium course brochures for BIFD (Bhuvan Institute of Fashion Design).",
+    "practice": {
+     "q": "What's the trap in this brief?",
+     "options": [
+      "There's no theme",
+      "The client hasn't paid yet",
+      "It needs more than one size"
+     ],
+     "right": 2,
+     "why": "More than one size means more than one layout. Say you'll deliver every size, it shows you actually read the brief.",
+     "need": "I'll deliver every size you need, including A4.",
+     "keys": [
+      "a4"
+     ]
+    }
+   },
+   {
+    "id": "40811357",
+    "title": "Creative Copywriter Portfolio Design",
+    "brief": "I need a striking PDF portfolio that I can email directly to prospective clients and agencies. The document has to feel bold and highly visual while still letting the words do the storytelling, so smart use of colour, typography, and imagery is key. The content will present a balanced mix of my branding projects, brand-communication pieces, and social-media campaigns. Each case study should read like a short narrative: quick context, the idea, my copy role, and a highlight of results or engagement metrics. Think magazine-style pacing with full-bleed visuals, pull quotes, and clear section breaks that guide the reader smoothly from project to project. Please design it in Adobe InDesign (or a ",
+    "min": 6,
+    "max": 16,
+    "cur": "USD",
+    "bids": 30,
+    "posted": "2026-11-10T09:46:47.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/indesign/Creative-Copywriter-Portfolio-Design",
+    "beginner": true,
+    "summary": "Needs a striking PDF portfolio that I can email directly to prospective clients and agencies.",
+    "practice": {
+     "q": "What should your pitch mention first?",
+     "options": [
+      "Exactly what their design is for",
+      "Your lowest price",
+      "How long you've designed"
+     ],
+     "right": 0,
+     "why": "Clients skim pitches. Repeat their exact need in your first line and you're already ahead of most bidders.",
+     "need": "I'll design it so the key details jump out first.",
+     "keys": [
+      "creative",
+      "copywriter"
+     ]
+    }
+   },
+   {
+    "id": "40811342",
+    "title": "Poster and PowerPoint Design Needed",
+    "brief": "Hello! Thank you for sharing the project details. I would be happy to help create a professional and visually consistent poster and PowerPoint presentation. Here's what I can deliver: - A3 Poster Design: A clean, eye-catching, print-ready poster with balanced spacing and readable typography. - Multiple Formats: RGB and CMYK versions, along with a high-quality PDF. - Editable Source File: An editable design file for future updates. - PowerPoint Presentation: An 8–10 slide widescreen presentation that follows the same branding and visual style as the poster. - Consistent Branding: Proper use of your logo, colours, fonts, and supplied content. - Professional Formatting: Clean layouts, attractiv",
+    "min": 133,
+    "max": 399,
+    "cur": "USD",
+    "bids": 78,
+    "posted": "2026-11-10T09:37:11.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/poster-design/Poster-PowerPoint-Design-Needed",
+    "beginner": false,
+    "summary": "Thank you for sharing the project details.",
+    "practice": {
+     "q": "What's the trap in this brief?",
+     "options": [
+      "It needs more than one size",
+      "The client hasn't paid yet",
+      "There's no theme"
+     ],
+     "right": 0,
+     "why": "More than one size means more than one layout. Say you'll deliver every size, it shows you actually read the brief.",
+     "need": "I'll deliver every size you need, including A3.",
+     "keys": [
+      "a3"
+     ]
+    }
+   },
+   {
+    "id": "40810885",
+    "title": "Instagram Branding Posts & Ads",
+    "brief": "I own Shivam Medical Food Supplements Store together with the PodiaFitnessLife gym in Panipat-Safidon-Jind, Haryana. To strengthen the brand and earn greater trust online, I need a fresh set of Instagram-ready visuals—both regular feed content and paid ad creatives—that highlight our premium supplements, modern gym facility and authentic customer results. I already handle day-to-day sales and training, so what I need from you is design expertise: eye-catching layouts, consistent colour palettes, clear typography and imagery that speaks to fitness lovers in North India. Content should feel informative rather than pushy, focusing on product quality, workout tips, client testimonials and behind",
+    "min": 133,
+    "max": 399,
+    "cur": "USD",
+    "bids": 84,
+    "posted": "2026-11-10T03:48:25.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-marketing/Instagram-Branding-Posts-Ads",
+    "beginner": false,
+    "summary": "I own Shivam Medical Food Supplements Store together with the PodiaFitnessLife gym in Panipat-Safidon-Jind, Haryana.",
+    "practice": {
+     "q": "Why is this job worth more than it pays?",
+     "options": [
+      "It's ongoing, so it repeats",
+      "It's very urgent",
+      "The budget is huge"
+     ],
+     "right": 0,
+     "why": "A repeat client beats a one-off. Build a template once and each new round takes minutes.",
+     "need": "I'll build you one template so every update is quick.",
+     "keys": [
+      "regular",
+      "template"
+     ]
+    }
+   },
+   {
+    "id": "40810352",
+    "title": "Cement Pipe Brochure Design",
+    "brief": "I need a detailed brochure to introduce our cement pipe products and our company. The main readers will be construction companies and contractors, government and infrastructure project buyers, and homeowners and small property developers. The brochure should include: - Pipe sizes, types, and technical specifications - Photos and examples of completed projects - Benefits, quality standards, and manufacturing process Ideal skills and experience: - Graphic design proficiency - Experience creating product brochures - Ability to present technical information clearly and attractively - Prior work with construction or manufacturing industries is a plus Looking forward to your creative proposals!",
+    "min": 6,
+    "max": 16,
+    "cur": "USD",
+    "bids": 45,
+    "posted": "2026-11-09T18:11:46.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/product-design/Cement-Pipe-Brochure-Design",
+    "beginner": true,
+    "summary": "Needs a detailed brochure to introduce our cement pipe products and our company.",
+    "practice": {
+     "q": "What should your pitch mention first?",
+     "options": [
+      "Your lowest price",
+      "Exactly what their design is for",
+      "How long you've designed"
+     ],
+     "right": 1,
+     "why": "Clients skim pitches. Repeat their exact need in your first line and you're already ahead of most bidders.",
+     "need": "I'll design it so the key details jump out first.",
+     "keys": [
+      "cement",
+      "pipe"
+     ]
+    }
+   },
+   {
+    "id": "40810319",
+    "title": "Modern Certificate Design",
+    "brief": "I'm looking for a modern and clean certificate of achievement design. This certificate will be used to recognize competition or event awards. Requirements: - Certificate should have a modern and clean design - Should include organizer name and signature line Ideal Skills and Experience: - Graphic design proficiency - Experience in creating certificates - Strong understanding of modern design aesthetics Please provide samples of previous work.",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 255,
+    "posted": "2026-11-09T17:49:40.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Certificate-Design",
+    "beginner": false,
+    "summary": "I'm looking for a modern and clean certificate of achievement design.",
+    "practice": {
+     "q": "What's this client's real goal?",
+     "options": [
+      "Win a design award",
+      "Get people to show up or buy",
+      "Get a new logo"
+     ],
+     "right": 1,
+     "why": "The design has one job: bring people in. Lead with the date or the offer, everything else comes second.",
+     "need": "I'll make the event details impossible to miss.",
+     "keys": [
+      "event"
+     ]
+    }
    }
   ],
   "cv": [
@@ -319,7 +680,7 @@
     "posted": "2026-11-14T14:36:23.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/data-entry/Add-Experience",
-    "beginner": false,
+    "beginner": true,
     "summary": "Looking for freelancers with a real LinkedIn profile to add a short Experience entry for our company,.",
     "practice": {
      "q": "What should your pitch mention first?",
@@ -347,7 +708,7 @@
     "posted": "2026-11-14T08:56:28.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/content-writing/Modern-Office-Letter",
-    "beginner": false,
+    "beginner": true,
     "summary": "Needs a polished set of application materials—CV, résumé, and cover letter—tailored specifically to office and…",
     "practice": {
      "q": "What does 'ATS-friendly' mean for your work?",
@@ -376,7 +737,7 @@
     "posted": "2026-11-12T15:34:05.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/ATS-Ready-STEM-Resume-Revamp",
-    "beginner": false,
+    "beginner": true,
     "summary": "Needs a skilled resume writer to turn my existing CV into a clean, modern document that sails through Applicant…",
     "practice": {
      "q": "What does 'ATS-friendly' mean for your work?",
@@ -434,7 +795,7 @@
     "posted": "2026-11-11T15:13:53.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/sales/Sales-Focused-Creation",
-    "beginner": false,
+    "beginner": true,
     "summary": "Needs a brand-new CV built from my existing work history, positioned squarely for sales and customer service roles.",
     "practice": {
      "q": "What does 'ATS-friendly' mean for your work?",
@@ -743,6 +1104,411 @@
       "brand",
       "colour",
       "color"
+     ]
+    }
+   },
+   {
+    "id": "40816519",
+    "title": "Instagram & Facebook Sales Management",
+    "brief": "I’m launching an online shop and need both Instagram and Facebook built—and then actively managed—with one clear purpose: driving sales and enquiries. Starting from zero, I want you to: • Set up and optimise each profile so they look trustworthy and on-brand • Plan a content calendar that mixes product showcases, user-generated content, reels, stories, and promotional offers • Design engaging creatives and write captions that spark conversions • Schedule and publish posts at optimal times, monitoring comments and DMs for quick responses • Run targeted ad campaigns and boosted posts focused on catalogue sales and enquiry forms • Track performance in Meta Business Suite, delivering concise wee",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 96,
+    "posted": "2026-11-13T11:48:31.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-management/Instagram-Facebook-Sales-Management",
+    "beginner": false,
+    "summary": "I’m launching an online shop and need both Instagram and Facebook built—and then actively managed—with one clear…",
+    "practice": {
+     "q": "What should your pitch mention first?",
+     "options": [
+      "Their business and what they post",
+      "Your follower count",
+      "Your lowest price"
+     ],
+     "right": 0,
+     "why": "They want posts that fit their business. Mention it by name in your first line.",
+     "need": "I'll make posts that look like your brand and get noticed.",
+     "keys": [
+      "instagram",
+      "facebook"
+     ]
+    }
+   },
+   {
+    "id": "40816137",
+    "title": "Start and run your own TikTok, Instagram, YouTube & Facebook accounts",
+    "brief": "No Limits (nolimits.ltd) is a marketing agency looking for adults 18+ to start and run their own TikTok, Instagram, YouTube and Facebook accounts (one account per platform) in a niche we suggest. The accounts are created under your own identity and stay yours; we never ask for your passwords. It takes about 30-60 minutes a day on your own schedule. Later you'll publish paid sponsored posts from our scripts, always with #ad or a paid partnership label. Pay: $50 fixed for launching and running your set of accounts for the first month, with raises as the accounts grow and extra pay per sponsored post. Requirements: 18+, a smartphone, stable internet, comfortable with TikTok and Instagram, good ",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 17,
+    "posted": "2026-11-13T06:26:44.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/content-creation/Start-run-your-own-TikTok",
+    "beginner": false,
+    "summary": "No Limits (nolimits.ltd) is a marketing agency looking for adults 18+ to start and run their own TikTok, Instagram,…",
+    "practice": {
+     "q": "What should your pitch mention first?",
+     "options": [
+      "Your lowest price",
+      "Your follower count",
+      "Their business and what they post"
+     ],
+     "right": 2,
+     "why": "They want posts that fit their business. Mention it by name in your first line.",
+     "need": "I'll make posts that look like your brand and get noticed.",
+     "keys": [
+      "start"
+     ]
+    }
+   },
+   {
+    "id": "40814418",
+    "title": "US Customer Acquisition & Lead Gen Specialist – Business Flights",
+    "brief": "Project Overview: We are looking for an experienced Lead Generation / Social Media Marketing Specialist to promote exclusive Business & First Class flight deals flying from the USA (up to 70% off retail prices) to travelers located in the United States. Why This Offer Converts Easily: Users do not need to buy a ticket upfront or enter credit card details—they simply request a free flight quote through our official link to compare discounted Business Class rates. Mandatory Funnel & Target Requirements: • Target Country (GEO): United States (USA) residents/travelers ONLY. (Traffic from outside the USA does not qualify for this promotional offer and will be rejected). • Instagram Funnel Require",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 35,
+    "posted": "2026-11-12T04:57:04.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/lead-generation/Customer-Acquisition-Lead-Gen-Specialist",
+    "beginner": false,
+    "summary": "Project Overview: We are looking for an experienced Lead Generation / Social Media Marketing Specialist to promote…",
+    "practice": {
+     "q": "What should your pitch mention first?",
+     "options": [
+      "Your follower count",
+      "Their business and what they post",
+      "Your lowest price"
+     ],
+     "right": 1,
+     "why": "They want posts that fit their business. Mention it by name in your first line.",
+     "need": "I'll make posts that look like your brand and get noticed.",
+     "keys": [
+      "customer",
+      "acquisition"
+     ]
+    }
+   },
+   {
+    "id": "40814085",
+    "title": "Minimalist Canva To-Do List Design",
+    "brief": "I need a clean, minimalist two-page to-do list created in Canva, sized for US Letter. Both pages must be fully editable so I can tweak colours, text and layout later. Page one carries the main heading “TO DO LIST”, then splits into two even columns: “PERSONAL” on the left, “WORK” on the right. Under each column the weekdays Monday through Friday appear as simple text labels only—no boxes or separator lines—leaving open space beneath every day for handwriting. Page two repeats the “TO DO LIST” heading and uses the same two-column structure for “PERSONAL” and “WORK”, but this time only Saturday and Sunday sit under each column. Directly below, the page divides horizontally into three clear sec",
+    "min": 7,
+    "max": 20,
+    "cur": "USD",
+    "bids": 42,
+    "posted": "2026-11-11T23:15:27.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/canva/Minimalist-Canva-List-Design",
+    "beginner": true,
+    "summary": "Needs a clean, minimalist two-page to-do list created in Canva, sized for US Letter.",
+    "practice": {
+     "q": "Why is this job worth more than it pays?",
+     "options": [
+      "It's very urgent",
+      "It's ongoing, so it repeats",
+      "The budget is huge"
+     ],
+     "right": 1,
+     "why": "A repeat client beats a one-off. Build a template once and each new round takes minutes.",
+     "need": "I'll build you one template so every update is quick.",
+     "keys": [
+      "every day",
+      "template"
+     ]
+    }
+   },
+   {
+    "id": "40813629",
+    "title": "Canva Social Media Graphics",
+    "brief": "I need a versatile Canva designer who can turn my ideas into eye-catching Instagram posts and stories, Facebook posts and ad creatives, plus LinkedIn posts and header banners. Every graphic should push one clear purpose—promoting our products and services—while staying consistent with our brand colours, fonts, and voice. Here’s how I picture the workflow: I’ll share a short brief for each campaign (headline, key message, and any reference images). You’ll translate that into on-brand visuals that feel native to each platform’s dimensions and best practices. All source files must remain editable in Canva so we can tweak copy or swap images later if needed. Deliverables for each campaign: • Ins",
+    "min": 33,
+    "max": 275,
+    "cur": "USD",
+    "bids": 237,
+    "posted": "2026-11-11T16:10:21.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/canva/Canva-Social-Media-Graphics-40813629",
+    "beginner": false,
+    "summary": "Needs a versatile Canva designer who can turn my ideas into eye-catching Instagram posts and stories, Facebook posts…",
+    "practice": {
+     "q": "What will this client judge you on first?",
+     "options": [
+      "How many years you've worked",
+      "How cheap you are",
+      "Sticking to their brand colours"
+     ],
+     "right": 2,
+     "why": "They told you their colours. Anything that ignores them is out in 2 seconds.",
+     "need": "I'll stick to your brand colours.",
+     "keys": [
+      "brand",
+      "colour",
+      "color"
+     ]
+    }
+   },
+   {
+    "id": "40813246",
+    "title": "Instagram Post Design & Graphics",
+    "brief": "I need a versatile social media designer who can turn my ideas into scroll-stopping visuals. My biggest priority is creating posts and graphics; once we lock in a polished look I can handle scheduling myself. The first platform on our roadmap is Instagram. The feed should feature two key styles: • Promotional posts for my products and services that drive clicks and sales. • Branding pieces with quotes, announcements, or quick updates that keep the profile cohesive. Deliverables • Editable source files (Canva or Adobe Photoshop preferred). • Optimised JPG/PNG exports sized for Instagram feed and Stories. • A simple style guide covering colours, fonts, and layout rules so every post feels on-b",
+    "min": 16,
+    "max": 133,
+    "cur": "USD",
+    "bids": 91,
+    "posted": "2026-11-11T11:16:57.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-marketing/Instagram-Post-Design-Graphics",
+    "beginner": false,
+    "summary": "Needs a versatile social media designer who can turn my ideas into scroll-stopping visuals.",
+    "practice": {
+     "q": "What should your pitch mention first?",
+     "options": [
+      "Their business and what they post",
+      "Your follower count",
+      "Your lowest price"
+     ],
+     "right": 0,
+     "why": "They want posts that fit their business. Mention it by name in your first line.",
+     "need": "I'll make posts that look like your brand and get noticed.",
+     "keys": [
+      "instagram",
+      "post"
+     ]
+    }
+   },
+   {
+    "id": "40812254",
+    "title": "Social Ads Designer for Client Packs",
+    "brief": "Facebook and Instagram Ad Designer, Per-Project Work, English and Spanish. Rodgate Digital designs and runs ads for US small businesses. We need designers we can send ad packs to as clients order them. Typical order: 3 to 10 static ads in feed (1:1 or 4:5) and story (9:16) sizes, from a brief and brand kit we provide. Paid per pack through Freelancer.com. Our budget is about $100 for one 5-ad pack in 2 sizes. Work starts when a client orders. You have: - A portfolio of real social ads, not just posts - Editable source files (PSD, AI, Figma or Canva) with every order - A 48 to 72 hour turnaround on a 5-ad pack - Spanish is a plus In your bid, include: 1) Links to your 5 best ad designs. 2) Yo",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 158,
+    "posted": "2026-11-10T21:01:38.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-marketing/Social-Ads-Designer-for-Client",
+    "beginner": false,
+    "summary": "Facebook and Instagram Ad Designer, Per-Project Work, English and Spanish.",
+    "practice": {
+     "q": "What's the trap in this brief?",
+     "options": [
+      "There's no theme",
+      "The client hasn't paid yet",
+      "It needs more than one size"
+     ],
+     "right": 2,
+     "why": "More than one size means more than one layout. Say you'll deliver every size, it shows you actually read the brief.",
+     "need": "I'll deliver every size you need, including 2 sizes.",
+     "keys": [
+      "2 sizes"
+     ]
+    }
+   },
+   {
+    "id": "40811772",
+    "title": "Long-Term Social Media Manager",
+    "brief": "My goal is to expand our presence across Instagram and Facebook while steadily building audiences on LinkedIn, Twitter and YouTube. The priority is simple: consistent, measurable follower growth and wider organic reach on every platform we touch. To make that happen, I need a partner who can own the full social cycle—strategy, creation, scheduling, community engagement and performance analysis—without constant hand-holding. You should be comfortable producing eye-catching visuals and short-form video (Canva, Adobe Creative Suite, CapCut, Premiere-Rush or similar), scheduling through tools such as Later, Hootsuite or Meta Creator Studio, and pulling insights from native analytics, Sprout or G",
+    "min": 6,
+    "max": 16,
+    "cur": "USD",
+    "bids": 31,
+    "posted": "2026-11-10T14:37:19.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-management/Long-Term-Social-Media-Manager",
+    "beginner": true,
+    "summary": "My goal is to expand our presence across Instagram and Facebook while steadily building audiences on LinkedIn,…",
+    "practice": {
+     "q": "Why is this job worth more than it pays?",
+     "options": [
+      "It's very urgent",
+      "It's ongoing, so it repeats",
+      "The budget is huge"
+     ],
+     "right": 1,
+     "why": "A repeat client beats a one-off. Build a template once and each new round takes minutes.",
+     "need": "I'll build you one template so every update is quick.",
+     "keys": [
+      "long-term",
+      "template"
+     ]
+    }
+   },
+   {
+    "id": "40811134",
+    "title": "Desain & Marketing Sosial Media",
+    "brief": "Saya sedang mencari bantuan untuk menangani desain sekaligus pemasaran di media sosial—fokus utamanya Instagram, TikTok, dan Facebook. Target saya jelas: menarik pelanggan baru sebanyak mungkin. Apa yang saya butuhkan: • Rencana konten mingguan yang relevan dengan brand dan tren terkini di ketiga platform. • Visual posts (gambar, reels, atau carousel) yang menarik, dengan copy singkat yang menggugah. • Penjadwalan dan publikasi konten menggunakan tools bawaan platform atau aplikasi seperti Meta Business Suite dan TikTok Scheduler. • Optimasi hashtag, tag lokasi, serta penulisan caption yang ramah algoritma. • Analisis performa sederhana setiap akhir minggu—engagement, reach, dan rekomendasi ",
+    "min": 10,
+    "max": 30,
+    "cur": "USD",
+    "bids": 23,
+    "posted": "2026-11-10T06:58:43.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-marketing/Desain-Marketing-Sosial-Media",
+    "beginner": true,
+    "summary": "Saya sedang mencari bantuan untuk menangani desain sekaligus pemasaran di media sosial—fokus utamanya Instagram,…",
+    "practice": {
+     "q": "What should your pitch mention first?",
+     "options": [
+      "Your lowest price",
+      "Your follower count",
+      "Their business and what they post"
+     ],
+     "right": 2,
+     "why": "They want posts that fit their business. Mention it by name in your first line.",
+     "need": "I'll make posts that look like your brand and get noticed.",
+     "keys": [
+      "desain",
+      "marketing"
+     ]
+    }
+   },
+   {
+    "id": "40810864",
+    "title": "Multi-Brand Social Media Ads Setup",
+    "brief": "Social Media & Ads Setup Specialist – 5 Business Pages (One-Time Project) I’m looking for an experienced professional to set up and optimise 5 business profiles across major platforms, along with a basic advertising setup. This is a one-time project, with potential for ongoing work if the results are good. Scope of Work: Create and professionally set up 5 business pages on: Facebook Instagram Ensure all profiles are fully optimised with: Consistent branding Business descriptions & bios Contact details Profile & cover images Advertising Setup: Set up Meta Business Manager (if not already set up) Create and configure Facebook & Instagram Ad Accounts Set up Google Ads account Launch basic ad ca",
+    "min": 16,
+    "max": 133,
+    "cur": "USD",
+    "bids": 40,
+    "posted": "2026-11-10T03:28:13.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-management/Multi-Brand-Social-Media-Ads",
+    "beginner": false,
+    "summary": "Social Media & Ads Setup Specialist – 5 Business Pages (One-Time Project) I’m looking for an experienced…",
+    "practice": {
+     "q": "Why is this job worth more than it pays?",
+     "options": [
+      "It's ongoing, so it repeats",
+      "It's very urgent",
+      "The budget is huge"
+     ],
+     "right": 0,
+     "why": "A repeat client beats a one-off. Build a template once and each new round takes minutes.",
+     "need": "I'll build you one template so every update is quick.",
+     "keys": [
+      "ongoing",
+      "template"
+     ]
+    }
+   },
+   {
+    "id": "40810758",
+    "title": "Private Instagram OSINT Investigation",
+    "brief": "I need a seasoned social-media investigator to look into a private Instagram profile. I already hold a legal or official case reference that authorises this work, so everything we do must stay fully within the law and platform terms. The main objective is to identify the likely person or organisation behind the account and verify whether the profile is authentic. I will supply any screenshots or messages I am authorised to share to help you correlate handles, phone numbers, emails, bios, follower links, or other open-source clues. What I expect from you • A concise, evidence-based report that explains your methodology, shows each finding, and cites verifiable sources (no assumptions). • Clea",
+    "min": 20,
+    "max": 169,
+    "cur": "USD",
+    "bids": 13,
+    "posted": "2026-11-10T01:47:36.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/osint/Private-Instagram-OSINT-Investigation",
+    "beginner": false,
+    "summary": "Needs a seasoned social-media investigator to look into a private Instagram profile.",
+    "practice": {
+     "q": "What should your pitch mention first?",
+     "options": [
+      "Your lowest price",
+      "Your follower count",
+      "Their business and what they post"
+     ],
+     "right": 2,
+     "why": "They want posts that fit their business. Mention it by name in your first line.",
+     "need": "I'll make posts that look like your brand and get noticed.",
+     "keys": [
+      "private",
+      "instagram"
+     ]
+    }
+   },
+   {
+    "id": "40810726",
+    "title": "AI-Savvy Social Media Manager",
+    "brief": "I’m looking for a marketer who can take full ownership of my Instagram, Facebook, TikTok, LinkedIn, and X (Twitter) accounts and get things moving immediately. The priority is straightforward: grow our follower base and overall brand awareness as fast as possible. You’ll need to rely heavily on your own AI-powered toolkit—whether that’s ChatGPT for copy, Midjourney or similar for visuals, or scheduling platforms that use machine learning for optimal posting times. I won’t be purchasing extra licences, so please come prepared with everything you need already set up under your own subscriptions. Here’s what I expect once we kick off: • A rapid audit of the current profiles and a 30-day content",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 97,
+    "posted": "2026-11-10T01:05:58.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/content-creation/Savvy-Social-Media-Manager",
+    "beginner": false,
+    "summary": "I’m looking for a marketer who can take full ownership of my Instagram, Facebook, TikTok, LinkedIn, and X (Twitter)…",
+    "practice": {
+     "q": "What should your pitch mention first?",
+     "options": [
+      "Their business and what they post",
+      "Your follower count",
+      "Your lowest price"
+     ],
+     "right": 0,
+     "why": "They want posts that fit their business. Mention it by name in your first line.",
+     "need": "I'll make posts that look like your brand and get noticed.",
+     "keys": [
+      "ai-savvy",
+      "social"
+     ]
+    }
+   },
+   {
+    "id": "40810468",
+    "title": "Appeal Disabled Facebook Account Either Meta Background or Significant Meta Account Recovery",
+    "brief": "## MANDATORY QUALIFICATIONS — META SUPER LORD ONLY **I am looking for someone who has successfully recovered at least 10 Facebook accounts from disabled, suspended, or checkpoint-locked status, preferably with substantially more successful recoveries.** Ten successful recoveries is my absolute minimum requirement, not my ideal candidate. I strongly prefer someone with dozens or even hundreds of documented successes. **This is my personal Facebook account. It is not a testing ground for someone learning how Meta's systems work.** ### Before I will consider hiring you, you MUST: 1. **Demonstrate at least 10 successful account recoveries.** These must involve actual disabled, suspended, or chec",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 26,
+    "posted": "2026-11-09T20:23:11.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-management/Appeal-Disabled-Facebook-Account-Either",
+    "beginner": false,
+    "summary": "## MANDATORY QUALIFICATIONS — META SUPER LORD ONLY **I am looking for someone who has successfully recovered at…",
+    "practice": {
+     "q": "What should your pitch mention first?",
+     "options": [
+      "Their business and what they post",
+      "Your follower count",
+      "Your lowest price"
+     ],
+     "right": 0,
+     "why": "They want posts that fit their business. Mention it by name in your first line.",
+     "need": "I'll make posts that look like your brand and get noticed.",
+     "keys": [
+      "appeal",
+      "disabled"
+     ]
+    }
+   },
+   {
+    "id": "40810303",
+    "title": "Social Media Manager",
+    "brief": "Project Title: Social Media Manager (Generalist with Strong B2B LinkedIn Focus) Project Overview We are looking for a versatile, self-driven Social Media Manager to handle and grow our presence across multiple platforms, with a heavy primary focus on LinkedIn. While you will oversee our accounts on LinkedIn, X (Twitter), Facebook, and Instagram, your core objective will be driving brand authority, engagement, and high-quality lead generation on LinkedIn. Key Responsibilities • Primary Focus — LinkedIn (60% of work): o Develop and execute a B2B LinkedIn content strategy tailored to our niche. o Write high-converting text posts, carousels, and thought-leadership content. o Engage with industry",
+    "min": 26,
+    "max": 330,
+    "cur": "USD",
+    "bids": 134,
+    "posted": "2026-11-09T17:37:16.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-management/Social-Media-Manager-40810303",
+    "beginner": false,
+    "summary": "Project Title: Social Media Manager (Generalist with Strong B2B LinkedIn Focus) Project Overview We are looking for…",
+    "practice": {
+     "q": "What should your pitch mention first?",
+     "options": [
+      "Their business and what they post",
+      "Your follower count",
+      "Your lowest price"
+     ],
+     "right": 0,
+     "why": "They want posts that fit their business. Mention it by name in your first line.",
+     "need": "I'll make posts that look like your brand and get noticed.",
+     "keys": [
+      "social",
+      "media"
      ]
     }
    }
