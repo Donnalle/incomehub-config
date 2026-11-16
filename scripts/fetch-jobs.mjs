@@ -19,18 +19,21 @@ const MIN_USD = 5, MAX_USD = 200;
 const SERVICES = {
   wf: {
     skills: ["Flyer Design", "Poster Design", "Brochure Design", "Leaflet Design", "Canva"],
+    strong: ["Flyer Design", "Poster Design", "Brochure Design", "Leaflet Design"],
     queries: ["flyer design", "poster design", "event flyer", "canva flyer", "menu design", "leaflet design"],
     must: /\b(flyers?|posters?|leaflets?|menus?|brochures?|banners?|invitations?)\b/i,
     exclude: /\b(3d|animation|animated|video|motion|website|wordpress|shopify|app|logo only|packaging|label|illustrat\w*|book cover|album|mockups? only|developer|scraping|data entry)\b/i,
   },
   cv: {
     skills: ["Resume Writing", "Cover Letter", "CV Writing", "Resumes", "LinkedIn"],
+    strong: ["Resume Writing", "Cover Letter", "CV Writing", "Resumes"],
     queries: ["resume writing", "cv writing", "resume", "cover letter", "cv design", "linkedin profile"],
     must: /\b(resumes?|résumé|cv|cvs|curriculum vitae|cover letters?|linkedin profile)\b/i,
     exclude: /\b(parser|parsing|screening|ats software|developer|app|website|scrap\w*|database|python|recruit\w* platform|job portal|ai tool)\b/i,
   },
   ig: {
     skills: ["Instagram", "Social Media Design", "Canva", "Social Media Post Design", "Facebook Marketing"],
+    strong: ["Social Media Post Design", "Social Media Design"],
     queries: ["instagram post", "instagram posts design", "social media post", "social media design", "canva social media", "facebook post design"],
     must: /\b(instagram|social media|facebook|tiktok|canva|carousel|posts?)\b/i,
     exclude: /\b(followers|likes|ads manager|ad campaign|paid ads|grow my|growth hack|seo|website|app|video edit\w*|reels? edit\w*|animation|3d|influencer|bot|automation|developer)\b/i,
@@ -186,13 +189,14 @@ async function main() {
 
   for (const [svc, conf] of Object.entries(SERVICES)) {
     const jobs = new Map();
-    let skillIds = [];
+    let skillIds = [], strongIds = [];
     try {
       const jd = await get("/jobs/", { job_names: conf.skills });
       skillIds = (jd.result || []).map((j) => j.id).filter(Boolean);
+      strongIds = (jd.result || []).filter((j) => conf.strong.includes(j.name)).map((j) => j.id);
       DIAG.skills[svc] = (jd.result || []).map((j) => j.name + "#" + j.id);
     } catch (e) { console.warn(`${svc}: skill lookup failed`); }
-    const searches = [...(skillIds.length ? [{ jobs: skillIds }] : []), ...conf.queries.map((query) => ({ query }))];
+    const searches = [...(skillIds.length ? [0, 50, 100, 150].map((offset) => ({ jobs: skillIds, offset })) : []), ...conf.queries.map((query) => ({ query }))];
     for (const extra of searches) {
       const d = await get("/projects/active/", {
         ...extra, limit: 50, sort_field: "time_updated", compact: "true",
@@ -202,6 +206,7 @@ async function main() {
       if (!globalThis.__dumped && d.result.projects?.[0]) { globalThis.__dumped = 1; const u0 = Object.values(d.result.users || {})[0]; DIAG.ownerKeys = u0 ? Object.keys(u0) : null; DIAG.ownerLocation = u0?.location || null; DIAG.projectKeys = Object.keys(d.result.projects[0]); }
       DIAG.searches.push({ svc, ...(extra.query ? { q: extra.query } : { skills: extra.jobs.length }), got: (d.result.projects || []).length });
       const users = d.result.users || {};
+      if (extra.offset && (d.result.projects || []).length === 0) continue;
       for (const p of d.result.projects || []) {
         if (jobs.has(p.id) || seen.has(p.id)) continue;
         const title = clean(p.title), brief = clean(p.description || p.preview_description || "");
@@ -210,8 +215,9 @@ async function main() {
         const rate = p.currency?.exchange_rate || 1;
         const min = Math.round((p.budget?.minimum || 0) * rate), max = Math.round((p.budget?.maximum || p.budget?.minimum || 0) * rate);
         const head = title + " " + brief.slice(0, 160);
-        const skillHit = (p.jobs || []).some((j) => skillIds.includes(j.id));
-        const why = ageH > MAX_AGE_H ? "old" : !(conf.must.test(title) || (skillHit && conf.must.test(head))) ? "off-topic" : !isEnglish(text) ? "not english" : conf.exclude.test(text) ? "excluded" : SCAM.test(text) ? "scam" :
+        const pj = (p.jobs || []).map((j) => j.id);
+        const skillHit = pj.some((id) => skillIds.includes(id)), strongHit = pj.some((id) => strongIds.includes(id));
+        const why = ageH > MAX_AGE_H ? "old" : !(strongHit || conf.must.test(title) || (skillHit && conf.must.test(head))) ? "off-topic" : !isEnglish(text) ? "not english" : conf.exclude.test(text) ? "excluded" : SCAM.test(text) ? "scam" :
           EXPERT.test(text) ? "expert" : max < MIN_USD ? "too cheap" : min > MAX_USD ? "too big" : p.status !== "active" ? "closed" : brief.length < 40 ? "thin" : null;
         DIAG.reasons[why || "kept"] = (DIAG.reasons[why || "kept"] || 0) + 1;
         if (why) continue;
@@ -222,7 +228,7 @@ async function main() {
           bids, posted: new Date((p.time_submitted || now) * 1000).toISOString(),
           country: owner?.location?.country?.name || owner?.location?.country?.code || "",
           url: `https://www.freelancer.com/projects/${p.seo_url || p.id}`,
-          beginner: max <= 80 && bids < 40 && !/\b(experienced|professional only|portfolio required)\b/i.test(text),
+          beginner: max <= 80 && !/\b(experienced|professional only|portfolio required)\b/i.test(text),
           seed: Number(String(p.id).slice(-3)) || 0,
         });
       }
