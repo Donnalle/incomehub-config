@@ -221,12 +221,12 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 7,
-   "fail": 18,
-   "lastError": "no json: {\"model\":\"claude-haiku-5-5\",\"id\":\"msg_011Ch6yt8nLrVptGrKhMeBmW\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"\",\"signature\":\"CAQSzB4KEAgTGAI4AUIIdGhpbmtpbmcSDETSXHM651QVfunNkBoMM6Mv+XdcZ47UhMONIjAq824Eg09MvHjrnR29d2BpLEfzgiZzczxbH+V98FfoU/EfqJvLuJ+6+nvO9q7lcXQq6R3/kZu"
+   "ok": 12,
+   "fail": 6,
+   "lastError": "bad json: {\"fit\": false, \"summary\": \"\", \"q\": \"\", \"options\": [], \"right\": 0, \"why\": \"\", \"need\": \"\", \"keys\": []}"
   }
  },
- "updated": "2026-11-16T17:10:34.013Z",
+ "updated": "2026-11-16T17:14:40.870Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -237,7 +237,7 @@
  },
  "counts": {
   "wf": 10,
-  "cv": 5,
+  "cv": 4,
   "ig": 10
  },
  "services": {
@@ -254,20 +254,22 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-photoshop/Modern-Medical-Center-Backlit-Banner",
     "beginner": false,
-    "summary": "Needs a striking 14 ft × 8 ft back-lit banner for our medical center that instantly communicates a modern, premium feel.",
+    "ai": true,
+    "summary": "Design a 14x8 ft backlit medical center banner: doctors and specialties as heroes, with name, services, contact line.",
     "practice": {
-     "q": "What should your pitch mention first?",
+     "q": "Which element should be the visual focus of this banner?",
      "options": [
-      "Your lowest price",
-      "Exactly what their design is for",
-      "How long you've designed"
+      "The center's logo and name only",
+      "The doctors and their specialties",
+      "A long list of every service offered"
      ],
      "right": 1,
-     "why": "Clients skim pitches. Repeat their exact need in your first line and you're already ahead of most bidders.",
-     "need": "I'll design it so the key details jump out first.",
+     "why": "The client said the doctors and their specialties must be the heroes. Name, services and contact are supporting text. Keep the layout clean with plenty of negative space, and remember colour correction matters because the banner is lit from behind.",
+     "need": "I'll design the banner with your doctors as the hero, supported by clean type and print-ready photo enhancement.",
      "keys": [
-      "modern",
-      "medical"
+      "doctors",
+      "specialties",
+      "backlit"
      ]
     }
    },
@@ -283,7 +285,6 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/poster-design/Logo-Poster-Social-Media-Suite",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a matching logo, A2 poster and social graphics so all their channels share one visual style.",
     "practice": {
      "q": "What does the client really need from this job?",
@@ -300,7 +301,8 @@
       "logo",
       "poster"
      ]
-    }
+    },
+    "ai": true
    },
    {
     "id": "40819596",
@@ -314,7 +316,6 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/content-writing/Polished-Corporate-Caf-Profile-PDF",
     "beginner": false,
-    "ai": true,
     "summary": "Design a polished, email-ready café PDF pitching your menu and corporate catering services to business clients.",
     "practice": {
      "q": "What does the client really need from this PDF?",
@@ -331,7 +332,8 @@
       "catering",
       "menu"
      ]
-    }
+    },
+    "ai": true
    },
    {
     "id": "40818480",
@@ -345,7 +347,6 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Premium-Beauty-Salon-Print-Design",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a matching set of printed beauty cards and a redesigned outdoor board for their Santa Monica salon.",
     "practice": {
      "q": "What does the client REALLY want from this design suite?",
@@ -362,7 +363,8 @@
       "premium",
       "interior"
      ]
-    }
+    },
+    "ai": true
    },
    {
     "id": "40817439",
@@ -376,20 +378,22 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/catalog-design/Mobile-Accessories-Digital-Catalogue",
     "beginner": false,
-    "summary": "Needs a professional digital catalogue for my mobile accessories.",
+    "ai": true,
+    "summary": "Client wants a professional, editable digital catalogue of mobile accessories with photos, names, and model compatibility, for retailers.",
     "practice": {
-     "q": "What should your pitch mention first?",
+     "q": "What format must the catalogue be delivered in so the client can update it later?",
      "options": [
-      "Your lowest price",
-      "Exactly what their design is for",
-      "How long you've designed"
+      "A flat PDF image only",
+      "An editable design file like InDesign or Canva",
+      "A printed photo album"
      ],
      "right": 1,
-     "why": "Clients skim pitches. Repeat their exact need in your first line and you're already ahead of most bidders.",
-     "need": "I'll design it so the key details jump out first.",
+     "why": "The client needs future edits, so an editable file is essential. A flat PDF can be viewed but not easily updated. Always deliver the source file, not just the export.",
+     "need": "I'll build an editable catalogue with photos, names and model compatibility for your retailers.",
      "keys": [
-      "mobile",
-      "accessories"
+      "editable",
+      "catalogue",
+      "model compatibility"
      ]
     }
    },
@@ -405,20 +409,22 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Promotional-Poster-Design-40816691",
     "beginner": true,
-    "summary": "I’m looking for a designer who can translate my business message into a clean, creative, and modern promotional poster.",
+    "ai": true,
+    "summary": "Client wants a bold, clean, modern promo poster matching their brand, easy to read at a glance, delivered as a 300 dpi CMYK PDF.",
     "practice": {
-     "q": "What should your pitch mention first?",
+     "q": "What does the client really need from this poster?",
      "options": [
-      "Your lowest price",
-      "Exactly what their design is for",
-      "How long you've designed"
+      "A quick, clear poster that sells the benefits and matches their brand",
+      "A full brand identity redesign with new colours and logo",
+      "A video ad with animated text for social media"
      ],
-     "right": 1,
-     "why": "Clients skim pitches. Repeat their exact need in your first line and you're already ahead of most bidders.",
-     "need": "I'll design it so the key details jump out first.",
+     "right": 0,
+     "why": "The brief asks for a poster that grabs attention fast, shows benefits at a glance, and stays on-brand. A redesign or video goes beyond it. Always check the print specs (CMYK, 300 dpi, PDF) before you start.",
+     "need": "I'll design a bold, clean poster in your brand colours, with benefits clear at a glance, as a 300 dpi CMYK PDF.",
      "keys": [
-      "modern",
-      "promotional"
+      "brand",
+      "benefits",
+      "print-ready"
      ]
     }
    },
@@ -434,7 +440,6 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-photoshop/Design-Luxury-Fashion-Course-Brochures",
     "beginner": true,
-    "ai": true,
     "summary": "Design 4 luxury A4 brochures for BIFD: three Aari Work courses and one Fashion Design course, with matching branding.",
     "practice": {
      "q": "What does the client really need most from these four brochures?",
@@ -451,7 +456,8 @@
       "bifd",
       "branding"
      ]
-    }
+    },
+    "ai": true
    },
    {
     "id": "40811357",
@@ -494,20 +500,22 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Instagram-Branding-Posts-Ads",
     "beginner": false,
-    "summary": "I own Shivam Medical Food Supplements Store together with the PodiaFitnessLife gym in Panipat-Safidon-Jind, Haryana.",
+    "ai": true,
+    "summary": "Design Instagram feed posts and paid ad visuals for a supplement store and gym in Haryana, India.",
     "practice": {
-     "q": "Why is this job worth more than it pays?",
+     "q": "What does the client actually want delivered for this job?",
      "options": [
-      "It's ongoing, so it repeats",
-      "It's very urgent",
-      "The budget is huge"
+      "Video shoots and reels of the gym",
+      "Instagram feed and ad visuals with consistent branding",
+      "Full digital marketing strategy and ad campaign"
      ],
-     "right": 0,
-     "why": "A repeat client beats a one-off. Build a template once and each new round takes minutes.",
-     "need": "I'll build you one template so every update is quick.",
+     "right": 1,
+     "why": "The brief asks for design work: layouts, colour palettes, typography and imagery for feed posts and ads. Filming, strategy and campaign management fall outside a beginner's scope. Focus on the visual design deliverables.",
+     "need": "I'll design on-brand Instagram feed posts and ad creatives for your supplements store and gym in Haryana.",
      "keys": [
-      "regular",
-      "template"
+      "instagram",
+      "ad creatives",
+      "brand"
      ]
     }
    },
@@ -523,54 +531,27 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/product-design/Cement-Pipe-Brochure-Design",
     "beginner": true,
-    "summary": "Needs a detailed brochure to introduce our cement pipe products and our company.",
+    "ai": true,
+    "summary": "Design a detailed product brochure for cement pipes, covering specs, project photos, and manufacturing quality for contractors and buyers.",
     "practice": {
-     "q": "What should your pitch mention first?",
+     "q": "Who is the main audience for this brochure, and what must it cover?",
      "options": [
-      "Your lowest price",
-      "Exactly what their design is for",
-      "How long you've designed"
+      "Homeowners only; focus on colours and style",
+      "Contractors, government buyers, and homeowners; cover specs, projects, and quality",
+      "Investors only; focus on company revenue"
      ],
      "right": 1,
-     "why": "Clients skim pitches. Repeat their exact need in your first line and you're already ahead of most bidders.",
-     "need": "I'll design it so the key details jump out first.",
+     "why": "The brief names three reader groups and wants technical specs, project examples, and quality standards. Design for all three, with clear technical info and attractive layout.",
+     "need": "I'll design a clear, attractive cement pipe brochure with specs, project photos, and quality standards for buyers.",
      "keys": [
-      "cement",
-      "pipe"
+      "pipe",
+      "specifications",
+      "contractors"
      ]
     }
    }
   ],
   "cv": [
-   {
-    "id": "40817695",
-    "title": "Modern Office CV & Letter",
-    "brief": "I need a polished set of application materials—CV, résumé, and cover letter—tailored specifically to office and administration roles. The final documents must look contemporary and professional while remaining clean and ATS-friendly. Please craft the layout in Microsoft Word, Canva, or any comparable platform, then supply both the editable files and ready-to-send PDFs. I value precise formatting, flawless grammar, and consistent styling throughout; no typos or spacing mishaps should slip through. Timely delivery is equally important to me. If you have several years of experience writing CVs for administrative careers, I want to hear from you. When you respond, focus on that experience; a con",
-    "min": 6,
-    "max": 16,
-    "cur": "USD",
-    "bids": 47,
-    "posted": "2026-11-14T08:56:28.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/content-writing/Modern-Office-Letter",
-    "beginner": true,
-    "summary": "Needs a polished set of application materials—CV, résumé, and cover letter—tailored specifically to office and…",
-    "practice": {
-     "q": "What does 'ATS-friendly' mean for your work?",
-     "options": [
-      "Colourful columns",
-      "Lots of graphics",
-      "Simple layout, the right keywords"
-     ],
-     "right": 2,
-     "why": "Hiring software reads plain layouts with the job's keywords. Fancy design can get it rejected.",
-     "need": "I'll keep it ATS-friendly with the right keywords.",
-     "keys": [
-      "ats",
-      "keyword"
-     ]
-    }
-   },
    {
     "id": "40815241",
     "title": "ATS-Ready STEM Resume Revamp",
@@ -583,7 +564,6 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/ATS-Ready-STEM-Resume-Revamp",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants an ATS-safe, minimalist CV rewrite for data and STEM roles on Naukri and Indeed.",
     "practice": {
      "q": "What should the revamped CV prioritize most for this client?",
@@ -600,7 +580,8 @@
       "keywords",
       "naukri"
      ]
-    }
+    },
+    "ai": true
    },
    {
     "id": "40814468",
@@ -614,20 +595,22 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/content-writing/ATS-Friendly-Resume-Rewrite",
     "beginner": false,
-    "summary": "Needs resume rewrite to help me apply for an Armed Federal Security Guard position.",
+    "ai": true,
+    "summary": "Client wants a clean, ATS-friendly resume rewrite for an Armed Federal Security Guard job, highlighting relevant skills.",
     "practice": {
-     "q": "What does 'ATS-friendly' mean for your work?",
+     "q": "What does the client really need from this resume rewrite?",
      "options": [
-      "Simple layout, the right keywords",
-      "Lots of graphics",
-      "Colourful columns"
+      "A creative, colorful design to stand out",
+      "A clean, ATS-readable resume highlighting security-relevant skills",
+      "A full cover letter and job search strategy"
      ],
-     "right": 0,
-     "why": "Hiring software reads plain layouts with the job's keywords. Fancy design can get it rejected.",
-     "need": "I'll keep it ATS-friendly with the right keywords.",
+     "right": 1,
+     "why": "Good read. ATS systems parse plain formatting best, so the job is clean layout, keyword alignment with the security role, and clear wording. Design flair and cover letters are outside the brief.",
+     "need": "I'll rewrite your resume into a clean, ATS-friendly format that highlights your security-relevant skills.",
      "keys": [
-      "ats",
-      "keyword"
+      "ats-friendly",
+      "security",
+      "skills"
      ]
     }
    },
@@ -643,20 +626,22 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/sales/Sales-Focused-Creation",
     "beginner": true,
-    "summary": "Needs a brand-new CV built from my existing work history, positioned squarely for sales and customer service roles.",
+    "ai": true,
+    "summary": "Client wants a new sales/customer-service CV from their work history, ATS-friendly and modern in Word and PDF.",
     "practice": {
-     "q": "What does 'ATS-friendly' mean for your work?",
+     "q": "What does the client most need from this CV?",
      "options": [
-      "Simple layout, the right keywords",
-      "Lots of graphics",
-      "Colourful columns"
+      "A generic CV with no job focus",
+      "Achievements and keywords aimed at sales roles",
+      "A video résumé to send to recruiters"
      ],
-     "right": 0,
-     "why": "Hiring software reads plain layouts with the job's keywords. Fancy design can get it rejected.",
-     "need": "I'll keep it ATS-friendly with the right keywords.",
+     "right": 1,
+     "why": "Good read. The brief is about tailoring their real history into achievement-led, metric-driven wording for sales and customer service, while passing ATS filters and looking clean in both Word and PDF. Keep the focus on results, not just duties.",
+     "need": "I'll turn your work history into a sales-focused CV with metrics, ATS-friendly keywords, and a clean Word/PDF layout.",
      "keys": [
+      "sales",
       "ats",
-      "keyword"
+      "achievements"
      ]
     }
    },
@@ -672,20 +657,22 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/business-development/Innovative-Venture-Builder-Rewrite",
     "beginner": false,
-    "summary": "I’m preparing to go into a startup-focused innovation role, specifically in venture building and new business and…",
+    "ai": true,
+    "summary": "Client wants their CV rewritten for venture building and innovation roles, with impact metrics and ATS keywords.",
     "practice": {
-     "q": "What does 'ATS-friendly' mean for your work?",
+     "q": "What is the main thing the client wants from this CV rewrite?",
      "options": [
-      "Colourful columns",
-      "Lots of graphics",
-      "Simple layout, the right keywords"
+      "A generic CV with more design",
+      "Achievements reframed for startup and VC hiring",
+      "A cover letter for a sales job"
      ],
-     "right": 2,
-     "why": "Hiring software reads plain layouts with the job's keywords. Fancy design can get it rejected.",
-     "need": "I'll keep it ATS-friendly with the right keywords.",
+     "right": 1,
+     "why": "A strong venture-builder CV turns past wins into proof of opportunity spotting, market validation and launches, using measurable results and ATS-friendly terms.",
+     "need": "I'll recast your achievements with impact metrics and ATS keywords for venture building roles.",
      "keys": [
-      "ats",
-      "keyword"
+      "venture",
+      "metrics",
+      "keywords"
      ]
     }
    }
@@ -761,21 +748,22 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-creative-suite/Social-Media-Design-Specialist",
     "beginner": true,
-    "summary": "Needs a creative designer to create engaging social media posts and ads for Instagram and Facebook.",
+    "ai": true,
+    "summary": "Client wants eye-catching Instagram and Facebook posts and ads that promote their sports and fitness brand, tailored to each platform.",
     "practice": {
-     "q": "What will this client judge you on first?",
+     "q": "Which deliverable best matches what the client really needs?",
      "options": [
-      "How cheap you are",
-      "Sticking to their brand colours",
-      "How many years you've worked"
+      "Write a full marketing strategy and posting calendar",
+      "Design platform-specific posts and ads that promote the brand",
+      "Film workout videos and edit them into reels"
      ],
      "right": 1,
-     "why": "They told you their colours. Anything that ignores them is out in 2 seconds.",
-     "need": "I'll stick to your brand colours.",
+     "why": "The client wants visual designs, sized and styled for each platform, that sell the brand. Strategy, filming, and recruiting are outside this brief. Focus on what the posts look like and how they follow the brand guidelines.",
+     "need": "I'll design Instagram and Facebook posts and ads that promote your sports brand and follow your guidelines.",
      "keys": [
-      "brand",
-      "colour",
-      "color"
+      "instagram",
+      "facebook",
+      "brand guidelines"
      ]
     }
    },
@@ -848,7 +836,6 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Social-Media-Post-Graphic-Creation",
     "beginner": false,
-    "ai": true,
     "summary": "Weekly on-brand posts for Instagram, Facebook and LinkedIn, with copy, graphics and editable source files.",
     "practice": {
      "q": "What does the client really need from you each week?",
@@ -865,7 +852,8 @@
       "editable",
       "on-brand"
      ]
-    }
+    },
+    "ai": true
    },
    {
     "id": "40814085",
@@ -879,7 +867,6 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Minimalist-Canva-List-Design",
     "beginner": true,
-    "ai": true,
     "summary": "Editable US Letter Canva to-do list: weekdays on page one, weekend and three sections on page two.",
     "practice": {
      "q": "What must page two include that page one doesn't?",
@@ -896,7 +883,8 @@
       "editable",
       "letter"
      ]
-    }
+    },
+    "ai": true
    },
    {
     "id": "40813629",
@@ -910,21 +898,22 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Canva-Social-Media-Graphics-40813629",
     "beginner": false,
-    "summary": "Needs a versatile Canva designer who can turn my ideas into eye-catching Instagram posts and stories, Facebook posts…",
+    "ai": true,
+    "summary": "Client wants on-brand Canva graphics for Instagram, Facebook, and LinkedIn, all editable, each promoting products or services.",
     "practice": {
-     "q": "What will this client judge you on first?",
+     "q": "What must every graphic do, and what must stay consistent across all of them?",
      "options": [
-      "How many years you've worked",
-      "How cheap you are",
-      "Sticking to their brand colours"
+      "Be funny and go viral on each platform",
+      "Push one clear purpose, match brand colours, fonts and voice",
+      "Use the newest trending templates for each campaign"
      ],
-     "right": 2,
-     "why": "They told you their colours. Anything that ignores them is out in 2 seconds.",
-     "need": "I'll stick to your brand colours.",
+     "right": 1,
+     "why": "Each graphic needs one clear purpose: promoting products or services. Brand colours, fonts and voice stay consistent, and files must stay editable in Canva so copy and images can be swapped later.",
+     "need": "I'll turn your campaign briefs into on-brand, editable Canva posts sized right for Instagram, Facebook and LinkedIn.",
      "keys": [
-      "brand",
-      "colour",
-      "color"
+      "brand consistency",
+      "editable canva",
+      "platform dimensions"
      ]
     }
    },
@@ -940,19 +929,22 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Social-Ads-Designer-for-Client",
     "beginner": false,
-    "summary": "Facebook and Instagram Ad Designer, Per-Project Work, English and Spanish.",
+    "ai": true,
+    "summary": "Client wants 3-10 static Facebook/Instagram ads per pack (1:1 or 4:5 feed, 9:16 story) built from their brief and brand kit, in editable source files.",
     "practice": {
-     "q": "What's the trap in this brief?",
+     "q": "What does the client actually need delivered for each order?",
      "options": [
-      "There's no theme",
-      "The client hasn't paid yet",
-      "It needs more than one size"
+      "One long video ad with filming",
+      "A full ad strategy and audience research plan",
+      "3-10 static ads in feed and story sizes with editable files"
      ],
      "right": 2,
-     "why": "More than one size means more than one layout. Say you'll deliver every size, it shows you actually read the brief.",
-     "need": "I'll deliver every size you need, including 2 sizes.",
+     "why": "Read the brief closely: they want static ad designs in specific sizes, delivered as editable source files, not video, strategy, or research. Start with the sizes and file types.",
+     "need": "I'll design your 5-ad pack in 1:1, 4:5 and 9:16 from your brief and brand kit, with editable source files.",
      "keys": [
-      "2 sizes"
+      "static ads",
+      "editable source",
+      "brand kit"
      ]
     }
    },
