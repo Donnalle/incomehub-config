@@ -172,8 +172,8 @@
    ]
   },
   "reasons": {
-   "excluded": 180,
-   "kept": 24,
+   "excluded": 182,
+   "kept": 23,
    "off-topic": 843,
    "too big": 27,
    "not english": 11,
@@ -219,7 +219,7 @@
    "group_ids"
   ]
  },
- "updated": "2026-11-16T12:08:23.665Z",
+ "updated": "2026-11-16T12:09:47.755Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -231,7 +231,7 @@
  "counts": {
   "wf": 10,
   "cv": 5,
-  "ig": 9
+  "ig": 8
  },
  "services": {
   "wf": [
@@ -672,35 +672,6 @@
    }
   ],
   "ig": [
-   {
-    "id": "40817420",
-    "title": "Instagram & Facebook Growth Strategy",
-    "brief": "I run a local business and I’m ready to turn our Instagram and Facebook feeds into magnets for nearby customers. The priority is simple: build brand awareness and steadily grow our follower base right here in our community. I’m looking for a clear, actionable content strategy that shows exactly how we’ll achieve this on both platforms. That means defining the right mix of posts, stories, and reels, recommending local-friendly hashtags and geotags, outlining an effective posting schedule, and suggesting ways to spark conversation in the comments or DMs. Insights on how to present our brand voice visually and in captions—so it feels authentic and local—are essential. Deliverables • 3-month con",
-    "min": 133,
-    "max": 399,
-    "cur": "USD",
-    "bids": 39,
-    "posted": "2026-11-16T03:54:05.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/content-creation/Instagram-Facebook-Growth-Strategy",
-    "beginner": false,
-    "summary": "I run a local business and I’m ready to turn our Instagram and Facebook feeds into magnets for nearby customers.",
-    "practice": {
-     "q": "What should your pitch mention first?",
-     "options": [
-      "Their business and what they post",
-      "Your follower count",
-      "Your lowest price"
-     ],
-     "right": 0,
-     "why": "They want posts that fit their business. Mention it by name in your first line.",
-     "need": "I'll make posts that look like your brand and get noticed.",
-     "keys": [
-      "instagram",
-      "facebook"
-     ]
-    }
-   },
    {
     "id": "40820004",
     "title": "Social Media Ad Design Specialist",
