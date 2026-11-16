@@ -164,12 +164,15 @@ Return ONLY JSON: {"fit": true/false (could a beginner who is learning this serv
     const r = await fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
       headers: { "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json" },
-      body: JSON.stringify({ model: process.env.CLAUDE_MODEL || "claude-haiku-5-5", max_tokens: 500, messages: [{ role: "user", content: prompt }] }),
+      body: JSON.stringify({ model: process.env.CLAUDE_MODEL || "claude-haiku-5-5", max_tokens: 1200, messages: [{ role: "user", content: prompt }] }),
     });
     if (!r.ok) { DIAG.claude.fail++; DIAG.claude.lastError = r.status + " " + (await r.text()).slice(0, 300); return null; }
     const d = await r.json();
-    const j = JSON.parse(d.content[0].text.match(/\{[\s\S]*\}/)[0]);
-    if (!j.summary || !Array.isArray(j.options) || j.options.length !== 3) { DIAG.claude.fail++; DIAG.claude.lastError = "bad json: " + d.content[0].text.slice(0, 200); return null; }
+    const txt = (d.content || []).filter((c) => c.type === "text").map((c) => c.text).join("");
+    const m = txt.match(/\{[\s\S]*\}/);
+    if (!m) { DIAG.claude.fail++; DIAG.claude.lastError = "no json: " + JSON.stringify(d).slice(0, 300); return null; }
+    const j = JSON.parse(m[0]);
+    if (!j.summary || !Array.isArray(j.options) || j.options.length !== 3) { DIAG.claude.fail++; DIAG.claude.lastError = "bad json: " + txt.slice(0, 200); return null; }
     DIAG.claude.ok++;
     return j;
   } catch (e) { DIAG.claude.fail++; DIAG.claude.lastError = "exception: " + e.message; return null; }
