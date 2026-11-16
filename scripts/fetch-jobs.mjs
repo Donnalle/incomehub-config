@@ -11,23 +11,26 @@
 import { writeFileSync, readFileSync, existsSync } from "node:fs";
 
 const API = "https://www.freelancer.com/api/projects/0.1";
-const MAX_AGE_H = 48;          // only jobs posted in the last 48h
+const MAX_AGE_H = 72;          // only jobs posted in the last 48h
 const PER_SERVICE = 20;        // cap per service
-const MIN_USD = 5, MAX_USD = 250;
+const MIN_USD = 5, MAX_USD = 200;
 
 // ---------- services ----------
 const SERVICES = {
   wf: {
+    skills: ["Flyer Design", "Poster Design", "Brochure Design", "Leaflet Design", "Canva"],
     queries: ["flyer design", "poster design", "event flyer", "canva flyer", "menu design", "leaflet design"],
     must: /\b(flyers?|posters?|leaflets?|menus?|brochures?|banners?|invitations?)\b/i,
     exclude: /\b(3d|animation|animated|video|motion|website|wordpress|shopify|app|logo only|packaging|label|illustrat\w*|book cover|album|mockups? only|developer|scraping|data entry)\b/i,
   },
   cv: {
+    skills: ["Resume Writing", "Cover Letter", "CV Writing", "Resumes", "LinkedIn"],
     queries: ["resume writing", "cv writing", "resume", "cover letter", "cv design", "linkedin profile"],
     must: /\b(resumes?|résumé|cv|cvs|curriculum vitae|cover letters?|linkedin profile)\b/i,
     exclude: /\b(parser|parsing|screening|ats software|developer|app|website|scrap\w*|database|python|recruit\w* platform|job portal|ai tool)\b/i,
   },
   ig: {
+    skills: ["Instagram", "Social Media Design", "Canva", "Social Media Post Design", "Facebook Marketing"],
     queries: ["instagram post", "instagram posts design", "social media post", "social media design", "canva social media", "facebook post design"],
     must: /\b(instagram|social media|facebook|tiktok|canva|carousel|posts?)\b/i,
     exclude: /\b(followers|likes|ads manager|ad campaign|paid ads|grow my|growth hack|seo|website|app|video edit\w*|reels? edit\w*|animation|3d|influencer|bot|automation|developer)\b/i,
@@ -39,6 +42,8 @@ const SCAM = /\b(telegram|whats\s?app me|contact me on|crypto|bitcoin|usdt|forex
 const EXPERT = /\b(senior|expert only|agency only|10\+ years|5\+ years|top rated only|native .* only)\b/i;
 
 // ---------- helpers ----------
+const NON_EN = /\b(necesito|para|publicaciones|nous|vous|pour|avec|recrutement|rémunéré|ich|wir|und|für|precisamos|preciso|cerco|abbiamo|sono)\b/i;
+const isEnglish = (t) => !NON_EN.test(t) && (t.match(/[^\x00-\x7F]/g) || []).length < t.length * 0.05;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function get(path, params) {
   const u = new URL(API + path);
@@ -72,7 +77,7 @@ function summarise(desc, title) {
 // Each rule looks for a signal in the brief and returns a question,
 // 3 options (right one first; shuffled later), a "why", a "need" line and keys.
 const RULES = [
-  { test: /\b(a4|a5|a3|story|status|square|portrait|landscape|print and (digital|online)|two (sizes|versions)|both sizes|\d+ sizes)\b/i,
+  { test: /\b(a4|a5|a3|(instagram|whatsapp|ig) (story|stories|status)|print and (digital|online|social)|two (sizes|versions|formats)|both sizes|\d+ sizes|multiple sizes)\b/i,
     make: (m) => ({ q: "What's the trap in this brief?", right: "It needs more than one size", wrong: ["The client hasn't paid yet", "There's no theme"],
       why: "More than one size means more than one layout. Say you'll deliver every size, it shows you actually read the brief.",
       need: `I'll deliver every size you need, including ${m[0]}.`, keys: [m[0]] }) },
@@ -88,7 +93,7 @@ const RULES = [
     make: (m) => ({ q: "What will this client judge you on first?", right: "Sticking to their brand colours", wrong: ["How cheap you are", "How many years you've worked"],
       why: "They told you their colours. Anything that ignores them is out in 2 seconds.",
       need: "I'll stick to your brand colours.", keys: [m[0].split(" ")[0], "colour", "color"] }) },
-  { test: /\b(grand opening|opening|launch|event|party|concert|wedding|church|sale|promo\w*|special offer|discount|black friday|festival|camp|conference)\b/i,
+  { test: /\b(grand opening|opening day|launch event|event|party|concert|wedding|church|sale|special offer|discount|black friday|festival|camp|conference|fundraiser)\b/i,
     make: (m) => ({ q: "What's this client's real goal?", right: "Get people to show up or buy", wrong: ["Win a design award", "Get a new logo"],
       why: "The design has one job: bring people in. Lead with the date or the offer, everything else comes second.",
       need: `I'll make the ${m[0].toLowerCase()} details impossible to miss.`, keys: [m[0]] }) },
@@ -114,9 +119,9 @@ const RULES = [
       need: `I can have it ready ${/^(today|tonight|tomorrow|by )/i.test(m[0]) ? m[0].toLowerCase() : "fast"}.`, keys: [m[0]] }) },
 ];
 const FALLBACK = {
-  wf: { q: "What should your pitch mention first?", right: "Exactly what's on their flyer", wrong: ["Your lowest price", "How long you've designed"], why: "Clients skim pitches. Repeat their exact need in your first line and you're already ahead of most bidders." },
-  cv: { q: "What should your pitch mention first?", right: "The job they're applying for", wrong: ["Your favourite CV template", "Your lowest price"], why: "A CV is only as good as the job it's aimed at. Show you noticed theirs." },
-  ig: { q: "What should your pitch mention first?", right: "Their business and what they post", wrong: ["Your follower count", "Your lowest price"], why: "They want posts that fit their business. Mention it by name in your first line." },
+  wf: { q: "What should your pitch mention first?", right: "Exactly what their design is for", wrong: ["Your lowest price", "How long you've designed"], why: "Clients skim pitches. Repeat their exact need in your first line and you're already ahead of most bidders.", need: "I'll design it so the key details jump out first." },
+  cv: { q: "What should your pitch mention first?", right: "The job they're applying for", wrong: ["Your favourite CV template", "Your lowest price"], why: "A CV is only as good as the job it's aimed at. Show you noticed theirs.", need: "I'll shape your CV around the exact job you want." },
+  ig: { q: "What should your pitch mention first?", right: "Their business and what they post", wrong: ["Your follower count", "Your lowest price"], why: "They want posts that fit their business. Mention it by name in your first line.", need: "I'll make posts that look like your brand and get noticed." },
 };
 function keyPhrase(title) {
   const t = title.replace(/\b(need(ed)?|looking for|want(ed)?|required?|urgent|a|an|the|for|my|our|to|design(er)?|create|make)\b/gi, " ").replace(/[^\w\s'-]/g, " ").replace(/\s+/g, " ").trim();
@@ -139,7 +144,7 @@ function practiceFor(job, svc) {
   }
   const f = FALLBACK[svc], kp = keyPhrase(job.title);
   const { options, right } = shuffle3(f.right, f.wrong, job.seed);
-  return { q: f.q, options, right, why: f.why, need: `I'll make your ${kp} look great.`, keys: kp.split(" ").filter((w) => w.length > 3).slice(0, 2) };
+  return { q: f.q, options, right, why: f.why, need: f.need, keys: kp.split(" ").filter((w) => w.length > 3).slice(0, 2) };
 }
 
 // ---------- optional: Claude writes summary + practice ----------
@@ -175,15 +180,25 @@ async function main() {
 
   const out = { updated: new Date().toISOString(), source: "freelancer.com", fx, counts: {}, services: {} };
   const seen = new Set();
+  const prev = existsSync("jobs.json") ? JSON.parse(readFileSync("jobs.json", "utf8")) : { services: {} };
+  const cache = new Map(Object.values(prev.services || {}).flat().filter((j) => j.ai).map((j) => [j.id, j]));
 
   for (const [svc, conf] of Object.entries(SERVICES)) {
     const jobs = new Map();
-    for (const query of conf.queries) {
+    let skillIds = [];
+    try {
+      const jd = await get("/jobs/", { job_names: conf.skills });
+      skillIds = (jd.result || []).map((j) => j.id).filter(Boolean);
+      console.log(`${svc}: skills`, (jd.result || []).map((j) => j.name + "#" + j.id).join(", "));
+    } catch (e) { console.warn(`${svc}: skill lookup failed`); }
+    const searches = [...(skillIds.length ? [{ jobs: skillIds }] : []), ...conf.queries.map((query) => ({ query }))];
+    for (const extra of searches) {
       const d = await get("/projects/active/", {
-        query, limit: 50, sort_field: "time_updated", compact: "true",
-        full_description: "true", job_details: "true", user_details: "true", user_country_details: "true",
+        ...extra, limit: 50, sort_field: "time_updated", compact: "true",
+        full_description: "true", job_details: "true", user_details: "true", user_country_details: "true", user_location_details: "true",
         project_types: ["fixed"],
       });
+      if (!globalThis.__dumped && d.result.projects?.[0]) { globalThis.__dumped = 1; const u0 = Object.values(d.result.users || {})[0]; console.log("owner sample keys:", u0 && Object.keys(u0).join(","), JSON.stringify(u0?.location || null).slice(0, 200)); }
       const users = d.result.users || {};
       for (const p of d.result.projects || []) {
         if (jobs.has(p.id) || seen.has(p.id)) continue;
@@ -192,7 +207,9 @@ async function main() {
         const ageH = (now - (p.time_submitted || 0)) / 3600;
         const rate = p.currency?.exchange_rate || 1;
         const min = Math.round((p.budget?.minimum || 0) * rate), max = Math.round((p.budget?.maximum || p.budget?.minimum || 0) * rate);
-        const why = ageH > MAX_AGE_H ? "old" : !conf.must.test(text) ? "off-topic" : conf.exclude.test(text) ? "excluded" : SCAM.test(text) ? "scam" :
+        const head = title + " " + brief.slice(0, 160);
+        const skillHit = (p.jobs || []).some((j) => skillIds.includes(j.id));
+        const why = ageH > MAX_AGE_H ? "old" : !(conf.must.test(title) || (skillHit && conf.must.test(head))) ? "off-topic" : !isEnglish(text) ? "not english" : conf.exclude.test(text) ? "excluded" : SCAM.test(text) ? "scam" :
           EXPERT.test(text) ? "expert" : max < MIN_USD ? "too cheap" : min > MAX_USD ? "too big" : p.status !== "active" ? "closed" : brief.length < 40 ? "thin" : null;
         if (why) continue;
         const owner = users[p.owner_id] || users[String(p.owner_id)];
@@ -200,7 +217,7 @@ async function main() {
         jobs.set(p.id, {
           id: String(p.id), title, brief: brief.slice(0, 700), min, max: Math.max(min, max), cur: "USD",
           bids, posted: new Date((p.time_submitted || now) * 1000).toISOString(),
-          country: owner?.location?.country?.name || "Worldwide",
+          country: owner?.location?.country?.name || owner?.location?.country?.code || "",
           url: `https://www.freelancer.com/projects/${p.seo_url || p.id}`,
           beginner: max <= 80 && bids < 40 && !/\b(experienced|professional only|portfolio required)\b/i.test(text),
           seed: Number(String(p.id).slice(-3)) || 0,
@@ -211,8 +228,10 @@ async function main() {
     const list = [...jobs.values()].sort((a, b) => b.posted.localeCompare(a.posted)).slice(0, PER_SERVICE);
     for (const j of list) {
       seen.add(Number(j.id));
-      const ai = await claudeEnrich(j, svc);
-      if (ai) {
+      const hit = cache.get(j.id);
+      const ai = hit ? null : await claudeEnrich(j, svc);
+      if (hit) { j.summary = hit.summary; j.practice = hit.practice; j.ai = true; }
+      else if (ai) { j.ai = true;
         j.summary = ai.summary;
         j.practice = { q: ai.q, options: ai.options, right: Math.max(0, Math.min(2, +ai.right || 0)), why: ai.why, need: ai.need, keys: (ai.keys || []).map((k) => String(k).toLowerCase()) };
       } else {
