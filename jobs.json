@@ -221,12 +221,12 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 0,
-   "fail": 25,
-   "lastError": "exception: Cannot read properties of undefined (reading 'match')"
+   "ok": 7,
+   "fail": 18,
+   "lastError": "no json: {\"model\":\"claude-haiku-5-5\",\"id\":\"msg_011Ch6yt8nLrVptGrKhMeBmW\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"\",\"signature\":\"CAQSzB4KEAgTGAI4AUIIdGhpbmtpbmcSDETSXHM651QVfunNkBoMM6Mv+XdcZ47UhMONIjAq824Eg09MvHjrnR29d2BpLEfzgiZzczxbH+V98FfoU/EfqJvLuJ+6+nvO9q7lcXQq6R3/kZu"
   }
  },
- "updated": "2026-11-16T17:07:51.339Z",
+ "updated": "2026-11-16T17:10:34.013Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -283,21 +283,22 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/poster-design/Logo-Poster-Social-Media-Suite",
     "beginner": false,
-    "summary": "I’m launching a new offer and need a cohesive visual toolkit to promote it.",
+    "ai": true,
+    "summary": "Client wants a matching logo, A2 poster and social graphics so all their channels share one visual style.",
     "practice": {
-     "q": "What will this client judge you on first?",
+     "q": "What does the client really need from this job?",
      "options": [
-      "Sticking to their brand colours",
-      "How cheap you are",
-      "How many years you've worked"
+      "Just a logo, and the rest can wait",
+      "One consistent look across every channel",
+      "Only Instagram graphics in layered files"
      ],
-     "right": 0,
-     "why": "They told you their colours. Anything that ignores them is out in 2 seconds.",
-     "need": "I'll stick to your brand colours.",
+     "right": 1,
+     "why": "The key word is cohesive: every logo, poster and post must share one palette, font set and spacing. That shared look is what the client is really buying.",
+     "need": "I'll build a logo, A2 poster and social set that all share one visual style.",
      "keys": [
-      "brand",
-      "colour",
-      "color"
+      "cohesive",
+      "logo",
+      "poster"
      ]
     }
    },
@@ -313,19 +314,22 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/content-writing/Polished-Corporate-Caf-Profile-PDF",
     "beginner": false,
-    "summary": "I’m putting together a sleek, email-ready PDF that introduces our café to corporate clients and partners.",
+    "ai": true,
+    "summary": "Design a polished, email-ready café PDF pitching your menu and corporate catering services to business clients.",
     "practice": {
-     "q": "What's this client's real goal?",
+     "q": "What does the client really need from this PDF?",
      "options": [
-      "Get a new logo",
-      "Win a design award",
-      "Get people to show up or buy"
+      "A long list of every menu item and price",
+      "A concise, polished PDF pitching menu and corporate services",
+      "A full website redesign for the café"
      ],
-     "right": 2,
-     "why": "The design has one job: bring people in. Lead with the date or the offer, everything else comes second.",
-     "need": "I'll make the event details impossible to miss.",
+     "right": 1,
+     "why": "Focus on the two pillars: menu quality and corporate catering. Keep copy short and persuasive, and let clean visuals do the first-glance work. Don't add extras the brief doesn't ask for.",
+     "need": "I'll design a sleek PDF that sells your menu and corporate catering at a glance.",
      "keys": [
-      "event"
+      "corporate",
+      "catering",
+      "menu"
      ]
     }
    },
@@ -341,20 +345,22 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Premium-Beauty-Salon-Print-Design",
     "beginner": false,
-    "summary": "Needs a cohesive collection of printed promotional and informational materials for our beauty salon in Santa Monica,…",
+    "ai": true,
+    "summary": "Client wants a matching set of printed beauty cards and a redesigned outdoor board for their Santa Monica salon.",
     "practice": {
-     "q": "What should your pitch mention first?",
+     "q": "What does the client REALLY want from this design suite?",
      "options": [
-      "Exactly what their design is for",
-      "Your lowest price",
-      "How long you've designed"
+      "Cheap, quick templates to fill print orders",
+      "One cohesive, premium look matching the salon",
+      "Digital ads and video content for social media"
      ],
-     "right": 0,
-     "why": "Clients skim pitches. Repeat their exact need in your first line and you're already ahead of most bidders.",
-     "need": "I'll design it so the key details jump out first.",
+     "right": 1,
+     "why": "Read the brief closely. They want a cohesive, premium editorial look that matches the salon interior, not generic templates. Consistency across every piece is the win.",
+     "need": "I'll design a cohesive, premium print set that matches your Santa Monica salon's interior.",
      "keys": [
+      "cohesive",
       "premium",
-      "beauty"
+      "interior"
      ]
     }
    },
@@ -428,19 +434,22 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-photoshop/Design-Luxury-Fashion-Course-Brochures",
     "beginner": true,
-    "summary": "Needs 4 premium course brochures for BIFD (Bhuvan Institute of Fashion Design).",
+    "ai": true,
+    "summary": "Design 4 luxury A4 brochures for BIFD: three Aari Work courses and one Fashion Design course, with matching branding.",
     "practice": {
-     "q": "What's the trap in this brief?",
+     "q": "What does the client really need most from these four brochures?",
      "options": [
-      "There's no theme",
-      "The client hasn't paid yet",
-      "It needs more than one size"
+      "One social media poster for the whole institute",
+      "Four matching, print-ready luxury brochures",
+      "A brand-new logo redesign from scratch"
      ],
-     "right": 2,
-     "why": "More than one size means more than one layout. Say you'll deliver every size, it shows you actually read the brief.",
-     "need": "I'll deliver every size you need, including A4.",
+     "right": 1,
+     "why": "Four separate brochures must look like one brand: same colours, fonts, grid, and print-ready A4 files. Consistent branding across all four is the core ask.",
+     "need": "I'll design four matching luxury A4 brochures for BIFD in deep green, ivory and gold.",
      "keys": [
-      "a4"
+      "brochures",
+      "bifd",
+      "branding"
      ]
     }
    },
@@ -574,20 +583,22 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/ATS-Ready-STEM-Resume-Revamp",
     "beginner": true,
-    "summary": "Needs a skilled resume writer to turn my existing CV into a clean, modern document that sails through Applicant…",
+    "ai": true,
+    "summary": "Client wants an ATS-safe, minimalist CV rewrite for data and STEM roles on Naukri and Indeed.",
     "practice": {
-     "q": "What does 'ATS-friendly' mean for your work?",
+     "q": "What should the revamped CV prioritize most for this client?",
      "options": [
-      "Lots of graphics",
-      "Simple layout, the right keywords",
-      "Colourful columns"
+      "Fancy graphics and colourful layouts",
+      "Keywords and plain layout ATS can parse",
+      "A longer list of every past duty"
      ],
      "right": 1,
-     "why": "Hiring software reads plain layouts with the job's keywords. Fancy design can get it rejected.",
-     "need": "I'll keep it ATS-friendly with the right keywords.",
+     "why": "ATS parsers struggle with graphics, tables, and columns. A clean structure, strong verbs, and role keywords help recruiters find this candidate quickly.",
+     "need": "I'll rewrite your CV with an ATS-safe layout and data-role keywords for Naukri and Indeed.",
      "keys": [
       "ats",
-      "keyword"
+      "keywords",
+      "naukri"
      ]
     }
    },
@@ -716,7 +727,7 @@
     "min": 33,
     "max": 275,
     "cur": "USD",
-    "bids": 126,
+    "bids": 127,
     "posted": "2026-11-16T13:37:40.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Experienced-Social-Media-Digital",
@@ -802,7 +813,7 @@
     "title": "Sell Household Items on FB Marketplace",
     "brief": "I need someone to help sell small home goods and décor on Facebook Marketplace in Kelowna, BC. The items are located at my home. Key tasks include: - Managing the full sale from photos to pickup. Ideal skills and experience: - Experience with Facebook Marketplace - Strong organizational skills - Good communication skills to interact with buyers",
     "min": 175,
-    "max": 524,
+    "max": 525,
     "cur": "USD",
     "bids": 14,
     "posted": "2026-11-13T21:48:00.000Z",
@@ -837,21 +848,22 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Social-Media-Post-Graphic-Creation",
     "beginner": false,
-    "summary": "I’m looking for a creative partner who can take full ownership of designing eye-catching social media content for my…",
+    "ai": true,
+    "summary": "Weekly on-brand posts for Instagram, Facebook and LinkedIn, with copy, graphics and editable source files.",
     "practice": {
-     "q": "What will this client judge you on first?",
+     "q": "What does the client really need from you each week?",
      "options": [
-      "Sticking to their brand colours",
-      "How cheap you are",
-      "How many years you've worked"
+      "One nicely designed post",
+      "3-5 original posts, copy and editable files",
+      "Only captions, with the client doing graphics"
      ],
-     "right": 0,
-     "why": "They told you their colours. Anything that ignores them is out in 2 seconds.",
-     "need": "I'll stick to your brand colours.",
+     "right": 1,
+     "why": "Look past the pretty graphic. The real deliverables are 3-5 posts a week, sized for three platforms, with captions and editable files. Plan the whole package.",
+     "need": "I'll design your weekly on-brand posts, captions and editable files for all three platforms.",
      "keys": [
-      "brand",
-      "colour",
-      "color"
+      "captions",
+      "editable",
+      "on-brand"
      ]
     }
    },
@@ -867,20 +879,22 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Minimalist-Canva-List-Design",
     "beginner": true,
-    "summary": "Needs a clean, minimalist two-page to-do list created in Canva, sized for US Letter.",
+    "ai": true,
+    "summary": "Editable US Letter Canva to-do list: weekdays on page one, weekend and three sections on page two.",
     "practice": {
-     "q": "Why is this job worth more than it pays?",
+     "q": "What must page two include that page one doesn't?",
      "options": [
-      "It's very urgent",
-      "It's ongoing, so it repeats",
-      "The budget is huge"
+      "Weekend columns plus three sections below",
+      "Full Monday to Sunday repeated on each page",
+      "Weekdays with boxes and separator lines"
      ],
-     "right": 1,
-     "why": "A repeat client beats a one-off. Build a template once and each new round takes minutes.",
-     "need": "I'll build you one template so every update is quick.",
+     "right": 0,
+     "why": "Page two drops the weekdays and shows only Saturday and Sunday under each column, then splits into three sections. Keep labels plain and leave space for handwriting.",
+     "need": "I'll design your editable US Letter Canva to-do list, with weekday and weekend pages.",
      "keys": [
-      "every day",
-      "template"
+      "canva",
+      "editable",
+      "letter"
      ]
     }
    },
