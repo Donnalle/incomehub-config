@@ -154,6 +154,7 @@ function practiceFor(job, svc) {
 // ---------- optional: Claude writes summary + practice ----------
 async function claudeEnrich(job, svc) {
   const key = process.env.ANTHROPIC_API_KEY;
+  DIAG.claude = DIAG.claude || { keyPresent: !!key, ok: 0, fail: 0, lastError: null };
   if (!key) return null;
   const prompt = `You help beginners in Africa practise freelancing. Service: ${svc === "wf" ? "WhatsApp/print flyers" : svc === "cv" ? "CV makeovers" : "Instagram posts"}.
 Job title: ${job.title}
@@ -165,12 +166,13 @@ Return ONLY JSON: {"fit": true/false (could a beginner who is learning this serv
       headers: { "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json" },
       body: JSON.stringify({ model: process.env.CLAUDE_MODEL || "claude-haiku-5-5", max_tokens: 500, messages: [{ role: "user", content: prompt }] }),
     });
-    if (!r.ok) { console.warn("  claude", r.status); return null; }
+    if (!r.ok) { DIAG.claude.fail++; DIAG.claude.lastError = r.status + " " + (await r.text()).slice(0, 300); return null; }
     const d = await r.json();
     const j = JSON.parse(d.content[0].text.match(/\{[\s\S]*\}/)[0]);
-    if (!j.summary || !Array.isArray(j.options) || j.options.length !== 3) return null;
+    if (!j.summary || !Array.isArray(j.options) || j.options.length !== 3) { DIAG.claude.fail++; DIAG.claude.lastError = "bad json: " + d.content[0].text.slice(0, 200); return null; }
+    DIAG.claude.ok++;
     return j;
-  } catch (e) { console.warn("  claude error", e.message); return null; }
+  } catch (e) { DIAG.claude.fail++; DIAG.claude.lastError = "exception: " + e.message; return null; }
 }
 
 // ---------- main ----------
