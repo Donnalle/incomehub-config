@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 38
+    "got": 36
    },
    {
     "svc": "wf",
@@ -54,7 +54,7 @@
    {
     "svc": "cv",
     "skills": 3,
-    "got": 20
+    "got": 21
    },
    {
     "svc": "cv",
@@ -114,7 +114,7 @@
    {
     "svc": "ig",
     "skills": 4,
-    "got": 50
+    "got": 46
    },
    {
     "svc": "ig",
@@ -172,14 +172,14 @@
    ]
   },
   "reasons": {
-   "off-topic": 827,
-   "kept": 26,
-   "excluded": 199,
-   "scam": 3,
-   "too big": 24,
-   "not english": 8,
-   "old": 3,
-   "expert": 4
+   "kept": 29,
+   "excluded": 178,
+   "not english": 9,
+   "off-topic": 816,
+   "scam": 11,
+   "too big": 25,
+   "expert": 10,
+   "old": 2
   },
   "ownerKeys": null,
   "ownerLocation": null,
@@ -221,13 +221,13 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 26,
+   "ok": 16,
    "fail": 0,
    "lastError": null,
-   "dropped": 11
+   "dropped": 10
   }
  },
- "updated": "2026-11-16T21:59:28.847Z",
+ "updated": "2026-11-17T07:53:02.397Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -237,12 +237,111 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 5,
-  "cv": 5,
-  "ig": 5
+  "wf": 8,
+  "cv": 4,
+  "ig": 7
  },
  "services": {
   "wf": [
+   {
+    "id": "40822208",
+    "title": "Amazon Beauty Banner Design Needed",
+    "brief": "I need a clean, conversion-focused main product image banner for a new beauty / personal-care item that will be listed on Amazon. The banner must follow Amazon’s image guidelines—pure white background (#FFFFFF), at least 2000 × 2000 px, 72 dpi or higher, centered product, no extra graphics or text, and sharp edges that still look natural when zoomed. Please show past work that proves you have already designed main images for Amazon listings; seeing before-and-after examples from live listings will help me choose quickly. Deliverables • 1 finished main image banner in JPG (ready to upload) • The editable source file (PSD or AI) with organized layers I will supply high-resolution product photo",
+    "min": 6,
+    "max": 16,
+    "cur": "USD",
+    "bids": 28,
+    "posted": "2026-11-17T07:44:54.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/adobe-photoshop/Amazon-Beauty-Banner-Design-Needed",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants a white-background, Amazon-compliant main product image (2000x2000 px, centered, no text) plus an editable layered source file.",
+    "lesson": "wf4",
+    "skill": "Briefing the client: reading specs as hard rules",
+    "practice": {
+     "q": "Which of these is the client's real requirement for this image?",
+     "options": [
+      "A creative lifestyle banner with text and colour",
+      "A compliant white-background product photo ready to upload",
+      "A flyer design for printing and WhatsApp sharing"
+     ],
+     "right": 1,
+     "why": "Amazon main images must sit on pure white with the product centered and no extra text or graphics. Read the specs as hard rules, not suggestions. Flashy designs get rejected.",
+     "need": "I'll deliver a pure white, 2000x2000 centered main image with a layered editable source file.",
+     "keys": [
+      "white background",
+      "2000",
+      "editable source"
+     ]
+    }
+   },
+   {
+    "id": "40821901",
+    "title": "Countryside Farmland Brochure & Poster",
+    "brief": "I’m preparing to launch a new farmland venture and I want the visual material to instantly transport people to wide-open green spaces and the calm of the countryside. I need two key pieces: a brochure and a poster. Both should carry the same natural, rural aesthetic—think warm earth tones, textured backgrounds that feel like paper or wood, and imagery that makes the reader breathe a little deeper. The brochure will be the main storyteller. It has to spotlight our lush greenery, tree-lined walkways, and the feeling of peaceful living that families and organic-farming enthusiasts crave. Make room as well for a concise map and copy that calls out nearby facilities; accessibility is a major sell",
+    "min": 16,
+    "max": 134,
+    "cur": "USD",
+    "bids": 64,
+    "posted": "2026-11-17T03:58:22.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/poster-design/Countryside-Farmland-Brochure-Poster",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants a rural-themed brochure and poster for a farmland venture, with greenery, peaceful living, and nearby facilities/map.",
+    "lesson": "wf4",
+    "skill": "Briefing the client: turning a mood into a clear design goal",
+    "practice": {
+     "q": "What does the client most need the brochure to achieve?",
+     "options": [
+      "Show the greenery and calm of rural living",
+      "List every product price in detail",
+      "Recruit farm workers for the venture"
+     ],
+     "right": 0,
+     "why": "The brief is clear: the brochure must transport readers to green, peaceful countryside and sell accessibility. Lead with the feeling of the land, then support it with the map and facilities.",
+     "need": "I'll create a calm, earthy brochure and poster that sell the countryside feeling and nearby access.",
+     "keys": [
+      "greenery",
+      "peaceful",
+      "accessibility"
+     ]
+    }
+   },
+   {
+    "id": "40821538",
+    "title": "Resize A frame Flyer for Large Poster",
+    "brief": "I have a finished 24\" x 36\" flyer built in Adobe Photoshop that now needs to become a vertical 22\" x 28\" large-format poster. I’ll supply you with the printer’s own PDF template, and the final artwork must match that template exactly—bleeds, safe areas, and any marks included. All text, logos, and imagery from the current design should remain; it’s purely a sizing and layout-fit exercise so everything sits neatly within the new dimensions. Deliverables • Print-ready PDF set to 22\" x 28\", aligned to the template’s bleed and safe zones • The fully editable Photoshop file reflecting the final layout Please ensure colours, resolution, and embedded fonts meet standard press requirements so the jo",
+    "min": 10,
+    "max": 30,
+    "cur": "USD",
+    "bids": 175,
+    "posted": "2026-11-16T22:10:12.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/print-design/Resize-frame-Flyer-for-Large",
+    "beginner": true,
+    "ai": true,
+    "summary": "Resize a 24x36 flyer to a 22x28 vertical poster, matching the printer's template bleed and safe zones.",
+    "lesson": "wf3",
+    "skill": "Fitting artwork to print specs without changing the design",
+    "practice": {
+     "q": "What does the client REALLY need from this job, beyond just changing the size?",
+     "options": [
+      "Just stretch the artwork to the new size",
+      "Refit the layout to the printer's template, keeping all content",
+      "Redesign the flyer with new text and images"
+     ],
+     "right": 1,
+     "why": "Good work here means fitting everything into the new size while respecting bleed and safe zones, and keeping all text, logos and imagery. Stretching distorts the design, and redesigning goes beyond the brief.",
+     "need": "I'll refit your 22x28 poster to the printer's template with bleeds and safe zones intact, keeping all your content.",
+     "keys": [
+      "bleed",
+      "safe zones",
+      "template"
+     ]
+    }
+   },
    {
     "id": "40821480",
     "title": "Two-Page Canva Product Catalogue",
@@ -250,15 +349,12 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 11,
+    "bids": 34,
     "posted": "2026-11-16T21:09:56.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Two-Page-Canva-Product-Catalogue",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants a clean two-page, product-focused Canva catalogue, delivered as an editable link plus print and web PDFs.",
-    "lesson": "wf4",
-    "skill": "Briefing the client before you design",
     "practice": {
      "q": "The client is sending a ChatGPT reference with all product details. What is the most important thing to do before designing?",
      "options": [
@@ -274,6 +370,42 @@
       "reference",
       "canva"
      ]
+    },
+    "lesson": "wf4",
+    "skill": "Briefing the client before you design",
+    "ai": true
+   },
+   {
+    "id": "40818480",
+    "title": "Premium Beauty Salon Print Design Suite",
+    "brief": "We are looking for a graphic designer to create a cohesive collection of printed promotional and informational materials for our beauty salon in Santa Monica, California. I’m attaching photos of our salon interior. All designs should complement the interior, match its colors and overall aesthetic, and look beautiful together. We want a modern, stylish, premium editorial look — not generic beauty salon templates. ### Materials Needed **1. Beauty Service Cards** - 5–6 promotional cards featuring nails, lashes, brows,, etc. - Beautiful photography, minimal text, consistent design. - For display in our waiting area and at reception. **2. Outdoor Advertising Board** - Redesign our existing rectan",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 145,
+    "posted": "2026-11-14T22:46:40.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/print-design/Premium-Beauty-Salon-Print-Design",
+    "beginner": false,
+    "ai": true,
+    "summary": "Design a cohesive print suite for a Santa Monica beauty salon matching its interior, incl. service cards and an outdoor board.",
+    "lesson": "wf4",
+    "skill": "Matching the client's brand and interior aesthetic",
+    "practice": {
+     "q": "What does the client most need from this job beyond just making the materials look pretty?",
+     "options": [
+      "Designs that match the salon's interior colors and premium look",
+      "Cheap generic beauty templates to save time",
+      "Long text descriptions on every card for full info"
+     ],
+     "right": 0,
+     "why": "The brief stresses cohesion with the interior, a modern premium editorial feel, and minimal text. Generic templates and heavy text go against what they asked for.",
+     "need": "I'll build a cohesive, premium print set that matches your salon's interior colors and editorial style.",
+     "keys": [
+      "interior",
+      "premium",
+      "cohesive"
+     ]
     }
    },
    {
@@ -281,17 +413,14 @@
     "title": "Mobile Accessories Digital Catalogue",
     "brief": "I'm seeking a designer to create a professional digital catalogue for my mobile accessories. This catalogue will be used primarily for retailers and distributors. The catalogue should include: - Product photos - Product name - Model compatibility The final deliverable should be an editable design file, allowing for future updates as needed. Ideal skills and experience: - Proficiency in graphic design software (e.g., Adobe InDesign, Canva) - Experience in creating professional product catalogues - Strong attention to detail and design aesthetics - Ability to provide an editable format for future modifications",
     "min": 16,
-    "max": 133,
+    "max": 134,
     "cur": "USD",
     "bids": 60,
     "posted": "2026-11-14T04:56:26.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/catalog-design/Mobile-Accessories-Digital-Catalogue",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a professional editable digital catalogue of mobile accessories with photos, product names and model compatibility, for retailers.",
-    "lesson": "wf4",
-    "skill": "Briefing the client: finding what the buyer really needs",
     "practice": {
      "q": "What is the most important thing the client needs from this catalogue, beyond looking nice?",
      "options": [
@@ -307,7 +436,10 @@
       "model compatibility",
       "retailers"
      ]
-    }
+    },
+    "lesson": "wf4",
+    "skill": "Briefing the client: finding what the buyer really needs",
+    "ai": true
    },
    {
     "id": "40816691",
@@ -321,10 +453,7 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Promotional-Poster-Design-40816691",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants a bold, modern promo poster for their product/service, matching existing brand style, print-ready as 300dpi CMYK PDF.",
-    "lesson": "wf5",
-    "skill": "Making the offer impossible to miss",
     "practice": {
      "q": "What does the client really need from this poster?",
      "options": [
@@ -340,7 +469,10 @@
       "benefits",
       "call-to-action"
      ]
-    }
+    },
+    "lesson": "wf5",
+    "skill": "Making the offer impossible to miss",
+    "ai": true
    },
    {
     "id": "40812827",
@@ -354,10 +486,7 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-photoshop/Design-Luxury-Fashion-Course-Brochures",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants 4 premium A4 print-ready course brochures for BIFD: three Aari Work levels and one Fashion Design, in deep green, ivory and champagne gold.",
-    "lesson": "wf4",
-    "skill": "Briefing the client and locking brand consistency across a set",
     "practice": {
      "q": "Which deliverable most needs careful brand consistency and print readiness before anything else?",
      "options": [
@@ -373,40 +502,10 @@
       "brand",
       "print"
      ]
-    }
-   },
-   {
-    "id": "40810885",
-    "title": "Instagram Branding Posts & Ads",
-    "brief": "I own Shivam Medical Food Supplements Store together with the PodiaFitnessLife gym in Panipat-Safidon-Jind, Haryana. To strengthen the brand and earn greater trust online, I need a fresh set of Instagram-ready visuals—both regular feed content and paid ad creatives—that highlight our premium supplements, modern gym facility and authentic customer results. I already handle day-to-day sales and training, so what I need from you is design expertise: eye-catching layouts, consistent colour palettes, clear typography and imagery that speaks to fitness lovers in North India. Content should feel informative rather than pushy, focusing on product quality, workout tips, client testimonials and behind",
-    "min": 133,
-    "max": 400,
-    "cur": "USD",
-    "bids": 85,
-    "posted": "2026-11-10T03:48:25.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-marketing/Instagram-Branding-Posts-Ads",
-    "beginner": false,
-    "ai": true,
-    "summary": "Design Instagram feed posts and paid ad creatives for a supplements store and gym in Panipat, Haryana, to build trust.",
+    },
     "lesson": "wf4",
-    "skill": "Briefing the client: matching visuals to the real goal",
-    "practice": {
-     "q": "What does the client most need from these visuals, based on the brief?",
-     "options": [
-      "Flashy, high-pressure sales graphics",
-      "Informative, trustworthy visuals showing quality and results",
-      "Video reels with filmed workout footage"
-     ],
-     "right": 1,
-     "why": "The client wants informative, trust-building content, not pushy ads. Focus on product quality, tips, and real testimonials. Video and filming are outside this job, so leave those out.",
-     "need": "I'll design consistent, trust-building Instagram posts and ad creatives that showcase your supplements and gym.",
-     "keys": [
-      "trust",
-      "premium supplements",
-      "testimonials"
-     ]
-    }
+    "skill": "Briefing the client and locking brand consistency across a set",
+    "ai": true
    }
   ],
   "cv": [
@@ -417,15 +516,12 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 48,
+    "bids": 50,
     "posted": "2026-11-14T08:56:28.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/content-writing/Modern-Office-Letter",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants polished, ATS-friendly CV, résumé and cover letter for office/admin roles, in editable and PDF form.",
-    "lesson": "cv3",
-    "skill": "Matching documents to the target role's requirements",
     "practice": {
      "q": "What does the client most need from this job?",
      "options": [
@@ -441,7 +537,10 @@
       "office",
       "cover letter"
      ]
-    }
+    },
+    "lesson": "cv3",
+    "skill": "Matching documents to the target role's requirements",
+    "ai": true
    },
    {
     "id": "40815241",
@@ -450,15 +549,12 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 43,
+    "bids": 44,
     "posted": "2026-11-12T15:34:05.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/ATS-Ready-STEM-Resume-Revamp",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants an ATS-friendly, minimalist resume rewrite for data/STEM roles on Naukri and Indeed.",
-    "lesson": "cv3",
-    "skill": "Structuring a CV that machines and recruiters can both read",
     "practice": {
      "q": "Which resume design choice best suits an ATS-friendly CV for data roles?",
      "options": [
@@ -474,7 +570,10 @@
       "data",
       "naukri"
      ]
-    }
+    },
+    "lesson": "cv3",
+    "skill": "Structuring a CV that machines and recruiters can both read",
+    "ai": true
    },
    {
     "id": "40814468",
@@ -488,10 +587,7 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/content-writing/ATS-Friendly-Resume-Rewrite",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants an ATS-friendly resume rewrite to apply for an Armed Federal Security Guard job.",
-    "lesson": "cv3",
-    "skill": "Structuring a CV that passes ATS screening",
     "practice": {
      "q": "What does the client actually need from this rewrite?",
      "options": [
@@ -507,7 +603,10 @@
       "security",
       "resume"
      ]
-    }
+    },
+    "lesson": "cv3",
+    "skill": "Structuring a CV that passes ATS screening",
+    "ai": true
    },
    {
     "id": "40813546",
@@ -516,15 +615,12 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 63,
+    "bids": 65,
     "posted": "2026-11-11T15:13:53.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/sales/Sales-Focused-Creation",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants a new sales and customer service CV built from their work history, with metrics and ATS-friendly keywords.",
-    "lesson": "cv5",
-    "skill": "Turning past duties into measurable achievements",
     "practice": {
      "q": "What does the client most need from this CV to get shortlisted for sales and customer service roles?",
      "options": [
@@ -540,43 +636,79 @@
       "customer service",
       "ats"
      ]
-    }
-   },
-   {
-    "id": "40810857",
-    "title": "Innovative Venture Builder CV Rewrite",
-    "brief": "I’m preparing to go into a startup-focused innovation role, specifically in venture building and new business and product development, and I need my existing CV transformed so it speaks the language that founders, VCs, and corporate venture arms expect. You’ll take my current résumé, dig into the achievements that prove I can spot opportunities, validate markets, and launch products, then recast them with clear impact metrics and keywords recruiters’ ATS systems flag—terms like “lean experimentation,” “MVP,” “go-to-market,” and “fund-raising.” The tone has to balance entrepreneurial energy with strategic rigour, showing I can move from vision to viable business while steering cross-functiona",
-    "min": 20,
-    "max": 168,
-    "cur": "USD",
-    "bids": 76,
-    "posted": "2026-11-10T03:23:17.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/business-development/Innovative-Venture-Builder-Rewrite",
-    "beginner": false,
-    "ai": true,
-    "summary": "Client wants their CV rewritten for venture building and innovation roles, using founder/VC keywords and impact metrics.",
+    },
     "lesson": "cv5",
-    "skill": "Turning experience into proof of impact",
-    "practice": {
-     "q": "What does the client most need from this rewrite?",
-     "options": [
-      "Shorter CV with fewer achievements",
-      "Achievements reframed with impact metrics and ATS keywords",
-      "A cover letter written from scratch"
-     ],
-     "right": 1,
-     "why": "The brief is about turning existing achievements into opportunity-spotting, validation, and launch evidence, with metrics and keywords recruiters scan for. Shortening or replacing the letter misses the point.",
-     "need": "I'll turn your launches and market wins into metric-led bullets that speak to founders and VCs.",
-     "keys": [
-      "achievements",
-      "impact",
-      "keywords"
-     ]
-    }
+    "skill": "Turning past duties into measurable achievements",
+    "ai": true
    }
   ],
   "ig": [
+   {
+    "id": "40822122",
+    "title": "Two Engaging Villa Posts",
+    "brief": "I run Pearl Villa, a spacious 4-BHK getaway in Lonavala, and I need two eye-catching social media creatives that push viewers to contact me directly for bookings. Here’s what I’m after: each post should capture the villa’s ambience, location perks, and premium amenities while ending with a clear call-to-action that nudges prospects into my inbox or WhatsApp. Feel free to blend polished visuals, concise copy, and any proven persuasion techniques you use for hospitality brands; just keep the tone elegant yet inviting. You’ll deliver: • Two finished, ready-to-publish posts (static or short-form video—pick the format you believe will convert best) with layered source files. • Accompanying captio",
+    "min": 6,
+    "max": 16,
+    "cur": "USD",
+    "bids": 4,
+    "posted": "2026-11-17T06:55:59.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/graphic-design/Two-Engaging-Villa-Posts",
+    "beginner": true,
+    "ai": true,
+    "summary": "Two Instagram posts for a Lonavala villa, showing its ambience and amenities, each ending with a CTA to contact via DM or WhatsApp.",
+    "lesson": "ig5",
+    "skill": "Making the offer impossible to miss",
+    "practice": {
+     "q": "Which part of the brief is the real goal of these posts?",
+     "options": [
+      "Win awards for the best villa photos",
+      "Get prospects to contact the owner for bookings",
+      "Grow the page to a million followers"
+     ],
+     "right": 1,
+     "why": "The posts exist to generate direct booking enquiries, not to look pretty. Every design and caption choice should move a viewer toward messaging the owner with a clear next step.",
+     "need": "I'll make two Pearl Villa posts that drive direct WhatsApp and DM booking enquiries.",
+     "keys": [
+      "bookings",
+      "whatsapp",
+      "call-to-action"
+     ]
+    }
+   },
+   {
+    "id": "40822039",
+    "title": "Eye-atching Social Media Graphics vedio edit",
+    "brief": "I’m looking for a creative graphic designer to craft a fresh set of social-media-ready visuals that will boost engagement and bring my brand’s voice to life. The primary focus is on social media graphics—I’ll supply the copy and brand guidelines, and you’ll translate them into scroll-stopping images. Scope of work: • Create a cohesive style guide for this batch of posts so everything looks unified. • Design a series of eye-catching graphics sized correctly for the major platforms—Instagram, Facebook, and Twitter are my current priorities, though I’m open to repurposing for others. • Deliver layered source files (PSD or AI) plus optimized PNG/JPG exports. What I value: • Strong sense of color",
+    "min": 6,
+    "max": 16,
+    "cur": "USD",
+    "bids": 34,
+    "posted": "2026-11-17T05:57:07.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-marketing/Eye-atching-Social-Media-Graphics",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants a cohesive set of social media graphics (Instagram, Facebook, Twitter) with a style guide and layered source files.",
+    "lesson": "ig2",
+    "skill": "Designing for engagement, not just aesthetics",
+    "practice": {
+     "q": "Beyond looking pretty, what does the client most need these graphics to achieve?",
+     "options": [
+      "Just look nice so the feed feels full",
+      "Stop scrolling and drive engagement with their brand voice",
+      "Copy the style of competitor accounts exactly"
+     ],
+     "right": 1,
+     "why": "The brief is clear: scroll-stopping visuals that boost engagement and bring the brand voice to life. Beauty serves that goal; it isn't the goal itself. Always ask what the post must make people do.",
+     "need": "I'll turn your copy and brand guide into a scroll-stopping, on-brand set that drives engagement.",
+     "keys": [
+      "engagement",
+      "brand",
+      "scroll-stopping"
+     ]
+    }
+   },
    {
     "id": "40820004",
     "title": "Social Media Ad Design Specialist",
@@ -584,15 +716,12 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 32,
+    "bids": 38,
     "posted": "2026-11-16T03:32:11.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-creative-suite/Social-Media-Design-Specialist",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants eye-catching Instagram and Facebook ads and posts that promote their sports and fitness brand, matched to brand guidelines.",
-    "lesson": "ig5",
-    "skill": "Designing posts that promote the product, not just look good",
     "practice": {
      "q": "What is the main goal of these designs, according to the brief?",
      "options": [
@@ -608,24 +737,24 @@
       "product",
       "brand"
      ]
-    }
+    },
+    "lesson": "ig5",
+    "skill": "Designing posts that promote the product, not just look good",
+    "ai": true
    },
    {
     "id": "40817060",
     "title": "Social Media Post and Graphic Creation",
     "brief": "I’m looking for a creative partner who can take full ownership of designing eye-catching social media content for my brand. The core of the job is simple: plan and produce original posts—both the copy and the accompanying graphics—that feel on-brand and encourage engagement. Here’s what I need from you each week: • 3–5 static or carousel images sized for Instagram, Facebook, and LinkedIn • Short, punchy captions (with relevant hashtags) that align with the visuals • Editable source files (Canva, Photoshop, or Illustrator) along with export-ready PNG/JPG versions I’ll supply brand guidelines, recent campaign examples, and any photography assets I already have. From there, you’ll brainstorm, d",
-    "min": 133,
-    "max": 400,
+    "min": 134,
+    "max": 401,
     "cur": "USD",
-    "bids": 65,
+    "bids": 66,
     "posted": "2026-11-13T19:12:07.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Social-Media-Post-Graphic-Creation",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants weekly on-brand Instagram, Facebook and LinkedIn posts: 3-5 images, punchy captions with hashtags, and editable source files.",
-    "lesson": "ig5",
-    "skill": "Anatomy of a post that sells: copy and visuals working together",
     "practice": {
      "q": "What does the client actually need from this role, beyond making posts look pretty?",
      "options": [
@@ -641,7 +770,10 @@
       "engagement",
       "editable"
      ]
-    }
+    },
+    "lesson": "ig5",
+    "skill": "Anatomy of a post that sells: copy and visuals working together",
+    "ai": true
    },
    {
     "id": "40814085",
@@ -650,15 +782,12 @@
     "min": 7,
     "max": 20,
     "cur": "USD",
-    "bids": 42,
+    "bids": 43,
     "posted": "2026-11-11T23:15:27.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Minimalist-Canva-List-Design",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants a 2-page editable US Letter Canva to-do list: Personal/Work columns, weekdays on page 1, weekend on page 2, plus three sections below.",
-    "lesson": "ig5",
-    "skill": "Matching the design to the user's actual use",
     "practice": {
      "q": "Why does the client want the weekday and weekend days split across two pages, with blank space left under each day?",
      "options": [
@@ -674,7 +803,10 @@
       "editable",
       "minimalist"
      ]
-    }
+    },
+    "lesson": "ig5",
+    "skill": "Matching the design to the user's actual use",
+    "ai": true
    },
    {
     "id": "40813629",
@@ -683,15 +815,12 @@
     "min": 33,
     "max": 275,
     "cur": "USD",
-    "bids": 239,
+    "bids": 240,
     "posted": "2026-11-11T16:10:21.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Canva-Social-Media-Graphics-40813629",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants on-brand Canva graphics for Instagram, Facebook, and LinkedIn, each promoting products or services, all editable.",
-    "lesson": "ig5",
-    "skill": "Making the offer impossible to miss",
     "practice": {
      "q": "What does the client REALLY need from each graphic?",
      "options": [
@@ -707,7 +836,10 @@
       "on-brand",
       "editable"
      ]
-    }
+    },
+    "lesson": "ig5",
+    "skill": "Making the offer impossible to miss",
+    "ai": true
    },
    {
     "id": "40812254",
@@ -721,10 +853,7 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Social-Ads-Designer-for-Client",
     "beginner": false,
-    "ai": true,
     "summary": "Design 3-10 Facebook/Instagram static ads (1:1, 4:5, 9:16) per client order from their brief and brand kit, for US small businesses.",
-    "lesson": "ig5",
-    "skill": "Making the offer impossible to miss",
     "practice": {
      "q": "A client orders a 5-ad pack. Which should you do first to make each ad sell?",
      "options": [
@@ -740,7 +869,10 @@
       "cta",
       "brand kit"
      ]
-    }
+    },
+    "lesson": "ig5",
+    "skill": "Making the offer impossible to miss",
+    "ai": true
    }
   ]
  }
