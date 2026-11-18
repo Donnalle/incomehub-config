@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 37
+    "got": 39
    },
    {
     "svc": "wf",
@@ -54,7 +54,7 @@
    {
     "svc": "cv",
     "skills": 3,
-    "got": 20
+    "got": 19
    },
    {
     "svc": "cv",
@@ -84,7 +84,7 @@
    {
     "svc": "cv",
     "q": "resume",
-    "got": 23
+    "got": 20
    },
    {
     "svc": "cv",
@@ -114,7 +114,7 @@
    {
     "svc": "ig",
     "skills": 4,
-    "got": 45
+    "got": 46
    },
    {
     "svc": "ig",
@@ -172,14 +172,13 @@
    ]
   },
   "reasons": {
-   "excluded": 195,
-   "off-topic": 831,
-   "too big": 22,
-   "kept": 25,
+   "off-topic": 852,
+   "excluded": 169,
+   "kept": 27,
+   "too big": 15,
    "not english": 7,
-   "scam": 6,
-   "expert": 9,
-   "old": 1
+   "scam": 4,
+   "expert": 4
   },
   "ownerKeys": null,
   "ownerLocation": null,
@@ -224,10 +223,10 @@
    "ok": 11,
    "fail": 0,
    "lastError": null,
-   "dropped": 7
+   "dropped": 6
   }
  },
- "updated": "2026-11-17T20:53:59.251Z",
+ "updated": "2026-11-18T07:25:21.983Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -237,12 +236,78 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 6,
-  "cv": 4,
-  "ig": 8
+  "wf": 7,
+  "cv": 5,
+  "ig": 9
  },
  "services": {
   "wf": [
+   {
+    "id": "40823732",
+    "title": "Elegant Digital Wedding Invitation",
+    "brief": "I’m preparing a timeless, elegant-and-classic wedding invitation that will be shared entirely online, so the final piece must be delivered as a polished digital file ready for email, messaging apps, and social media posts. The design should echo traditional stationery—refined typography, balanced white space, and subtle ornamental flourishes—while still feeling crisp on modern screens. Please weave in all essential information: our names, the date, time, venue, RSVP instructions, and a brief dress-code note. Clarity and readability are as important as visual charm. Deliverable • High-resolution digital invitation (preferred formats: PDF plus a web-optimised PNG or JPEG). I’ll provide the exa",
+    "min": 6,
+    "max": 16,
+    "cur": "USD",
+    "bids": 48,
+    "posted": "2026-11-18T05:17:55.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/digital-design/Elegant-Digital-Wedding-Invitation",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants an elegant, classic digital wedding invitation as PDF and web PNG/JPEG with names, date, venue, RSVP and dress code.",
+    "lesson": "wf4",
+    "skill": "Briefing the client and matching the format to the medium",
+    "practice": {
+     "q": "Since this invitation is shared only online, what matters most in the final file?",
+     "options": [
+      "Crisp on screens, readable, with all key details clear",
+      "Printed on heavy paper with gold foil",
+      "A video invitation with background music"
+     ],
+     "right": 0,
+     "why": "Good call on the brief: it is digital-only, so the file must look sharp on phones and stay readable. Elegance comes from white space and clear type, not from extra effects.",
+     "need": "I'll deliver a crisp, elegant PDF and web-ready PNG with every detail easy to read on screen.",
+     "keys": [
+      "elegant",
+      "readable",
+      "screens"
+     ]
+    }
+   },
+   {
+    "id": "40823511",
+    "title": "Canva Package Info PDF Design",
+    "brief": "I need an information PDF created in Canva that lays out my program packages in a clean, warm style that matches my existing branding. The document’s primary goal is to present each package’s price and key details so prospects can quickly understand the options and feel confident choosing the right one. It is puppy related so adding in realistic puppy images is a must Scope of work • Translate the copy and basic structure I will supply into a visually appealing, brand-consistent PDF. • Highlight prices and inclusions clearly while keeping the overall look inviting rather than overly corporate. • Use my brand colours, fonts, and any imagery I provide; suggest subtle design touches that enhanc",
+    "min": 20,
+    "max": 168,
+    "cur": "USD",
+    "bids": 159,
+    "posted": "2026-11-18T02:00:53.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/canva/Canva-Package-Info-PDF-Design",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants a brand-consistent Canva info PDF showing puppy program packages, prices and inclusions, with realistic puppy images.",
+    "lesson": "wf4",
+    "skill": "Designing a PDF around the reader's decision",
+    "practice": {
+     "q": "What is the PDF's main job, and what should a reader be able to do after reading it?",
+     "options": [
+      "Look pretty so the brand seems premium",
+      "Show prices and inclusions so prospects can choose confidently",
+      "Collect email addresses for a newsletter"
+     ],
+     "right": 1,
+     "why": "The brief says the goal is clear prices and key details so prospects feel confident choosing. Design serves that goal: prices and inclusions must be easy to scan, and the warm style should support trust rather than decorate the page.",
+     "need": "I'll lay out your puppy packages in a warm Canva PDF with prices and inclusions easy to scan.",
+     "keys": [
+      "prices",
+      "inclusions",
+      "puppy"
+     ]
+    }
+   },
    {
     "id": "40821901",
     "title": "Countryside Farmland Brochure & Poster",
@@ -250,7 +315,7 @@
     "min": 16,
     "max": 134,
     "cur": "USD",
-    "bids": 89,
+    "bids": 91,
     "posted": "2026-11-17T03:58:22.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/poster-design/Countryside-Farmland-Brochure-Poster",
@@ -283,7 +348,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 205,
+    "bids": 206,
     "posted": "2026-11-16T22:10:12.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Resize-frame-Flyer-for-Large",
@@ -382,7 +447,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 92,
+    "bids": 93,
     "posted": "2026-11-14T03:46:20.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Promotional-Poster-Design-40816691",
@@ -407,42 +472,42 @@
     "lesson": "wf5",
     "skill": "Making the offer impossible to miss",
     "ai": true
-   },
-   {
-    "id": "40812827",
-    "title": "Design Luxury Fashion Course Brochures",
-    "brief": "Hi, I am looking for a professional graphic designer to design 4 premium course brochures for BIFD (Bhuvan Institute of Fashion Design). Requirements: 1. 3 Aari Work Course Brochures (Basic, Advanced & Professional). 2. 1 Fashion Design Course Brochure. Design Expectations: - Premium, luxury and professional editorial-style design. - Elegant colour combinations with deep green, ivory/cream and champagne gold. - Professional typography with proper font pairing. - Clean layouts with sufficient whitespace. - High-quality fashion and embroidery photographs. - Consistent BIFD branding across all brochures. - Proper page alignment, hierarchy and readability. Deliverables: - Print-ready PDF (A4 siz",
-    "min": 6,
-    "max": 16,
-    "cur": "USD",
-    "bids": 38,
-    "posted": "2026-11-11T06:01:09.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/adobe-photoshop/Design-Luxury-Fashion-Course-Brochures",
-    "beginner": true,
-    "summary": "Client wants 4 premium A4 print-ready course brochures for BIFD: three Aari Work levels and one Fashion Design, in deep green, ivory and champagne gold.",
-    "practice": {
-     "q": "Which deliverable most needs careful brand consistency and print readiness before anything else?",
-     "options": [
-      "Matching BIFD branding across all four brochures",
-      "Choosing the cheapest stock photos available",
-      "Making each brochure a different colour scheme"
-     ],
-     "right": 0,
-     "why": "Consistent branding across the set is what makes four brochures read as one premium BIFD family. Print-ready A4 files and clear hierarchy follow from that.",
-     "need": "I'll deliver four matching A4 print-ready BIFD brochures in your deep green, ivory and gold palette.",
-     "keys": [
-      "bifd",
-      "brand",
-      "print"
-     ]
-    },
-    "lesson": "wf4",
-    "skill": "Briefing the client and locking brand consistency across a set",
-    "ai": true
    }
   ],
   "cv": [
+   {
+    "id": "40823714",
+    "title": "LinkedIn Profile Revamp for New Role",
+    "brief": "My LinkedIn profile still speaks to a position I left behind, so recruiters and colleagues can’t see the new chapter I have begun at a different company. The most urgent fix is straightforward: update my job title and employer throughout the headline, Experience section, and any supporting media so the platform reflects my current role accurately. Beyond that primary change, I would like the overall profile to read consistently— from the About summary down to the recommendations—so anyone landing on the page immediately understands what I do now, the value I offer, and why they should connect. Well-placed keywords, a punchy headline, and tidy formatting matter to me because I want the page t",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 60,
+    "posted": "2026-11-18T04:55:00.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/asphalt-contractor/LinkedIn-Profile-Revamp-for-New",
+    "beginner": false,
+    "ai": true,
+    "summary": "Update LinkedIn profile to show new job title and employer, then make the whole profile consistent and keyword-rich.",
+    "lesson": "cv3",
+    "skill": "Fixing outdated information before polishing the page",
+    "practice": {
+     "q": "What is the most urgent fix the client needs before anything else?",
+     "options": [
+      "Rewrite the About summary first",
+      "Update the job title and employer everywhere",
+      "Ask colleagues for new recommendations"
+     ],
+     "right": 1,
+     "why": "Start with the wrong info, not the polish. Fix the current job title and employer across headline, Experience, and media so the profile is accurate, then make everything else match.",
+     "need": "I'll update your job title and employer across your LinkedIn profile first, then align the rest so your new role is clear.",
+     "keys": [
+      "job",
+      "title",
+      "employer"
+     ]
+    }
+   },
    {
     "id": "40817695",
     "title": "Modern Office CV & Letter",
@@ -450,7 +515,7 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 51,
+    "bids": 53,
     "posted": "2026-11-14T08:56:28.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/content-writing/Modern-Office-Letter",
@@ -578,21 +643,84 @@
   ],
   "ig": [
    {
+    "id": "40823484",
+    "title": "DJ Profile Creation",
+    "brief": "I need a compelling written bio and engaging social media descriptions for my DJ profile. The style should be bright and energetic to match my brand. Requirements: - Tailored for Instagram and TikTok - Captivating and engaging language - Reflects a bright and energetic style",
+    "min": 23,
+    "max": 194,
+    "cur": "USD",
+    "bids": 50,
+    "posted": "2026-11-18T01:33:09.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-marketing/Profile-Creation",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants a bright, energetic written bio and engaging social captions for their DJ profile, tailored for Instagram and TikTok.",
+    "lesson": "ig5",
+    "skill": "Writing captions that match a brand's energy and platform",
+    "practice": {
+     "q": "What does the client REALLY need from this work?",
+     "options": [
+      "Long, formal bios for a press kit",
+      "Short, punchy, high-energy captions and bio that fit their brand",
+      "Mostly hashtags and posting schedules"
+     ],
+     "right": 1,
+     "why": "The brief asks for a bright, energetic voice tuned to Instagram and TikTok. Spend your effort on a bio and captions that feel like the DJ's personality, not generic hype.",
+     "need": "I'll write a bright, high-energy bio and captions built for Instagram and TikTok to match your DJ brand.",
+     "keys": [
+      "bright",
+      "energetic",
+      "instagram"
+     ]
+    }
+   },
+   {
+    "id": "40823244",
+    "title": "Minimalist Instagram Rebrand for Artist",
+    "brief": "I have just relocated to Hong Kong and want my Instagram to reflect this new chapter in my practice as a contemporary artist. The account must feel like a polished portfolio that attracts creative collaborations, media features and brand partnerships while still sharing a mix of finished work, personal story and lifestyle moments. The visual direction is already clear—sophisticated, minimalist and contemporary, built around ivory, beige, charcoal and a touch of champagne gold—so I need your design eye and social-media know-how to translate that palette into a cohesive brand presence. Key deliverables • Complete profile refresh: bio rewrite, profile image guidance and keyword optimisation. • ",
+    "min": 10,
+    "max": 31,
+    "cur": "USD",
+    "bids": 67,
+    "posted": "2026-11-17T21:09:34.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-management/Minimalist-Instagram-Rebrand-for-Artist",
+    "beginner": true,
+    "ai": true,
+    "summary": "Rebrand an artist's Instagram in ivory, beige, charcoal and gold to look like a polished portfolio after relocating to Hong Kong.",
+    "lesson": "ig2",
+    "skill": "Pretty isn't the goal; the account must attract clients",
+    "practice": {
+     "q": "What does the client REALLY need from this account beyond looking pretty?",
+     "options": [
+      "A minimalist feed that looks nice on its own",
+      "A portfolio that attracts collaborators, press and brand deals",
+      "A daily diary of the move to Hong Kong"
+     ],
+     "right": 1,
+     "why": "The brief asks for more than aesthetics. The profile must work as a portfolio that draws collaborations, media and partnerships, with a palette and personal story supporting that goal. Lead with the outcome, not just the look.",
+     "need": "I'll rebrand your profile as a portfolio that draws collaborations, media and partnerships, in your ivory and gold palette.",
+     "keys": [
+      "portfolio",
+      "collaborations",
+      "palette"
+     ]
+    }
+   },
+   {
     "id": "40823059",
     "title": "Instagram Business Profile Setup",
     "brief": "I'm looking for an expert to set up my Instagram profile to promote my local service business. Requirements: - Set up the full profile - Publish the first posts Ideal Skills and Experience: - Proven experience with Instagram - Ability to create engaging initial content - Knowledge of best practices for local service businesses",
     "min": 150,
     "max": 300,
     "cur": "USD",
-    "bids": 88,
+    "bids": 99,
     "posted": "2026-11-17T18:13:03.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/instagram/Instagram-Business-Profile-Setup",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a full Instagram business profile set up for a local service business, plus first posts published.",
-    "lesson": "ig4",
-    "skill": "Onboarding a shop properly",
     "practice": {
      "q": "What does the client REALLY need from the first posts?",
      "options": [
@@ -608,7 +736,10 @@
       "local",
       "posts"
      ]
-    }
+    },
+    "lesson": "ig4",
+    "skill": "Onboarding a shop properly",
+    "ai": true
    },
    {
     "id": "40822970",
@@ -617,15 +748,12 @@
     "min": 16,
     "max": 134,
     "cur": "USD",
-    "bids": 23,
+    "bids": 41,
     "posted": "2026-11-17T17:10:05.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/content-creation/Social-Media-Intern-for-Brand",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants an intern to plan and publish 2-3 Instagram reels/posts weekly, run daily stories, and grow the new brand's account.",
-    "lesson": "ig2",
-    "skill": "Growing an account with consistent, purposeful content",
     "practice": {
      "q": "What does the client REALLY need from this intern?",
      "options": [
@@ -641,7 +769,10 @@
       "organic",
       "stories"
      ]
-    }
+    },
+    "lesson": "ig2",
+    "skill": "Growing an account with consistent, purposeful content",
+    "ai": true
    },
    {
     "id": "40822921",
@@ -650,15 +781,12 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 70,
+    "bids": 76,
     "posted": "2026-11-17T16:33:27.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/content-creation/Dari-Instagram-Profile-Overhaul",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a polished, cohesive Dari-language Instagram profile: picture, bio, and posts/reels in his creator voice.",
-    "lesson": "ig2",
-    "skill": "Pretty isn't the goal: making the personal brand clear",
     "practice": {
      "q": "What does Tamim REALLY need most: a flashy look, or a clear, confident personal brand that speaks in his own voice?",
      "options": [
@@ -674,7 +802,10 @@
       "personal",
       "brand"
      ]
-    }
+    },
+    "lesson": "ig2",
+    "skill": "Pretty isn't the goal: making the personal brand clear",
+    "ai": true
    },
    {
     "id": "40822262",
@@ -688,10 +819,7 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Lifestyle-Instagram-Facebook-Designs",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants 3-4 authentic lifestyle ad designs for Instagram/Facebook, plus a story version, with editable source files.",
-    "lesson": "ig2",
-    "skill": "Pretty isn't the goal; authentic and clear is",
     "practice": {
      "q": "What does the client most need from these ads, beyond looking attractive?",
      "options": [
@@ -707,7 +835,10 @@
       "lifestyle",
       "awareness"
      ]
-    }
+    },
+    "lesson": "ig2",
+    "skill": "Pretty isn't the goal; authentic and clear is",
+    "ai": true
    },
    {
     "id": "40820004",
@@ -716,7 +847,7 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 47,
+    "bids": 48,
     "posted": "2026-11-16T03:32:11.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-creative-suite/Social-Media-Design-Specialist",
@@ -780,7 +911,7 @@
     "title": "Canva Social Media Graphics",
     "brief": "I need a versatile Canva designer who can turn my ideas into eye-catching Instagram posts and stories, Facebook posts and ad creatives, plus LinkedIn posts and header banners. Every graphic should push one clear purpose—promoting our products and services—while staying consistent with our brand colours, fonts, and voice. Here’s how I picture the workflow: I’ll share a short brief for each campaign (headline, key message, and any reference images). You’ll translate that into on-brand visuals that feel native to each platform’s dimensions and best practices. All source files must remain editable in Canva so we can tweak copy or swap images later if needed. Deliverables for each campaign: • Ins",
     "min": 33,
-    "max": 275,
+    "max": 274,
     "cur": "USD",
     "bids": 244,
     "posted": "2026-11-11T16:10:21.000Z",
@@ -802,39 +933,6 @@
       "one clear",
       "on-brand",
       "editable"
-     ]
-    },
-    "lesson": "ig5",
-    "skill": "Making the offer impossible to miss",
-    "ai": true
-   },
-   {
-    "id": "40812254",
-    "title": "Social Ads Designer for Client Packs",
-    "brief": "Facebook and Instagram Ad Designer, Per-Project Work, English and Spanish. Rodgate Digital designs and runs ads for US small businesses. We need designers we can send ad packs to as clients order them. Typical order: 3 to 10 static ads in feed (1:1 or 4:5) and story (9:16) sizes, from a brief and brand kit we provide. Paid per pack through Freelancer.com. Our budget is about $100 for one 5-ad pack in 2 sizes. Work starts when a client orders. You have: - A portfolio of real social ads, not just posts - Editable source files (PSD, AI, Figma or Canva) with every order - A 48 to 72 hour turnaround on a 5-ad pack - Spanish is a plus In your bid, include: 1) Links to your 5 best ad designs. 2) Yo",
-    "min": 30,
-    "max": 250,
-    "cur": "USD",
-    "bids": 160,
-    "posted": "2026-11-10T21:01:38.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-marketing/Social-Ads-Designer-for-Client",
-    "beginner": false,
-    "summary": "Design 3-10 Facebook/Instagram static ads (1:1, 4:5, 9:16) per client order from their brief and brand kit, for US small businesses.",
-    "practice": {
-     "q": "A client orders a 5-ad pack. Which should you do first to make each ad sell?",
-     "options": [
-      "Pick the trendiest template and fill it in",
-      "Lock in the offer and one clear call to action",
-      "Make every ad a different style to test variety"
-     ],
-     "right": 1,
-     "why": "Ads for small shops work when one offer and one action are impossible to miss. Pretty comes second. Start from the brief's offer and CTA, then design around them.",
-     "need": "I'll build each ad around the offer and CTA in your brief, delivered in 1:1, 4:5 and 9:16 with editable source files.",
-     "keys": [
-      "offer",
-      "cta",
-      "brand kit"
      ]
     },
     "lesson": "ig5",
