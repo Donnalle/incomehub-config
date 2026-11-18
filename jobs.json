@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 39
+    "got": 31
    },
    {
     "svc": "wf",
@@ -54,7 +54,7 @@
    {
     "svc": "cv",
     "skills": 3,
-    "got": 19
+    "got": 17
    },
    {
     "svc": "cv",
@@ -84,7 +84,7 @@
    {
     "svc": "cv",
     "q": "resume",
-    "got": 20
+    "got": 21
    },
    {
     "svc": "cv",
@@ -172,12 +172,12 @@
    ]
   },
   "reasons": {
-   "off-topic": 852,
-   "excluded": 169,
+   "excluded": 180,
+   "off-topic": 862,
    "kept": 27,
-   "too big": 15,
-   "not english": 7,
-   "scam": 4,
+   "too big": 10,
+   "not english": 10,
+   "scam": 7,
    "expert": 4
   },
   "ownerKeys": null,
@@ -220,13 +220,13 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 11,
+   "ok": 10,
    "fail": 0,
    "lastError": null,
-   "dropped": 6
+   "dropped": 7
   }
  },
- "updated": "2026-11-18T07:25:21.983Z",
+ "updated": "2026-11-18T20:29:11.166Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -236,45 +236,12 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 7,
-  "cv": 5,
-  "ig": 9
+  "wf": 6,
+  "cv": 4,
+  "ig": 10
  },
  "services": {
   "wf": [
-   {
-    "id": "40823732",
-    "title": "Elegant Digital Wedding Invitation",
-    "brief": "I’m preparing a timeless, elegant-and-classic wedding invitation that will be shared entirely online, so the final piece must be delivered as a polished digital file ready for email, messaging apps, and social media posts. The design should echo traditional stationery—refined typography, balanced white space, and subtle ornamental flourishes—while still feeling crisp on modern screens. Please weave in all essential information: our names, the date, time, venue, RSVP instructions, and a brief dress-code note. Clarity and readability are as important as visual charm. Deliverable • High-resolution digital invitation (preferred formats: PDF plus a web-optimised PNG or JPEG). I’ll provide the exa",
-    "min": 6,
-    "max": 16,
-    "cur": "USD",
-    "bids": 48,
-    "posted": "2026-11-18T05:17:55.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/digital-design/Elegant-Digital-Wedding-Invitation",
-    "beginner": true,
-    "ai": true,
-    "summary": "Client wants an elegant, classic digital wedding invitation as PDF and web PNG/JPEG with names, date, venue, RSVP and dress code.",
-    "lesson": "wf4",
-    "skill": "Briefing the client and matching the format to the medium",
-    "practice": {
-     "q": "Since this invitation is shared only online, what matters most in the final file?",
-     "options": [
-      "Crisp on screens, readable, with all key details clear",
-      "Printed on heavy paper with gold foil",
-      "A video invitation with background music"
-     ],
-     "right": 0,
-     "why": "Good call on the brief: it is digital-only, so the file must look sharp on phones and stay readable. Elegance comes from white space and clear type, not from extra effects.",
-     "need": "I'll deliver a crisp, elegant PDF and web-ready PNG with every detail easy to read on screen.",
-     "keys": [
-      "elegant",
-      "readable",
-      "screens"
-     ]
-    }
-   },
    {
     "id": "40823511",
     "title": "Canva Package Info PDF Design",
@@ -282,15 +249,12 @@
     "min": 20,
     "max": 168,
     "cur": "USD",
-    "bids": 159,
+    "bids": 208,
     "posted": "2026-11-18T02:00:53.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Canva-Package-Info-PDF-Design",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a brand-consistent Canva info PDF showing puppy program packages, prices and inclusions, with realistic puppy images.",
-    "lesson": "wf4",
-    "skill": "Designing a PDF around the reader's decision",
     "practice": {
      "q": "What is the PDF's main job, and what should a reader be able to do after reading it?",
      "options": [
@@ -306,7 +270,10 @@
       "inclusions",
       "puppy"
      ]
-    }
+    },
+    "lesson": "wf4",
+    "skill": "Designing a PDF around the reader's decision",
+    "ai": true
    },
    {
     "id": "40821901",
@@ -315,7 +282,7 @@
     "min": 16,
     "max": 134,
     "cur": "USD",
-    "bids": 91,
+    "bids": 102,
     "posted": "2026-11-17T03:58:22.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/poster-design/Countryside-Farmland-Brochure-Poster",
@@ -447,7 +414,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 93,
+    "bids": 95,
     "posted": "2026-11-14T03:46:20.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Promotional-Poster-Design-40816691",
@@ -476,35 +443,35 @@
   ],
   "cv": [
    {
-    "id": "40823714",
-    "title": "LinkedIn Profile Revamp for New Role",
-    "brief": "My LinkedIn profile still speaks to a position I left behind, so recruiters and colleagues can’t see the new chapter I have begun at a different company. The most urgent fix is straightforward: update my job title and employer throughout the headline, Experience section, and any supporting media so the platform reflects my current role accurately. Beyond that primary change, I would like the overall profile to read consistently— from the About summary down to the recommendations—so anyone landing on the page immediately understands what I do now, the value I offer, and why they should connect. Well-placed keywords, a punchy headline, and tidy formatting matter to me because I want the page t",
-    "min": 30,
-    "max": 250,
+    "id": "40824118",
+    "title": "Fresh Finance Graduate CV",
+    "brief": "I have just completed my finance degree and am now ready to apply for entry-level roles in banking and financial services, with a clear focus on operations and back-office support. I need a concise, professional CV that immediately shows recruiters I can keep processes running smoothly, maintain impeccable records, and turn raw data into clean, actionable reports. Please highlight my strongest selling points: advanced Excel skills, fast and accurate data entry, solid reporting abilities, unwavering attention to detail when checking documents, and the customer-focused attitude that lets me solve problems before they escalate. The final document should read naturally to a human reviewer yet re",
+    "min": 10,
+    "max": 30,
     "cur": "USD",
-    "bids": 60,
-    "posted": "2026-11-18T04:55:00.000Z",
+    "bids": 37,
+    "posted": "2026-11-18T09:38:51.000Z",
     "country": "",
-    "url": "https://www.freelancer.com/projects/asphalt-contractor/LinkedIn-Profile-Revamp-for-New",
-    "beginner": false,
+    "url": "https://www.freelancer.com/projects/customer-service/Fresh-Finance-Graduate",
+    "beginner": true,
     "ai": true,
-    "summary": "Update LinkedIn profile to show new job title and employer, then make the whole profile consistent and keyword-rich.",
+    "summary": "Client wants a concise, ATS-friendly CV for entry-level finance back-office roles showing Excel, data entry, reporting and detail skills.",
     "lesson": "cv3",
-    "skill": "Fixing outdated information before polishing the page",
+    "skill": "Structuring a CV for both software and human screeners",
     "practice": {
-     "q": "What is the most urgent fix the client needs before anything else?",
+     "q": "The brief asks for a CV that 'reads naturally to a human reviewer yet re' — what is the client's most likely unstated need that the CV must also satisfy?",
      "options": [
-      "Rewrite the About summary first",
-      "Update the job title and employer everywhere",
-      "Ask colleagues for new recommendations"
+      "Pass automated resume screening software",
+      "Include a photo and personal hobbies",
+      "List every job since secondary school"
      ],
-     "right": 1,
-     "why": "Start with the wrong info, not the polish. Fix the current job title and employer across headline, Experience, and media so the profile is accurate, then make everything else match.",
-     "need": "I'll update your job title and employer across your LinkedIn profile first, then align the rest so your new role is clear.",
+     "right": 0,
+     "why": "Good catch on the human reader, but the brief is cut off mid-sentence and likely continues with 'readable by applicant tracking systems'. Recruiters at banks often screen CVs by software first, so keyword-friendly formatting matters as much as a natural tone.",
+     "need": "I'll build a clean, keyword-rich CV that passes screening software and still reads naturally to recruiters.",
      "keys": [
-      "job",
-      "title",
-      "employer"
+      "excel",
+      "reporting",
+      "attention to detail"
      ]
     }
    },
@@ -515,7 +482,7 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 53,
+    "bids": 54,
     "posted": "2026-11-14T08:56:28.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/content-writing/Modern-Office-Letter",
@@ -548,7 +515,7 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 45,
+    "bids": 46,
     "posted": "2026-11-12T15:34:05.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/ATS-Ready-STEM-Resume-Revamp",
@@ -581,7 +548,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 98,
+    "bids": 100,
     "posted": "2026-11-12T05:31:07.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/content-writing/ATS-Friendly-Resume-Rewrite",
@@ -606,42 +573,42 @@
     "lesson": "cv3",
     "skill": "Structuring a CV that passes ATS screening",
     "ai": true
-   },
-   {
-    "id": "40813546",
-    "title": "Sales-Focused CV Creation",
-    "brief": "I want a brand-new CV built from my existing work history, positioned squarely for sales and customer service roles. The document should highlight achievements, metrics, and transferable soft skills in language that resonates with hiring managers and sails through ATS filters. A clean, modern layout that looks just as good in Word as it does in PDF is essential. I will supply my full employment chronology, education, and any figures you need. From there, I expect you to craft concise, persuasive wording, organise the sections logically, and weave in role-specific keywords without sounding forced. Please showcase your experience creating high-impact CVs—especially for sales or customer servic",
-    "min": 10,
-    "max": 30,
-    "cur": "USD",
-    "bids": 66,
-    "posted": "2026-11-11T15:13:53.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/sales/Sales-Focused-Creation",
-    "beginner": true,
-    "summary": "Client wants a new sales and customer service CV built from their work history, with metrics and ATS-friendly keywords.",
-    "practice": {
-     "q": "What does the client most need from this CV to get shortlisted for sales and customer service roles?",
-     "options": [
-      "Achievements and metrics, keyword-rich for ATS",
-      "A long list of every past duty in order",
-      "A decorative design with photos and icons"
-     ],
-     "right": 0,
-     "why": "Hiring managers and ATS filters both reward proof of results and matching keywords. Lead with measurable wins, then choose a clean layout that works in Word and PDF.",
-     "need": "I'll turn your work history into a sales-focused CV with metrics, keywords, and a clean layout for Word and PDF.",
-     "keys": [
-      "sales",
-      "customer service",
-      "ats"
-     ]
-    },
-    "lesson": "cv5",
-    "skill": "Turning past duties into measurable achievements",
-    "ai": true
    }
   ],
   "ig": [
+   {
+    "id": "40824632",
+    "title": "AI-Crafted Social Media Posts",
+    "brief": "I need a freelancer who can harness AI writing tools to generate engaging, on-brand content for both Instagram and Facebook. The job involves turning my core ideas or brief prompts into scroll-stopping captions—paired with suggested hashtags and any support copy that helps the visuals shine. If you’re comfortable refining AI-generated text so it sounds natural and ready to publish, this will be a smooth collaboration. Here’s what I expect: • A batch of ready-to-use posts for Instagram and Facebook (please let me know in your proposal how many you can comfortably deliver and your typical turnaround). • Captions that match each platform’s best practices, keep a consistent voice, and encourage ",
+    "min": 134,
+    "max": 401,
+    "cur": "USD",
+    "bids": 37,
+    "posted": "2026-11-18T15:41:05.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/ai-content-creation/Crafted-Social-Media-Posts",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants AI-assisted Instagram and Facebook captions, hashtags, and support copy, polished to sound natural and on-brand.",
+    "lesson": "ig5",
+    "skill": "Writing captions that stop the scroll and drive action",
+    "practice": {
+     "q": "What does the client really need from this job?",
+     "options": [
+      "Only pretty photos for their feed",
+      "Ready-to-publish captions matching each platform",
+      "A full social media strategy and ad budget"
+     ],
+     "right": 1,
+     "why": "The brief asks for batches of on-brand captions with hashtags, tuned to each platform and refined so the AI text reads naturally. Visuals and strategy are not the job.",
+     "need": "I'll deliver polished, on-brand Instagram and Facebook captions with hashtags, refined so they read naturally.",
+     "keys": [
+      "captions",
+      "on-brand",
+      "hashtags"
+     ]
+    }
+   },
    {
     "id": "40823484",
     "title": "DJ Profile Creation",
@@ -649,15 +616,12 @@
     "min": 23,
     "max": 194,
     "cur": "USD",
-    "bids": 50,
+    "bids": 63,
     "posted": "2026-11-18T01:33:09.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Profile-Creation",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a bright, energetic written bio and engaging social captions for their DJ profile, tailored for Instagram and TikTok.",
-    "lesson": "ig5",
-    "skill": "Writing captions that match a brand's energy and platform",
     "practice": {
      "q": "What does the client REALLY need from this work?",
      "options": [
@@ -673,7 +637,10 @@
       "energetic",
       "instagram"
      ]
-    }
+    },
+    "lesson": "ig5",
+    "skill": "Writing captions that match a brand's energy and platform",
+    "ai": true
    },
    {
     "id": "40823244",
@@ -682,15 +649,12 @@
     "min": 10,
     "max": 31,
     "cur": "USD",
-    "bids": 67,
+    "bids": 71,
     "posted": "2026-11-17T21:09:34.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Minimalist-Instagram-Rebrand-for-Artist",
     "beginner": true,
-    "ai": true,
     "summary": "Rebrand an artist's Instagram in ivory, beige, charcoal and gold to look like a polished portfolio after relocating to Hong Kong.",
-    "lesson": "ig2",
-    "skill": "Pretty isn't the goal; the account must attract clients",
     "practice": {
      "q": "What does the client REALLY need from this account beyond looking pretty?",
      "options": [
@@ -706,7 +670,10 @@
       "collaborations",
       "palette"
      ]
-    }
+    },
+    "lesson": "ig2",
+    "skill": "Pretty isn't the goal; the account must attract clients",
+    "ai": true
    },
    {
     "id": "40823059",
@@ -715,7 +682,7 @@
     "min": 150,
     "max": 300,
     "cur": "USD",
-    "bids": 99,
+    "bids": 105,
     "posted": "2026-11-17T18:13:03.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/instagram/Instagram-Business-Profile-Setup",
@@ -808,13 +775,46 @@
     "ai": true
    },
    {
+    "id": "40814085",
+    "title": "Minimalist Canva To-Do List Design",
+    "brief": "I need a clean, minimalist two-page to-do list created in Canva, sized for US Letter. Both pages must be fully editable so I can tweak colours, text and layout later. Page one carries the main heading “TO DO LIST”, then splits into two even columns: “PERSONAL” on the left, “WORK” on the right. Under each column the weekdays Monday through Friday appear as simple text labels only—no boxes or separator lines—leaving open space beneath every day for handwriting. Page two repeats the “TO DO LIST” heading and uses the same two-column structure for “PERSONAL” and “WORK”, but this time only Saturday and Sunday sit under each column. Directly below, the page divides horizontally into three clear sec",
+    "min": 7,
+    "max": 20,
+    "cur": "USD",
+    "bids": 68,
+    "posted": "2026-11-17T11:34:54.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/canva/Minimalist-Canva-List-Design",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants a minimalist, fully editable two-page US Letter to-do list in Canva: Personal/Work columns, weekdays on page one, weekend plus a three-section area on page two.",
+    "lesson": "ig5",
+    "skill": "Matching the layout to how the user actually works",
+    "practice": {
+     "q": "Why does the client want the weekdays and weekend split across two pages instead of one, and what does that imply for the layout?",
+     "options": [
+      "Weekdays and weekends need different colours",
+      "Each page is for handwriting, so space matters more than order",
+      "Canva only allows two pages per file"
+     ],
+     "right": 1,
+     "why": "The brief is about open writing space and clean structure, not decoration. Keep labels minimal, leave generous room under each day, and make every element easy to edit later. Read the full brief for the page-two sections before you start.",
+     "need": "I'll build your two-page Canva to-do list with clean columns and editable layout, sized for US Letter.",
+     "keys": [
+      "canva",
+      "editable",
+      "minimalist"
+     ]
+    }
+   },
+   {
     "id": "40822262",
     "title": "Lifestyle Instagram & Facebook Ad Designs",
     "brief": "I need a set of fresh, scroll-stopping ad creatives for Instagram and Facebook that focus on building brand awareness. My audience connects best with lifestyle visuals that feature real people using the product naturally, so the photography and layout choices should feel authentic rather than staged. Here is what I’m after: • 3–4 static image concepts (1080×1080 and 1080×1350) • 1 vertical story/reel version (1080×1920) derived from the strongest concept • Layered source files (PSD or AI) plus ready-to-post JPG/PNG exports • Simple brand-aligned copy placements I can swap out later You’re welcome to work in Adobe Photoshop, Illustrator, or even Canva as long as the final files remain editabl",
     "min": 134,
     "max": 401,
     "cur": "USD",
-    "bids": 51,
+    "bids": 52,
     "posted": "2026-11-17T08:36:08.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Lifestyle-Instagram-Facebook-Designs",
@@ -847,7 +847,7 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 48,
+    "bids": 50,
     "posted": "2026-11-16T03:32:11.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-creative-suite/Social-Media-Design-Specialist",
@@ -904,39 +904,6 @@
     },
     "lesson": "ig5",
     "skill": "Anatomy of a post that sells: copy and visuals working together",
-    "ai": true
-   },
-   {
-    "id": "40813629",
-    "title": "Canva Social Media Graphics",
-    "brief": "I need a versatile Canva designer who can turn my ideas into eye-catching Instagram posts and stories, Facebook posts and ad creatives, plus LinkedIn posts and header banners. Every graphic should push one clear purpose—promoting our products and services—while staying consistent with our brand colours, fonts, and voice. Here’s how I picture the workflow: I’ll share a short brief for each campaign (headline, key message, and any reference images). You’ll translate that into on-brand visuals that feel native to each platform’s dimensions and best practices. All source files must remain editable in Canva so we can tweak copy or swap images later if needed. Deliverables for each campaign: • Ins",
-    "min": 33,
-    "max": 274,
-    "cur": "USD",
-    "bids": 244,
-    "posted": "2026-11-11T16:10:21.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/canva/Canva-Social-Media-Graphics-40813629",
-    "beginner": false,
-    "summary": "Client wants on-brand Canva graphics for Instagram, Facebook, and LinkedIn, each promoting products or services, all editable.",
-    "practice": {
-     "q": "What does the client REALLY need from each graphic?",
-     "options": [
-      "Pretty visuals with varied styles per platform",
-      "One clear promotional purpose per graphic, on-brand and editable",
-      "Original photography and video for every campaign"
-     ],
-     "right": 1,
-     "why": "The brief is clear: every graphic pushes one purpose, sells the product or service, and stays on-brand and editable. Pretty alone misses the point. Match each platform's sizes and keep files open for later edits.",
-     "need": "I'll make each post sell one clear offer, on-brand and fully editable in Canva, for every platform.",
-     "keys": [
-      "one clear",
-      "on-brand",
-      "editable"
-     ]
-    },
-    "lesson": "ig5",
-    "skill": "Making the offer impossible to miss",
     "ai": true
    }
   ]
