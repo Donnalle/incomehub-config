@@ -1,0 +1,4 @@
+{
+  "_help": "mode: freelancer = live Freelancer.com jobs (needs their written permission) | off = empty feed, app shows its 'all quiet' state | practice = Claude-written practice briefs, no Freelancer content (needs app 2.9.3+)",
+  "mode": "freelancer"
+}

@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - "scripts/fetch-jobs.mjs"
+      - "jobs-config.json"
       - ".github/workflows/jobs.yml"
 
 permissions:

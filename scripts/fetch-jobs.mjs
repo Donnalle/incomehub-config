@@ -202,6 +202,14 @@ Return ONLY JSON: {"fit": true/false (could a beginner who is learning this serv
 // ---------- main ----------
 async function main() {
   const now = Date.now() / 1000;
+  let MODE = "freelancer";
+  try { MODE = JSON.parse(readFileSync("jobs-config.json", "utf8")).mode || MODE; } catch (e) {}
+  console.log("mode:", MODE);
+  if (MODE === "off") {   // kill switch: publish an empty feed, the app shows its empty state
+    writeFileSync("jobs.json", JSON.stringify({ updated: new Date().toISOString(), source: "off", fx: { USD: 1, ZAR: 18.2, NGN: 1550, KES: 129, UGX: 3700 }, counts: { wf: 0, cv: 0, ig: 0 }, services: { wf: [], cv: [], ig: [] } }, null, 1) + "\n");
+    console.log("Feed switched off"); return;
+  }
+  if (MODE === "practice") return practiceFeed();
   const fx = { USD: 1, ZAR: 18.2, NGN: 1550, KES: 129, UGX: 3700 };
   try { // live rates for currencies Freelancer supports (exchange_rate = USD per 1 unit)
     const c = await get("/currencies/", {});
@@ -293,6 +301,34 @@ async function main() {
   }
   writeFileSync("jobs.json", JSON.stringify(out, null, 1) + "\n");
   console.log("jobs.json written:", out.counts);
+}
+
+// ---------- practice mode: Claude writes realistic briefs, no Freelancer content ----------
+const THEMES = {
+  wf: "small-business flyers and posters (shop openings, church events, food specials, salons, tutoring, sales)",
+  cv: "CV and cover letter rewrites (graduates, retail, admin, career changers, ATS-friendly)",
+  ig: "Instagram/social posts for small local businesses (salons, food, fitness, boutiques, product promos)",
+};
+async function practiceFeed() {
+  const key = process.env.ANTHROPIC_API_KEY;
+  const out = { updated: new Date().toISOString(), source: "practice", fx: { USD: 1, ZAR: 18.2, NGN: 1550, KES: 129, UGX: 3700 }, counts: {}, services: {} };
+  for (const svc of Object.keys(SERVICES)) {
+    let list = [];
+    if (key) {
+      const prompt = `Write 8 realistic, ORIGINAL practice client briefs for beginners learning ${THEMES[svc]}. Mix countries (South Africa, Nigeria, Kenya, Uganda, UK, US). Do not copy any real listing. Return ONLY a JSON array of objects: {"title": "max 60 chars", "brief": "60-120 words, written as the client", "summary": "max 110 chars", "min": usd int 5-40, "max": usd int, "country": "", "beginner": true, "practice": {"q": "...", "options": ["3 short"], "right": 0-2, "why": "max 170 chars", "need": "I'll ... max 90 chars", "keys": ["2-3 lowercase words"]}, "lesson": one of ${Object.keys(LESSONS[svc]).join("/")}, "skill": "max 60 chars"}`;
+      try {
+        const r = await fetch("https://api.anthropic.com/v1/messages", { method: "POST", headers: { "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json" },
+          body: JSON.stringify({ model: process.env.CLAUDE_MODEL || "claude-haiku-5-5", max_tokens: 6000, thinking: { type: "disabled" }, messages: [{ role: "user", content: prompt }] }) });
+        const d = await r.json(); const txt = (d.content || []).filter((c) => c.type === "text").map((c) => c.text).join("");
+        list = JSON.parse(txt.match(/\[[\s\S]*\]/)[0]);
+      } catch (e) { console.warn(svc, "practice generation failed", e.message); }
+    }
+    const day = new Date().toISOString().slice(0, 10);
+    out.services[svc] = list.slice(0, 8).map((j, i) => ({ ...j, id: `p-${svc}-${day}-${i}`, cur: "USD", bids: null, posted: new Date(Date.now() - i * 3 * 3600e3).toISOString(), url: null, source: "practice" }));
+    out.counts[svc] = out.services[svc].length;
+  }
+  writeFileSync("jobs.json", JSON.stringify(out, null, 1) + "\n");
+  console.log("practice feed written:", out.counts);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });
