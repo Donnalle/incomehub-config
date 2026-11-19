@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 32
+    "got": 34
    },
    {
     "svc": "wf",
@@ -84,7 +84,7 @@
    {
     "svc": "cv",
     "q": "resume",
-    "got": 22
+    "got": 20
    },
    {
     "svc": "cv",
@@ -114,7 +114,7 @@
    {
     "svc": "ig",
     "skills": 4,
-    "got": 47
+    "got": 46
    },
    {
     "svc": "ig",
@@ -172,10 +172,10 @@
    ]
   },
   "reasons": {
-   "off-topic": 874,
-   "excluded": 175,
-   "kept": 26,
-   "too big": 10,
+   "excluded": 172,
+   "kept": 28,
+   "off-topic": 858,
+   "too big": 9,
    "not english": 10,
    "scam": 7,
    "expert": 4
@@ -220,13 +220,13 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 6,
+   "ok": 10,
    "fail": 0,
    "lastError": null,
-   "dropped": 6
+   "dropped": 8
   }
  },
- "updated": "2026-11-18T21:41:12.602Z",
+ "updated": "2026-11-19T07:22:34.830Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -237,8 +237,8 @@
  },
  "counts": {
   "wf": 6,
-  "cv": 4,
-  "ig": 10
+  "cv": 3,
+  "ig": 11
  },
  "services": {
   "wf": [
@@ -249,7 +249,7 @@
     "min": 20,
     "max": 168,
     "cur": "USD",
-    "bids": 211,
+    "bids": 216,
     "posted": "2026-11-18T02:00:53.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Canva-Package-Info-PDF-Design",
@@ -282,7 +282,7 @@
     "min": 16,
     "max": 134,
     "cur": "USD",
-    "bids": 102,
+    "bids": 104,
     "posted": "2026-11-17T03:58:22.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/poster-design/Countryside-Farmland-Brochure-Poster",
@@ -315,7 +315,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 206,
+    "bids": 207,
     "posted": "2026-11-16T22:10:12.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Resize-frame-Flyer-for-Large",
@@ -449,7 +449,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 37,
+    "bids": 39,
     "posted": "2026-11-18T09:38:51.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/customer-service/Fresh-Finance-Graduate",
@@ -482,7 +482,7 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 54,
+    "bids": 56,
     "posted": "2026-11-14T08:56:28.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/content-writing/Modern-Office-Letter",
@@ -540,74 +540,74 @@
     "lesson": "cv3",
     "skill": "Structuring a CV that machines and recruiters can both read",
     "ai": true
-   },
-   {
-    "id": "40814468",
-    "title": "ATS-Friendly Resume Rewrite",
-    "brief": "I'm seeking a professional resume rewrite to help me apply for an Armed Federal Security Guard position. The goal is to make my resume cleaner and optimized to pass Applicant Tracking Systems (ATS). Key Focus Areas: - Emphasize relevant skills and experience - Ensure formatting is ATS-friendly - Maintain clarity and professionalism Ideal skills and experience: - Proven expertise in resume writing - Familiarity with ATS requirements - Experience with security-related job applications",
-    "min": 30,
-    "max": 250,
-    "cur": "USD",
-    "bids": 100,
-    "posted": "2026-11-12T05:31:07.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/content-writing/ATS-Friendly-Resume-Rewrite",
-    "beginner": false,
-    "summary": "Client wants an ATS-friendly resume rewrite to apply for an Armed Federal Security Guard job.",
-    "practice": {
-     "q": "What does the client actually need from this rewrite?",
-     "options": [
-      "A clean, ATS-friendly resume highlighting relevant security experience",
-      "A fancy designed resume with graphics and photos",
-      "A cover letter written from scratch with no resume"
-     ],
-     "right": 0,
-     "why": "Good. The client wants a clean, keyword-friendly CV that passes ATS filters and shows relevant security experience. Design flourishes can break ATS parsing, so skip them.",
-     "need": "I'll rewrite your CV into a clean, ATS-friendly format that highlights your security experience for the armed guard role.",
-     "keys": [
-      "ats-friendly",
-      "security",
-      "resume"
-     ]
-    },
-    "lesson": "cv3",
-    "skill": "Structuring a CV that passes ATS screening",
-    "ai": true
    }
   ],
   "ig": [
    {
-    "id": "40824632",
-    "title": "AI-Crafted Social Media Posts",
-    "brief": "I need a freelancer who can harness AI writing tools to generate engaging, on-brand content for both Instagram and Facebook. The job involves turning my core ideas or brief prompts into scroll-stopping captions—paired with suggested hashtags and any support copy that helps the visuals shine. If you’re comfortable refining AI-generated text so it sounds natural and ready to publish, this will be a smooth collaboration. Here’s what I expect: • A batch of ready-to-use posts for Instagram and Facebook (please let me know in your proposal how many you can comfortably deliver and your typical turnaround). • Captions that match each platform’s best practices, keep a consistent voice, and encourage ",
-    "min": 134,
-    "max": 401,
+    "id": "40825592",
+    "title": "Professional Brand Creation for Social Media -- 2",
+    "brief": "I need a brand identity for my online products that will make me look professional and trustworthy on Instagram and Facebook. Key tasks include: - Developing branded templates for posts and stories Ideal skills and experience: - Graphic design expertise - Proficiency in Instagram and Facebook - Strong understanding of brand development Looking forward to your creative solutions!",
+    "min": 16,
+    "max": 134,
     "cur": "USD",
-    "bids": 38,
-    "posted": "2026-11-18T15:41:05.000Z",
+    "bids": 26,
+    "posted": "2026-11-19T07:04:53.000Z",
     "country": "",
-    "url": "https://www.freelancer.com/projects/ai-content-creation/Crafted-Social-Media-Posts",
+    "url": "https://www.freelancer.com/projects/branding/Professional-Brand-Creation-for-Social",
     "beginner": false,
-    "summary": "Client wants AI-assisted Instagram and Facebook captions, hashtags, and support copy, polished to sound natural and on-brand.",
+    "ai": true,
+    "summary": "Client wants a consistent, professional brand look for Instagram/Facebook posts and stories so their online products seem trustworthy.",
+    "lesson": "ig2",
+    "skill": "Building consistent templates that signal trust",
     "practice": {
-     "q": "What does the client really need from this job?",
+     "q": "What does the client REALLY need beyond pretty graphics?",
      "options": [
-      "Only pretty photos for their feed",
-      "Ready-to-publish captions matching each platform",
-      "A full social media strategy and ad budget"
+      "Flashy, trendy designs that change every week",
+      "A consistent template system that builds trust across posts",
+      "A full ad campaign with paid media buying"
      ],
      "right": 1,
-     "why": "The brief asks for batches of on-brand captions with hashtags, tuned to each platform and refined so the AI text reads naturally. Visuals and strategy are not the job.",
-     "need": "I'll deliver polished, on-brand Instagram and Facebook captions with hashtags, refined so they read naturally.",
+     "why": "Trust comes from consistency. Reusable branded templates make every post look like it belongs to one professional business, which is exactly what the brief asks for.",
+     "need": "I'll build a consistent post and story template set that makes your products look professional and trustworthy.",
      "keys": [
-      "captions",
-      "on-brand",
-      "hashtags"
+      "branded",
+      "templates",
+      "trustworthy"
      ]
-    },
-    "lesson": "ig5",
-    "skill": "Writing captions that stop the scroll and drive action",
-    "ai": true
+    }
+   },
+   {
+    "id": "40825541",
+    "title": "Luxury Instagram Content Creation",
+    "brief": "I have a library of high-resolution photos and raw video clips ready to be transformed into a luxury, premium-feeling Instagram feed that strengthens my professional brand image. Your role is to take these assets, elevate them through thoughtful editing, and supplement the feed with fresh AI-generated graphics that match the same refined aesthetic. What I’ll supply • A steady stream of product shots, lifestyle photos, and short video snippets. • Brand guidelines outlining colour palette, fonts, and tone. What I need from you • Polished photo posts that retouch and enhance my original pictures. • Short, captivating reels cut from my footage—complete with on-brand transitions, music, and capti",
+    "min": 10,
+    "max": 30,
+    "cur": "USD",
+    "bids": 47,
+    "posted": "2026-11-19T06:25:33.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/video-editing/Luxury-Instagram-Content-Creation",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants polished, premium-feeling Instagram photo posts and reels from their own photos and footage, plus AI-made graphics matching their brand.",
+    "lesson": "ig2",
+    "skill": "Pretty isn't the goal: matching the brand",
+    "practice": {
+     "q": "Beyond making photos look premium, what does this client really need from the feed?",
+     "options": [
+      "Only sharper, prettier photos",
+      "A feed that builds trust and drives professional brand image",
+      "Posting as many reels as possible"
+     ],
+     "right": 1,
+     "why": "Luxury polish matters, but the client's real goal is a feed that builds their professional brand image. Aim for consistency with their palette, fonts, and tone, not just pretty pictures.",
+     "need": "I'll build a consistent luxury feed from your photos and clips that strengthens your professional brand.",
+     "keys": [
+      "brand",
+      "luxury",
+      "feed"
+     ]
+    }
    },
    {
     "id": "40823484",
@@ -616,7 +616,7 @@
     "min": 23,
     "max": 194,
     "cur": "USD",
-    "bids": 64,
+    "bids": 67,
     "posted": "2026-11-18T01:33:09.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Profile-Creation",
@@ -649,7 +649,7 @@
     "min": 10,
     "max": 31,
     "cur": "USD",
-    "bids": 71,
+    "bids": 72,
     "posted": "2026-11-17T21:09:34.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Minimalist-Instagram-Rebrand-for-Artist",
@@ -682,7 +682,7 @@
     "min": 150,
     "max": 300,
     "cur": "USD",
-    "bids": 105,
+    "bids": 106,
     "posted": "2026-11-17T18:13:03.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/instagram/Instagram-Business-Profile-Setup",
@@ -715,7 +715,7 @@
     "min": 16,
     "max": 134,
     "cur": "USD",
-    "bids": 41,
+    "bids": 42,
     "posted": "2026-11-17T17:10:05.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/content-creation/Social-Media-Intern-for-Brand",
@@ -748,7 +748,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 76,
+    "bids": 75,
     "posted": "2026-11-17T16:33:27.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/content-creation/Dari-Instagram-Profile-Overhaul",
@@ -812,9 +812,9 @@
     "title": "Lifestyle Instagram & Facebook Ad Designs",
     "brief": "I need a set of fresh, scroll-stopping ad creatives for Instagram and Facebook that focus on building brand awareness. My audience connects best with lifestyle visuals that feature real people using the product naturally, so the photography and layout choices should feel authentic rather than staged. Here is what I’m after: • 3–4 static image concepts (1080×1080 and 1080×1350) • 1 vertical story/reel version (1080×1920) derived from the strongest concept • Layered source files (PSD or AI) plus ready-to-post JPG/PNG exports • Simple brand-aligned copy placements I can swap out later You’re welcome to work in Adobe Photoshop, Illustrator, or even Canva as long as the final files remain editabl",
     "min": 134,
-    "max": 401,
+    "max": 402,
     "cur": "USD",
-    "bids": 52,
+    "bids": 51,
     "posted": "2026-11-17T08:36:08.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Lifestyle-Instagram-Facebook-Designs",
@@ -878,9 +878,9 @@
     "title": "Social Media Post and Graphic Creation",
     "brief": "I’m looking for a creative partner who can take full ownership of designing eye-catching social media content for my brand. The core of the job is simple: plan and produce original posts—both the copy and the accompanying graphics—that feel on-brand and encourage engagement. Here’s what I need from you each week: • 3–5 static or carousel images sized for Instagram, Facebook, and LinkedIn • Short, punchy captions (with relevant hashtags) that align with the visuals • Editable source files (Canva, Photoshop, or Illustrator) along with export-ready PNG/JPG versions I’ll supply brand guidelines, recent campaign examples, and any photography assets I already have. From there, you’ll brainstorm, d",
     "min": 134,
-    "max": 401,
+    "max": 402,
     "cur": "USD",
-    "bids": 68,
+    "bids": 69,
     "posted": "2026-11-13T19:12:07.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Social-Media-Post-Graphic-Creation",
