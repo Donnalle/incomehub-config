@@ -169,6 +169,15 @@ function practiceFor(job, svc) {
   return { q: f.q, options, right, why: f.why, need: f.need, keys: kp.split(" ").filter((w) => w.length > 3).slice(0, 2) };
 }
 
+// 2.9.3: the app's pitch box holds 300 characters, so a pitch must fit and end on a full sentence
+function fitPitch(t) {
+  t = String(t || "").replace(/\s+/g, " ").trim();
+  if (t.length <= 300) return t;
+  const cut = t.slice(0, 300), end = Math.max(cut.lastIndexOf("? "), cut.lastIndexOf(". "), cut.lastIndexOf("?"), cut.lastIndexOf("."));
+  return end > 120 ? cut.slice(0, end + 1) : "";
+}
+const goodPitch = (t) => !!t && t.length <= 300 && /[.?!]$/.test(t.trim());
+
 // ---------- optional: Claude writes summary + practice ----------
 async function claudeEnrich(job, svc) {
   const key = process.env.ANTHROPIC_API_KEY;
@@ -177,7 +186,7 @@ async function claudeEnrich(job, svc) {
   const prompt = `You help beginners in Africa practise freelancing. Service: ${svc === "wf" ? "WhatsApp/print flyers" : svc === "cv" ? "CV makeovers" : "Instagram posts"}.
 Job title: ${job.title}
 Brief: ${job.brief.slice(0, 1500)}
-Return ONLY JSON: {"fit": true/false (could a beginner who is learning this service realistically do this job? false if the brief is not in English, false for hiring/sales/recruiting, errands, physical tasks, account recovery, video/filming, development, research, marketing strategy, anything needing years of experience), "summary": "max 110 chars, plain English, what the client wants", "q": "one short question testing if the reader understood what the client REALLY needs", "options": ["3 short options, max 45 chars each"], "right": 0-2, "why": "max 170 chars, coach tone, no emoji", "need": "one pitch sentence, max 90 chars, starting with I'll, referencing the brief", "keys": ["2-3 lowercase words from the brief the pitch should mention"], "lesson": "the ONE lesson id that best teaches the skill this job needs, from: ${Object.entries(LESSONS[svc]).map(([k, v]) => k + " = " + v).join("; ")}", "skill": "max 60 chars, the core skill this job tests, e.g. Making the offer impossible to miss", "pitch": "the bid message a beginner would send: 2-3 short sentences, max 280 chars, first person, friendly and confident, names this client's specific need and one concrete thing you'll deliver, ends with a short question. No 'Dear Sir', no begging, no emoji, no fake experience or numbers"}`;
+Return ONLY JSON: {"fit": true/false (could a beginner who is learning this service realistically do this job? false if the brief is not in English, false for hiring/sales/recruiting, errands, physical tasks, account recovery, video/filming, development, research, marketing strategy, anything needing years of experience), "summary": "max 110 chars, plain English, what the client wants", "q": "one short question testing if the reader understood what the client REALLY needs", "options": ["3 short options, max 45 chars each"], "right": 0-2, "why": "max 170 chars, coach tone, no emoji", "need": "one pitch sentence, max 90 chars, starting with I'll, referencing the brief", "keys": ["2-3 lowercase words from the brief the pitch should mention"], "lesson": "the ONE lesson id that best teaches the skill this job needs, from: ${Object.entries(LESSONS[svc]).map(([k, v]) => k + " = " + v).join("; ")}", "skill": "max 60 chars, the core skill this job tests, e.g. Making the offer impossible to miss", "pitch": "the bid message a beginner would send: 2-3 short sentences, max 230 chars (hard limit), first person, friendly and confident, names this client's specific need and one concrete thing you'll deliver, ends with a short question. No 'Dear Sir', no begging, no emoji, no fake experience or numbers"}`;
   try {
     const call = (extra) => fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
@@ -271,7 +280,7 @@ async function main() {
     const list = [...jobs.values()].sort((a, b) => b.posted.localeCompare(a.posted)).slice(0, PER_SERVICE);
     for (const j of list) {
       seen.add(Number(j.id));
-      const c0 = cache.get(j.id), hit = c0 && c0.pitch ? c0 : null;   // 2.9.3: re-enrich cached jobs that have no pitch yet
+      const c0 = cache.get(j.id), hit = c0 && goodPitch(c0.pitch) ? c0 : null;   // 2.9.3: re-enrich cached jobs that have no pitch yet
       const ai = hit ? null : await claudeEnrich(j, svc);
       if (hit && hit.lesson) { j.summary = hit.summary; j.practice = hit.practice; j.lesson = hit.lesson; j.skill = hit.skill; j.pitch = hit.pitch; j.ai = true; }
       else if (ai && ai.fit === false) { j.drop = true; continue; }
@@ -279,7 +288,7 @@ async function main() {
         j.summary = ai.summary;
         j.lesson = LESSONS[svc][ai.lesson] ? ai.lesson : lessonFor(j, svc);
         j.skill = ai.skill || "";
-        if (ai.pitch) j.pitch = String(ai.pitch).slice(0, 300);   // 2.9.3: Pro "Write it for me"
+        const pt = fitPitch(ai.pitch); if (pt) j.pitch = pt;   // 2.9.3: Pro "Write it for me"
         j.practice = { q: ai.q, options: ai.options, right: Math.max(0, Math.min(2, +ai.right || 0)), why: ai.why, need: ai.need, keys: (ai.keys || []).map((k) => String(k).toLowerCase()) };
       } else {
         j.summary = summarise(j.brief, j.title);
@@ -316,7 +325,7 @@ async function practiceFeed() {
   for (const svc of Object.keys(SERVICES)) {
     let list = [];
     if (key) {
-      const prompt = `Write 8 realistic, ORIGINAL practice client briefs for beginners learning ${THEMES[svc]}. Mix countries (South Africa, Nigeria, Kenya, Uganda, UK, US). Do not copy any real listing. Return ONLY a JSON array of objects: {"title": "max 60 chars", "brief": "60-120 words, written as the client", "summary": "max 110 chars", "min": usd int 5-40, "max": usd int, "country": "", "beginner": true, "practice": {"q": "...", "options": ["3 short"], "right": 0-2, "why": "max 170 chars", "need": "I'll ... max 90 chars", "keys": ["2-3 lowercase words"]}, "lesson": one of ${Object.keys(LESSONS[svc]).join("/")}, "skill": "max 60 chars", "pitch": "2-3 short sentences, max 280 chars, first person, names this client's need, ends with a short question, no emoji"}`;
+      const prompt = `Write 8 realistic, ORIGINAL practice client briefs for beginners learning ${THEMES[svc]}. Mix countries (South Africa, Nigeria, Kenya, Uganda, UK, US). Do not copy any real listing. Return ONLY a JSON array of objects: {"title": "max 60 chars", "brief": "60-120 words, written as the client", "summary": "max 110 chars", "min": usd int 5-40, "max": usd int, "country": "", "beginner": true, "practice": {"q": "...", "options": ["3 short"], "right": 0-2, "why": "max 170 chars", "need": "I'll ... max 90 chars", "keys": ["2-3 lowercase words"]}, "lesson": one of ${Object.keys(LESSONS[svc]).join("/")}, "skill": "max 60 chars", "pitch": "2-3 short sentences, max 230 chars, first person, names this client's need, ends with a short question, no emoji"}`;
       try {
         const r = await fetch("https://api.anthropic.com/v1/messages", { method: "POST", headers: { "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json" },
           body: JSON.stringify({ model: process.env.CLAUDE_MODEL || "claude-haiku-5-5", max_tokens: 6000, thinking: { type: "disabled" }, messages: [{ role: "user", content: prompt }] }) });
