@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 34
+    "got": 39
    },
    {
     "svc": "wf",
@@ -54,7 +54,7 @@
    {
     "svc": "cv",
     "skills": 3,
-    "got": 17
+    "got": 16
    },
    {
     "svc": "cv",
@@ -84,7 +84,7 @@
    {
     "svc": "cv",
     "q": "resume",
-    "got": 20
+    "got": 18
    },
    {
     "svc": "cv",
@@ -114,7 +114,7 @@
    {
     "svc": "ig",
     "skills": 4,
-    "got": 46
+    "got": 50
    },
    {
     "svc": "ig",
@@ -172,13 +172,12 @@
    ]
   },
   "reasons": {
-   "excluded": 172,
-   "kept": 28,
-   "off-topic": 858,
-   "too big": 9,
-   "not english": 10,
-   "scam": 7,
-   "expert": 4
+   "excluded": 203,
+   "kept": 32,
+   "too big": 16,
+   "off-topic": 847,
+   "not english": 8,
+   "scam": 4
   },
   "ownerKeys": null,
   "ownerLocation": null,
@@ -220,13 +219,13 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 10,
+   "ok": 32,
    "fail": 0,
    "lastError": null,
-   "dropped": 8
+   "dropped": 12
   }
  },
- "updated": "2026-11-19T07:22:34.830Z",
+ "updated": "2026-11-19T19:08:04.777Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -237,43 +236,78 @@
  },
  "counts": {
   "wf": 6,
-  "cv": 3,
-  "ig": 11
+  "cv": 2,
+  "ig": 12
  },
  "services": {
   "wf": [
+   {
+    "id": "40825653",
+    "title": "BuildSure Corporate Brochure Design",
+    "brief": "Dear Sir/Madam, We invite creative designers to design an innovative, attractive and professionally crafted four-page A4-size brochure for: BuildSure – Centre for Construction Material Testing & Quality Assurance (Unit of JSS Academy of Technical Education, Bengaluru) NABL Accredited Laboratory The brochure should reflect BuildSure's professional identity, technical excellence and NABL accreditation. The design must be modern, visually appealing and innovative, with colour combinations that complement the official BuildSure logo. Key content to be highlighted: Introduction to BuildSure and its objectives NABL Accreditation and quality commitment Laboratory infrastructure and testing faciliti",
+    "min": 6,
+    "max": 16,
+    "cur": "USD",
+    "bids": 45,
+    "posted": "2026-11-19T07:44:52.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/print-design/BuildSure-Corporate-Brochure-Design",
+    "beginner": true,
+    "ai": true,
+    "summary": "Design a 4-page A4 corporate brochure for BuildSure's NABL-accredited materials testing lab, matching its logo colours.",
+    "lesson": "wf4",
+    "skill": "Briefing the client: pinning down the real purpose before designing",
+    "pitch": "Hi, I read your brief for the BuildSure brochure and I can design a clean four-page A4 layout that puts your NABL accreditation and lab facilities front and centre, in colours that match your logo. I'll send you a rough layout for feedback before final artwork. Would you like to see a sample of simi",
+    "practice": {
+     "q": "What is the main thing this brochure must do for BuildSure's readers?",
+     "options": [
+      "Show off the lab's NABL accreditation and quality credibility",
+      "Recruit new lab technicians for the centre",
+      "Sell discounted construction materials to builders"
+     ],
+     "right": 0,
+     "why": "The brief centres on professional identity, technical excellence and NABL accreditation. Recruiting and sales aren't part of it, so the brochure should build trust in the lab's quality.",
+     "need": "I'll design a modern 4-page A4 brochure that highlights BuildSure's NABL accreditation in your logo colours.",
+     "keys": [
+      "nabl accreditation",
+      "logo colours",
+      "four-page"
+     ]
+    }
+   },
    {
     "id": "40823511",
     "title": "Canva Package Info PDF Design",
     "brief": "I need an information PDF created in Canva that lays out my program packages in a clean, warm style that matches my existing branding. The document’s primary goal is to present each package’s price and key details so prospects can quickly understand the options and feel confident choosing the right one. It is puppy related so adding in realistic puppy images is a must Scope of work • Translate the copy and basic structure I will supply into a visually appealing, brand-consistent PDF. • Highlight prices and inclusions clearly while keeping the overall look inviting rather than overly corporate. • Use my brand colours, fonts, and any imagery I provide; suggest subtle design touches that enhanc",
     "min": 20,
-    "max": 168,
+    "max": 167,
     "cur": "USD",
-    "bids": 216,
+    "bids": 218,
     "posted": "2026-11-18T02:00:53.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Canva-Package-Info-PDF-Design",
     "beginner": false,
-    "summary": "Client wants a brand-consistent Canva info PDF showing puppy program packages, prices and inclusions, with realistic puppy images.",
+    "ai": true,
+    "summary": "Client wants a warm, brand-matched Canva info PDF showing puppy program packages with clear prices and inclusions, plus realistic puppy photos.",
+    "lesson": "wf4",
+    "skill": "Designing around the prospect's decision, not decoration",
+    "pitch": "Hi, I can turn your puppy package details into a warm, on-brand Canva PDF where prices and inclusions are easy to scan at a glance. I'll use your brand colours and fonts and add realistic puppy photos throughout. Would you like to send me your copy and images so I can draft a first layout?",
     "practice": {
-     "q": "What is the PDF's main job, and what should a reader be able to do after reading it?",
+     "q": "What is the PDF's main job: showing off the design, or helping prospects compare packages and feel confident picking one?",
      "options": [
-      "Look pretty so the brand seems premium",
-      "Show prices and inclusions so prospects can choose confidently",
-      "Collect email addresses for a newsletter"
+      "Show off the design and visual style",
+      "Help prospects compare packages and choose",
+      "List every detail about the puppy program"
      ],
      "right": 1,
-     "why": "The brief says the goal is clear prices and key details so prospects feel confident choosing. Design serves that goal: prices and inclusions must be easy to scan, and the warm style should support trust rather than decorate the page.",
-     "need": "I'll lay out your puppy packages in a warm Canva PDF with prices and inclusions easy to scan.",
+     "why": "The brief says the goal is quick comparison and confidence. Prices and inclusions must be easy to scan. Pretty alone won't win this job. Structure the layout around the decision.",
+     "need": "I'll lay out your puppy packages in a warm Canva PDF so prices are easy to compare.",
      "keys": [
+      "packages",
       "prices",
-      "inclusions",
       "puppy"
      ]
-    },
-    "lesson": "wf4",
-    "skill": "Designing a PDF around the reader's decision",
-    "ai": true
+    }
    },
    {
     "id": "40821901",
@@ -282,31 +316,32 @@
     "min": 16,
     "max": 134,
     "cur": "USD",
-    "bids": 104,
+    "bids": 105,
     "posted": "2026-11-17T03:58:22.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/poster-design/Countryside-Farmland-Brochure-Poster",
     "beginner": false,
-    "summary": "Client wants a rural-themed brochure and poster for a farmland venture, with greenery, peaceful living, and nearby facilities/map.",
+    "ai": true,
+    "summary": "Client wants a brochure and poster for a farmland venture with a rural, natural look, nearby facilities map, and accessibility highlighted.",
+    "lesson": "wf4",
+    "skill": "Turning a client's feeling-based brief into a clear design goal",
+    "pitch": "Hi, I read your brief for the farmland brochure and poster. I can create both with a warm, natural look that brings your green spaces and tree-lined walkways to life, plus a clean map showing nearby facilities. Would you like to share any photos or brand colours you already have?",
     "practice": {
-     "q": "What does the client most need the brochure to achieve?",
+     "q": "What is the client's main goal for this brochure, beyond just looking pretty?",
      "options": [
-      "Show the greenery and calm of rural living",
-      "List every product price in detail",
-      "Recruit farm workers for the venture"
+      "Show calm rural living and make people want to visit",
+      "Sell the lowest price in the area quickly",
+      "Recruit farm workers for the new venture"
      ],
      "right": 0,
-     "why": "The brief is clear: the brochure must transport readers to green, peaceful countryside and sell accessibility. Lead with the feeling of the land, then support it with the map and facilities.",
-     "need": "I'll create a calm, earthy brochure and poster that sell the countryside feeling and nearby access.",
+     "why": "The brief is about feeling, not price or hiring. Start with the emotional goal: transport readers to green, peaceful countryside, then build layout around it, with the map and facilities as support.",
+     "need": "I'll design a brochure and poster with earthy textures and calm rural imagery, plus a clear map of nearby facilities.",
      "keys": [
-      "greenery",
-      "peaceful",
-      "accessibility"
+      "countryside",
+      "accessibility",
+      "brochure"
      ]
-    },
-    "lesson": "wf4",
-    "skill": "Briefing the client: turning a mood into a clear design goal",
-    "ai": true
+    }
    },
    {
     "id": "40821538",
@@ -315,31 +350,32 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 207,
+    "bids": 209,
     "posted": "2026-11-16T22:10:12.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Resize-frame-Flyer-for-Large",
     "beginner": true,
-    "summary": "Resize a 24x36 flyer to a 22x28 vertical poster, matching the printer's template bleed and safe zones.",
+    "ai": true,
+    "summary": "Resize a 24x36 flyer to a 22x28 vertical poster, matching the printer's template bleeds and safe zones.",
+    "lesson": "wf4",
+    "skill": "Matching artwork exactly to a printer's template",
+    "pitch": "Hi, I'd be glad to resize your flyer to 22x28 and align it to the printer's bleed and safe zones. I'll keep every text element, logo and image intact, and deliver a press-ready PDF plus your editable Photoshop file. Would you like me to start with a quick look at the template?",
     "practice": {
-     "q": "What does the client REALLY need from this job, beyond just changing the size?",
+     "q": "What does the client REALLY need beyond just shrinking the artwork?",
      "options": [
-      "Just stretch the artwork to the new size",
-      "Refit the layout to the printer's template, keeping all content",
-      "Redesign the flyer with new text and images"
+      "Just scale the file down to 22x28",
+      "Fit everything to the printer template's bleed and safe zones",
+      "Redesign the flyer from scratch for the new size"
      ],
      "right": 1,
-     "why": "Good work here means fitting everything into the new size while respecting bleed and safe zones, and keeping all text, logos and imagery. Stretching distorts the design, and redesigning goes beyond the brief.",
-     "need": "I'll refit your 22x28 poster to the printer's template with bleeds and safe zones intact, keeping all your content.",
+     "why": "Resizing is only half the job. The artwork has to line up with the printer's bleed and safe zones, so keep text and logos clear of the trim edge and deliver a press-ready PDF.",
+     "need": "I'll fit your 22x28 poster to the printer's bleed and safe zones, keeping all text and logos intact.",
      "keys": [
       "bleed",
       "safe zones",
-      "template"
+      "press-ready"
      ]
-    },
-    "lesson": "wf3",
-    "skill": "Fitting artwork to print specs without changing the design",
-    "ai": true
+    }
    },
    {
     "id": "40818480",
@@ -348,64 +384,32 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 145,
+    "bids": 146,
     "posted": "2026-11-14T22:46:40.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Premium-Beauty-Salon-Print-Design",
     "beginner": false,
-    "summary": "Design a cohesive print suite for a Santa Monica beauty salon matching its interior, incl. service cards and an outdoor board.",
+    "ai": true,
+    "summary": "Design a cohesive, premium print suite (service cards, outdoor board, more) for a Santa Monica beauty salon matching its interior.",
+    "lesson": "wf4",
+    "skill": "Briefing the client: reading what the brief really asks for",
+    "pitch": "Hi, I read your brief for the Santa Monica salon suite and I understand you want materials that feel like a premium editorial spread, not generic templates. I'll design a matching set of service cards and outdoor board drawn from your interior's colors and mood, so everything reads as one brand. Wou",
     "practice": {
-     "q": "What does the client most need from this job beyond just making the materials look pretty?",
+     "q": "What does the client most need from this job, beyond just making things look pretty?",
      "options": [
-      "Designs that match the salon's interior colors and premium look",
-      "Cheap generic beauty templates to save time",
-      "Long text descriptions on every card for full info"
+      "Generic templates they can reuse anywhere",
+      "Cohesive premium designs matching the salon's interior",
+      "Cheap flyers printed in bulk quickly"
      ],
-     "right": 0,
-     "why": "The brief stresses cohesion with the interior, a modern premium editorial feel, and minimal text. Generic templates and heavy text go against what they asked for.",
-     "need": "I'll build a cohesive, premium print set that matches your salon's interior colors and editorial style.",
+     "right": 1,
+     "why": "The brief stresses matching the interior, a premium editorial look, and designs that work together. Generic templates and cheap bulk flyers miss the point. Read for the cohesion and aesthetic demands.",
+     "need": "I'll create a cohesive, premium print suite that matches your salon's interior colors and style.",
      "keys": [
-      "interior",
+      "cohesive",
       "premium",
-      "cohesive"
+      "interior"
      ]
-    },
-    "lesson": "wf4",
-    "skill": "Matching the client's brand and interior aesthetic",
-    "ai": true
-   },
-   {
-    "id": "40817439",
-    "title": "Mobile Accessories Digital Catalogue",
-    "brief": "I'm seeking a designer to create a professional digital catalogue for my mobile accessories. This catalogue will be used primarily for retailers and distributors. The catalogue should include: - Product photos - Product name - Model compatibility The final deliverable should be an editable design file, allowing for future updates as needed. Ideal skills and experience: - Proficiency in graphic design software (e.g., Adobe InDesign, Canva) - Experience in creating professional product catalogues - Strong attention to detail and design aesthetics - Ability to provide an editable format for future modifications",
-    "min": 16,
-    "max": 134,
-    "cur": "USD",
-    "bids": 60,
-    "posted": "2026-11-14T04:56:26.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/catalog-design/Mobile-Accessories-Digital-Catalogue",
-    "beginner": false,
-    "summary": "Client wants a professional editable digital catalogue of mobile accessories with photos, product names and model compatibility, for retailers.",
-    "practice": {
-     "q": "What is the most important thing the client needs from this catalogue, beyond looking nice?",
-     "options": [
-      "Retailers can quickly find the right product for each phone model",
-      "Each page is filled with as many photos as possible",
-      "The catalogue is printed in full colour on glossy paper"
-     ],
-     "right": 0,
-     "why": "Retailers buy by compatibility. A layout that makes it fast to find a product for a specific phone model matters more than decoration. Editable files matter too, since the catalogue will change.",
-     "need": "I'll build an editable catalogue where retailers find each accessory's model compatibility in seconds.",
-     "keys": [
-      "editable",
-      "model compatibility",
-      "retailers"
-     ]
-    },
-    "lesson": "wf4",
-    "skill": "Briefing the client: finding what the buyer really needs",
-    "ai": true
+    }
    },
    {
     "id": "40816691",
@@ -414,34 +418,70 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 95,
+    "bids": 96,
     "posted": "2026-11-14T03:46:20.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Promotional-Poster-Design-40816691",
     "beginner": true,
-    "summary": "Client wants a bold, modern promo poster for their product/service, matching existing brand style, print-ready as 300dpi CMYK PDF.",
-    "practice": {
-     "q": "What does the client really need from this poster?",
-     "options": [
-      "Show every detail of the product on one poster",
-      "Make the key benefit and call-to-action grasped at a glance",
-      "Use as many bright colours and fonts as possible"
-     ],
-     "right": 1,
-     "why": "Posters are seen for seconds. The brief asks for quick attention, benefits understood at a glance, and a clear call-to-action, all while staying on brand. Clutter and too many styles work against that.",
-     "need": "I'll design a bold, clean poster that keeps your brand style and makes your offer clear at a glance.",
-     "keys": [
-      "brand",
-      "benefits",
-      "call-to-action"
-     ]
-    },
+    "ai": true,
+    "summary": "Client wants a bold, modern, print-ready promotional poster that matches their brand and shows key benefits and a call-to-action fast.",
     "lesson": "wf5",
     "skill": "Making the offer impossible to miss",
-    "ai": true
+    "pitch": "Hi, I read your brief for a modern promotional poster and I understand the goal: grab attention fast, show your key benefits clearly, and stay true to your brand. I'll deliver a bold, tidy layout with a clear call-to-action and a print-ready CMYK 300 dpi PDF. Would you like to share your logo and br",
+    "practice": {
+     "q": "What does the client REALLY need most from this poster?",
+     "options": [
+      "Fancy artwork that looks expensive",
+      "Key benefits and a clear call-to-action at a glance",
+      "A full brand guide with new colours"
+     ],
+     "right": 1,
+     "why": "A poster's job is to be understood in seconds. Bold visuals matter, but the benefits and call-to-action must be instantly clear, and the design must stay on-brand.",
+     "need": "I'll design a bold, on-brand poster that shows your benefits and call-to-action at a glance.",
+     "keys": [
+      "promotional poster",
+      "on-brand",
+      "print-ready"
+     ]
+    }
    }
   ],
   "cv": [
+   {
+    "id": "40826534",
+    "title": "ATS Optimized Finance Graduate Resume",
+    "brief": "I’m an entry-level graduate aiming for finance, accounting, and banking positions within large multinational corporations. My current résumé needs a full professional overhaul so it can sail through modern Applicant Tracking Systems and showcase my potential to hiring managers in these high-stakes environments. You’ll start from my existing document and transform it into a clean, results-oriented résumé that speaks the language of finance while remaining fully ATS compliant. That means strategic keyword placement, metrics-driven bullet points, clear section hierarchy, and formatting that stays intact whether it’s scanned by software or reviewed by a human. I also want subtle tailoring toward",
+    "min": 6,
+    "max": 16,
+    "cur": "USD",
+    "bids": 10,
+    "posted": "2026-11-19T18:42:28.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/keyword-research/ATS-Optimized-Finance-Graduate-Resume",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants an ATS-friendly finance graduate résumé, tailored for banking and accounting roles at large multinationals.",
+    "lesson": "cv3",
+    "skill": "Structuring a CV that passes ATS and impresses recruiters",
+    "pitch": "Hi, I read your brief for an ATS-friendly finance graduate résumé aimed at banking and accounting roles. I'll rebuild your draft with clean sections, finance keywords, and clear results-focused bullet points that scan well in software and read well to people. Would you like me to start with your cur",
+    "practice": {
+     "q": "What does the client most need from this résumé, beyond just looking nice?",
+     "options": [
+      "Pass ATS scans and impress finance recruiters",
+      "Design a colourful creative layout",
+      "Write a cover letter for each job"
+     ],
+     "right": 0,
+     "why": "Good read. ATS compliance and finance keywords matter most here, so a clean, scannable structure with metrics comes first. Design flourishes can hurt more than help.",
+     "need": "I'll turn your draft into an ATS-friendly finance résumé that gets past screening software and reads well to banking recruiters.",
+     "keys": [
+      "ats",
+      "finance",
+      "graduate",
+      "banking"
+     ]
+    }
+   },
    {
     "id": "40824118",
     "title": "Fresh Finance Graduate CV",
@@ -449,97 +489,32 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 39,
+    "bids": 40,
     "posted": "2026-11-18T09:38:51.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/customer-service/Fresh-Finance-Graduate",
     "beginner": true,
-    "summary": "Client wants a concise, ATS-friendly CV for entry-level finance back-office roles showing Excel, data entry, reporting and detail skills.",
+    "ai": true,
+    "summary": "Client wants a concise, professional CV for entry-level finance operations and back-office roles, highlighting Excel, data entry, reporting, and detail-checking.",
+    "lesson": "cv3",
+    "skill": "Making the offer impossible to miss",
+    "pitch": "Hi, I'm a finance graduate looking for operations and back-office roles, and I saw you need a CV that shows accuracy and clean reporting. I'll rewrite yours to lead with your Excel skills, data accuracy, and problem-solving, in a concise format recruiters can scan in under a minute. Would you like t",
     "practice": {
-     "q": "The brief asks for a CV that 'reads naturally to a human reviewer yet re' — what is the client's most likely unstated need that the CV must also satisfy?",
+     "q": "What does the client really need from this CV?",
      "options": [
-      "Pass automated resume screening software",
-      "Include a photo and personal hobbies",
-      "List every job since secondary school"
+      "A long, detailed career history with every module listed",
+      "A short CV that proves they can run processes and handle data accurately",
+      "A creative design with graphics to stand out from others"
      ],
-     "right": 0,
-     "why": "Good catch on the human reader, but the brief is cut off mid-sentence and likely continues with 'readable by applicant tracking systems'. Recruiters at banks often screen CVs by software first, so keyword-friendly formatting matters as much as a natural tone.",
-     "need": "I'll build a clean, keyword-rich CV that passes screening software and still reads naturally to recruiters.",
+     "right": 1,
+     "why": "Good. Recruiters for back-office roles scan for proof of accuracy and process reliability, not length or design. Lead with those strengths, keep it tight, and avoid inventing achievements you can't back up.",
+     "need": "I'll write a tight, recruiter-ready CV that puts your Excel, data accuracy, and reporting skills front and centre.",
      "keys": [
       "excel",
       "reporting",
-      "attention to detail"
+      "attention"
      ]
-    },
-    "lesson": "cv3",
-    "skill": "Structuring a CV for both software and human screeners",
-    "ai": true
-   },
-   {
-    "id": "40817695",
-    "title": "Modern Office CV & Letter",
-    "brief": "I need a polished set of application materials—CV, résumé, and cover letter—tailored specifically to office and administration roles. The final documents must look contemporary and professional while remaining clean and ATS-friendly. Please craft the layout in Microsoft Word, Canva, or any comparable platform, then supply both the editable files and ready-to-send PDFs. I value precise formatting, flawless grammar, and consistent styling throughout; no typos or spacing mishaps should slip through. Timely delivery is equally important to me. If you have several years of experience writing CVs for administrative careers, I want to hear from you. When you respond, focus on that experience; a con",
-    "min": 6,
-    "max": 16,
-    "cur": "USD",
-    "bids": 56,
-    "posted": "2026-11-14T08:56:28.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/content-writing/Modern-Office-Letter",
-    "beginner": true,
-    "summary": "Client wants polished, ATS-friendly CV, résumé and cover letter for office/admin roles, in editable and PDF form.",
-    "practice": {
-     "q": "What does the client most need from this job?",
-     "options": [
-      "Fast, flawless, ATS-friendly application documents",
-      "Hiring the client's staff for their office",
-      "Running a full marketing campaign for their job search"
-     ],
-     "right": 0,
-     "why": "Read the brief closely: it asks for clean, ATS-friendly CV and cover letter documents, not recruiting or marketing. Spot the deliverable first, then the constraints.",
-     "need": "I'll deliver a clean, ATS-friendly CV, résumé and cover letter for your office role, in editable and PDF form.",
-     "keys": [
-      "ats-friendly",
-      "office",
-      "cover letter"
-     ]
-    },
-    "lesson": "cv3",
-    "skill": "Matching documents to the target role's requirements",
-    "ai": true
-   },
-   {
-    "id": "40815241",
-    "title": "ATS-Ready STEM Resume Revamp",
-    "brief": "I need a skilled resume writer to turn my existing CV into a clean, modern document that sails through Applicant Tracking Systems on Naukri and Indeed. My background: a STEM Master’s degree and more than three years of experience in data-focused environments. I am now targeting roles in data analytics, business intelligence, reporting, data science, machine learning, artificial intelligence, and, to a lesser extent, software development, cloud, or broader IT functions. Your task is to refashion the content with strong action verbs, tightly focused bullet points, and the right mix of keywords so recruiters can find me quickly. The design should be minimalist—no graphics that trip ATS—yet visu",
-    "min": 6,
-    "max": 16,
-    "cur": "USD",
-    "bids": 46,
-    "posted": "2026-11-12T15:34:05.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/ATS-Ready-STEM-Resume-Revamp",
-    "beginner": true,
-    "summary": "Client wants an ATS-friendly, minimalist resume rewrite for data/STEM roles on Naukri and Indeed.",
-    "practice": {
-     "q": "Which resume design choice best suits an ATS-friendly CV for data roles?",
-     "options": [
-      "Two-column layout with icons and a photo",
-      "Single-column, plain text, standard headings",
-      "Infographic skill bars and colored graphics"
-     ],
-     "right": 1,
-     "why": "ATS software parses plain text in standard sections best. Icons, photos and graphics often get scrambled or skipped, so a single column with clear headings keeps your keywords readable.",
-     "need": "I'll turn your CV into a clean, ATS-ready data resume that gets you found on Naukri and Indeed.",
-     "keys": [
-      "ats",
-      "data",
-      "naukri"
-     ]
-    },
-    "lesson": "cv3",
-    "skill": "Structuring a CV that machines and recruiters can both read",
-    "ai": true
+    }
    }
   ],
   "ig": [
@@ -550,27 +525,28 @@
     "min": 16,
     "max": 134,
     "cur": "USD",
-    "bids": 26,
+    "bids": 50,
     "posted": "2026-11-19T07:04:53.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/branding/Professional-Brand-Creation-for-Social",
     "beginner": false,
     "ai": true,
-    "summary": "Client wants a consistent, professional brand look for Instagram/Facebook posts and stories so their online products seem trustworthy.",
+    "summary": "Client wants a professional brand identity with templates for Instagram and Facebook posts and stories.",
     "lesson": "ig2",
     "skill": "Building consistent templates that signal trust",
+    "pitch": "Hi, I can help you look professional and trustworthy on Instagram and Facebook. I'll create a simple brand identity with matching post and story templates you can reuse for every product. Would you like to see a sample layout first?",
     "practice": {
-     "q": "What does the client REALLY need beyond pretty graphics?",
+     "q": "What does the client really need from this brand identity?",
      "options": [
-      "Flashy, trendy designs that change every week",
-      "A consistent template system that builds trust across posts",
-      "A full ad campaign with paid media buying"
+      "Flashy designs that go viral fast",
+      "Consistent, trustworthy templates across posts and stories",
+      "A full website and online store setup"
      ],
      "right": 1,
-     "why": "Trust comes from consistency. Reusable branded templates make every post look like it belongs to one professional business, which is exactly what the brief asks for.",
-     "need": "I'll build a consistent post and story template set that makes your products look professional and trustworthy.",
+     "why": "Trust comes from consistency. Reusable templates that look the same across every post and story make a small product business look established. Start with the feel, then build the templates from it.",
+     "need": "I'll build consistent Instagram and Facebook post and story templates that make your products look trustworthy.",
      "keys": [
-      "branded",
+      "brand",
       "templates",
       "trustworthy"
      ]
@@ -583,29 +559,30 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 47,
+    "bids": 76,
     "posted": "2026-11-19T06:25:33.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/video-editing/Luxury-Instagram-Content-Creation",
     "beginner": true,
     "ai": true,
-    "summary": "Client wants polished, premium-feeling Instagram photo posts and reels from their own photos and footage, plus AI-made graphics matching their brand.",
+    "summary": "Client wants a luxury-feel Instagram feed: retouch their photos, cut reels from footage, and add AI graphics matching brand guidelines.",
     "lesson": "ig2",
-    "skill": "Pretty isn't the goal: matching the brand",
+    "skill": "Pretty isn't the goal: matching the brand's look",
+    "pitch": "Hi, I read your brief and I can help your feed feel consistently premium. I'll retouch your product and lifestyle shots and cut short reels that follow your colour palette, fonts and tone. Would you like to send over a few sample assets so I can show you a first edit?",
     "practice": {
-     "q": "Beyond making photos look premium, what does this client really need from the feed?",
+     "q": "What does the client REALLY need beyond making the photos look pretty?",
      "options": [
-      "Only sharper, prettier photos",
-      "A feed that builds trust and drives professional brand image",
-      "Posting as many reels as possible"
+      "Pretty photos with no strategy behind them",
+      "A feed that looks premium and consistent with their brand",
+      "Random AI graphics to fill the grid quickly"
      ],
      "right": 1,
-     "why": "Luxury polish matters, but the client's real goal is a feed that builds their professional brand image. Aim for consistency with their palette, fonts, and tone, not just pretty pictures.",
-     "need": "I'll build a consistent luxury feed from your photos and clips that strengthens your professional brand.",
+     "why": "Luxury feel comes from consistency: colours, fonts and tone from their guidelines applied across every post. Editing alone isn't the job; the feed has to read as one coherent brand.",
+     "need": "I'll make your feed look consistently premium, using your palette, fonts and tone on every post.",
      "keys": [
       "brand",
-      "luxury",
-      "feed"
+      "palette",
+      "reels"
      ]
     }
    },
@@ -616,31 +593,32 @@
     "min": 23,
     "max": 194,
     "cur": "USD",
-    "bids": 67,
+    "bids": 66,
     "posted": "2026-11-18T01:33:09.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Profile-Creation",
     "beginner": false,
-    "summary": "Client wants a bright, energetic written bio and engaging social captions for their DJ profile, tailored for Instagram and TikTok.",
+    "ai": true,
+    "summary": "Client wants a bright, energetic bio and engaging captions for Instagram and TikTok to promote their DJ profile.",
+    "lesson": "ig5",
+    "skill": "Making the offer impossible to miss",
+    "pitch": "Hi, I'd love to help your DJ profile stand out. I'll write a bright, energetic bio and punchy captions tailored for Instagram and TikTok, so your personality comes through in every line. Would you like to see a short sample before we start?",
     "practice": {
-     "q": "What does the client REALLY need from this work?",
+     "q": "What does the client REALLY need from this job?",
      "options": [
       "Long, formal bios for a press kit",
-      "Short, punchy, high-energy captions and bio that fit their brand",
-      "Mostly hashtags and posting schedules"
+      "Bright, short hooks tuned to Instagram and TikTok",
+      "A full social media strategy and posting schedule"
      ],
      "right": 1,
-     "why": "The brief asks for a bright, energetic voice tuned to Instagram and TikTok. Spend your effort on a bio and captions that feel like the DJ's personality, not generic hype.",
-     "need": "I'll write a bright, high-energy bio and captions built for Instagram and TikTok to match your DJ brand.",
+     "why": "Match the length and tone to each platform. Short, punchy lines with energy and a clear call to action work best for DJs on Instagram and TikTok. Keep the brand voice consistent.",
+     "need": "I'll write a bright, energetic bio and short captions tailored for Instagram and TikTok.",
      "keys": [
-      "bright",
-      "energetic",
-      "instagram"
+      "bio",
+      "instagram",
+      "tiktok"
      ]
-    },
-    "lesson": "ig5",
-    "skill": "Writing captions that match a brand's energy and platform",
-    "ai": true
+    }
    },
    {
     "id": "40823244",
@@ -649,31 +627,32 @@
     "min": 10,
     "max": 31,
     "cur": "USD",
-    "bids": 72,
+    "bids": 70,
     "posted": "2026-11-17T21:09:34.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Minimalist-Instagram-Rebrand-for-Artist",
     "beginner": true,
-    "summary": "Rebrand an artist's Instagram in ivory, beige, charcoal and gold to look like a polished portfolio after relocating to Hong Kong.",
+    "ai": true,
+    "summary": "Artist relocated to Hong Kong wants a minimalist, polished Instagram profile in ivory/beige/charcoal/champagne gold that attracts collaborations.",
+    "lesson": "ig2",
+    "skill": "Pretty isn't the goal: building a profile that converts visitors",
+    "pitch": "Hi, I read your brief about relocating to Hong Kong and rebranding your Instagram as a contemporary art portfolio. I'll rewrite your bio with keywords for collaborators and media, give you profile image guidance, and plan a grid in your ivory, beige, charcoal and champagne gold palette. Would you li",
     "practice": {
-     "q": "What does the client REALLY need from this account beyond looking pretty?",
+     "q": "What does the artist most need from this Instagram rebrand?",
      "options": [
-      "A minimalist feed that looks nice on its own",
-      "A portfolio that attracts collaborators, press and brand deals",
-      "A daily diary of the move to Hong Kong"
+      "Faster follower growth through daily posting",
+      "A polished portfolio that attracts collaborators and features",
+      "Sales of individual artworks through paid ads"
      ],
      "right": 1,
-     "why": "The brief asks for more than aesthetics. The profile must work as a portfolio that draws collaborations, media and partnerships, with a palette and personal story supporting that goal. Lead with the outcome, not just the look.",
-     "need": "I'll rebrand your profile as a portfolio that draws collaborations, media and partnerships, in your ivory and gold palette.",
+     "why": "The brief asks for a portfolio-style profile that draws collaborations, media and partnerships, not raw growth or sales. Focus on the bio, grid curation and cohesive palette that signal professional credibility.",
+     "need": "I'll refresh your bio, profile image and grid to match your ivory-charcoal palette.",
      "keys": [
       "portfolio",
       "collaborations",
       "palette"
      ]
-    },
-    "lesson": "ig2",
-    "skill": "Pretty isn't the goal; the account must attract clients",
-    "ai": true
+    }
    },
    {
     "id": "40823059",
@@ -682,31 +661,32 @@
     "min": 150,
     "max": 300,
     "cur": "USD",
-    "bids": 106,
+    "bids": 109,
     "posted": "2026-11-17T18:13:03.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/instagram/Instagram-Business-Profile-Setup",
     "beginner": false,
+    "ai": true,
     "summary": "Client wants a full Instagram business profile set up for a local service business, plus first posts published.",
-    "practice": {
-     "q": "What does the client REALLY need from the first posts?",
-     "options": [
-      "Pretty, aesthetic feed designs",
-      "Posts that show the service and make it easy to contact",
-      "Daily viral reels to grow fast"
-     ],
-     "right": 1,
-     "why": "Local service clients want customers, not likes. A complete profile with a clear offer, contact button and posts showing what you do gets the phone ringing. Pretty alone won't.",
-     "need": "I'll set up your full profile and publish first posts that show your service and make booking easy.",
-     "keys": [
-      "profile",
-      "local",
-      "posts"
-     ]
-    },
     "lesson": "ig4",
     "skill": "Onboarding a shop properly",
-    "ai": true
+    "pitch": "Hi, I'd love to set up your Instagram business profile so local customers can quickly see what you offer and how to reach you. I'll complete the full profile, with a clear bio, contact button and highlights, then publish your first posts. Would you like me to send a sample layout?",
+    "practice": {
+     "q": "What does the client really need beyond a pretty profile?",
+     "options": [
+      "A profile that brings local customers to book",
+      "Just a nice-looking grid of photos",
+      "Ads running from day one"
+     ],
+     "right": 0,
+     "why": "Clients hire for results, not decoration. Set up the profile so a local customer understands what you offer, where you are, and how to book within seconds.",
+     "need": "I'll set up your Instagram profile so local customers instantly see your service and how to book.",
+     "keys": [
+      "instagram",
+      "profile",
+      "local"
+     ]
+    }
    },
    {
     "id": "40822970",
@@ -715,31 +695,32 @@
     "min": 16,
     "max": 134,
     "cur": "USD",
-    "bids": 42,
+    "bids": 41,
     "posted": "2026-11-17T17:10:05.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/content-creation/Social-Media-Intern-for-Brand",
     "beginner": false,
-    "summary": "Client wants an intern to plan and publish 2-3 Instagram reels/posts weekly, run daily stories, and grow the new brand's account.",
+    "ai": true,
+    "summary": "Client wants an intern to plan and post 2-3 Instagram reels/posts weekly, run daily stories, and grow the new brand's account organically.",
+    "lesson": "ig2",
+    "skill": "Showing growth through consistent, planned posting",
+    "pitch": "Hi, I saw you're building Instagram from scratch and need someone to keep 2-3 posts and daily stories going each week. I can plan a simple content calendar, create the posts, and keep your audience engaged while we test what trends work for your brand. Would you like me to send a sample week of cont",
     "practice": {
      "q": "What does the client REALLY need from this intern?",
      "options": [
-      "Someone to run ads and hire influencers",
-      "Steady, creative content that grows the account organically",
-      "Someone to film and edit video only"
+      "Someone to film and edit video ads",
+      "A consistent plan that grows the Instagram account organically",
+      "Help hiring and onboarding new staff"
      ],
      "right": 1,
-     "why": "The brief asks for ideas, a steady weekly posting rhythm, daily stories, and organic growth. Paid ads, influencer hiring, and video-only work aren't in it.",
-     "need": "I'll plan a steady weekly posting rhythm and daily stories to grow your new brand's Instagram organically.",
+     "why": "The brief is about consistent, organic growth: a steady rhythm of posts, daily stories, and trend-aware ideas. Filming and hiring are not part of it.",
+     "need": "I'll plan and publish your weekly posts and daily stories to grow the brand organically from day one.",
      "keys": [
       "instagram",
-      "organic",
+      "organically",
       "stories"
      ]
-    },
-    "lesson": "ig2",
-    "skill": "Growing an account with consistent, purposeful content",
-    "ai": true
+    }
    },
    {
     "id": "40822921",
@@ -748,31 +729,32 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 75,
+    "bids": 76,
     "posted": "2026-11-17T16:33:27.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/content-creation/Dari-Instagram-Profile-Overhaul",
     "beginner": false,
-    "summary": "Client wants a polished, cohesive Dari-language Instagram profile: picture, bio, and posts/reels in his creator voice.",
+    "ai": true,
+    "summary": "Tamim wants a polished, personal Instagram profile in fluent Dari: picture, bio, and cohesive posts, captions, stories and reels.",
+    "lesson": "ig2",
+    "skill": "Pretty isn't the goal; the brand must come through",
+    "pitch": "Salam Tamim, I'd be glad to help. I'll refine your profile picture, rewrite your bio in natural Dari, and plan a cohesive set of posts, captions and reels that keep your creator voice while signalling a clear personal brand. Would you like to start with the bio or the grid?",
     "practice": {
-     "q": "What does Tamim REALLY need most: a flashy look, or a clear, confident personal brand that speaks in his own voice?",
+     "q": "Beyond looks, what does Tamim really need this profile to do?",
      "options": [
-      "Flashy visuals that match trends",
-      "A clear, confident brand in his own voice",
-      "Posting as many reels as possible"
+      "Just make the feed look pretty",
+      "Signal a clear, confident personal brand",
+      "Replace his content with stock images"
      ],
      "right": 1,
-     "why": "Good call, the brief says aesthetics alone won't do it. Every element, from picture to caption, should signal who he is in fluent Dari. Polish serves the voice, not the reverse.",
-     "need": "I'll polish your profile and bio in natural Dari so your personal brand feels confident and unmistakably yours.",
+     "why": "Aesthetics matter, but the brief asks every element to signal a clear personal brand. Look for the goal behind the polish, and keep his own voice in Dari.",
+     "need": "I'll polish your photo, bio and feed in fluent Dari so your personal brand reads clearly.",
      "keys": [
-      "dari",
       "personal",
-      "brand"
+      "brand",
+      "dari"
      ]
-    },
-    "lesson": "ig2",
-    "skill": "Pretty isn't the goal: making the personal brand clear",
-    "ai": true
+    }
    },
    {
     "id": "40814085",
@@ -781,31 +763,32 @@
     "min": 7,
     "max": 20,
     "cur": "USD",
-    "bids": 68,
+    "bids": 69,
     "posted": "2026-11-17T11:34:54.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Minimalist-Canva-List-Design",
     "beginner": true,
-    "summary": "Client wants a minimalist, fully editable two-page US Letter to-do list in Canva: Personal/Work columns, weekdays on page one, weekend plus a three-section area on page two.",
-    "practice": {
-     "q": "Why does the client want the weekdays and weekend split across two pages instead of one, and what does that imply for the layout?",
-     "options": [
-      "Weekdays and weekends need different colours",
-      "Each page is for handwriting, so space matters more than order",
-      "Canva only allows two pages per file"
-     ],
-     "right": 1,
-     "why": "The brief is about open writing space and clean structure, not decoration. Keep labels minimal, leave generous room under each day, and make every element easy to edit later. Read the full brief for the page-two sections before you start.",
-     "need": "I'll build your two-page Canva to-do list with clean columns and editable layout, sized for US Letter.",
-     "keys": [
-      "canva",
-      "editable",
-      "minimalist"
-     ]
-    },
+    "ai": true,
+    "summary": "Client wants a minimalist, editable two-page US Letter to-do list in Canva: weekday columns for Personal and Work, plus a weekend page with three sections.",
     "lesson": "ig5",
-    "skill": "Matching the layout to how the user actually works",
-    "ai": true
+    "skill": "Making the layout clear and easy to edit",
+    "pitch": "Hi, I'd love to create your minimalist two-page to-do list in Canva, sized for US Letter and fully editable so you can change colours, text and layout later. Page one will have Personal and Work columns for Monday to Friday with open space to write, and page two will carry the same structure for the",
+    "practice": {
+     "q": "Which page should show Monday through Friday, and which should show only Saturday and Sunday?",
+     "options": [
+      "Page one: Monday to Friday; page two: weekend",
+      "Page one: weekend; page two: Monday to Friday",
+      "Both pages show all seven days"
+     ],
+     "right": 0,
+     "why": "Page one holds the weekday columns with open writing space beneath each day. Page two repeats the heading and two-column layout but shows only Saturday and Sunday, then adds the three horizontal sections below. Keep the design clean and every element editable.",
+     "need": "I'll build your two-page editable Canva to-do list, weekdays on page one and weekend on page two.",
+     "keys": [
+      "editable",
+      "two-page",
+      "weekend"
+     ]
+    }
    },
    {
     "id": "40822262",
@@ -814,31 +797,66 @@
     "min": 134,
     "max": 402,
     "cur": "USD",
-    "bids": 51,
+    "bids": 52,
     "posted": "2026-11-17T08:36:08.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Lifestyle-Instagram-Facebook-Designs",
     "beginner": false,
-    "summary": "Client wants 3-4 authentic lifestyle ad designs for Instagram/Facebook, plus a story version, with editable source files.",
+    "ai": true,
+    "summary": "Client wants 3-4 authentic lifestyle ad creatives for Instagram/Facebook, plus a story version and editable source files.",
+    "lesson": "ig2",
+    "skill": "Pretty isn't the goal; design for the audience's connection",
+    "pitch": "Hi, I'd love to create your Instagram and Facebook ad set. I'll deliver 3-4 authentic lifestyle concepts in both square and portrait sizes, plus a story version, all in layered source files so your copy is easy to swap later. Would you like me to start with a mood board for your brand's look?",
     "practice": {
-     "q": "What does the client most need from these ads, beyond looking attractive?",
+     "q": "What does the client really need beyond pretty visuals?",
      "options": [
-      "Stylish, perfectly staged studio photos",
-      "Authentic real-people visuals that build brand awareness",
-      "Long text explaining every product feature"
+      "Glossy, heavily staged studio photos",
+      "Authentic lifestyle visuals with editable, brand-ready files",
+      "Only one post with a long video reel"
      ],
      "right": 1,
-     "why": "The brief stresses awareness through authentic, real-people lifestyle visuals. Polish matters, but staged looks would miss what this client's audience connects with. Lead with that feel.",
-     "need": "I'll build authentic lifestyle ad concepts with editable layers, sized for feed and story.",
+     "why": "The brief stresses brand awareness, real people using the product, and editable layered files for later copy swaps. Authenticity and editability matter more than polish. Lead with those in your pitch.",
+     "need": "I'll design authentic lifestyle ad creatives in editable layered files for your brand awareness campaign.",
      "keys": [
-      "authentic",
       "lifestyle",
-      "awareness"
+      "authentic",
+      "editable"
      ]
-    },
+    }
+   },
+   {
+    "id": "40820842",
+    "title": "Experienced Social Media & Digital Marketing Specialist",
+    "brief": "Experienced Social Media & Digital Marketing Specialist We are looking for an experienced Social Media & Digital Marketing Specialist to manage our company's Facebook, Instagram, and LinkedIn accounts. Responsibilities: - Create and publish a minimum of 5 professional posts per month. - Design high-quality images and marketing content. - Manage and grow our social media presence. - Promote our company, services, and brand. - Develop strategies to attract new customers and generate leads. Design Style: We are looking for a clean, elegant, modern, and professional corporate style. - Minimalist and sophisticated designs. - High-quality, realistic photography. - Professional graphics and layouts",
+    "min": 33,
+    "max": 274,
+    "cur": "USD",
+    "bids": 165,
+    "posted": "2026-11-16T13:37:40.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-management/Experienced-Social-Media-Digital",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants an experienced specialist to run their Facebook, Instagram and LinkedIn: 5+ posts monthly, clean corporate design, lead generation.",
     "lesson": "ig2",
-    "skill": "Pretty isn't the goal; authentic and clear is",
-    "ai": true
+    "skill": "Pretty isn't the goal: designing posts that drive action",
+    "pitch": "Hi, I'd love to help grow your Instagram presence. I'll design 5 clean, professional posts each month with a clear call to action so followers become leads. Would you like to see a sample post for your brand?",
+    "practice": {
+     "q": "Which part of this brief is a beginner most likely to get wrong, and why?",
+     "options": [
+      "Designing clean, minimalist posts for the brand",
+      "Growing leads, not just making posts look pretty",
+      "Managing three platforms at the same time"
+     ],
+     "right": 1,
+     "why": "The brief asks for lead generation and growth, not just attractive posts. Pretty isn't the goal. Every post needs a clear reason to get a customer to act.",
+     "need": "I'll create 5 clean, on-brand posts a month that turn followers into leads.",
+     "keys": [
+      "lead",
+      "corporate",
+      "posts"
+     ]
+    }
    },
    {
     "id": "40820004",
@@ -852,26 +870,27 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-creative-suite/Social-Media-Design-Specialist",
     "beginner": true,
-    "summary": "Client wants eye-catching Instagram and Facebook ads and posts that promote their sports and fitness brand, matched to brand guidelines.",
+    "ai": true,
+    "summary": "Client needs Instagram and Facebook ads and posts designed to promote their sports and fitness brand, matching brand guidelines.",
+    "lesson": "ig5",
+    "skill": "Making the offer impossible to miss",
+    "pitch": "Hi, I'm a designer building my skills in social media ads, and your fitness brand caught my eye. I'll create Instagram and Facebook designs sized for each platform that promote your products clearly and stick to your brand guidelines. Would you like to see a few sample concepts first?",
     "practice": {
-     "q": "What is the main goal of these designs, according to the brief?",
+     "q": "What does the client most need from these posts, based on the brief?",
      "options": [
-      "Make the feed look pretty and artistic",
-      "Promote the brand's product or service",
-      "Grow followers with general brand awareness"
+      "Pretty designs that win design awards",
+      "Posts and ads that promote the brand's product or service",
+      "A full marketing strategy and hiring plan"
      ],
      "right": 1,
-     "why": "The brief says the main goal is promoting the product or service. Pretty designs matter, but a post that doesn't sell or promote misses the point of the job.",
-     "need": "I'll design Instagram and Facebook ads that promote your sports and fitness products, following your brand guidelines.",
+     "why": "The brief stresses product and service promotion and platform-specific designs. Pretty alone misses the goal; a clear offer that sells is what the client is paying for. Strategy and hiring are out of scope.",
+     "need": "I'll design platform-sized Instagram and Facebook ads that promote your fitness products and follow your brand guidelines.",
      "keys": [
       "promote",
-      "product",
-      "brand"
+      "instagram",
+      "brand guidelines"
      ]
-    },
-    "lesson": "ig5",
-    "skill": "Designing posts that promote the product, not just look good",
-    "ai": true
+    }
    },
    {
     "id": "40817060",
@@ -880,31 +899,32 @@
     "min": 134,
     "max": 402,
     "cur": "USD",
-    "bids": 69,
+    "bids": 71,
     "posted": "2026-11-13T19:12:07.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Social-Media-Post-Graphic-Creation",
     "beginner": false,
-    "summary": "Client wants weekly on-brand Instagram, Facebook and LinkedIn posts: 3-5 images, punchy captions with hashtags, and editable source files.",
+    "ai": true,
+    "summary": "Client wants weekly on-brand Instagram/Facebook/LinkedIn posts: 3-5 images, punchy captions with hashtags, and editable source files.",
+    "lesson": "ig2",
+    "skill": "Pretty isn't the goal; engagement and brand fit are",
+    "pitch": "Hi, I read your brief for weekly Instagram, Facebook, and LinkedIn content. I can plan and design 3-5 on-brand posts each week, with punchy captions, hashtags, and editable Canva or Photoshop files plus export-ready PNG and JPG versions. Would you like to share your brand guidelines so I can start w",
     "practice": {
-     "q": "What does the client actually need from this role, beyond making posts look pretty?",
+     "q": "What does the client REALLY need from a weekly batch of posts, beyond just pretty graphics?",
      "options": [
-      "Attractive designs that win design awards",
-      "On-brand posts that drive engagement every week",
-      "A full social media strategy and ad campaigns"
+      "Pretty designs with no captions",
+      "On-brand posts that drive engagement, sized per platform",
+      "One big campaign video each month"
      ],
      "right": 1,
-     "why": "The brief asks for weekly on-brand posts that encourage engagement, not just pretty visuals or strategy work. Each post needs matching copy, correct sizing per platform, and editable files. Keep the goal of engagement in view for every piece.",
-     "need": "I'll deliver weekly on-brand posts with punchy captions, sized for each platform and engagement-focused.",
+     "why": "The brief asks for pretty AND purposeful: on-brand visuals, captions that match, and posts built to earn engagement. Pretty alone misses the goal. Check the sizing and deliverables too.",
+     "need": "I'll deliver 3-5 on-brand posts a week with punchy captions and editable files for your brand.",
      "keys": [
       "on-brand",
       "engagement",
       "editable"
      ]
-    },
-    "lesson": "ig5",
-    "skill": "Anatomy of a post that sells: copy and visuals working together",
-    "ai": true
+    }
    }
   ]
  }
