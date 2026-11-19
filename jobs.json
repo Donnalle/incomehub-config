@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 39
+    "got": 38
    },
    {
     "svc": "wf",
@@ -172,11 +172,11 @@
    ]
   },
   "reasons": {
-   "excluded": 203,
-   "kept": 32,
-   "too big": 16,
-   "off-topic": 847,
-   "not english": 8,
+   "kept": 33,
+   "excluded": 195,
+   "too big": 12,
+   "off-topic": 849,
+   "not english": 7,
    "scam": 4
   },
   "ownerKeys": null,
@@ -219,13 +219,13 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 21,
+   "ok": 12,
    "fail": 0,
    "lastError": null,
-   "dropped": 11
+   "dropped": 10
   }
  },
- "updated": "2026-11-19T19:10:13.803Z",
+ "updated": "2026-11-19T20:33:51.275Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -235,12 +235,46 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 6,
-  "cv": 3,
+  "wf": 7,
+  "cv": 4,
   "ig": 12
  },
  "services": {
   "wf": [
+   {
+    "id": "40826600",
+    "title": "Food Safety Class Marketing Materials -- 2",
+    "brief": "I need a flyer designed to get people to sign up for my online food safety class. The flyer should be engaging and informative. The flyer must include: - Class details: Online, 75 minutes, local only - Best price with discount code: This is fun Ideal Skills and Experience: - Graphic design expertise - Experience creating educational or promotional material - Ability to create eye-catching and informative layouts",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 162,
+    "posted": "2026-11-19T19:38:20.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/advertisement-design/Food-Safety-Class-Marketing-Materials",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants an engaging, informative flyer to sign up people for a 75-min online food safety class, with discount code 'This is fun'.",
+    "lesson": "wf5",
+    "skill": "Making the offer impossible to miss",
+    "pitch": "Hi, I can design a bold, easy-to-read flyer for your online food safety class. The discount code 'This is fun' and the 75-minute online details will be front and centre so people know exactly how to sign up. Would you like a WhatsApp-ready version as well as print?",
+    "practice": {
+     "q": "What must the flyer make impossible to miss, given the client wants sign-ups?",
+     "options": [
+      "The class topic and course history",
+      "The price with the discount code and a clear sign-up step",
+      "A long list of food safety rules"
+     ],
+     "right": 1,
+     "why": "Flyers get ignored when the offer is buried. Lead with the discount code, the 75-minute online format, and one clear next step. Everything else supports that.",
+     "need": "I'll design a clear, eye-catching flyer that puts your discount code and class details up front.",
+     "keys": [
+      "food safety",
+      "discount code",
+      "75 minutes"
+     ]
+    }
+   },
    {
     "id": "40825653",
     "title": "BuildSure Corporate Brochure Design",
@@ -253,11 +287,7 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/BuildSure-Corporate-Brochure-Design",
     "beginner": true,
-    "ai": true,
     "summary": "Design a 4-page A4 corporate brochure for BuildSure, a NABL-accredited construction materials testing lab, in its brand colours.",
-    "lesson": "wf4",
-    "skill": "Briefing the client to pin down what success looks like",
-    "pitch": "Hi, I'd like to design your BuildSure brochure. I'll build a clean 4-page A4 layout in your logo colours, with the NABL accreditation and lab facilities given clear space. Would you like to see a sample page first?",
     "practice": {
      "q": "What is the most important thing this client needs from the brochure?",
      "options": [
@@ -273,7 +303,11 @@
       "logo colours",
       "four-page"
      ]
-    }
+    },
+    "lesson": "wf4",
+    "skill": "Briefing the client to pin down what success looks like",
+    "pitch": "Hi, I'd like to design your BuildSure brochure. I'll build a clean 4-page A4 layout in your logo colours, with the NABL accreditation and lab facilities given clear space. Would you like to see a sample page first?",
+    "ai": true
    },
    {
     "id": "40823511",
@@ -389,11 +423,7 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Premium-Beauty-Salon-Print-Design",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a cohesive print suite for a Santa Monica beauty salon: service cards, a redesigned outdoor board, matching to salon interior.",
-    "lesson": "wf4",
-    "skill": "Briefing the client: reading the real goal behind the request",
-    "pitch": "I'd love to create a cohesive set of salon cards and an outdoor board that match your interior's colors and editorial feel. I'll deliver a consistent design system, not generic templates. Would you like to see a sample direction first?",
     "practice": {
      "q": "What does the client REALLY need beyond just 'make some flyers'?",
      "options": [
@@ -409,7 +439,11 @@
       "premium",
       "interior"
      ]
-    }
+    },
+    "lesson": "wf4",
+    "skill": "Briefing the client: reading the real goal behind the request",
+    "pitch": "I'd love to create a cohesive set of salon cards and an outdoor board that match your interior's colors and editorial feel. I'll deliver a consistent design system, not generic templates. Would you like to see a sample direction first?",
+    "ai": true
    },
    {
     "id": "40816691",
@@ -423,11 +457,7 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Promotional-Poster-Design-40816691",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants a bold, modern, print-ready promo poster matching existing brand colours, with clear benefits and a call-to-action.",
-    "lesson": "wf4",
-    "skill": "Briefing the client: turning a vague message into a clear poster goal",
-    "pitch": "Hi, I can design your promotional poster in a bold, modern layout that matches your current brand colours and fonts. The key benefits and call-to-action will be easy to read at a glance, and I'll deliver a print-ready CMYK PDF at 300 dpi.",
     "practice": {
      "q": "What does the client most need from this poster, based on the brief?",
      "options": [
@@ -443,7 +473,11 @@
       "brand style",
       "call-to-action"
      ]
-    }
+    },
+    "lesson": "wf4",
+    "skill": "Briefing the client: turning a vague message into a clear poster goal",
+    "pitch": "Hi, I can design your promotional poster in a bold, modern layout that matches your current brand colours and fonts. The key benefits and call-to-action will be easy to read at a glance, and I'll deliver a print-ready CMYK PDF at 300 dpi.",
+    "ai": true
    }
   ],
   "cv": [
@@ -454,16 +488,12 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 10,
+    "bids": 16,
     "posted": "2026-11-19T18:42:28.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/keyword-research/ATS-Optimized-Finance-Graduate-Resume",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants an ATS-friendly finance graduate CV for entry-level finance, accounting, and banking roles at multinationals.",
-    "lesson": "cv3",
-    "skill": "Making the offer impossible to miss",
-    "pitch": "Hi, I'm interested in your finance graduate CV project. I'll rebuild your résumé with a clean section structure, strategic finance keywords, and metric-driven bullet points that pass ATS scans and still impress hiring managers. Could you share your current CV and the roles you're targeting?",
     "practice": {
      "q": "What does the client REALLY need beyond just a nicer-looking CV?",
      "options": [
@@ -479,6 +509,44 @@
       "finance",
       "graduate"
      ]
+    },
+    "lesson": "cv3",
+    "skill": "Making the offer impossible to miss",
+    "pitch": "Hi, I'm interested in your finance graduate CV project. I'll rebuild your résumé with a clean section structure, strategic finance keywords, and metric-driven bullet points that pass ATS scans and still impress hiring managers. Could you share your current CV and the roles you're targeting?",
+    "ai": true
+   },
+   {
+    "id": "40826309",
+    "title": "Global Business Development CV Specialist",
+    "brief": "I need a professional CV tailored for Global BDM or partnerships roles, specifically in the manufacturing sector catering oil and gas. Key Focus: - Building partnerships, distributors, and reseller networks. Ideal Skills and Experience: - Proven expertise in crafting CVs for high-level international roles - Strong background in business development within the oil and gas industry - Ability to articulate complex partnership strategies and market entry successes - Experience working with candidates targeting the manufacturing sector Please provide examples of similar work and any relevant certifications.",
+    "min": 26,
+    "max": 328,
+    "cur": "USD",
+    "bids": 39,
+    "posted": "2026-11-19T15:47:37.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/business-analysis/Global-Business-Development-Specialist",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants a CV for a Global BDM/partnerships role in oil and gas manufacturing, focused on distributor and reseller networks.",
+    "lesson": "cv2",
+    "skill": "Leading with proof of partnership results",
+    "pitch": "I'll rewrite your CV to lead with partnership wins, distributor and reseller networks, and market-entry results for oil and gas manufacturing roles. I'll keep it to two pages and tailored to international BDM titles. Would you like to share your current CV and one example of a partnership you built?",
+    "practice": {
+     "q": "What does the client REALLY need from this CV?",
+     "options": [
+      "A generic CV that lists every job held",
+      "A CV proving partnership and market-entry results",
+      "A cover letter written in a formal style"
+     ],
+     "right": 1,
+     "why": "Recruiters for BDM roles scan for proof you built distributor and reseller networks. Lead with partnership wins and market entry, not a list of duties. Generic CVs get skipped fast.",
+     "need": "I'll rewrite your CV around distributor and reseller partnerships for oil and gas manufacturing.",
+     "keys": [
+      "partnerships",
+      "distributors",
+      "oil and gas"
+     ]
     }
    },
    {
@@ -493,11 +561,7 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/customer-service/Fresh-Finance-Graduate",
     "beginner": true,
-    "ai": true,
     "summary": "Client needs a concise CV for entry-level banking/finance back-office roles, highlighting Excel, data entry, reporting and detail.",
-    "lesson": "cv3",
-    "skill": "Putting the matching skills where recruiters look first",
-    "pitch": "Hi, I read your brief for a finance graduate CV aimed at banking back-office roles. I'll write a concise, skills-led CV that puts your Excel, data accuracy and reporting strengths at the top. Would you like to see a sample section first?",
     "practice": {
      "q": "What does the client really need from this CV?",
      "options": [
@@ -513,7 +577,11 @@
       "data",
       "reporting"
      ]
-    }
+    },
+    "lesson": "cv3",
+    "skill": "Putting the matching skills where recruiters look first",
+    "pitch": "Hi, I read your brief for a finance graduate CV aimed at banking back-office roles. I'll write a concise, skills-led CV that puts your Excel, data accuracy and reporting strengths at the top. Would you like to see a sample section first?",
+    "ai": true
    },
    {
     "id": "40817695",
@@ -527,11 +595,7 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/content-writing/Modern-Office-Letter",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants ATS-friendly CV, résumé and cover letter for office/admin roles, in editable and PDF formats, delivered on time.",
-    "lesson": "cv3",
-    "skill": "Formatting documents that pass ATS and look polished",
-    "pitch": "I can build a clean, ATS-friendly CV, résumé and cover letter tailored to office and admin roles, with editable Word files and ready-to-send PDFs. I'll check every line for grammar and spacing before delivery. Would you like to share your work history so I can start on the draft?",
     "practice": {
      "q": "What does the client actually need delivered?",
      "options": [
@@ -547,7 +611,11 @@
       "cover letter",
       "pdf"
      ]
-    }
+    },
+    "lesson": "cv3",
+    "skill": "Formatting documents that pass ATS and look polished",
+    "pitch": "I can build a clean, ATS-friendly CV, résumé and cover letter tailored to office and admin roles, with editable Word files and ready-to-send PDFs. I'll check every line for grammar and spacing before delivery. Would you like to share your work history so I can start on the draft?",
+    "ai": true
    }
   ],
   "ig": [
@@ -665,11 +733,7 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Minimalist-Instagram-Rebrand-for-Artist",
     "beginner": true,
-    "ai": true,
     "summary": "Artist relocated to Hong Kong wants a minimalist, polished Instagram profile refresh to attract collaborations and brand deals.",
-    "lesson": "ig2",
-    "skill": "Pretty isn't the goal; the account must sell the artist",
-    "pitch": "Hi, I'd love to help your Instagram reflect your Hong Kong chapter. I'll rewrite your bio with keywords for collaborators and media, and give clear guidance on your profile image in your ivory and champagne palette. Would you like me to start with the bio?",
     "practice": {
      "q": "What does this artist REALLY need from the account: a pretty feed, or a portfolio that wins collaborations and partnerships?",
      "options": [
@@ -685,7 +749,11 @@
       "portfolio",
       "minimalist"
      ]
-    }
+    },
+    "lesson": "ig2",
+    "skill": "Pretty isn't the goal; the account must sell the artist",
+    "pitch": "Hi, I'd love to help your Instagram reflect your Hong Kong chapter. I'll rewrite your bio with keywords for collaborators and media, and give clear guidance on your profile image in your ivory and champagne palette. Would you like me to start with the bio?",
+    "ai": true
    },
    {
     "id": "40823059",
@@ -733,11 +801,7 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/content-creation/Social-Media-Intern-for-Brand",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants an intern to plan, create and post 2-3 Instagram reels/posts weekly, run daily stories, and grow the brand organically.",
-    "lesson": "ig2",
-    "skill": "Pretty isn't the goal: content that grows the audience",
-    "pitch": "Hi, I saw you're building your brand's Instagram from scratch. I can plan and publish 2-3 posts or reels every week, plus daily stories to keep people engaged. I'd start by testing a few content formats to find what grows your audience. Would you like a sample content plan for your first month?",
     "practice": {
      "q": "What does the client REALLY need from this intern?",
      "options": [
@@ -753,7 +817,11 @@
       "reels",
       "organic"
      ]
-    }
+    },
+    "lesson": "ig2",
+    "skill": "Pretty isn't the goal: content that grows the audience",
+    "pitch": "Hi, I saw you're building your brand's Instagram from scratch. I can plan and publish 2-3 posts or reels every week, plus daily stories to keep people engaged. I'd start by testing a few content formats to find what grows your audience. Would you like a sample content plan for your first month?",
+    "ai": true
    },
    {
     "id": "40822921",
@@ -801,11 +869,7 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Minimalist-Canva-List-Design",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants a minimalist, editable two-page US Letter to-do list in Canva with PERSONAL and WORK columns, weekdays on page one, weekends on page two.",
-    "lesson": "ig5",
-    "skill": "Making the offer impossible to miss",
-    "pitch": "I can build your two-page minimalist to-do list in Canva, sized for US Letter, with PERSONAL and WORK columns and fully editable colours and text. Weekdays go on page one with open handwriting space, weekends on page two with the three-section layout below.",
     "practice": {
      "q": "Which page should hold the weekend days, and why shouldn't weekdays have boxes or lines?",
      "options": [
@@ -821,7 +885,11 @@
       "minimalist",
       "canva"
      ]
-    }
+    },
+    "lesson": "ig5",
+    "skill": "Making the offer impossible to miss",
+    "pitch": "I can build your two-page minimalist to-do list in Canva, sized for US Letter, with PERSONAL and WORK columns and fully editable colours and text. Weekdays go on page one with open handwriting space, weekends on page two with the three-section layout below.",
+    "ai": true
    },
    {
     "id": "40822262",
@@ -937,11 +1005,7 @@
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Social-Media-Post-Graphic-Creation",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a creative partner to plan and design weekly Instagram, Facebook, and LinkedIn posts with on-brand copy and editable files.",
-    "lesson": "ig2",
-    "skill": "Pretty isn't the goal; engagement is",
-    "pitch": "Hi, I'd love to help with your weekly social content. I'll plan and design 3–5 on-brand posts a week for Instagram, Facebook, and LinkedIn, with matching captions and editable files. Could I see your brand guidelines and a recent campaign?",
     "practice": {
      "q": "Which deliverable matters most to this client beyond just pretty graphics?",
      "options": [
@@ -957,7 +1021,11 @@
       "engagement",
       "weekly"
      ]
-    }
+    },
+    "lesson": "ig2",
+    "skill": "Pretty isn't the goal; engagement is",
+    "pitch": "Hi, I'd love to help with your weekly social content. I'll plan and design 3–5 on-brand posts a week for Instagram, Facebook, and LinkedIn, with matching captions and editable files. Could I see your brand guidelines and a recent campaign?",
+    "ai": true
    }
   ]
  }
