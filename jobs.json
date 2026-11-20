@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 38
+    "got": 44
    },
    {
     "svc": "wf",
@@ -84,7 +84,7 @@
    {
     "svc": "cv",
     "q": "resume",
-    "got": 18
+    "got": 17
    },
    {
     "svc": "cv",
@@ -172,12 +172,13 @@
    ]
   },
   "reasons": {
-   "kept": 33,
-   "excluded": 195,
-   "too big": 12,
-   "off-topic": 849,
-   "not english": 7,
-   "scam": 4
+   "excluded": 179,
+   "off-topic": 829,
+   "kept": 37,
+   "too big": 16,
+   "not english": 6,
+   "scam": 4,
+   "old": 1
   },
   "ownerKeys": null,
   "ownerLocation": null,
@@ -219,13 +220,13 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 12,
+   "ok": 15,
    "fail": 0,
    "lastError": null,
-   "dropped": 10
+   "dropped": 11
   }
  },
- "updated": "2026-11-19T20:33:51.275Z",
+ "updated": "2026-11-20T07:12:51.323Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -235,12 +236,80 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 7,
-  "cv": 4,
-  "ig": 12
+  "wf": 9,
+  "cv": 3,
+  "ig": 14
  },
  "services": {
   "wf": [
+   {
+    "id": "40827307",
+    "title": "Clean YouTube Banner & Thumbnails",
+    "brief": "I run a Business and Education channel and want every visitor to feel they have arrived at a polished, trustworthy source the moment the page loads. To achieve that I need a designer who can handle both the channel banner and an ongoing stream of thumbnails in a single clean, professional style that still feels modern and on-trend. Your job will be to: • design a channel banner that scales perfectly across TV, desktop, tablet and mobile, using the official YouTube safe-zone guidelines; • produce eye-catching thumbnail templates I can reuse, with strong hierarchy and crisp typography that stands out even at small sizes. For both, expect high-resolution output (HD/4K) and meticulous photo edit",
+    "min": 6,
+    "max": 16,
+    "cur": "USD",
+    "bids": 1,
+    "posted": "2026-11-20T07:12:21.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/adobe-photoshop/Clean-YouTube-Banner-Thumbnails",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants a scalable YouTube channel banner and reusable, clean, modern thumbnail templates in HD/4K.",
+    "lesson": "wf4",
+    "skill": "Turning a vague brief into a reusable, consistent system",
+    "pitch": "Hi, I read your brief for a clean channel banner and reusable thumbnail templates for your Business and Education channel. I'll design one consistent style that scales across TV, desktop and mobile, with thumbnails that stay readable at small sizes. Would you like to see a sample layout first?",
+    "practice": {
+     "q": "What does the client REALLY need from this job, beyond just 'make it look nice'?",
+     "options": [
+      "Many different unique styles for each video",
+      "One consistent, reusable look that signals trust",
+      "The most colourful, flashy designs possible"
+     ],
+     "right": 1,
+     "why": "The client wants one consistent template system so every visitor sees a polished, trustworthy brand. Consistency and reusability matter more than variety or flash. Look for the word 'single clean, professional style'.",
+     "need": "I'll build a reusable banner and thumbnail set in one clean style for your channel.",
+     "keys": [
+      "banner",
+      "thumbnails",
+      "consistent"
+     ]
+    }
+   },
+   {
+    "id": "40826996",
+    "title": "Elegant Christian Crusade Flyer",
+    "brief": "I need a polished, print-ready poster or flyer that clearly shares our crusade’s full schedule and key information while keeping an elegant, formal tone. The finished design should present the date, time, and venue prominently, introduce the guest speaker alongside our church name, and round out the content with our contact number and social-media handles for follow-up inquiries. Clean typographic hierarchy, balanced white space, and a restrained color palette will communicate the reverent yet welcoming spirit we want. The layout must translate well for both digital distribution (JPEG/PNG for social posting) and high-resolution print (A4 or US Letter at 300 DPI). Deliverables: • Press-ready ",
+    "min": 10,
+    "max": 30,
+    "cur": "USD",
+    "bids": 119,
+    "posted": "2026-11-20T02:48:09.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/print-design/Elegant-Christian-Crusade-Flyer",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants an elegant, print-ready Christian crusade flyer with date, time, venue, speaker, church name, and contact/social handles.",
+    "lesson": "wf5",
+    "skill": "Making the event details impossible to miss",
+    "pitch": "Hello, I can create an elegant, print-ready crusade flyer with the date, time and venue clearly highlighted, plus your speaker, church name and contact details. I'll deliver A4 at 300 DPI and a social-ready PNG. Would you like to see a sample layout first?",
+    "practice": {
+     "q": "Which element must be the most prominent on the flyer, and why?",
+     "options": [
+      "The church logo, so it stays on brand",
+      "Date, time and venue, so people can act",
+      "The speaker's full biography paragraph"
+     ],
+     "right": 1,
+     "why": "Event flyers succeed when the when and where are impossible to miss. Put date, time and venue first, then speaker and contact details. Balance and white space make it feel elegant.",
+     "need": "I'll design a clean, print-ready crusade flyer with date, time and venue made prominent, for both A4 print and social posts.",
+     "keys": [
+      "date",
+      "time",
+      "venue"
+     ]
+    }
+   },
    {
     "id": "40826600",
     "title": "Food Safety Class Marketing Materials -- 2",
@@ -248,16 +317,12 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 162,
+    "bids": 182,
     "posted": "2026-11-19T19:38:20.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/advertisement-design/Food-Safety-Class-Marketing-Materials",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants an engaging, informative flyer to sign up people for a 75-min online food safety class, with discount code 'This is fun'.",
-    "lesson": "wf5",
-    "skill": "Making the offer impossible to miss",
-    "pitch": "Hi, I can design a bold, easy-to-read flyer for your online food safety class. The discount code 'This is fun' and the 75-minute online details will be front and centre so people know exactly how to sign up. Would you like a WhatsApp-ready version as well as print?",
     "practice": {
      "q": "What must the flyer make impossible to miss, given the client wants sign-ups?",
      "options": [
@@ -273,7 +338,11 @@
       "discount code",
       "75 minutes"
      ]
-    }
+    },
+    "lesson": "wf5",
+    "skill": "Making the offer impossible to miss",
+    "pitch": "Hi, I can design a bold, easy-to-read flyer for your online food safety class. The discount code 'This is fun' and the 75-minute online details will be front and centre so people know exactly how to sign up. Would you like a WhatsApp-ready version as well as print?",
+    "ai": true
    },
    {
     "id": "40825653",
@@ -282,7 +351,7 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 45,
+    "bids": 47,
     "posted": "2026-11-19T07:44:52.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/BuildSure-Corporate-Brochure-Design",
@@ -316,7 +385,7 @@
     "min": 20,
     "max": 167,
     "cur": "USD",
-    "bids": 218,
+    "bids": 219,
     "posted": "2026-11-18T02:00:53.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Canva-Package-Info-PDF-Design",
@@ -488,7 +557,7 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 16,
+    "bids": 18,
     "posted": "2026-11-19T18:42:28.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/keyword-research/ATS-Optimized-Finance-Graduate-Resume",
@@ -522,16 +591,12 @@
     "min": 26,
     "max": 328,
     "cur": "USD",
-    "bids": 39,
+    "bids": 40,
     "posted": "2026-11-19T15:47:37.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/business-analysis/Global-Business-Development-Specialist",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a CV for a Global BDM/partnerships role in oil and gas manufacturing, focused on distributor and reseller networks.",
-    "lesson": "cv2",
-    "skill": "Leading with proof of partnership results",
-    "pitch": "I'll rewrite your CV to lead with partnership wins, distributor and reseller networks, and market-entry results for oil and gas manufacturing roles. I'll keep it to two pages and tailored to international BDM titles. Would you like to share your current CV and one example of a partnership you built?",
     "practice": {
      "q": "What does the client REALLY need from this CV?",
      "options": [
@@ -547,40 +612,10 @@
       "distributors",
       "oil and gas"
      ]
-    }
-   },
-   {
-    "id": "40824118",
-    "title": "Fresh Finance Graduate CV",
-    "brief": "I have just completed my finance degree and am now ready to apply for entry-level roles in banking and financial services, with a clear focus on operations and back-office support. I need a concise, professional CV that immediately shows recruiters I can keep processes running smoothly, maintain impeccable records, and turn raw data into clean, actionable reports. Please highlight my strongest selling points: advanced Excel skills, fast and accurate data entry, solid reporting abilities, unwavering attention to detail when checking documents, and the customer-focused attitude that lets me solve problems before they escalate. The final document should read naturally to a human reviewer yet re",
-    "min": 10,
-    "max": 30,
-    "cur": "USD",
-    "bids": 40,
-    "posted": "2026-11-18T09:38:51.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/customer-service/Fresh-Finance-Graduate",
-    "beginner": true,
-    "summary": "Client needs a concise CV for entry-level banking/finance back-office roles, highlighting Excel, data entry, reporting and detail.",
-    "practice": {
-     "q": "What does the client really need from this CV?",
-     "options": [
-      "A long CV listing every course taken",
-      "A short CV that shows back-office skills fast",
-      "A creative CV with photos and graphics"
-     ],
-     "right": 1,
-     "why": "Recruiters scan fast. Lead with the skills that match operations and back-office roles, and keep it short and clean. Long lists and decoration hide the signal.",
-     "need": "I'll write a concise, skills-led CV that shows your Excel, data accuracy and reporting strengths.",
-     "keys": [
-      "excel",
-      "data",
-      "reporting"
-     ]
     },
-    "lesson": "cv3",
-    "skill": "Putting the matching skills where recruiters look first",
-    "pitch": "Hi, I read your brief for a finance graduate CV aimed at banking back-office roles. I'll write a concise, skills-led CV that puts your Excel, data accuracy and reporting strengths at the top. Would you like to see a sample section first?",
+    "lesson": "cv2",
+    "skill": "Leading with proof of partnership results",
+    "pitch": "I'll rewrite your CV to lead with partnership wins, distributor and reseller networks, and market-entry results for oil and gas manufacturing roles. I'll keep it to two pages and tailored to international BDM titles. Would you like to share your current CV and one example of a partnership you built?",
     "ai": true
    },
    {
@@ -590,7 +625,7 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 56,
+    "bids": 58,
     "posted": "2026-11-14T08:56:28.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/content-writing/Modern-Office-Letter",
@@ -620,13 +655,81 @@
   ],
   "ig": [
    {
+    "id": "40827296",
+    "title": "Entry-Level Social Media Assistant",
+    "brief": "I’m ready to hand over day-to-day management of my Instagram, Facebook, and TikTok accounts so I can keep pushing the business forward. You’ll log in to my Content360 scheduler, upload the posts and short-form videos I provide (or that you help me brainstorm), and make sure everything goes out cleanly and on time. Besides clicking “publish,” I’ll lean on you to craft engaging captions, hooky headlines, and fresh post ideas that nudge viewers toward becoming customers while steadily building trust in the brand. When I have a question—anything from market trends to competitor moves—I’ll tap you for quick, well-sourced research so I can make faster decisions. Up front, the pay is modest; I’m a ",
+    "min": 10,
+    "max": 30,
+    "cur": "USD",
+    "bids": 27,
+    "posted": "2026-11-20T07:00:22.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-management/Entry-Level-Social-Media-Assistant",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants a freelancer to run Instagram, Facebook, and TikTok via a scheduler: publish posts, write captions, and suggest ideas.",
+    "lesson": "ig5",
+    "skill": "Making the offer impossible to miss",
+    "pitch": "Hi, I can take over your Instagram, Facebook, and TikTok scheduling and keep posts going out on time. I'll write captions and hooky headlines that point viewers toward becoming customers, and suggest fresh post ideas. Would you like me to start with a sample week of posts?",
+    "practice": {
+     "q": "Which part of this job is most about turning viewers into customers rather than just posting on time?",
+     "options": [
+      "Publishing on schedule with no errors",
+      "Writing captions and headlines that drive sales",
+      "Doing deep market and competitor research"
+     ],
+     "right": 1,
+     "why": "Clicking publish is the easy part. Captions and headlines that nudge viewers toward buying are what the client is really paying for. Keep that focus.",
+     "need": "I'll write captions and headlines that move viewers toward buying, and schedule them cleanly on time.",
+     "keys": [
+      "captions",
+      "headlines",
+      "customers"
+     ]
+    }
+   },
+   {
+    "id": "40827251",
+    "title": "Editing & Konten TikTok",
+    "brief": "Saya sedang mencari satu orang yang dapat membantu saya di dua area utama: 1) Pengolahan data dan dokumen – Membersihkan, merapikan, serta memvalidasi data yang saya sediakan – Menyusun dokumen pendukung (spreadsheet, ringkasan, laporan singkat) agar mudah dipahami dan diakses 2) Pembuatan konten media sosial untuk TikTok – Merancang ide video pendek sejalan dengan tema yang akan saya berikan – Menulis caption menarik, tagar relevan, dan call-to-action yang jelas – Menyusun jadwal unggahan mingguan dan menyesuaikan konsep jika ada perubahan strategi Saya mengutamakan ketelitian, komunikasi lancar, dan ketepatan waktu. Jika Anda terbiasa bekerja dengan spreadsheet, Google Docs, serta memiliki",
+    "min": 10,
+    "max": 30,
+    "cur": "USD",
+    "bids": 6,
+    "posted": "2026-11-20T06:31:13.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-marketing/Editing-Konten-TikTok",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants one person for data cleanup and spreadsheet/doc prep, plus weekly TikTok content: video ideas, captions, hashtags, and posting schedule.",
+    "lesson": "ig5",
+    "skill": "Making the offer impossible to miss",
+    "pitch": "I can clean and organize your data into clear spreadsheets and summaries, and draft weekly TikTok concepts with captions, hashtags, and a posting schedule. I'm detail-focused and reliable on deadlines. Would you like to share a sample dataset and theme so I can start?",
+    "practice": {
+     "q": "Which two things does the client need from this hire?",
+     "options": [
+      "Data cleanup and TikTok content planning",
+      "Filming videos and running paid ads",
+      "Hiring staff and handling sales calls"
+     ],
+     "right": 0,
+     "why": "Good read. The brief has two parts: organizing data into clean spreadsheets and writing TikTok concepts, captions, and a schedule. Filming and ads are not in it.",
+     "need": "I'll clean your data into clear spreadsheets and plan your weekly TikTok posts with captions.",
+     "keys": [
+      "data",
+      "tiktok",
+      "schedule"
+     ]
+    }
+   },
+   {
     "id": "40825592",
     "title": "Professional Brand Creation for Social Media -- 2",
     "brief": "I need a brand identity for my online products that will make me look professional and trustworthy on Instagram and Facebook. Key tasks include: - Developing branded templates for posts and stories Ideal skills and experience: - Graphic design expertise - Proficiency in Instagram and Facebook - Strong understanding of brand development Looking forward to your creative solutions!",
     "min": 16,
     "max": 134,
     "cur": "USD",
-    "bids": 50,
+    "bids": 51,
     "posted": "2026-11-19T07:04:53.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/branding/Professional-Brand-Creation-for-Social",
@@ -762,7 +865,7 @@
     "min": 150,
     "max": 300,
     "cur": "USD",
-    "bids": 109,
+    "bids": 110,
     "posted": "2026-11-17T18:13:03.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/instagram/Instagram-Business-Profile-Setup",
@@ -896,9 +999,9 @@
     "title": "Lifestyle Instagram & Facebook Ad Designs",
     "brief": "I need a set of fresh, scroll-stopping ad creatives for Instagram and Facebook that focus on building brand awareness. My audience connects best with lifestyle visuals that feature real people using the product naturally, so the photography and layout choices should feel authentic rather than staged. Here is what I’m after: • 3–4 static image concepts (1080×1080 and 1080×1350) • 1 vertical story/reel version (1080×1920) derived from the strongest concept • Layered source files (PSD or AI) plus ready-to-post JPG/PNG exports • Simple brand-aligned copy placements I can swap out later You’re welcome to work in Adobe Photoshop, Illustrator, or even Canva as long as the final files remain editabl",
     "min": 134,
-    "max": 402,
+    "max": 403,
     "cur": "USD",
-    "bids": 52,
+    "bids": 53,
     "posted": "2026-11-17T08:36:08.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Lifestyle-Instagram-Facebook-Designs",
@@ -930,7 +1033,7 @@
     "title": "Experienced Social Media & Digital Marketing Specialist",
     "brief": "Experienced Social Media & Digital Marketing Specialist We are looking for an experienced Social Media & Digital Marketing Specialist to manage our company's Facebook, Instagram, and LinkedIn accounts. Responsibilities: - Create and publish a minimum of 5 professional posts per month. - Design high-quality images and marketing content. - Manage and grow our social media presence. - Promote our company, services, and brand. - Develop strategies to attract new customers and generate leads. Design Style: We are looking for a clean, elegant, modern, and professional corporate style. - Minimalist and sophisticated designs. - High-quality, realistic photography. - Professional graphics and layouts",
     "min": 33,
-    "max": 274,
+    "max": 275,
     "cur": "USD",
     "bids": 165,
     "posted": "2026-11-16T13:37:40.000Z",
@@ -998,7 +1101,7 @@
     "title": "Social Media Post and Graphic Creation",
     "brief": "I’m looking for a creative partner who can take full ownership of designing eye-catching social media content for my brand. The core of the job is simple: plan and produce original posts—both the copy and the accompanying graphics—that feel on-brand and encourage engagement. Here’s what I need from you each week: • 3–5 static or carousel images sized for Instagram, Facebook, and LinkedIn • Short, punchy captions (with relevant hashtags) that align with the visuals • Editable source files (Canva, Photoshop, or Illustrator) along with export-ready PNG/JPG versions I’ll supply brand guidelines, recent campaign examples, and any photography assets I already have. From there, you’ll brainstorm, d",
     "min": 134,
-    "max": 402,
+    "max": 403,
     "cur": "USD",
     "bids": 71,
     "posted": "2026-11-13T19:12:07.000Z",
