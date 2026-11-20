@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 44
+    "got": 40
    },
    {
     "svc": "wf",
@@ -54,7 +54,7 @@
    {
     "svc": "cv",
     "skills": 3,
-    "got": 16
+    "got": 17
    },
    {
     "svc": "cv",
@@ -84,7 +84,7 @@
    {
     "svc": "cv",
     "q": "resume",
-    "got": 17
+    "got": 19
    },
    {
     "svc": "cv",
@@ -114,7 +114,7 @@
    {
     "svc": "ig",
     "skills": 4,
-    "got": 50
+    "got": 43
    },
    {
     "svc": "ig",
@@ -172,12 +172,13 @@
    ]
   },
   "reasons": {
-   "excluded": 179,
-   "off-topic": 829,
-   "kept": 37,
+   "off-topic": 886,
+   "excluded": 153,
    "too big": 16,
-   "not english": 6,
+   "kept": 35,
+   "not english": 5,
    "scam": 4,
+   "expert": 4,
    "old": 1
   },
   "ownerKeys": null,
@@ -220,13 +221,13 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 15,
+   "ok": 11,
    "fail": 0,
    "lastError": null,
-   "dropped": 11
+   "dropped": 10
   }
  },
- "updated": "2026-11-20T07:12:51.323Z",
+ "updated": "2026-11-20T20:14:24.249Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -238,44 +239,10 @@
  "counts": {
   "wf": 9,
   "cv": 3,
-  "ig": 14
+  "ig": 13
  },
  "services": {
   "wf": [
-   {
-    "id": "40827307",
-    "title": "Clean YouTube Banner & Thumbnails",
-    "brief": "I run a Business and Education channel and want every visitor to feel they have arrived at a polished, trustworthy source the moment the page loads. To achieve that I need a designer who can handle both the channel banner and an ongoing stream of thumbnails in a single clean, professional style that still feels modern and on-trend. Your job will be to: • design a channel banner that scales perfectly across TV, desktop, tablet and mobile, using the official YouTube safe-zone guidelines; • produce eye-catching thumbnail templates I can reuse, with strong hierarchy and crisp typography that stands out even at small sizes. For both, expect high-resolution output (HD/4K) and meticulous photo edit",
-    "min": 6,
-    "max": 16,
-    "cur": "USD",
-    "bids": 1,
-    "posted": "2026-11-20T07:12:21.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/adobe-photoshop/Clean-YouTube-Banner-Thumbnails",
-    "beginner": true,
-    "ai": true,
-    "summary": "Client wants a scalable YouTube channel banner and reusable, clean, modern thumbnail templates in HD/4K.",
-    "lesson": "wf4",
-    "skill": "Turning a vague brief into a reusable, consistent system",
-    "pitch": "Hi, I read your brief for a clean channel banner and reusable thumbnail templates for your Business and Education channel. I'll design one consistent style that scales across TV, desktop and mobile, with thumbnails that stay readable at small sizes. Would you like to see a sample layout first?",
-    "practice": {
-     "q": "What does the client REALLY need from this job, beyond just 'make it look nice'?",
-     "options": [
-      "Many different unique styles for each video",
-      "One consistent, reusable look that signals trust",
-      "The most colourful, flashy designs possible"
-     ],
-     "right": 1,
-     "why": "The client wants one consistent template system so every visitor sees a polished, trustworthy brand. Consistency and reusability matter more than variety or flash. Look for the word 'single clean, professional style'.",
-     "need": "I'll build a reusable banner and thumbnail set in one clean style for your channel.",
-     "keys": [
-      "banner",
-      "thumbnails",
-      "consistent"
-     ]
-    }
-   },
    {
     "id": "40826996",
     "title": "Elegant Christian Crusade Flyer",
@@ -283,16 +250,12 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 119,
+    "bids": 177,
     "posted": "2026-11-20T02:48:09.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Elegant-Christian-Crusade-Flyer",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants an elegant, print-ready Christian crusade flyer with date, time, venue, speaker, church name, and contact/social handles.",
-    "lesson": "wf5",
-    "skill": "Making the event details impossible to miss",
-    "pitch": "Hello, I can create an elegant, print-ready crusade flyer with the date, time and venue clearly highlighted, plus your speaker, church name and contact details. I'll deliver A4 at 300 DPI and a social-ready PNG. Would you like to see a sample layout first?",
     "practice": {
      "q": "Which element must be the most prominent on the flyer, and why?",
      "options": [
@@ -308,6 +271,44 @@
       "time",
       "venue"
      ]
+    },
+    "lesson": "wf5",
+    "skill": "Making the event details impossible to miss",
+    "pitch": "Hello, I can create an elegant, print-ready crusade flyer with the date, time and venue clearly highlighted, plus your speaker, church name and contact details. I'll deliver A4 at 300 DPI and a social-ready PNG. Would you like to see a sample layout first?",
+    "ai": true
+   },
+   {
+    "id": "40826815",
+    "title": "InDesign create a new workbook from the template of the photography 4 Teens workbook already made.",
+    "brief": "We are looking for someone to create and format a professional, full-color student workbook for our new Entrepreneurship 4 Teens course. We will provide all the written content, photos, graphics, and instructions. Your job will be to organize and design each lesson with a clean, creative, and consistent layout that matches our other Film School 4 Teens workbooks. This includes formatting text, adding images and graphics, creating attractive assignment pages, and making sure every lesson follows the same design style. The final workbook must be ready for professional printing, and we will need the editable design files as well.",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 173,
+    "posted": "2026-11-19T23:25:16.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/adobe-creative-suite/InDesign-create-new-workbook-from",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants a full-color, print-ready InDesign student workbook for an Entrepreneurship 4 Teens course, matching existing Film School workbooks.",
+    "lesson": "wf4",
+    "skill": "Briefing the client on the real deliverable",
+    "pitch": "I'll format your Entrepreneurship 4 Teens workbook so every lesson matches your Film School template, with clean spacing, placed images, and print-ready PDF plus editable InDesign files. Could you share the template file and the print specs (page size, bleed) so I can start?",
+    "practice": {
+     "q": "What does the client really need from this job?",
+     "options": [
+      "A fresh writing project with new lesson content",
+      "Consistent, print-ready layout matching the existing series",
+      "Photo editing and video filming for the course"
+     ],
+     "right": 1,
+     "why": "The brief is about layout work, not writing or filming. Matching the existing template's style across every lesson, plus print-ready and editable files, is the core of the job.",
+     "need": "I'll build all lessons in one consistent InDesign template matching your Film School workbooks, print-ready.",
+     "keys": [
+      "indesign",
+      "template",
+      "consistent"
+     ]
     }
    },
    {
@@ -317,7 +318,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 182,
+    "bids": 187,
     "posted": "2026-11-19T19:38:20.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/advertisement-design/Food-Safety-Class-Marketing-Materials",
@@ -351,7 +352,7 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 47,
+    "bids": 48,
     "posted": "2026-11-19T07:44:52.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/BuildSure-Corporate-Brochure-Design",
@@ -383,9 +384,9 @@
     "title": "Canva Package Info PDF Design",
     "brief": "I need an information PDF created in Canva that lays out my program packages in a clean, warm style that matches my existing branding. The document’s primary goal is to present each package’s price and key details so prospects can quickly understand the options and feel confident choosing the right one. It is puppy related so adding in realistic puppy images is a must Scope of work • Translate the copy and basic structure I will supply into a visually appealing, brand-consistent PDF. • Highlight prices and inclusions clearly while keeping the overall look inviting rather than overly corporate. • Use my brand colours, fonts, and any imagery I provide; suggest subtle design touches that enhanc",
     "min": 20,
-    "max": 167,
+    "max": 165,
     "cur": "USD",
-    "bids": 219,
+    "bids": 218,
     "posted": "2026-11-18T02:00:53.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Canva-Package-Info-PDF-Design",
@@ -417,9 +418,9 @@
     "title": "Countryside Farmland Brochure & Poster",
     "brief": "I’m preparing to launch a new farmland venture and I want the visual material to instantly transport people to wide-open green spaces and the calm of the countryside. I need two key pieces: a brochure and a poster. Both should carry the same natural, rural aesthetic—think warm earth tones, textured backgrounds that feel like paper or wood, and imagery that makes the reader breathe a little deeper. The brochure will be the main storyteller. It has to spotlight our lush greenery, tree-lined walkways, and the feeling of peaceful living that families and organic-farming enthusiasts crave. Make room as well for a concise map and copy that calls out nearby facilities; accessibility is a major sell",
     "min": 16,
-    "max": 134,
+    "max": 135,
     "cur": "USD",
-    "bids": 105,
+    "bids": 106,
     "posted": "2026-11-17T03:58:22.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/poster-design/Countryside-Farmland-Brochure-Poster",
@@ -589,7 +590,7 @@
     "title": "Global Business Development CV Specialist",
     "brief": "I need a professional CV tailored for Global BDM or partnerships roles, specifically in the manufacturing sector catering oil and gas. Key Focus: - Building partnerships, distributors, and reseller networks. Ideal Skills and Experience: - Proven expertise in crafting CVs for high-level international roles - Strong background in business development within the oil and gas industry - Ability to articulate complex partnership strategies and market entry successes - Experience working with candidates targeting the manufacturing sector Please provide examples of similar work and any relevant certifications.",
     "min": 26,
-    "max": 328,
+    "max": 327,
     "cur": "USD",
     "bids": 40,
     "posted": "2026-11-19T15:47:37.000Z",
@@ -625,7 +626,7 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 58,
+    "bids": 60,
     "posted": "2026-11-14T08:56:28.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/content-writing/Modern-Office-Letter",
@@ -661,16 +662,12 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 27,
+    "bids": 94,
     "posted": "2026-11-20T07:00:22.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Entry-Level-Social-Media-Assistant",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants a freelancer to run Instagram, Facebook, and TikTok via a scheduler: publish posts, write captions, and suggest ideas.",
-    "lesson": "ig5",
-    "skill": "Making the offer impossible to miss",
-    "pitch": "Hi, I can take over your Instagram, Facebook, and TikTok scheduling and keep posts going out on time. I'll write captions and hooky headlines that point viewers toward becoming customers, and suggest fresh post ideas. Would you like me to start with a sample week of posts?",
     "practice": {
      "q": "Which part of this job is most about turning viewers into customers rather than just posting on time?",
      "options": [
@@ -686,7 +683,11 @@
       "headlines",
       "customers"
      ]
-    }
+    },
+    "lesson": "ig5",
+    "skill": "Making the offer impossible to miss",
+    "pitch": "Hi, I can take over your Instagram, Facebook, and TikTok scheduling and keep posts going out on time. I'll write captions and hooky headlines that point viewers toward becoming customers, and suggest fresh post ideas. Would you like me to start with a sample week of posts?",
+    "ai": true
    },
    {
     "id": "40827251",
@@ -695,16 +696,12 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 6,
+    "bids": 8,
     "posted": "2026-11-20T06:31:13.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Editing-Konten-TikTok",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants one person for data cleanup and spreadsheet/doc prep, plus weekly TikTok content: video ideas, captions, hashtags, and posting schedule.",
-    "lesson": "ig5",
-    "skill": "Making the offer impossible to miss",
-    "pitch": "I can clean and organize your data into clear spreadsheets and summaries, and draft weekly TikTok concepts with captions, hashtags, and a posting schedule. I'm detail-focused and reliable on deadlines. Would you like to share a sample dataset and theme so I can start?",
     "practice": {
      "q": "Which two things does the client need from this hire?",
      "options": [
@@ -720,16 +717,20 @@
       "tiktok",
       "schedule"
      ]
-    }
+    },
+    "lesson": "ig5",
+    "skill": "Making the offer impossible to miss",
+    "pitch": "I can clean and organize your data into clear spreadsheets and summaries, and draft weekly TikTok concepts with captions, hashtags, and a posting schedule. I'm detail-focused and reliable on deadlines. Would you like to share a sample dataset and theme so I can start?",
+    "ai": true
    },
    {
     "id": "40825592",
     "title": "Professional Brand Creation for Social Media -- 2",
     "brief": "I need a brand identity for my online products that will make me look professional and trustworthy on Instagram and Facebook. Key tasks include: - Developing branded templates for posts and stories Ideal skills and experience: - Graphic design expertise - Proficiency in Instagram and Facebook - Strong understanding of brand development Looking forward to your creative solutions!",
     "min": 16,
-    "max": 134,
+    "max": 135,
     "cur": "USD",
-    "bids": 51,
+    "bids": 52,
     "posted": "2026-11-19T07:04:53.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/branding/Professional-Brand-Creation-for-Social",
@@ -763,7 +764,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 76,
+    "bids": 78,
     "posted": "2026-11-19T06:25:33.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/video-editing/Luxury-Instagram-Content-Creation",
@@ -797,7 +798,7 @@
     "min": 23,
     "max": 194,
     "cur": "USD",
-    "bids": 66,
+    "bids": 68,
     "posted": "2026-11-18T01:33:09.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Profile-Creation",
@@ -865,7 +866,7 @@
     "min": 150,
     "max": 300,
     "cur": "USD",
-    "bids": 110,
+    "bids": 111,
     "posted": "2026-11-17T18:13:03.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/instagram/Instagram-Business-Profile-Setup",
@@ -897,7 +898,7 @@
     "title": "Social Media Intern for Brand Growth",
     "brief": "We're Hiring! | Social Media Intern We’re looking for a creative and enthusiastic social media intern to join us and manage the social media presence of one of our upcoming brands! What you'll be responsible for: - Brainstorming creative content ideas and developing strategies to grow the Instagram account. - Planning, creating and publishing 2–3 reels/posts every week. - Managing daily Instagram stories and keeping the audience engaged. - Exploring trends, experimenting with content formats and identifying opportunities to grow the brand organically. What's in it for you? - Stipend + Certificate of Completion. - Hands-on experience in building and growing a brand from scratch. - Opportuniti",
     "min": 16,
-    "max": 134,
+    "max": 135,
     "cur": "USD",
     "bids": 41,
     "posted": "2026-11-17T17:10:05.000Z",
@@ -967,7 +968,7 @@
     "min": 7,
     "max": 20,
     "cur": "USD",
-    "bids": 69,
+    "bids": 70,
     "posted": "2026-11-17T11:34:54.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Minimalist-Canva-List-Design",
@@ -998,8 +999,8 @@
     "id": "40822262",
     "title": "Lifestyle Instagram & Facebook Ad Designs",
     "brief": "I need a set of fresh, scroll-stopping ad creatives for Instagram and Facebook that focus on building brand awareness. My audience connects best with lifestyle visuals that feature real people using the product naturally, so the photography and layout choices should feel authentic rather than staged. Here is what I’m after: • 3–4 static image concepts (1080×1080 and 1080×1350) • 1 vertical story/reel version (1080×1920) derived from the strongest concept • Layered source files (PSD or AI) plus ready-to-post JPG/PNG exports • Simple brand-aligned copy placements I can swap out later You’re welcome to work in Adobe Photoshop, Illustrator, or even Canva as long as the final files remain editabl",
-    "min": 134,
-    "max": 403,
+    "min": 135,
+    "max": 404,
     "cur": "USD",
     "bids": 53,
     "posted": "2026-11-17T08:36:08.000Z",
@@ -1033,9 +1034,9 @@
     "title": "Experienced Social Media & Digital Marketing Specialist",
     "brief": "Experienced Social Media & Digital Marketing Specialist We are looking for an experienced Social Media & Digital Marketing Specialist to manage our company's Facebook, Instagram, and LinkedIn accounts. Responsibilities: - Create and publish a minimum of 5 professional posts per month. - Design high-quality images and marketing content. - Manage and grow our social media presence. - Promote our company, services, and brand. - Develop strategies to attract new customers and generate leads. Design Style: We are looking for a clean, elegant, modern, and professional corporate style. - Minimalist and sophisticated designs. - High-quality, realistic photography. - Professional graphics and layouts",
     "min": 33,
-    "max": 275,
+    "max": 274,
     "cur": "USD",
-    "bids": 165,
+    "bids": 168,
     "posted": "2026-11-16T13:37:40.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Experienced-Social-Media-Digital",
@@ -1094,40 +1095,6 @@
     "lesson": "ig5",
     "skill": "Making the offer impossible to miss",
     "pitch": "Hi, I'm a designer building my skills in social media ads, and your fitness brand caught my eye. I'll create Instagram and Facebook designs sized for each platform that promote your products clearly and stick to your brand guidelines. Would you like to see a few sample concepts first?",
-    "ai": true
-   },
-   {
-    "id": "40817060",
-    "title": "Social Media Post and Graphic Creation",
-    "brief": "I’m looking for a creative partner who can take full ownership of designing eye-catching social media content for my brand. The core of the job is simple: plan and produce original posts—both the copy and the accompanying graphics—that feel on-brand and encourage engagement. Here’s what I need from you each week: • 3–5 static or carousel images sized for Instagram, Facebook, and LinkedIn • Short, punchy captions (with relevant hashtags) that align with the visuals • Editable source files (Canva, Photoshop, or Illustrator) along with export-ready PNG/JPG versions I’ll supply brand guidelines, recent campaign examples, and any photography assets I already have. From there, you’ll brainstorm, d",
-    "min": 134,
-    "max": 403,
-    "cur": "USD",
-    "bids": 71,
-    "posted": "2026-11-13T19:12:07.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-marketing/Social-Media-Post-Graphic-Creation",
-    "beginner": false,
-    "summary": "Client wants a creative partner to plan and design weekly Instagram, Facebook, and LinkedIn posts with on-brand copy and editable files.",
-    "practice": {
-     "q": "Which deliverable matters most to this client beyond just pretty graphics?",
-     "options": [
-      "Eye-catching visuals that drive engagement",
-      "Cheapest possible design per post",
-      "Running their ads and hiring staff"
-     ],
-     "right": 0,
-     "why": "The brief asks for on-brand posts that encourage engagement, not just attractive images. Lead with what the post should do, then the look. Pretty alone doesn't win the client.",
-     "need": "I'll plan and design your weekly posts with on-brand captions that drive engagement.",
-     "keys": [
-      "on-brand",
-      "engagement",
-      "weekly"
-     ]
-    },
-    "lesson": "ig2",
-    "skill": "Pretty isn't the goal; engagement is",
-    "pitch": "Hi, I'd love to help with your weekly social content. I'll plan and design 3–5 on-brand posts a week for Instagram, Facebook, and LinkedIn, with matching captions and editable files. Could I see your brand guidelines and a recent campaign?",
     "ai": true
    }
   ]
