@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 42
+    "got": 38
    },
    {
     "svc": "wf",
@@ -54,7 +54,7 @@
    {
     "svc": "cv",
     "skills": 3,
-    "got": 18
+    "got": 17
    },
    {
     "svc": "cv",
@@ -84,7 +84,7 @@
    {
     "svc": "cv",
     "q": "resume",
-    "got": 18
+    "got": 19
    },
    {
     "svc": "cv",
@@ -114,7 +114,7 @@
    {
     "svc": "ig",
     "skills": 4,
-    "got": 48
+    "got": 50
    },
    {
     "svc": "ig",
@@ -172,10 +172,10 @@
    ]
   },
   "reasons": {
-   "too big": 22,
-   "off-topic": 850,
-   "excluded": 177,
-   "kept": 36,
+   "too big": 18,
+   "off-topic": 867,
+   "excluded": 169,
+   "kept": 37,
    "not english": 5,
    "scam": 4,
    "expert": 4
@@ -223,10 +223,10 @@
    "ok": 13,
    "fail": 0,
    "lastError": null,
-   "dropped": 11
+   "dropped": 10
   }
  },
- "updated": "2026-11-21T07:03:52.675Z",
+ "updated": "2026-11-21T19:13:05.219Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -236,9 +236,9 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 9,
+  "wf": 10,
   "cv": 4,
-  "ig": 12
+  "ig": 13
  },
  "services": {
   "wf": [
@@ -249,16 +249,12 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 152,
+    "bids": 165,
     "posted": "2026-11-21T00:12:16.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Celebration-Life-Booklet",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a clean, modern fold-and-staple celebration of life booklet with photos, family memories and personal messages, fast.",
-    "lesson": "wf4",
-    "skill": "Reading what the client really needs before designing",
-    "pitch": "I can design a clean, modern fold-and-staple booklet that places your photos, family memories and personal messages neatly, and I can turn a print-ready file around quickly. Would it help if I sent you a quick layout preview today?",
     "practice": {
      "q": "What does the client really need most, given the tight deadline?",
      "options": [
@@ -274,7 +270,11 @@
       "modern",
       "fast"
      ]
-    }
+    },
+    "lesson": "wf4",
+    "skill": "Reading what the client really needs before designing",
+    "pitch": "I can design a clean, modern fold-and-staple booklet that places your photos, family memories and personal messages neatly, and I can turn a print-ready file around quickly. Would it help if I sent you a quick layout preview today?",
+    "ai": true
    },
    {
     "id": "40826996",
@@ -309,6 +309,40 @@
     "skill": "Making the event details impossible to miss",
     "pitch": "Hello, I can create an elegant, print-ready crusade flyer with the date, time and venue clearly highlighted, plus your speaker, church name and contact details. I'll deliver A4 at 300 DPI and a social-ready PNG. Would you like to see a sample layout first?",
     "ai": true
+   },
+   {
+    "id": "40826865",
+    "title": "Paket Branding Minimalis Modern",
+    "brief": "Saya memerlukan paket branding lengkap bergaya minimalis dan modern untuk sebuah bisnis baru. Ruang lingkup pekerjaan ini meliputi: • Logo utama dan variasi warna/monokrom dalam format vektor (AI, EPS) serta PNG transparan • Palet warna resmi beserta tipografi yang konsisten • Panduan singkat penggunaan logo dan elemen visual (brand guideline ringan) • 5–6 template posting media sosial siap pakai (Instagram square & story) • Satu brosur atau flyer satu halaman yang mengikuti gaya visual yang sama Desain harus bersih, mudah diaplikasikan, dan tetap terasa profesional. Pastikan semua file final dapat diedit sepenuhnya, tertata rapi dalam folder terstruktur, dan siap dicetak atau diunggah.",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 28,
+    "posted": "2026-11-20T00:27:43.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/brochure-design/Paket-Branding-Minimalis-Modern",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants a full minimalist, modern branding kit: logo variants, palette, type, brief guide, 5-6 social templates, and a flyer.",
+    "lesson": "wf4",
+    "skill": "Building one consistent visual system across all files",
+    "pitch": "Hi, I'd be happy to create your minimalist, modern brand kit. I'll deliver vector and PNG logo variants, a locked palette and type system, a short usage guide, six editable Instagram templates, and a matching one-page flyer. Which colours or feelings would you like the brand to communicate?",
+    "practice": {
+     "q": "Which deliverable most directly protects the brand's consistency across everything else the client receives?",
+     "options": [
+      "The Instagram story templates",
+      "A locked palette and type system",
+      "The vector logo file format"
+     ],
+     "right": 1,
+     "why": "The brief asks for consistency across all pieces. A locked palette and type system is what every other file inherits from, so define it first and build everything on it.",
+     "need": "I'll build a clean, editable brand kit with logo, palette, type, and matching social and flyer templates.",
+     "keys": [
+      "minimalis",
+      "konsisten",
+      "template"
+     ]
+    }
    },
    {
     "id": "40826815",
@@ -351,7 +385,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 187,
+    "bids": 188,
     "posted": "2026-11-19T19:38:20.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/advertisement-design/Food-Safety-Class-Marketing-Materials",
@@ -419,7 +453,7 @@
     "min": 20,
     "max": 166,
     "cur": "USD",
-    "bids": 225,
+    "bids": 226,
     "posted": "2026-11-18T02:00:53.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Canva-Package-Info-PDF-Design",
@@ -453,7 +487,7 @@
     "min": 16,
     "max": 135,
     "cur": "USD",
-    "bids": 106,
+    "bids": 107,
     "posted": "2026-11-17T03:58:22.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/poster-design/Countryside-Farmland-Brochure-Poster",
@@ -551,22 +585,52 @@
   ],
   "cv": [
    {
+    "id": "40828900",
+    "title": "Professional Document & Resume Editing",
+    "brief": "I have several documents that need clear, error-free polishing. Most are business letters and résumés intended for formal submission, so tone, structure, and grammar must be spot-on. Your task is to review the existing drafts, tighten the language, fix any inconsistencies, and deliver a clean, ready-to-send version in Word (with tracked changes) and a final PDF. Accuracy, respect for confidentiality, and a quick turnaround are essential. If you have a keen eye for professional formatting and wording that gets results, I’d like to work with you.",
+    "min": 135,
+    "max": 405,
+    "cur": "USD",
+    "bids": 48,
+    "posted": "2026-11-21T12:28:46.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/business-writing/Professional-Document-Resume-Editing",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client needs several business letters and résumés polished: tone, structure, grammar fixed, delivered as tracked Word plus clean PDF.",
+    "lesson": "cv3",
+    "skill": "Matching the document to the formal submission goal",
+    "pitch": "Hi, I'd be glad to help with your business letters and résumés. I'll tighten the wording, fix grammar and structure, and send you a tracked Word file plus a clean PDF. Would you like me to start with a sample page first?",
+    "practice": {
+     "q": "What does the client really need from this job?",
+     "options": [
+      "Just a quick spell-check of the files",
+      "Rewritten, error-free documents ready to submit",
+      "Design work to make the files look modern"
+     ],
+     "right": 1,
+     "why": "The brief asks for formal, error-free, ready-to-send documents. Spell-checking alone misses tone and structure, and design wasn't requested. Read for the goal: submission-ready.",
+     "need": "I'll polish your letters and résumés into clean, submission-ready files with tracked changes.",
+     "keys": [
+      "error-free",
+      "submission",
+      "tracked changes"
+     ]
+    }
+   },
+   {
     "id": "40828418",
     "title": "LinkedIn Profile Visibility Boost",
     "brief": "I want to turn my LinkedIn profile into a recruiter-magnet. The aim is simple: when recruiters search for several specific job titles that match my current expertise, I should appear high in their results and receive more messages. The project centres on three areas I’ve flagged for improvement—my Headline and About section, every Work-experience entry, and the Skills/keywords recruiters filter by. I need those sections rewritten with hard data, clear value statements and the exact terminology recruiters use in LinkedIn Recruiter. You’ll analyse competitor profiles, identify high-impact keywords, and then craft copy that stays within LinkedIn character limits while showcasing quantified achi",
     "min": 20,
     "max": 166,
     "cur": "USD",
-    "bids": 43,
+    "bids": 58,
     "posted": "2026-11-21T03:57:16.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/keyword-research/LinkedIn-Profile-Visibility-Boost",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants LinkedIn headline, About, experience and skills rewritten with quantified results so recruiters find and message them.",
-    "lesson": "cv5",
-    "skill": "Matching profile keywords to what recruiters search for",
-    "pitch": "Hi, I read your brief and I can help you show up in recruiter searches for your target titles. I'll rewrite your headline, About section and skills with the exact keywords recruiters filter by, and add clear results to each role. Which job titles are you aiming for?",
     "practice": {
      "q": "What does the client actually need most: more profile views, or recruiters finding and contacting them for the right roles?",
      "options": [
@@ -582,7 +646,11 @@
       "keywords",
       "skills"
      ]
-    }
+    },
+    "lesson": "cv5",
+    "skill": "Matching profile keywords to what recruiters search for",
+    "pitch": "Hi, I read your brief and I can help you show up in recruiter searches for your target titles. I'll rewrite your headline, About section and skills with the exact keywords recruiters filter by, and add clear results to each role. Which job titles are you aiming for?",
+    "ai": true
    },
    {
     "id": "40826534",
@@ -591,7 +659,7 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 18,
+    "bids": 19,
     "posted": "2026-11-19T18:42:28.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/keyword-research/ATS-Optimized-Finance-Graduate-Resume",
@@ -651,43 +719,43 @@
     "skill": "Leading with proof of partnership results",
     "pitch": "I'll rewrite your CV to lead with partnership wins, distributor and reseller networks, and market-entry results for oil and gas manufacturing roles. I'll keep it to two pages and tailored to international BDM titles. Would you like to share your current CV and one example of a partnership you built?",
     "ai": true
-   },
-   {
-    "id": "40817695",
-    "title": "Modern Office CV & Letter",
-    "brief": "I need a polished set of application materials—CV, résumé, and cover letter—tailored specifically to office and administration roles. The final documents must look contemporary and professional while remaining clean and ATS-friendly. Please craft the layout in Microsoft Word, Canva, or any comparable platform, then supply both the editable files and ready-to-send PDFs. I value precise formatting, flawless grammar, and consistent styling throughout; no typos or spacing mishaps should slip through. Timely delivery is equally important to me. If you have several years of experience writing CVs for administrative careers, I want to hear from you. When you respond, focus on that experience; a con",
-    "min": 6,
-    "max": 16,
-    "cur": "USD",
-    "bids": 60,
-    "posted": "2026-11-14T08:56:28.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/content-writing/Modern-Office-Letter",
-    "beginner": true,
-    "summary": "Client wants ATS-friendly CV, résumé and cover letter for office/admin roles, in editable and PDF formats, delivered on time.",
-    "practice": {
-     "q": "What does the client actually need delivered?",
-     "options": [
-      "Only a cover letter, no CV",
-      "Editable and PDF CV, résumé and cover letter",
-      "A recruiter to find them a job"
-     ],
-     "right": 1,
-     "why": "Good read. The brief wants three clean documents, in editable and PDF form, that pass applicant tracking systems. Keep formatting simple and check every line for typos.",
-     "need": "I'll deliver a clean, ATS-friendly CV, résumé and cover letter for office roles, in editable and PDF formats.",
-     "keys": [
-      "cv",
-      "cover letter",
-      "pdf"
-     ]
-    },
-    "lesson": "cv3",
-    "skill": "Formatting documents that pass ATS and look polished",
-    "pitch": "I can build a clean, ATS-friendly CV, résumé and cover letter tailored to office and admin roles, with editable Word files and ready-to-send PDFs. I'll check every line for grammar and spacing before delivery. Would you like to share your work history so I can start on the draft?",
-    "ai": true
    }
   ],
   "ig": [
+   {
+    "id": "40193484",
+    "title": "Create eye catching ad creatives for Facebook and Instagram",
+    "brief": "I am responsible for developing visually engaging design solutions to support branding, marketing, and promotional initiatives. The project involves creating social media creatives, marketing materials, and brand assets while maintaining consistency with established brand guidelines. This role includes collaborating with stakeholders to understand design requirements, translating concepts into effective visuals, and managing multiple tasks to meet deadlines. The focus is on delivering high-quality, detail-oriented designs that align with business objectives and enhance brand presence.",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 61,
+    "posted": "2026-11-21T09:59:52.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/graphic-design/Create-eye-catching-creatives-for",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants eye-catching Facebook/Instagram ad creatives that stay on-brand and meet deadlines.",
+    "lesson": "ig2",
+    "skill": "Pretty isn't the goal: designing ads that serve the brand",
+    "pitch": "Hi, I saw you need eye-catching Facebook and Instagram ad creatives that stay true to your brand. I'll design clean, on-brand visuals for each campaign and deliver them before each deadline. Would you like to share your brand guidelines so I can start with a sample?",
+    "practice": {
+     "q": "What does the client REALLY need from these ad creatives?",
+     "options": [
+      "Pretty visuals with no brand tie-in",
+      "On-brand ads that drive business goals",
+      "Filming short videos for each campaign"
+     ],
+     "right": 1,
+     "why": "Beautiful alone isn't enough. The brief asks for visuals that match brand guidelines and support business objectives. Pick the option that ties design to results.",
+     "need": "I'll create on-brand Facebook and Instagram ad creatives that support your business goals.",
+     "keys": [
+      "brand",
+      "social media",
+      "deadlines"
+     ]
+    }
+   },
    {
     "id": "40827296",
     "title": "Entry-Level Social Media Assistant",
@@ -695,7 +763,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 99,
+    "bids": 106,
     "posted": "2026-11-20T07:00:22.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Entry-Level-Social-Media-Assistant",
@@ -763,7 +831,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 79,
+    "bids": 81,
     "posted": "2026-11-19T06:25:33.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/video-editing/Luxury-Instagram-Content-Creation",
