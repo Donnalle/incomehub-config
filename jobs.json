@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 40
+    "got": 42
    },
    {
     "svc": "wf",
@@ -54,7 +54,7 @@
    {
     "svc": "cv",
     "skills": 3,
-    "got": 17
+    "got": 18
    },
    {
     "svc": "cv",
@@ -84,7 +84,7 @@
    {
     "svc": "cv",
     "q": "resume",
-    "got": 19
+    "got": 18
    },
    {
     "svc": "cv",
@@ -114,7 +114,7 @@
    {
     "svc": "ig",
     "skills": 4,
-    "got": 43
+    "got": 48
    },
    {
     "svc": "ig",
@@ -172,14 +172,13 @@
    ]
   },
   "reasons": {
-   "off-topic": 886,
-   "excluded": 153,
-   "too big": 16,
-   "kept": 35,
+   "too big": 22,
+   "off-topic": 850,
+   "excluded": 177,
+   "kept": 36,
    "not english": 5,
    "scam": 4,
-   "expert": 4,
-   "old": 1
+   "expert": 4
   },
   "ownerKeys": null,
   "ownerLocation": null,
@@ -221,13 +220,13 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 11,
+   "ok": 13,
    "fail": 0,
    "lastError": null,
-   "dropped": 10
+   "dropped": 11
   }
  },
- "updated": "2026-11-20T20:14:24.249Z",
+ "updated": "2026-11-21T07:03:52.675Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -238,11 +237,45 @@
  },
  "counts": {
   "wf": 9,
-  "cv": 3,
-  "ig": 13
+  "cv": 4,
+  "ig": 12
  },
  "services": {
   "wf": [
+   {
+    "id": "40828284",
+    "title": "Modern Celebration of Life Booklet",
+    "brief": "I need a simple, modern fold-and-staple booklet for a celebration of life event. Content includes: - Photos - Family memories - Personal messages Requirements: - Design should be clean and modern - Quick turnaround is essential, as I need this ASAP Ideal Skills & Experience: - Graphic design proficiency - Experience with booklet layouts - Ability to meet tight deadlines Please provide samples of similar work.",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 152,
+    "posted": "2026-11-21T00:12:16.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Celebration-Life-Booklet",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants a clean, modern fold-and-staple celebration of life booklet with photos, family memories and personal messages, fast.",
+    "lesson": "wf4",
+    "skill": "Reading what the client really needs before designing",
+    "pitch": "I can design a clean, modern fold-and-staple booklet that places your photos, family memories and personal messages neatly, and I can turn a print-ready file around quickly. Would it help if I sent you a quick layout preview today?",
+    "practice": {
+     "q": "What does the client really need most, given the tight deadline?",
+     "options": [
+      "A fancy custom illustration style",
+      "A clean, simple layout delivered fast",
+      "A full brand identity and logo"
+     ],
+     "right": 1,
+     "why": "Speed and clarity matter most here. A clean, simple layout that fits photos and messages neatly beats fancy extras when the deadline is tight.",
+     "need": "I'll deliver a clean, modern fold-and-staple booklet layout fast, with photos and memories placed neatly.",
+     "keys": [
+      "clean",
+      "modern",
+      "fast"
+     ]
+    }
+   },
    {
     "id": "40826996",
     "title": "Elegant Christian Crusade Flyer",
@@ -250,7 +283,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 177,
+    "bids": 181,
     "posted": "2026-11-20T02:48:09.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Elegant-Christian-Crusade-Flyer",
@@ -284,16 +317,12 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 173,
+    "bids": 178,
     "posted": "2026-11-19T23:25:16.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-creative-suite/InDesign-create-new-workbook-from",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a full-color, print-ready InDesign student workbook for an Entrepreneurship 4 Teens course, matching existing Film School workbooks.",
-    "lesson": "wf4",
-    "skill": "Briefing the client on the real deliverable",
-    "pitch": "I'll format your Entrepreneurship 4 Teens workbook so every lesson matches your Film School template, with clean spacing, placed images, and print-ready PDF plus editable InDesign files. Could you share the template file and the print specs (page size, bleed) so I can start?",
     "practice": {
      "q": "What does the client really need from this job?",
      "options": [
@@ -309,7 +338,11 @@
       "template",
       "consistent"
      ]
-    }
+    },
+    "lesson": "wf4",
+    "skill": "Briefing the client on the real deliverable",
+    "pitch": "I'll format your Entrepreneurship 4 Teens workbook so every lesson matches your Film School template, with clean spacing, placed images, and print-ready PDF plus editable InDesign files. Could you share the template file and the print specs (page size, bleed) so I can start?",
+    "ai": true
    },
    {
     "id": "40826600",
@@ -384,9 +417,9 @@
     "title": "Canva Package Info PDF Design",
     "brief": "I need an information PDF created in Canva that lays out my program packages in a clean, warm style that matches my existing branding. The document’s primary goal is to present each package’s price and key details so prospects can quickly understand the options and feel confident choosing the right one. It is puppy related so adding in realistic puppy images is a must Scope of work • Translate the copy and basic structure I will supply into a visually appealing, brand-consistent PDF. • Highlight prices and inclusions clearly while keeping the overall look inviting rather than overly corporate. • Use my brand colours, fonts, and any imagery I provide; suggest subtle design touches that enhanc",
     "min": 20,
-    "max": 165,
+    "max": 166,
     "cur": "USD",
-    "bids": 218,
+    "bids": 225,
     "posted": "2026-11-18T02:00:53.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Canva-Package-Info-PDF-Design",
@@ -514,43 +547,43 @@
     "skill": "Briefing the client: reading the real goal behind the request",
     "pitch": "I'd love to create a cohesive set of salon cards and an outdoor board that match your interior's colors and editorial feel. I'll deliver a consistent design system, not generic templates. Would you like to see a sample direction first?",
     "ai": true
-   },
-   {
-    "id": "40816691",
-    "title": "Modern Promotional Poster Design",
-    "brief": "I’m looking for a designer who can translate my business message into a clean, creative, and modern promotional poster. The poster’s sole purpose is to promote our product / service, so it has to capture attention quickly, communicate benefits at a glance, and remain consistent with our existing brand style. Here’s what I have in mind: • Visual approach: bold yet tidy layout, contemporary typography, and a colour palette that feels fresh without straying from our current branding. • Readability: information must be organised so a first-time viewer instantly grasps the key points and call-to-action. • Print-ready: final artwork should be supplied as a high-resolution PDF (CMYK, 300 dpi) along",
-    "min": 10,
-    "max": 30,
-    "cur": "USD",
-    "bids": 96,
-    "posted": "2026-11-14T03:46:20.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Promotional-Poster-Design-40816691",
-    "beginner": true,
-    "summary": "Client wants a bold, modern, print-ready promo poster matching existing brand colours, with clear benefits and a call-to-action.",
-    "practice": {
-     "q": "What does the client most need from this poster, based on the brief?",
-     "options": [
-      "Fancy effects to impress viewers",
-      "Fast attention, clear benefits, and on-brand look",
-      "Maximum text so every detail is shown"
-     ],
-     "right": 1,
-     "why": "The brief stresses attention in seconds, benefits at a glance, and staying consistent with existing branding. Clean hierarchy beats decoration or text overload every time.",
-     "need": "I'll make a bold, on-brand poster that grabs attention fast and shows your benefits and call-to-action at a glance.",
-     "keys": [
-      "promotional poster",
-      "brand style",
-      "call-to-action"
-     ]
-    },
-    "lesson": "wf4",
-    "skill": "Briefing the client: turning a vague message into a clear poster goal",
-    "pitch": "Hi, I can design your promotional poster in a bold, modern layout that matches your current brand colours and fonts. The key benefits and call-to-action will be easy to read at a glance, and I'll deliver a print-ready CMYK PDF at 300 dpi.",
-    "ai": true
    }
   ],
   "cv": [
+   {
+    "id": "40828418",
+    "title": "LinkedIn Profile Visibility Boost",
+    "brief": "I want to turn my LinkedIn profile into a recruiter-magnet. The aim is simple: when recruiters search for several specific job titles that match my current expertise, I should appear high in their results and receive more messages. The project centres on three areas I’ve flagged for improvement—my Headline and About section, every Work-experience entry, and the Skills/keywords recruiters filter by. I need those sections rewritten with hard data, clear value statements and the exact terminology recruiters use in LinkedIn Recruiter. You’ll analyse competitor profiles, identify high-impact keywords, and then craft copy that stays within LinkedIn character limits while showcasing quantified achi",
+    "min": 20,
+    "max": 166,
+    "cur": "USD",
+    "bids": 43,
+    "posted": "2026-11-21T03:57:16.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/keyword-research/LinkedIn-Profile-Visibility-Boost",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants LinkedIn headline, About, experience and skills rewritten with quantified results so recruiters find and message them.",
+    "lesson": "cv5",
+    "skill": "Matching profile keywords to what recruiters search for",
+    "pitch": "Hi, I read your brief and I can help you show up in recruiter searches for your target titles. I'll rewrite your headline, About section and skills with the exact keywords recruiters filter by, and add clear results to each role. Which job titles are you aiming for?",
+    "practice": {
+     "q": "What does the client actually need most: more profile views, or recruiters finding and contacting them for the right roles?",
+     "options": [
+      "More profile views from anyone",
+      "Recruiters finding them via keyword search",
+      "A prettier photo and banner"
+     ],
+     "right": 1,
+     "why": "The brief is about ranking in recruiter searches for specific titles, which depends on keywords in the headline, About and skills, plus proof of results in each role. Views alone don't bring messages from the right recruiters.",
+     "need": "I'll rewrite your headline, About and experience with recruiter keywords and quantified results.",
+     "keys": [
+      "headline",
+      "keywords",
+      "skills"
+     ]
+    }
+   },
    {
     "id": "40826534",
     "title": "ATS Optimized Finance Graduate Resume",
@@ -662,7 +695,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 94,
+    "bids": 99,
     "posted": "2026-11-20T07:00:22.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Entry-Level-Social-Media-Assistant",
@@ -690,47 +723,13 @@
     "ai": true
    },
    {
-    "id": "40827251",
-    "title": "Editing & Konten TikTok",
-    "brief": "Saya sedang mencari satu orang yang dapat membantu saya di dua area utama: 1) Pengolahan data dan dokumen – Membersihkan, merapikan, serta memvalidasi data yang saya sediakan – Menyusun dokumen pendukung (spreadsheet, ringkasan, laporan singkat) agar mudah dipahami dan diakses 2) Pembuatan konten media sosial untuk TikTok – Merancang ide video pendek sejalan dengan tema yang akan saya berikan – Menulis caption menarik, tagar relevan, dan call-to-action yang jelas – Menyusun jadwal unggahan mingguan dan menyesuaikan konsep jika ada perubahan strategi Saya mengutamakan ketelitian, komunikasi lancar, dan ketepatan waktu. Jika Anda terbiasa bekerja dengan spreadsheet, Google Docs, serta memiliki",
-    "min": 10,
-    "max": 30,
-    "cur": "USD",
-    "bids": 8,
-    "posted": "2026-11-20T06:31:13.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-marketing/Editing-Konten-TikTok",
-    "beginner": true,
-    "summary": "Client wants one person for data cleanup and spreadsheet/doc prep, plus weekly TikTok content: video ideas, captions, hashtags, and posting schedule.",
-    "practice": {
-     "q": "Which two things does the client need from this hire?",
-     "options": [
-      "Data cleanup and TikTok content planning",
-      "Filming videos and running paid ads",
-      "Hiring staff and handling sales calls"
-     ],
-     "right": 0,
-     "why": "Good read. The brief has two parts: organizing data into clean spreadsheets and writing TikTok concepts, captions, and a schedule. Filming and ads are not in it.",
-     "need": "I'll clean your data into clear spreadsheets and plan your weekly TikTok posts with captions.",
-     "keys": [
-      "data",
-      "tiktok",
-      "schedule"
-     ]
-    },
-    "lesson": "ig5",
-    "skill": "Making the offer impossible to miss",
-    "pitch": "I can clean and organize your data into clear spreadsheets and summaries, and draft weekly TikTok concepts with captions, hashtags, and a posting schedule. I'm detail-focused and reliable on deadlines. Would you like to share a sample dataset and theme so I can start?",
-    "ai": true
-   },
-   {
     "id": "40825592",
     "title": "Professional Brand Creation for Social Media -- 2",
     "brief": "I need a brand identity for my online products that will make me look professional and trustworthy on Instagram and Facebook. Key tasks include: - Developing branded templates for posts and stories Ideal skills and experience: - Graphic design expertise - Proficiency in Instagram and Facebook - Strong understanding of brand development Looking forward to your creative solutions!",
     "min": 16,
     "max": 135,
     "cur": "USD",
-    "bids": 52,
+    "bids": 53,
     "posted": "2026-11-19T07:04:53.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/branding/Professional-Brand-Creation-for-Social",
@@ -764,7 +763,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 78,
+    "bids": 79,
     "posted": "2026-11-19T06:25:33.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/video-editing/Luxury-Instagram-Content-Creation",
@@ -1000,7 +999,7 @@
     "title": "Lifestyle Instagram & Facebook Ad Designs",
     "brief": "I need a set of fresh, scroll-stopping ad creatives for Instagram and Facebook that focus on building brand awareness. My audience connects best with lifestyle visuals that feature real people using the product naturally, so the photography and layout choices should feel authentic rather than staged. Here is what I’m after: • 3–4 static image concepts (1080×1080 and 1080×1350) • 1 vertical story/reel version (1080×1920) derived from the strongest concept • Layered source files (PSD or AI) plus ready-to-post JPG/PNG exports • Simple brand-aligned copy placements I can swap out later You’re welcome to work in Adobe Photoshop, Illustrator, or even Canva as long as the final files remain editabl",
     "min": 135,
-    "max": 404,
+    "max": 405,
     "cur": "USD",
     "bids": 53,
     "posted": "2026-11-17T08:36:08.000Z",
