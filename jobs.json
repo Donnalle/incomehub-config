@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 38
+    "got": 36
    },
    {
     "svc": "wf",
@@ -54,7 +54,7 @@
    {
     "svc": "cv",
     "skills": 3,
-    "got": 17
+    "got": 16
    },
    {
     "svc": "cv",
@@ -84,7 +84,7 @@
    {
     "svc": "cv",
     "q": "resume",
-    "got": 18
+    "got": 16
    },
    {
     "svc": "cv",
@@ -119,7 +119,7 @@
    {
     "svc": "ig",
     "skills": 4,
-    "got": 2
+    "got": 8
    },
    {
     "svc": "ig",
@@ -172,13 +172,13 @@
    ]
   },
   "reasons": {
-   "kept": 40,
-   "excluded": 193,
-   "off-topic": 804,
-   "too big": 26,
+   "excluded": 163,
+   "off-topic": 874,
+   "kept": 38,
+   "too big": 16,
    "not english": 11,
    "scam": 4,
-   "expert": 4
+   "expert": 2
   },
   "ownerKeys": null,
   "ownerLocation": null,
@@ -222,11 +222,11 @@
    "keyPresent": true,
    "ok": 14,
    "fail": 1,
-   "lastError": "no json: {\"model\":\"claude-haiku-5-5\",\"id\":\"msg_011ChHWrZKZEK3yb1S5mmqYv\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"text\",\"text\":\"I can't evaluate this one from the brief as written: no image is attached, and the request is for a human to recreate a specific mockup in \\\"your own style,\\\" which I",
-   "dropped": 13
+   "lastError": "no json: {\"model\":\"claude-haiku-5-5\",\"id\":\"msg_011ChJXhu7ogyJgXUuTASXeb\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"text\",\"text\":\"I can't evaluate this one from the brief as written. The text says \\\"attached image,\\\" but no image came through, so I can't see what the client wants recreated, and ",
+   "dropped": 14
   }
  },
- "updated": "2026-11-22T06:45:10.716Z",
+ "updated": "2026-11-22T19:36:58.137Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -236,46 +236,12 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 11,
-  "cv": 3,
-  "ig": 13
+  "wf": 10,
+  "cv": 2,
+  "ig": 12
  },
  "services": {
   "wf": [
-   {
-    "id": "40829682",
-    "title": "Solistra.ai LegalTech Brochure Design",
-    "brief": "I want to design a professional brochure for Solistra.ai, a LegalTech AI company, to share with law firms and potential clients. The brochure should introduce Solistra.ai, highlight its key product capabilities and innovative solutions, showcase how it is transforming the legal industry through AI, and communicate the value it brings to law firms by making legal workflows faster, smarter, and more efficient. Pls reach out at 8130-527-381",
-    "min": 16,
-    "max": 135,
-    "cur": "USD",
-    "bids": 29,
-    "posted": "2026-11-22T05:00:04.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/adobe-illustrator/Solistra-LegalTech-Brochure-Design",
-    "beginner": false,
-    "ai": true,
-    "summary": "Client wants a professional brochure for Solistra.ai, a LegalTech AI firm, to pitch law firms on faster, smarter legal workflows.",
-    "lesson": "wf4",
-    "skill": "Briefing the client: finding the real goal behind the request",
-    "pitch": "I can design a clean, professional brochure for Solistra.ai that shows law firms the time and efficiency they'd gain from your AI tools. I'll keep it focused on value and easy to scan, with a clear contact line at the end. Would you like a single-page or tri-fold layout?",
-    "practice": {
-     "q": "What does the client REALLY need the brochure to do?",
-     "options": [
-      "Show off the AI tech's features in detail",
-      "Win over law firms by showing value clearly",
-      "Recruit legal staff to join Solistra.ai"
-     ],
-     "right": 1,
-     "why": "The brochure is a sales piece for law firms, so it should lead with the value they gain (speed, efficiency) rather than a feature list. Keep the focus on what the firm gets out of it.",
-     "need": "I'll make a clean brochure that shows law firms how Solistra.ai saves them time.",
-     "keys": [
-      "law firms",
-      "workflows",
-      "efficient"
-     ]
-    }
-   },
    {
     "id": "40829466",
     "title": "Event Graphics Design Specialist",
@@ -283,7 +249,7 @@
     "min": 100,
     "max": 150,
     "cur": "USD",
-    "bids": 120,
+    "bids": 139,
     "posted": "2026-11-21T23:46:31.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Event-Graphics-Design-Specialist",
@@ -313,7 +279,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 168,
+    "bids": 170,
     "posted": "2026-11-21T00:12:16.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Celebration-Life-Booklet",
@@ -347,7 +313,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 182,
+    "bids": 185,
     "posted": "2026-11-20T02:48:09.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Elegant-Christian-Crusade-Flyer",
@@ -515,7 +481,7 @@
     "title": "Canva Package Info PDF Design",
     "brief": "I need an information PDF created in Canva that lays out my program packages in a clean, warm style that matches my existing branding. The document’s primary goal is to present each package’s price and key details so prospects can quickly understand the options and feel confident choosing the right one. It is puppy related so adding in realistic puppy images is a must Scope of work • Translate the copy and basic structure I will supply into a visually appealing, brand-consistent PDF. • Highlight prices and inclusions clearly while keeping the overall look inviting rather than overly corporate. • Use my brand colours, fonts, and any imagery I provide; suggest subtle design touches that enhanc",
     "min": 20,
-    "max": 166,
+    "max": 165,
     "cur": "USD",
     "bids": 226,
     "posted": "2026-11-18T02:00:53.000Z",
@@ -621,7 +587,7 @@
     "min": 135,
     "max": 405,
     "cur": "USD",
-    "bids": 54,
+    "bids": 63,
     "posted": "2026-11-21T12:28:46.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/business-writing/Professional-Document-Resume-Editing",
@@ -646,40 +612,6 @@
     "lesson": "cv3",
     "skill": "Matching the document to the formal submission goal",
     "pitch": "Hi, I'd be glad to help with your business letters and résumés. I'll tighten the wording, fix grammar and structure, and send you a tracked Word file plus a clean PDF. Would you like me to start with a sample page first?",
-    "ai": true
-   },
-   {
-    "id": "40828418",
-    "title": "LinkedIn Profile Visibility Boost",
-    "brief": "I want to turn my LinkedIn profile into a recruiter-magnet. The aim is simple: when recruiters search for several specific job titles that match my current expertise, I should appear high in their results and receive more messages. The project centres on three areas I’ve flagged for improvement—my Headline and About section, every Work-experience entry, and the Skills/keywords recruiters filter by. I need those sections rewritten with hard data, clear value statements and the exact terminology recruiters use in LinkedIn Recruiter. You’ll analyse competitor profiles, identify high-impact keywords, and then craft copy that stays within LinkedIn character limits while showcasing quantified achi",
-    "min": 20,
-    "max": 166,
-    "cur": "USD",
-    "bids": 60,
-    "posted": "2026-11-21T03:57:16.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/keyword-research/LinkedIn-Profile-Visibility-Boost",
-    "beginner": false,
-    "summary": "Client wants LinkedIn headline, About, experience and skills rewritten with quantified results so recruiters find and message them.",
-    "practice": {
-     "q": "What does the client actually need most: more profile views, or recruiters finding and contacting them for the right roles?",
-     "options": [
-      "More profile views from anyone",
-      "Recruiters finding them via keyword search",
-      "A prettier photo and banner"
-     ],
-     "right": 1,
-     "why": "The brief is about ranking in recruiter searches for specific titles, which depends on keywords in the headline, About and skills, plus proof of results in each role. Views alone don't bring messages from the right recruiters.",
-     "need": "I'll rewrite your headline, About and experience with recruiter keywords and quantified results.",
-     "keys": [
-      "headline",
-      "keywords",
-      "skills"
-     ]
-    },
-    "lesson": "cv5",
-    "skill": "Matching profile keywords to what recruiters search for",
-    "pitch": "Hi, I read your brief and I can help you show up in recruiter searches for your target titles. I'll rewrite your headline, About section and skills with the exact keywords recruiters filter by, and add clear results to each role. Which job titles are you aiming for?",
     "ai": true
    },
    {
@@ -719,47 +651,13 @@
   ],
   "ig": [
    {
-    "id": "40193484",
-    "title": "Create eye catching ad creatives for Facebook and Instagram",
-    "brief": "I am responsible for developing visually engaging design solutions to support branding, marketing, and promotional initiatives. The project involves creating social media creatives, marketing materials, and brand assets while maintaining consistency with established brand guidelines. This role includes collaborating with stakeholders to understand design requirements, translating concepts into effective visuals, and managing multiple tasks to meet deadlines. The focus is on delivering high-quality, detail-oriented designs that align with business objectives and enhance brand presence.",
-    "min": 30,
-    "max": 250,
-    "cur": "USD",
-    "bids": 62,
-    "posted": "2026-11-21T09:59:52.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/graphic-design/Create-eye-catching-creatives-for",
-    "beginner": false,
-    "summary": "Client wants eye-catching Facebook/Instagram ad creatives that stay on-brand and meet deadlines.",
-    "practice": {
-     "q": "What does the client REALLY need from these ad creatives?",
-     "options": [
-      "Pretty visuals with no brand tie-in",
-      "On-brand ads that drive business goals",
-      "Filming short videos for each campaign"
-     ],
-     "right": 1,
-     "why": "Beautiful alone isn't enough. The brief asks for visuals that match brand guidelines and support business objectives. Pick the option that ties design to results.",
-     "need": "I'll create on-brand Facebook and Instagram ad creatives that support your business goals.",
-     "keys": [
-      "brand",
-      "social media",
-      "deadlines"
-     ]
-    },
-    "lesson": "ig2",
-    "skill": "Pretty isn't the goal: designing ads that serve the brand",
-    "pitch": "Hi, I saw you need eye-catching Facebook and Instagram ad creatives that stay true to your brand. I'll design clean, on-brand visuals for each campaign and deliver them before each deadline. Would you like to share your brand guidelines so I can start with a sample?",
-    "ai": true
-   },
-   {
     "id": "40827296",
     "title": "Entry-Level Social Media Assistant",
     "brief": "I’m ready to hand over day-to-day management of my Instagram, Facebook, and TikTok accounts so I can keep pushing the business forward. You’ll log in to my Content360 scheduler, upload the posts and short-form videos I provide (or that you help me brainstorm), and make sure everything goes out cleanly and on time. Besides clicking “publish,” I’ll lean on you to craft engaging captions, hooky headlines, and fresh post ideas that nudge viewers toward becoming customers while steadily building trust in the brand. When I have a question—anything from market trends to competitor moves—I’ll tap you for quick, well-sourced research so I can make faster decisions. Up front, the pay is modest; I’m a ",
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 107,
+    "bids": 110,
     "posted": "2026-11-20T07:00:22.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Entry-Level-Social-Media-Assistant",
@@ -861,7 +759,7 @@
     "min": 23,
     "max": 194,
     "cur": "USD",
-    "bids": 68,
+    "bids": 69,
     "posted": "2026-11-18T01:33:09.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Profile-Creation",
