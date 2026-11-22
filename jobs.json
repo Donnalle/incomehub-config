@@ -84,7 +84,7 @@
    {
     "svc": "cv",
     "q": "resume",
-    "got": 19
+    "got": 18
    },
    {
     "svc": "cv",
@@ -119,7 +119,7 @@
    {
     "svc": "ig",
     "skills": 4,
-    "got": 0
+    "got": 2
    },
    {
     "svc": "ig",
@@ -172,11 +172,11 @@
    ]
   },
   "reasons": {
-   "too big": 18,
-   "off-topic": 867,
-   "excluded": 169,
-   "kept": 37,
-   "not english": 5,
+   "kept": 40,
+   "excluded": 193,
+   "off-topic": 804,
+   "too big": 26,
+   "not english": 11,
    "scam": 4,
    "expert": 4
   },
@@ -220,13 +220,13 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 13,
-   "fail": 0,
-   "lastError": null,
-   "dropped": 10
+   "ok": 14,
+   "fail": 1,
+   "lastError": "no json: {\"model\":\"claude-haiku-5-5\",\"id\":\"msg_011ChHWrZKZEK3yb1S5mmqYv\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"text\",\"text\":\"I can't evaluate this one from the brief as written: no image is attached, and the request is for a human to recreate a specific mockup in \\\"your own style,\\\" which I",
+   "dropped": 13
   }
  },
- "updated": "2026-11-21T19:13:05.219Z",
+ "updated": "2026-11-22T06:45:10.716Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -236,12 +236,76 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 10,
-  "cv": 4,
+  "wf": 11,
+  "cv": 3,
   "ig": 13
  },
  "services": {
   "wf": [
+   {
+    "id": "40829682",
+    "title": "Solistra.ai LegalTech Brochure Design",
+    "brief": "I want to design a professional brochure for Solistra.ai, a LegalTech AI company, to share with law firms and potential clients. The brochure should introduce Solistra.ai, highlight its key product capabilities and innovative solutions, showcase how it is transforming the legal industry through AI, and communicate the value it brings to law firms by making legal workflows faster, smarter, and more efficient. Pls reach out at 8130-527-381",
+    "min": 16,
+    "max": 135,
+    "cur": "USD",
+    "bids": 29,
+    "posted": "2026-11-22T05:00:04.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/adobe-illustrator/Solistra-LegalTech-Brochure-Design",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants a professional brochure for Solistra.ai, a LegalTech AI firm, to pitch law firms on faster, smarter legal workflows.",
+    "lesson": "wf4",
+    "skill": "Briefing the client: finding the real goal behind the request",
+    "pitch": "I can design a clean, professional brochure for Solistra.ai that shows law firms the time and efficiency they'd gain from your AI tools. I'll keep it focused on value and easy to scan, with a clear contact line at the end. Would you like a single-page or tri-fold layout?",
+    "practice": {
+     "q": "What does the client REALLY need the brochure to do?",
+     "options": [
+      "Show off the AI tech's features in detail",
+      "Win over law firms by showing value clearly",
+      "Recruit legal staff to join Solistra.ai"
+     ],
+     "right": 1,
+     "why": "The brochure is a sales piece for law firms, so it should lead with the value they gain (speed, efficiency) rather than a feature list. Keep the focus on what the firm gets out of it.",
+     "need": "I'll make a clean brochure that shows law firms how Solistra.ai saves them time.",
+     "keys": [
+      "law firms",
+      "workflows",
+      "efficient"
+     ]
+    }
+   },
+   {
+    "id": "40829466",
+    "title": "Event Graphics Design Specialist",
+    "brief": "I am looking for a graphic designer to design a poster for an upcoming performance. Our director did a mockup using ChatGPT, but I would like to hire a human to make the artwork. Must NOT use AI to generate your design. Looking to have the attached image recreated in your own style. Please provide a portfolio showcasing similar work.",
+    "min": 100,
+    "max": 150,
+    "cur": "USD",
+    "bids": 120,
+    "posted": "2026-11-21T23:46:31.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/print-design/Event-Graphics-Design-Specialist",
+    "beginner": false,
+    "summary": "Needs a poster for an upcoming performance.",
+    "practice": {
+     "q": "What's this client's real goal?",
+     "options": [
+      "Win a design award",
+      "Get people to show up or buy",
+      "Get a new logo"
+     ],
+     "right": 1,
+     "why": "The design has one job: bring people in. Lead with the date or the offer, everything else comes second.",
+     "need": "I'll make the event details impossible to miss.",
+     "keys": [
+      "event"
+     ]
+    },
+    "lesson": "wf5",
+    "skill": ""
+   },
    {
     "id": "40828284",
     "title": "Modern Celebration of Life Booklet",
@@ -249,7 +313,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 165,
+    "bids": 168,
     "posted": "2026-11-21T00:12:16.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Celebration-Life-Booklet",
@@ -283,7 +347,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 181,
+    "bids": 182,
     "posted": "2026-11-20T02:48:09.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Elegant-Christian-Crusade-Flyer",
@@ -317,16 +381,12 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 28,
+    "bids": 29,
     "posted": "2026-11-20T00:27:43.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/brochure-design/Paket-Branding-Minimalis-Modern",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a full minimalist, modern branding kit: logo variants, palette, type, brief guide, 5-6 social templates, and a flyer.",
-    "lesson": "wf4",
-    "skill": "Building one consistent visual system across all files",
-    "pitch": "Hi, I'd be happy to create your minimalist, modern brand kit. I'll deliver vector and PNG logo variants, a locked palette and type system, a short usage guide, six editable Instagram templates, and a matching one-page flyer. Which colours or feelings would you like the brand to communicate?",
     "practice": {
      "q": "Which deliverable most directly protects the brand's consistency across everything else the client receives?",
      "options": [
@@ -342,7 +402,11 @@
       "konsisten",
       "template"
      ]
-    }
+    },
+    "lesson": "wf4",
+    "skill": "Building one consistent visual system across all files",
+    "pitch": "Hi, I'd be happy to create your minimalist, modern brand kit. I'll deliver vector and PNG logo variants, a locked palette and type system, a short usage guide, six editable Instagram templates, and a matching one-page flyer. Which colours or feelings would you like the brand to communicate?",
+    "ai": true
    },
    {
     "id": "40826815",
@@ -351,7 +415,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 178,
+    "bids": 180,
     "posted": "2026-11-19T23:25:16.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-creative-suite/InDesign-create-new-workbook-from",
@@ -419,7 +483,7 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 48,
+    "bids": 49,
     "posted": "2026-11-19T07:44:52.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/BuildSure-Corporate-Brochure-Design",
@@ -547,40 +611,6 @@
     "skill": "Matching artwork exactly to a printer's template",
     "pitch": "Hi, I'd be glad to resize your flyer to 22x28 and align it to the printer's bleed and safe zones. I'll keep every text element, logo and image intact, and deliver a press-ready PDF plus your editable Photoshop file. Would you like me to start with a quick look at the template?",
     "ai": true
-   },
-   {
-    "id": "40818480",
-    "title": "Premium Beauty Salon Print Design Suite",
-    "brief": "We are looking for a graphic designer to create a cohesive collection of printed promotional and informational materials for our beauty salon in Santa Monica, California. I’m attaching photos of our salon interior. All designs should complement the interior, match its colors and overall aesthetic, and look beautiful together. We want a modern, stylish, premium editorial look — not generic beauty salon templates. ### Materials Needed **1. Beauty Service Cards** - 5–6 promotional cards featuring nails, lashes, brows,, etc. - Beautiful photography, minimal text, consistent design. - For display in our waiting area and at reception. **2. Outdoor Advertising Board** - Redesign our existing rectan",
-    "min": 30,
-    "max": 250,
-    "cur": "USD",
-    "bids": 146,
-    "posted": "2026-11-14T22:46:40.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/print-design/Premium-Beauty-Salon-Print-Design",
-    "beginner": false,
-    "summary": "Client wants a cohesive print suite for a Santa Monica beauty salon: service cards, a redesigned outdoor board, matching to salon interior.",
-    "practice": {
-     "q": "What does the client REALLY need beyond just 'make some flyers'?",
-     "options": [
-      "Five unrelated templates, one per service",
-      "One cohesive, premium look matching the interior",
-      "Cheap generic designs printed in bulk fast"
-     ],
-     "right": 1,
-     "why": "The brief stresses cohesion, premium editorial style, and matching the salon interior. Generic templates miss the point. Pick the option that protects the brand feel across every piece.",
-     "need": "I'll build a cohesive, premium print suite that matches your salon's interior.",
-     "keys": [
-      "cohesive",
-      "premium",
-      "interior"
-     ]
-    },
-    "lesson": "wf4",
-    "skill": "Briefing the client: reading the real goal behind the request",
-    "pitch": "I'd love to create a cohesive set of salon cards and an outdoor board that match your interior's colors and editorial feel. I'll deliver a consistent design system, not generic templates. Would you like to see a sample direction first?",
-    "ai": true
    }
   ],
   "cv": [
@@ -591,16 +621,12 @@
     "min": 135,
     "max": 405,
     "cur": "USD",
-    "bids": 48,
+    "bids": 54,
     "posted": "2026-11-21T12:28:46.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/business-writing/Professional-Document-Resume-Editing",
     "beginner": false,
-    "ai": true,
     "summary": "Client needs several business letters and résumés polished: tone, structure, grammar fixed, delivered as tracked Word plus clean PDF.",
-    "lesson": "cv3",
-    "skill": "Matching the document to the formal submission goal",
-    "pitch": "Hi, I'd be glad to help with your business letters and résumés. I'll tighten the wording, fix grammar and structure, and send you a tracked Word file plus a clean PDF. Would you like me to start with a sample page first?",
     "practice": {
      "q": "What does the client really need from this job?",
      "options": [
@@ -616,7 +642,11 @@
       "submission",
       "tracked changes"
      ]
-    }
+    },
+    "lesson": "cv3",
+    "skill": "Matching the document to the formal submission goal",
+    "pitch": "Hi, I'd be glad to help with your business letters and résumés. I'll tighten the wording, fix grammar and structure, and send you a tracked Word file plus a clean PDF. Would you like me to start with a sample page first?",
+    "ai": true
    },
    {
     "id": "40828418",
@@ -625,7 +655,7 @@
     "min": 20,
     "max": 166,
     "cur": "USD",
-    "bids": 58,
+    "bids": 60,
     "posted": "2026-11-21T03:57:16.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/keyword-research/LinkedIn-Profile-Visibility-Boost",
@@ -685,40 +715,6 @@
     "skill": "Making the offer impossible to miss",
     "pitch": "Hi, I'm interested in your finance graduate CV project. I'll rebuild your résumé with a clean section structure, strategic finance keywords, and metric-driven bullet points that pass ATS scans and still impress hiring managers. Could you share your current CV and the roles you're targeting?",
     "ai": true
-   },
-   {
-    "id": "40826309",
-    "title": "Global Business Development CV Specialist",
-    "brief": "I need a professional CV tailored for Global BDM or partnerships roles, specifically in the manufacturing sector catering oil and gas. Key Focus: - Building partnerships, distributors, and reseller networks. Ideal Skills and Experience: - Proven expertise in crafting CVs for high-level international roles - Strong background in business development within the oil and gas industry - Ability to articulate complex partnership strategies and market entry successes - Experience working with candidates targeting the manufacturing sector Please provide examples of similar work and any relevant certifications.",
-    "min": 26,
-    "max": 327,
-    "cur": "USD",
-    "bids": 40,
-    "posted": "2026-11-19T15:47:37.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/business-analysis/Global-Business-Development-Specialist",
-    "beginner": false,
-    "summary": "Client wants a CV for a Global BDM/partnerships role in oil and gas manufacturing, focused on distributor and reseller networks.",
-    "practice": {
-     "q": "What does the client REALLY need from this CV?",
-     "options": [
-      "A generic CV that lists every job held",
-      "A CV proving partnership and market-entry results",
-      "A cover letter written in a formal style"
-     ],
-     "right": 1,
-     "why": "Recruiters for BDM roles scan for proof you built distributor and reseller networks. Lead with partnership wins and market entry, not a list of duties. Generic CVs get skipped fast.",
-     "need": "I'll rewrite your CV around distributor and reseller partnerships for oil and gas manufacturing.",
-     "keys": [
-      "partnerships",
-      "distributors",
-      "oil and gas"
-     ]
-    },
-    "lesson": "cv2",
-    "skill": "Leading with proof of partnership results",
-    "pitch": "I'll rewrite your CV to lead with partnership wins, distributor and reseller networks, and market-entry results for oil and gas manufacturing roles. I'll keep it to two pages and tailored to international BDM titles. Would you like to share your current CV and one example of a partnership you built?",
-    "ai": true
    }
   ],
   "ig": [
@@ -729,16 +725,12 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 61,
+    "bids": 62,
     "posted": "2026-11-21T09:59:52.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/graphic-design/Create-eye-catching-creatives-for",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants eye-catching Facebook/Instagram ad creatives that stay on-brand and meet deadlines.",
-    "lesson": "ig2",
-    "skill": "Pretty isn't the goal: designing ads that serve the brand",
-    "pitch": "Hi, I saw you need eye-catching Facebook and Instagram ad creatives that stay true to your brand. I'll design clean, on-brand visuals for each campaign and deliver them before each deadline. Would you like to share your brand guidelines so I can start with a sample?",
     "practice": {
      "q": "What does the client REALLY need from these ad creatives?",
      "options": [
@@ -754,7 +746,11 @@
       "social media",
       "deadlines"
      ]
-    }
+    },
+    "lesson": "ig2",
+    "skill": "Pretty isn't the goal: designing ads that serve the brand",
+    "pitch": "Hi, I saw you need eye-catching Facebook and Instagram ad creatives that stay true to your brand. I'll design clean, on-brand visuals for each campaign and deliver them before each deadline. Would you like to share your brand guidelines so I can start with a sample?",
+    "ai": true
    },
    {
     "id": "40827296",
@@ -763,7 +759,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 106,
+    "bids": 107,
     "posted": "2026-11-20T07:00:22.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Entry-Level-Social-Media-Assistant",
@@ -1103,7 +1099,7 @@
     "min": 33,
     "max": 274,
     "cur": "USD",
-    "bids": 168,
+    "bids": 169,
     "posted": "2026-11-16T13:37:40.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Experienced-Social-Media-Digital",
