@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 36
+    "got": 34
    },
    {
     "svc": "wf",
@@ -84,7 +84,7 @@
    {
     "svc": "cv",
     "q": "resume",
-    "got": 16
+    "got": 17
    },
    {
     "svc": "cv",
@@ -119,7 +119,7 @@
    {
     "svc": "ig",
     "skills": 4,
-    "got": 8
+    "got": 16
    },
    {
     "svc": "ig",
@@ -172,13 +172,13 @@
    ]
   },
   "reasons": {
-   "excluded": 163,
-   "off-topic": 874,
+   "off-topic": 855,
+   "excluded": 183,
    "kept": 38,
-   "too big": 16,
-   "not english": 11,
-   "scam": 4,
-   "expert": 2
+   "too big": 21,
+   "not english": 9,
+   "expert": 2,
+   "scam": 3
   },
   "ownerKeys": null,
   "ownerLocation": null,
@@ -220,13 +220,13 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 14,
-   "fail": 1,
-   "lastError": "no json: {\"model\":\"claude-haiku-5-5\",\"id\":\"msg_011ChJXhu7ogyJgXUuTASXeb\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"text\",\"text\":\"I can't evaluate this one from the brief as written. The text says \\\"attached image,\\\" but no image came through, so I can't see what the client wants recreated, and ",
+   "ok": 16,
+   "fail": 0,
+   "lastError": null,
    "dropped": 14
   }
  },
- "updated": "2026-11-22T19:36:58.137Z",
+ "updated": "2026-11-23T07:34:25.787Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -249,28 +249,32 @@
     "min": 100,
     "max": 150,
     "cur": "USD",
-    "bids": 139,
+    "bids": 141,
     "posted": "2026-11-21T23:46:31.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Event-Graphics-Design-Specialist",
     "beginner": false,
-    "summary": "Needs a poster for an upcoming performance.",
+    "ai": true,
+    "summary": "Client wants a human-designed event poster, recreating an attached mockup in the designer's own style, no AI-generated art.",
+    "lesson": "wf4",
+    "skill": "Briefing the client: clarifying what 'recreate' means",
+    "pitch": "Hi, I can design your performance poster by hand, keeping the layout and key details from your mockup while giving it my own clean style. I'll send you a first draft within two days for feedback. Would you like to share the event date, venue, and any brand colours?",
     "practice": {
-     "q": "What's this client's real goal?",
+     "q": "The client says 'recreate the attached image in your own style.' What is the client really asking for?",
      "options": [
-      "Win a design award",
-      "Get people to show up or buy",
-      "Get a new logo"
+      "Copy the mockup pixel for pixel",
+      "Rebuild the same layout with your own design choices",
+      "Generate a new poster with an AI tool"
      ],
      "right": 1,
-     "why": "The design has one job: bring people in. Lead with the date or the offer, everything else comes second.",
-     "need": "I'll make the event details impossible to miss.",
+     "why": "They want the mockup's layout and message kept, but the artwork drawn and styled by you. Copying exactly or using AI both miss the point.",
+     "need": "I'll rebuild your poster by hand in my own style, keeping your mockup's layout and key info.",
      "keys": [
-      "event"
+      "poster",
+      "own style",
+      "human"
      ]
-    },
-    "lesson": "wf5",
-    "skill": ""
+    }
    },
    {
     "id": "40828284",
@@ -279,7 +283,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 170,
+    "bids": 173,
     "posted": "2026-11-21T00:12:16.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Celebration-Life-Booklet",
@@ -313,7 +317,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 185,
+    "bids": 187,
     "posted": "2026-11-20T02:48:09.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Elegant-Christian-Crusade-Flyer",
@@ -381,7 +385,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 180,
+    "bids": 181,
     "posted": "2026-11-19T23:25:16.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-creative-suite/InDesign-create-new-workbook-from",
@@ -415,7 +419,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 188,
+    "bids": 189,
     "posted": "2026-11-19T19:38:20.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/advertisement-design/Food-Safety-Class-Marketing-Materials",
@@ -481,9 +485,9 @@
     "title": "Canva Package Info PDF Design",
     "brief": "I need an information PDF created in Canva that lays out my program packages in a clean, warm style that matches my existing branding. The document’s primary goal is to present each package’s price and key details so prospects can quickly understand the options and feel confident choosing the right one. It is puppy related so adding in realistic puppy images is a must Scope of work • Translate the copy and basic structure I will supply into a visually appealing, brand-consistent PDF. • Highlight prices and inclusions clearly while keeping the overall look inviting rather than overly corporate. • Use my brand colours, fonts, and any imagery I provide; suggest subtle design touches that enhanc",
     "min": 20,
-    "max": 165,
+    "max": 166,
     "cur": "USD",
-    "bids": 226,
+    "bids": 227,
     "posted": "2026-11-18T02:00:53.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Canva-Package-Info-PDF-Design",
@@ -517,7 +521,7 @@
     "min": 16,
     "max": 135,
     "cur": "USD",
-    "bids": 107,
+    "bids": 106,
     "posted": "2026-11-17T03:58:22.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/poster-design/Countryside-Farmland-Brochure-Poster",
@@ -585,9 +589,9 @@
     "title": "Professional Document & Resume Editing",
     "brief": "I have several documents that need clear, error-free polishing. Most are business letters and résumés intended for formal submission, so tone, structure, and grammar must be spot-on. Your task is to review the existing drafts, tighten the language, fix any inconsistencies, and deliver a clean, ready-to-send version in Word (with tracked changes) and a final PDF. Accuracy, respect for confidentiality, and a quick turnaround are essential. If you have a keen eye for professional formatting and wording that gets results, I’d like to work with you.",
     "min": 135,
-    "max": 405,
+    "max": 404,
     "cur": "USD",
-    "bids": 63,
+    "bids": 70,
     "posted": "2026-11-21T12:28:46.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/business-writing/Professional-Document-Resume-Editing",
@@ -621,7 +625,7 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 19,
+    "bids": 20,
     "posted": "2026-11-19T18:42:28.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/keyword-research/ATS-Optimized-Finance-Graduate-Resume",
@@ -650,6 +654,40 @@
    }
   ],
   "ig": [
+   {
+    "id": "40830812",
+    "title": "Daily FB-IG Posts & TikTok",
+    "brief": "I’m ready to hand over my day-to-day social media scheduling so our feed stays active without me hovering over it. Here’s the rhythm I need you to keep: • Facebook and Instagram must feature a fresh post every single day, then cycle that same post automatically at 8 am, noon, and 5 pm. You’re free to use Meta Business Suite, Buffer, Later, Hootsuite—whatever calendar tool you trust—as long as it fires on time. • Each post should push our products and services up-front and motivate viewers to drop by the store. Clear calls to “come see us today” must sit alongside our street address, opening hours, simple map directions with parking notes, plus any in-store specials or events we’re running. C",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 65,
+    "posted": "2026-11-23T00:11:29.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-management/Daily-Posts-TikTok",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants daily FB/IG posts auto-scheduled at 8am, noon, 5pm, pushing products with store address, hours, directions, and specials.",
+    "lesson": "ig5",
+    "skill": "Making the offer impossible to miss",
+    "pitch": "I can set up your daily Facebook and Instagram posts at 8am, noon, and 5pm, each with a clear 'come see us today' call, your address, hours, and specials. Would you like me to start with this week's offers?",
+    "practice": {
+     "q": "What must every post include beyond the product, so viewers actually visit the store?",
+     "options": [
+      "Only a nice photo and hashtags",
+      "A clear 'come see us today' call with address and hours",
+      "Long captions about the brand's history"
+     ],
+     "right": 1,
+     "why": "Good work here means each post sells the visit. Pretty images alone won't bring people in. Put the call to visit, the address, hours, and directions right alongside the offer, then schedule it.",
+     "need": "I'll schedule daily FB and IG posts that drive store visits, with address, hours, and specials.",
+     "keys": [
+      "daily",
+      "store",
+      "specials"
+     ]
+    }
+   },
    {
     "id": "40827296",
     "title": "Entry-Level Social Media Assistant",
@@ -827,7 +865,7 @@
     "min": 150,
     "max": 300,
     "cur": "USD",
-    "bids": 111,
+    "bids": 110,
     "posted": "2026-11-17T18:13:03.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/instagram/Instagram-Business-Profile-Setup",
@@ -961,7 +999,7 @@
     "title": "Lifestyle Instagram & Facebook Ad Designs",
     "brief": "I need a set of fresh, scroll-stopping ad creatives for Instagram and Facebook that focus on building brand awareness. My audience connects best with lifestyle visuals that feature real people using the product naturally, so the photography and layout choices should feel authentic rather than staged. Here is what I’m after: • 3–4 static image concepts (1080×1080 and 1080×1350) • 1 vertical story/reel version (1080×1920) derived from the strongest concept • Layered source files (PSD or AI) plus ready-to-post JPG/PNG exports • Simple brand-aligned copy placements I can swap out later You’re welcome to work in Adobe Photoshop, Illustrator, or even Canva as long as the final files remain editabl",
     "min": 135,
-    "max": 405,
+    "max": 404,
     "cur": "USD",
     "bids": 53,
     "posted": "2026-11-17T08:36:08.000Z",
@@ -995,7 +1033,7 @@
     "title": "Experienced Social Media & Digital Marketing Specialist",
     "brief": "Experienced Social Media & Digital Marketing Specialist We are looking for an experienced Social Media & Digital Marketing Specialist to manage our company's Facebook, Instagram, and LinkedIn accounts. Responsibilities: - Create and publish a minimum of 5 professional posts per month. - Design high-quality images and marketing content. - Manage and grow our social media presence. - Promote our company, services, and brand. - Develop strategies to attract new customers and generate leads. Design Style: We are looking for a clean, elegant, modern, and professional corporate style. - Minimalist and sophisticated designs. - High-quality, realistic photography. - Professional graphics and layouts",
     "min": 33,
-    "max": 274,
+    "max": 275,
     "cur": "USD",
     "bids": 169,
     "posted": "2026-11-16T13:37:40.000Z",
@@ -1022,40 +1060,6 @@
     "lesson": "ig2",
     "skill": "Pretty isn't the goal: designing posts that drive action",
     "pitch": "Hi, I'd love to help grow your Instagram presence. I'll design 5 clean, professional posts each month with a clear call to action so followers become leads. Would you like to see a sample post for your brand?",
-    "ai": true
-   },
-   {
-    "id": "40820004",
-    "title": "Social Media Ad Design Specialist",
-    "brief": "I need a creative designer to create engaging social media posts and ads for Instagram and Facebook. The main goal of these designs is to promote our Sports and fitness brand Key Requirements: - Create visually appealing and engaging designs. - Platform-specific designs for Instagram and Facebook. - Focus on product/service promotion. Ideal Skills and Experience: - Proven experience in social media design. - Strong portfolio showcasing relevant work. - Proficiency in design software (e.g., Adobe Creative Suite). - Ability to understand and incorporate brand guidelines. - Knowledge of current design trends and social media algorithms. Please provide a portfolio with your bids.",
-    "min": 6,
-    "max": 16,
-    "cur": "USD",
-    "bids": 50,
-    "posted": "2026-11-16T03:32:11.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/adobe-creative-suite/Social-Media-Design-Specialist",
-    "beginner": true,
-    "summary": "Client needs Instagram and Facebook ads and posts designed to promote their sports and fitness brand, matching brand guidelines.",
-    "practice": {
-     "q": "What does the client most need from these posts, based on the brief?",
-     "options": [
-      "Pretty designs that win design awards",
-      "Posts and ads that promote the brand's product or service",
-      "A full marketing strategy and hiring plan"
-     ],
-     "right": 1,
-     "why": "The brief stresses product and service promotion and platform-specific designs. Pretty alone misses the goal; a clear offer that sells is what the client is paying for. Strategy and hiring are out of scope.",
-     "need": "I'll design platform-sized Instagram and Facebook ads that promote your fitness products and follow your brand guidelines.",
-     "keys": [
-      "promote",
-      "instagram",
-      "brand guidelines"
-     ]
-    },
-    "lesson": "ig5",
-    "skill": "Making the offer impossible to miss",
-    "pitch": "Hi, I'm a designer building my skills in social media ads, and your fitness brand caught my eye. I'll create Instagram and Facebook designs sized for each platform that promote your products clearly and stick to your brand guidelines. Would you like to see a few sample concepts first?",
     "ai": true
    }
   ]
