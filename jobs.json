@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 34
+    "got": 25
    },
    {
     "svc": "wf",
@@ -54,7 +54,7 @@
    {
     "svc": "cv",
     "skills": 3,
-    "got": 16
+    "got": 12
    },
    {
     "svc": "cv",
@@ -84,7 +84,7 @@
    {
     "svc": "cv",
     "q": "resume",
-    "got": 17
+    "got": 15
    },
    {
     "svc": "cv",
@@ -119,7 +119,7 @@
    {
     "svc": "ig",
     "skills": 4,
-    "got": 16
+    "got": 14
    },
    {
     "svc": "ig",
@@ -172,12 +172,12 @@
    ]
   },
   "reasons": {
-   "off-topic": 855,
-   "excluded": 183,
-   "kept": 38,
+   "excluded": 159,
    "too big": 21,
-   "not english": 9,
+   "off-topic": 856,
+   "kept": 37,
    "expert": 2,
+   "not english": 16,
    "scam": 3
   },
   "ownerKeys": null,
@@ -220,13 +220,13 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 16,
+   "ok": 15,
    "fail": 0,
    "lastError": null,
-   "dropped": 14
+   "dropped": 13
   }
  },
- "updated": "2026-11-23T07:34:25.787Z",
+ "updated": "2026-11-23T23:51:22.113Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -236,9 +236,9 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 10,
+  "wf": 9,
   "cv": 2,
-  "ig": 12
+  "ig": 13
  },
  "services": {
   "wf": [
@@ -249,16 +249,12 @@
     "min": 100,
     "max": 150,
     "cur": "USD",
-    "bids": 141,
+    "bids": 154,
     "posted": "2026-11-21T23:46:31.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Event-Graphics-Design-Specialist",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a human-designed event poster, recreating an attached mockup in the designer's own style, no AI-generated art.",
-    "lesson": "wf4",
-    "skill": "Briefing the client: clarifying what 'recreate' means",
-    "pitch": "Hi, I can design your performance poster by hand, keeping the layout and key details from your mockup while giving it my own clean style. I'll send you a first draft within two days for feedback. Would you like to share the event date, venue, and any brand colours?",
     "practice": {
      "q": "The client says 'recreate the attached image in your own style.' What is the client really asking for?",
      "options": [
@@ -274,7 +270,11 @@
       "own style",
       "human"
      ]
-    }
+    },
+    "lesson": "wf4",
+    "skill": "Briefing the client: clarifying what 'recreate' means",
+    "pitch": "Hi, I can design your performance poster by hand, keeping the layout and key details from your mockup while giving it my own clean style. I'll send you a first draft within two days for feedback. Would you like to share the event date, venue, and any brand colours?",
+    "ai": true
    },
    {
     "id": "40828284",
@@ -283,7 +283,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 173,
+    "bids": 174,
     "posted": "2026-11-21T00:12:16.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Celebration-Life-Booklet",
@@ -317,7 +317,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 187,
+    "bids": 191,
     "posted": "2026-11-20T02:48:09.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Elegant-Christian-Crusade-Flyer",
@@ -351,7 +351,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 29,
+    "bids": 30,
     "posted": "2026-11-20T00:27:43.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/brochure-design/Paket-Branding-Minimalis-Modern",
@@ -419,7 +419,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 189,
+    "bids": 192,
     "posted": "2026-11-19T19:38:20.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/advertisement-design/Food-Safety-Class-Marketing-Materials",
@@ -487,7 +487,7 @@
     "min": 20,
     "max": 166,
     "cur": "USD",
-    "bids": 227,
+    "bids": 228,
     "posted": "2026-11-18T02:00:53.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Canva-Package-Info-PDF-Design",
@@ -546,40 +546,6 @@
     "lesson": "wf4",
     "skill": "Turning a client's feeling-based brief into a clear design goal",
     "pitch": "Hi, I read your brief for the farmland brochure and poster. I can create both with a warm, natural look that brings your green spaces and tree-lined walkways to life, plus a clean map showing nearby facilities. Would you like to share any photos or brand colours you already have?",
-    "ai": true
-   },
-   {
-    "id": "40821538",
-    "title": "Resize A frame Flyer for Large Poster",
-    "brief": "I have a finished 24\" x 36\" flyer built in Adobe Photoshop that now needs to become a vertical 22\" x 28\" large-format poster. I’ll supply you with the printer’s own PDF template, and the final artwork must match that template exactly—bleeds, safe areas, and any marks included. All text, logos, and imagery from the current design should remain; it’s purely a sizing and layout-fit exercise so everything sits neatly within the new dimensions. Deliverables • Print-ready PDF set to 22\" x 28\", aligned to the template’s bleed and safe zones • The fully editable Photoshop file reflecting the final layout Please ensure colours, resolution, and embedded fonts meet standard press requirements so the jo",
-    "min": 10,
-    "max": 30,
-    "cur": "USD",
-    "bids": 209,
-    "posted": "2026-11-16T22:10:12.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/print-design/Resize-frame-Flyer-for-Large",
-    "beginner": true,
-    "summary": "Resize a 24x36 flyer to a 22x28 vertical poster, matching the printer's template bleeds and safe zones.",
-    "practice": {
-     "q": "What does the client REALLY need beyond just shrinking the artwork?",
-     "options": [
-      "Just scale the file down to 22x28",
-      "Fit everything to the printer template's bleed and safe zones",
-      "Redesign the flyer from scratch for the new size"
-     ],
-     "right": 1,
-     "why": "Resizing is only half the job. The artwork has to line up with the printer's bleed and safe zones, so keep text and logos clear of the trim edge and deliver a press-ready PDF.",
-     "need": "I'll fit your 22x28 poster to the printer's bleed and safe zones, keeping all text and logos intact.",
-     "keys": [
-      "bleed",
-      "safe zones",
-      "press-ready"
-     ]
-    },
-    "lesson": "wf4",
-    "skill": "Matching artwork exactly to a printer's template",
-    "pitch": "Hi, I'd be glad to resize your flyer to 22x28 and align it to the printer's bleed and safe zones. I'll keep every text element, logo and image intact, and deliver a press-ready PDF plus your editable Photoshop file. Would you like me to start with a quick look at the template?",
     "ai": true
    }
   ],
@@ -655,22 +621,86 @@
   ],
   "ig": [
    {
+    "id": "40832318",
+    "title": "Bourbon Instagram Content Creation",
+    "brief": "I'm looking for a digital artist to create a logo (in a social media type package including blank posts for when a new follower count goal is reached) for a bourbon hunting account on instagram/tik tok. I would like the art to be original, no AI, with a lot of personality. This is going to be a Christmas gift for my father who is using a terrible AI logo for his account. I would like something unique and original for him to use for branding purposes. Key Tasks: - Develop and curate engaging logo for brand awareness Ideal Skills and Experience: - Digital artistry - Graphic design - Branding",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 142,
+    "posted": "2026-11-23T19:49:10.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/content-creation/Bourbon-Instagram-Content-Creation",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants an original, non-AI logo with personality for a bourbon hunting Instagram/TikTok, plus branded blank post templates for follower milestones.",
+    "lesson": "ig5",
+    "skill": "Delivering a full branded kit, not just one asset",
+    "pitch": "Hi, I'd love to create your father's bourbon hunting brand. I'll hand-draw an original logo with personality, plus matching blank post templates for each follower milestone, all with no AI. Would you like to see a few style sketches first?",
+    "practice": {
+     "q": "What does the client REALLY need beyond just a logo?",
+     "options": [
+      "A logo only, nothing else",
+      "A logo plus reusable post templates for milestones",
+      "A full social media strategy and posting schedule"
+     ],
+     "right": 1,
+     "why": "The brief asks for a logo inside a package, including blank milestone posts. Read the whole brief: they want a usable branding kit, not just one image. Hand-made and personality-driven matter here because it's a gift.",
+     "need": "I'll hand-draw an original bourbon-hunter logo with blank milestone post templates that match it, no AI.",
+     "keys": [
+      "logo",
+      "milestone",
+      "original"
+     ]
+    }
+   },
+   {
+    "id": "40831859",
+    "title": "Canva Worksheet Color Update",
+    "brief": "I'm looking for someone to help me. If I knew all of the terms and answers to your questions, I would be able to do this myself. The person who helped me last year is no longer available. I have seven intake worksheet pages that were originally designed in Canva. I need the colored band/header area at the top of each page to be switched to two new shades—I’ll provide the color swatches that I want to use. I also need to make some changes to the text on each of the worksheets. The person who worked with me last year and I made the changes by talking on the phone over a period of about 2-3 hours on a couple of days. Then she sent me the final editable versions and we printed them for our volun",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 125,
+    "posted": "2026-11-23T14:01:35.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/graphic-design/Canva-Worksheet-Color-Update",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client needs header bands on 7 Canva worksheets recolored to two new shades, plus text edits, delivered as editable files.",
+    "lesson": "ig4",
+    "skill": "Confirming scope and deliverable format before starting",
+    "pitch": "I can recolor the header bands on all seven intake worksheets to your two swatches and make the text edits, then send you the editable Canva files. Would you like to share the swatches and the text changes so I can start?",
+    "practice": {
+     "q": "What does the client actually need delivered?",
+     "options": [
+      "Brand new worksheets designed from scratch",
+      "Seven Canva worksheets recolored and edited, editable",
+      "Printed copies of the worksheets for volunteers"
+     ],
+     "right": 1,
+     "why": "The job is a recolor of the top band on seven existing Canva pages plus text edits, returned as editable files. Printing and redesigning are not part of it.",
+     "need": "I'll recolor the header bands on all seven worksheets and update the text, sending editable Canva files.",
+     "keys": [
+      "seven",
+      "worksheets",
+      "editable"
+     ]
+    }
+   },
+   {
     "id": "40830812",
     "title": "Daily FB-IG Posts & TikTok",
     "brief": "I’m ready to hand over my day-to-day social media scheduling so our feed stays active without me hovering over it. Here’s the rhythm I need you to keep: • Facebook and Instagram must feature a fresh post every single day, then cycle that same post automatically at 8 am, noon, and 5 pm. You’re free to use Meta Business Suite, Buffer, Later, Hootsuite—whatever calendar tool you trust—as long as it fires on time. • Each post should push our products and services up-front and motivate viewers to drop by the store. Clear calls to “come see us today” must sit alongside our street address, opening hours, simple map directions with parking notes, plus any in-store specials or events we’re running. C",
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 65,
+    "bids": 87,
     "posted": "2026-11-23T00:11:29.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Daily-Posts-TikTok",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants daily FB/IG posts auto-scheduled at 8am, noon, 5pm, pushing products with store address, hours, directions, and specials.",
-    "lesson": "ig5",
-    "skill": "Making the offer impossible to miss",
-    "pitch": "I can set up your daily Facebook and Instagram posts at 8am, noon, and 5pm, each with a clear 'come see us today' call, your address, hours, and specials. Would you like me to start with this week's offers?",
     "practice": {
      "q": "What must every post include beyond the product, so viewers actually visit the store?",
      "options": [
@@ -686,7 +716,11 @@
       "store",
       "specials"
      ]
-    }
+    },
+    "lesson": "ig5",
+    "skill": "Making the offer impossible to miss",
+    "pitch": "I can set up your daily Facebook and Instagram posts at 8am, noon, and 5pm, each with a clear 'come see us today' call, your address, hours, and specials. Would you like me to start with this week's offers?",
+    "ai": true
    },
    {
     "id": "40827296",
@@ -763,7 +797,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 81,
+    "bids": 83,
     "posted": "2026-11-19T06:25:33.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/video-editing/Luxury-Instagram-Content-Creation",
@@ -831,7 +865,7 @@
     "min": 10,
     "max": 31,
     "cur": "USD",
-    "bids": 70,
+    "bids": 71,
     "posted": "2026-11-17T21:09:34.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Minimalist-Instagram-Rebrand-for-Artist",
@@ -1026,40 +1060,6 @@
     "lesson": "ig2",
     "skill": "Pretty isn't the goal; design for the audience's connection",
     "pitch": "Hi, I'd love to create your Instagram and Facebook ad set. I'll deliver 3-4 authentic lifestyle concepts in both square and portrait sizes, plus a story version, all in layered source files so your copy is easy to swap later. Would you like me to start with a mood board for your brand's look?",
-    "ai": true
-   },
-   {
-    "id": "40820842",
-    "title": "Experienced Social Media & Digital Marketing Specialist",
-    "brief": "Experienced Social Media & Digital Marketing Specialist We are looking for an experienced Social Media & Digital Marketing Specialist to manage our company's Facebook, Instagram, and LinkedIn accounts. Responsibilities: - Create and publish a minimum of 5 professional posts per month. - Design high-quality images and marketing content. - Manage and grow our social media presence. - Promote our company, services, and brand. - Develop strategies to attract new customers and generate leads. Design Style: We are looking for a clean, elegant, modern, and professional corporate style. - Minimalist and sophisticated designs. - High-quality, realistic photography. - Professional graphics and layouts",
-    "min": 33,
-    "max": 275,
-    "cur": "USD",
-    "bids": 169,
-    "posted": "2026-11-16T13:37:40.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-management/Experienced-Social-Media-Digital",
-    "beginner": false,
-    "summary": "Client wants an experienced specialist to run their Facebook, Instagram and LinkedIn: 5+ posts monthly, clean corporate design, lead generation.",
-    "practice": {
-     "q": "Which part of this brief is a beginner most likely to get wrong, and why?",
-     "options": [
-      "Designing clean, minimalist posts for the brand",
-      "Growing leads, not just making posts look pretty",
-      "Managing three platforms at the same time"
-     ],
-     "right": 1,
-     "why": "The brief asks for lead generation and growth, not just attractive posts. Pretty isn't the goal. Every post needs a clear reason to get a customer to act.",
-     "need": "I'll create 5 clean, on-brand posts a month that turn followers into leads.",
-     "keys": [
-      "lead",
-      "corporate",
-      "posts"
-     ]
-    },
-    "lesson": "ig2",
-    "skill": "Pretty isn't the goal: designing posts that drive action",
-    "pitch": "Hi, I'd love to help grow your Instagram presence. I'll design 5 clean, professional posts each month with a clear call to action so followers become leads. Would you like to see a sample post for your brand?",
     "ai": true
    }
   ]
