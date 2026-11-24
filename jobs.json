@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 23
+    "got": 14
    },
    {
     "svc": "wf",
@@ -54,7 +54,7 @@
    {
     "svc": "cv",
     "skills": 3,
-    "got": 11
+    "got": 12
    },
    {
     "svc": "cv",
@@ -84,7 +84,7 @@
    {
     "svc": "cv",
     "q": "resume",
-    "got": 16
+    "got": 17
    },
    {
     "svc": "cv",
@@ -119,7 +119,7 @@
    {
     "svc": "ig",
     "skills": 4,
-    "got": 13
+    "got": 7
    },
    {
     "svc": "ig",
@@ -172,13 +172,13 @@
    ]
   },
   "reasons": {
-   "excluded": 168,
-   "too big": 25,
-   "off-topic": 841,
-   "kept": 36,
+   "off-topic": 849,
+   "excluded": 164,
+   "kept": 30,
+   "too big": 12,
    "scam": 6,
    "expert": 2,
-   "not english": 11,
+   "not english": 16,
    "old": 1
   },
   "ownerKeys": null,
@@ -221,13 +221,13 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 15,
+   "ok": 14,
    "fail": 0,
    "lastError": null,
-   "dropped": 12
+   "dropped": 10
   }
  },
- "updated": "2026-11-24T09:52:26.817Z",
+ "updated": "2026-11-24T22:25:02.371Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -237,12 +237,114 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 8,
+  "wf": 11,
   "cv": 2,
-  "ig": 14
+  "ig": 7
  },
  "services": {
   "wf": [
+   {
+    "id": "40834040",
+    "title": "YouTube & LinkedIn Banners to state my value preposition",
+    "brief": "I need two cohesive banners—one for my YouTube channel and one for my LinkedIn profile. Once we start, I’ll send over my full brand kit, colour palette, fonts, logo files, and a mood-board of ideas I’ve already sketched out. The primary goal is to clearly state my value proposition so visitors instantly understand what I do and why I’m the right choice. Beyond the wording itself, the design must reflect my own tone of voice and the type of clients I want to attract, all while feeling unmistakably professional and confident. Here’s what I’m expecting: • Final artwork sized correctly for each platform (YouTube 2560 × 1440 px with safe zone respected; LinkedIn 1584 × 396 px). • Editable source ",
+    "min": 10,
+    "max": 20,
+    "cur": "USD",
+    "bids": 77,
+    "posted": "2026-11-24T20:16:03.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/branding/YouTube-LinkedIn-Banners-state-value",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants two matching banners (YouTube 2560x1440, LinkedIn 1584x396) that state their value proposition, using their brand kit.",
+    "lesson": "wf4",
+    "skill": "Briefing the client: turning a request into the real goal",
+    "pitch": "Hi, I read your brief for matching YouTube and LinkedIn banners. I'll design both in your brand kit so your value proposition is clear within seconds, with the right sizes and safe zones respected. Could you share the one thing you most want visitors to remember?",
+    "practice": {
+     "q": "Besides the wording, what must the banner design also show to the client's target audience?",
+     "options": [
+      "Only the logo and a nice photo",
+      "Their tone of voice and the clients they want",
+      "As many services as possible to look busy"
+     ],
+     "right": 1,
+     "why": "The client asked for more than pretty graphics. The design has to express their tone and attract the right clients, while the value proposition is understood in seconds. Always start by asking what the visitor should feel and do.",
+     "need": "I'll design both banners so your value proposition is clear at a glance, in your brand style.",
+     "keys": [
+      "value",
+      "proposition",
+      "brand"
+     ]
+    }
+   },
+   {
+    "id": "40833432",
+    "title": "Promotional Social Media Post Graphics",
+    "brief": "I need a creative designer to craft eye-catching post graphics for my feed that focus on promoting my products and services. The visuals must feel cohesive across Instagram, Facebook, and LinkedIn while still respecting the nuances of each platform. Expect to work with existing brand colours, fonts, and a style guide I will share, then translate that into scroll-stopping imagery paired with concise, high-impact copy placeholders. Deliverables: • At least six static feed posts, supplied in native design files (PSD or AI) plus ready-to-upload PNG/JPEG exports in platform-specific sizes. • Editable text layers so I can update offers and captions. • A quick usage note showing layout grids, font ",
+    "min": 10,
+    "max": 30,
+    "cur": "USD",
+    "bids": 40,
+    "posted": "2026-11-24T12:00:21.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-marketing/Promotional-Social-Media-Post-Graphics",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants six cohesive social post graphics (Instagram, Facebook, LinkedIn) using their brand style guide, with editable text layers.",
+    "lesson": "wf4",
+    "skill": "Turning a client's brand brief into consistent visuals",
+    "pitch": "Hi, I can create six on-brand post graphics for Instagram, Facebook and LinkedIn using your colours and fonts, with editable text layers so you can update offers easily. I'll send native PSD or AI files plus ready-to-upload exports and a short layout guide.",
+    "practice": {
+     "q": "What does the client REALLY need beyond just pretty posts?",
+     "options": [
+      "Six random eye-catching designs in any style",
+      "Consistent branded visuals that promote offers across platforms",
+      "A full social media strategy and posting calendar"
+     ],
+     "right": 1,
+     "why": "Cohesion and brand consistency matter more than novelty here. Read the style guide closely, then adapt each post to each platform's sizes and feel, with editable text so offers can change easily.",
+     "need": "I'll deliver six platform-sized, on-brand post graphics with editable text layers for your offers.",
+     "keys": [
+      "brand",
+      "platforms",
+      "editable"
+     ]
+    }
+   },
+   {
+    "id": "40831840",
+    "title": "Modern Company Brochure Design",
+    "brief": "I'm looking for a modern and professional brochure to introduce my company and its services. The brochure will be shared with potential clients at meetings or events. The brochure should include: - Company story - Past jobs - Services - Contact details Ideal skills and experience: - Strong graphic design skills - Experience with brochure layouts - Ability to convey information clearly and attractively - Portfolio showcasing modern and professional designs Please provide samples of similar work.",
+    "min": 13,
+    "max": 66,
+    "cur": "USD",
+    "bids": 141,
+    "posted": "2026-11-23T13:48:42.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/creative-design/Modern-Company-Brochure-Design",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants a modern, professional company brochure with company story, past jobs, services and contact details, shared at meetings and events.",
+    "lesson": "wf4",
+    "skill": "Briefing the client: finding the real goal behind the request",
+    "pitch": "Hi, I read your brief for a modern company brochure. I'll design a clean, professional layout covering your story, past jobs, services and contact details, with print-ready files. Would you like to see a sample layout first?",
+    "practice": {
+     "q": "What does the client really need the brochure to do once it's in a prospect's hands?",
+     "options": [
+      "Look pretty on a shelf",
+      "Win trust and start conversations",
+      "Show every past project in detail"
+     ],
+     "right": 1,
+     "why": "Good call. A brochure handed out at meetings has one job: make a stranger trust you enough to call. Lead with clarity and credibility, not decoration. Keep text short and scannable.",
+     "need": "I'll design a clean, modern brochure that tells your company story and services clearly, ready for print.",
+     "keys": [
+      "modern",
+      "professional",
+      "services"
+     ]
+    }
+   },
    {
     "id": "40829466",
     "title": "Event Graphics Design Specialist",
@@ -318,7 +420,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 191,
+    "bids": 192,
     "posted": "2026-11-20T02:48:09.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Elegant-Christian-Crusade-Flyer",
@@ -420,7 +522,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 192,
+    "bids": 193,
     "posted": "2026-11-19T19:38:20.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/advertisement-design/Food-Safety-Class-Marketing-Materials",
@@ -524,7 +626,7 @@
     "min": 135,
     "max": 404,
     "cur": "USD",
-    "bids": 70,
+    "bids": 72,
     "posted": "2026-11-21T12:28:46.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/business-writing/Professional-Document-Resume-Editing",
@@ -588,22 +690,52 @@
   ],
   "ig": [
    {
+    "id": "40833331",
+    "title": "Four-Week Social Media Content Plan",
+    "brief": "Hello, I would love to help build and grow Padmatalawar’s online presence through creative, engaging, and consistent social media content. I can create a complete four-week content calendar for Instagram, Facebook, and X, including: - Creative and engaging post ideas for each week. - Catchy, audience-friendly captions in modern English. - Relevant hashtags to improve reach and engagement. - Creative visual prompts and design directions for each post. - A practical posting schedule with recommended days and times. My focus is on creating content that reflects your brand’s personality, attracts attention, encourages audience interaction, and builds a consistent online identity. I am also happy",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 33,
+    "posted": "2026-11-24T10:37:44.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-management/Four-Week-Social-Media-Content",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants a 4-week Instagram, Facebook, and X content calendar with post ideas, captions, hashtags, visuals, and schedule.",
+    "lesson": "ig5",
+    "skill": "Delivering a complete, consistent content package",
+    "pitch": "I'd love to build Padmatalawar's 4-week content calendar across Instagram, Facebook, and X. I'll deliver post ideas, catchy captions, hashtags, visual directions, and a posting schedule that matches your brand's personality. Would you like the calendar to start next Monday?",
+    "practice": {
+     "q": "What is the client really asking for, beyond just making some posts?",
+     "options": [
+      "A full 4-week plan with posts, captions, visuals, and schedule",
+      "Paid ads management across all three platforms",
+      "A brand logo and website design"
+     ],
+     "right": 0,
+     "why": "The brief is a complete, consistent 4-week calendar covering ideas, captions, hashtags, visual direction, and timing. Ads, logos, and websites are outside it. Look for the full scope in one package.",
+     "need": "I'll build your 4-week Instagram, Facebook, and X calendar with captions, hashtags, and visuals.",
+     "keys": [
+      "four-week",
+      "content",
+      "calendar"
+     ]
+    }
+   },
+   {
     "id": "40833268",
     "title": "Social Media Promo Graphic",
     "brief": "I need a clean, scroll-stopping graphic designed specifically for Instagram and Facebook to promote one of my products/services. The piece should instantly communicate the offer, follow current feed dimensions (1080 × 1080) and look just as good in a story format (1080 × 1920). I’ll provide the product photos, copy, logo assets, and brand colours; you translate them into a polished post that feels native to the platforms while staying true to my visual identity. Editable source files (PSD or AI), plus ready-to-upload PNG/JPEG exports, are expected on delivery. Please share relevant portfolio samples that show you can handle vibrant social ads geared toward conversion, and outline your turnar",
     "min": 135,
     "max": 404,
     "cur": "USD",
-    "bids": 26,
+    "bids": 65,
     "posted": "2026-11-24T09:49:03.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Social-Media-Promo-Graphic",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a clean 1080x1080 Instagram/Facebook promo graphic that also works as a 1080x1920 story, with editable source files and PNG/JPEG exports.",
-    "lesson": "ig5",
-    "skill": "Making the offer impossible to miss",
-    "pitch": "I can build your promo graphic in both 1080x1080 for feed and 1080x1920 for stories, keeping your offer front and centre in your brand colours. I'll deliver editable PSD or AI files plus ready-to-upload PNG and JPEG exports. Would you like to send over your product photos and copy so I can start?",
     "practice": {
      "q": "Which format must the offer be readable in, and what should the client's product or offer be the first thing a viewer notices?",
      "options": [
@@ -619,108 +751,10 @@
       "instagram",
       "story"
      ]
-    }
-   },
-   {
-    "id": "40832861",
-    "title": "Padmatalawar Social Media Content",
-    "brief": "I want to raise Padmatalawar’s profile online through a steady stream of engaging social-media posts and scroll-stopping captions. I already have the brand name; what I’m missing is the words that give it personality and momentum. Here’s what I need from you: • A calendar of fresh post ideas for the next four weeks (Instagram, Facebook, and X) • Captions written in an approachable, modern voice, each paired with suggested hashtags • Short creative prompts for accompanying visuals so my designer knows what to create • A simple posting schedule that explains optimum days and times I’ll share any reference material I have on tone and audience once we start, but I’m also relying on your copywrit",
-    "min": 135,
-    "max": 404,
-    "cur": "USD",
-    "bids": 40,
-    "posted": "2026-11-24T04:49:48.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/content-writing/Padmatalawar-Social-Media-Content",
-    "beginner": false,
-    "ai": true,
-    "summary": "Client wants four weeks of Instagram, Facebook, and X posts with approachable captions, hashtags, visual prompts, and a posting schedule for brand Padmatalawar.",
-    "lesson": "ig5",
-    "skill": "Writing captions with a consistent brand voice",
-    "pitch": "Hi, I can help Padmatalawar build momentum online. I'll write a four-week calendar for Instagram, Facebook, and X, with approachable captions, hashtags, visual prompts for your designer, and a simple posting schedule. Would you like to share your tone notes so I can start?",
-    "practice": {
-     "q": "What does the client most need from this job beyond just writing posts?",
-     "options": [
-      "Just a pile of random post ideas",
-      "A consistent voice and plan that builds momentum",
-      "Filming videos and running paid ads"
-     ],
-     "right": 1,
-     "why": "The brief asks for personality and momentum, not volume. A steady, recognisable voice across a planned calendar is what turns posts into a profile. Ads and video are outside this job.",
-     "need": "I'll write a four-week post calendar with captions and hashtags that gives Padmatalawar a clear voice.",
-     "keys": [
-      "personality",
-      "momentum",
-      "captions"
-     ]
-    }
-   },
-   {
-    "id": "40832598",
-    "title": "Social Media Photo Retouching",
-    "brief": "I’m looking for a skilled photo editor who can retouch people and product shots so they stand out on social media and ad campaigns. What I’ll supply • High-resolution RAW or JPEG files • Basic brief on the desired mood, brand colors, and any must-keep elements What I need back • Clean, natural retouching—skin smoothing, stray-hair removal, product dust cleanup, and proportion fixes without a “plastic” look • Color and lighting adjustments that keep tones consistent across the entire set • Final exports in web-ready JPEG/PNG (Instagram, Facebook, TikTok sizes) plus the layered PSD or TIFF master for future tweaks • Naming convention and metadata preserved for easy scheduling and tracking Qual",
-    "min": 10,
-    "max": 30,
-    "cur": "USD",
-    "bids": 21,
-    "posted": "2026-11-24T00:37:54.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/adobe-photoshop/Social-Media-Photo-Retouching-40832598",
-    "beginner": true,
-    "ai": true,
-    "summary": "Client wants natural-looking retouching of people and product photos for social and ads, with consistent color and multi-format exports.",
-    "lesson": "ig2",
-    "skill": "Retouching that looks natural and stays on-brand",
-    "pitch": "Hi, I'd love to help your photos stand out without looking overdone. I'll deliver natural skin and product retouching, consistent color across the full set, and exports for Instagram, Facebook, and TikTok with layered masters. Would you like to share a sample shot so I can show you my approach?",
-    "practice": {
-     "q": "What does the client REALLY need beyond 'pretty' photos?",
-     "options": [
-      "Heavy airbrushing to make everything flawless",
-      "Natural retouching that stays consistent and on-brand",
-      "Only resizing files for each platform"
-     ],
-     "right": 1,
-     "why": "The brief stresses natural results with no plastic look, plus consistent tones across the set. Polish matters, but it has to look real and match the brand. Think about what makes a post sell.",
-     "need": "I'll deliver natural retouching and consistent color across your set, matched to your brand.",
-     "keys": [
-      "natural",
-      "consistent",
-      "brand"
-     ]
-    }
-   },
-   {
-    "id": "40832318",
-    "title": "Bourbon Instagram Content Creation",
-    "brief": "I'm looking for a digital artist to create a logo (in a social media type package including blank posts for when a new follower count goal is reached) for a bourbon hunting account on instagram/tik tok. I would like the art to be original, no AI, with a lot of personality. This is going to be a Christmas gift for my father who is using a terrible AI logo for his account. I would like something unique and original for him to use for branding purposes. Key Tasks: - Develop and curate engaging logo for brand awareness Ideal Skills and Experience: - Digital artistry - Graphic design - Branding",
-    "min": 30,
-    "max": 250,
-    "cur": "USD",
-    "bids": 150,
-    "posted": "2026-11-23T19:49:10.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/content-creation/Bourbon-Instagram-Content-Creation",
-    "beginner": false,
-    "summary": "Client wants an original, non-AI logo with personality for a bourbon hunting Instagram/TikTok, plus branded blank post templates for follower milestones.",
-    "practice": {
-     "q": "What does the client REALLY need beyond just a logo?",
-     "options": [
-      "A logo only, nothing else",
-      "A logo plus reusable post templates for milestones",
-      "A full social media strategy and posting schedule"
-     ],
-     "right": 1,
-     "why": "The brief asks for a logo inside a package, including blank milestone posts. Read the whole brief: they want a usable branding kit, not just one image. Hand-made and personality-driven matter here because it's a gift.",
-     "need": "I'll hand-draw an original bourbon-hunter logo with blank milestone post templates that match it, no AI.",
-     "keys": [
-      "logo",
-      "milestone",
-      "original"
-     ]
     },
     "lesson": "ig5",
-    "skill": "Delivering a full branded kit, not just one asset",
-    "pitch": "Hi, I'd love to create your father's bourbon hunting brand. I'll hand-draw an original logo with personality, plus matching blank post templates for each follower milestone, all with no AI. Would you like to see a few style sketches first?",
+    "skill": "Making the offer impossible to miss",
+    "pitch": "I can build your promo graphic in both 1080x1080 for feed and 1080x1920 for stories, keeping your offer front and centre in your brand colours. I'll deliver editable PSD or AI files plus ready-to-upload PNG and JPEG exports. Would you like to send over your product photos and copy so I can start?",
     "ai": true
    },
    {
@@ -730,7 +764,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 87,
+    "bids": 89,
     "posted": "2026-11-23T00:11:29.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Daily-Posts-TikTok",
@@ -891,176 +925,6 @@
     "lesson": "ig5",
     "skill": "Making the offer impossible to miss",
     "pitch": "Hi, I'd love to help your DJ profile stand out. I'll write a bright, energetic bio and punchy captions tailored for Instagram and TikTok, so your personality comes through in every line. Would you like to see a short sample before we start?",
-    "ai": true
-   },
-   {
-    "id": "40823244",
-    "title": "Minimalist Instagram Rebrand for Artist",
-    "brief": "I have just relocated to Hong Kong and want my Instagram to reflect this new chapter in my practice as a contemporary artist. The account must feel like a polished portfolio that attracts creative collaborations, media features and brand partnerships while still sharing a mix of finished work, personal story and lifestyle moments. The visual direction is already clear—sophisticated, minimalist and contemporary, built around ivory, beige, charcoal and a touch of champagne gold—so I need your design eye and social-media know-how to translate that palette into a cohesive brand presence. Key deliverables • Complete profile refresh: bio rewrite, profile image guidance and keyword optimisation. • ",
-    "min": 10,
-    "max": 31,
-    "cur": "USD",
-    "bids": 71,
-    "posted": "2026-11-17T21:09:34.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-management/Minimalist-Instagram-Rebrand-for-Artist",
-    "beginner": true,
-    "summary": "Artist relocated to Hong Kong wants a minimalist, polished Instagram profile refresh to attract collaborations and brand deals.",
-    "practice": {
-     "q": "What does this artist REALLY need from the account: a pretty feed, or a portfolio that wins collaborations and partnerships?",
-     "options": [
-      "A pretty feed with matching colours",
-      "A portfolio that attracts collaborators and brands",
-      "Daily posts to grow follower count fast"
-     ],
-     "right": 1,
-     "why": "The palette matters, but the goal is credibility. Make the bio and highlights answer who they are and what they accept, so brands and media know why to reach out.",
-     "need": "I'll refresh your bio, keywords and profile image guidance so your account pitches you to collaborators.",
-     "keys": [
-      "collaborations",
-      "portfolio",
-      "minimalist"
-     ]
-    },
-    "lesson": "ig2",
-    "skill": "Pretty isn't the goal; the account must sell the artist",
-    "pitch": "Hi, I'd love to help your Instagram reflect your Hong Kong chapter. I'll rewrite your bio with keywords for collaborators and media, and give clear guidance on your profile image in your ivory and champagne palette. Would you like me to start with the bio?",
-    "ai": true
-   },
-   {
-    "id": "40823059",
-    "title": "Instagram Business Profile Setup",
-    "brief": "I'm looking for an expert to set up my Instagram profile to promote my local service business. Requirements: - Set up the full profile - Publish the first posts Ideal Skills and Experience: - Proven experience with Instagram - Ability to create engaging initial content - Knowledge of best practices for local service businesses",
-    "min": 150,
-    "max": 300,
-    "cur": "USD",
-    "bids": 110,
-    "posted": "2026-11-17T18:13:03.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/instagram/Instagram-Business-Profile-Setup",
-    "beginner": false,
-    "summary": "Client wants a full Instagram business profile set up for a local service business, plus first posts published.",
-    "practice": {
-     "q": "What does the client really need beyond a pretty profile?",
-     "options": [
-      "A profile that brings local customers to book",
-      "Just a nice-looking grid of photos",
-      "Ads running from day one"
-     ],
-     "right": 0,
-     "why": "Clients hire for results, not decoration. Set up the profile so a local customer understands what you offer, where you are, and how to book within seconds.",
-     "need": "I'll set up your Instagram profile so local customers instantly see your service and how to book.",
-     "keys": [
-      "instagram",
-      "profile",
-      "local"
-     ]
-    },
-    "lesson": "ig4",
-    "skill": "Onboarding a shop properly",
-    "pitch": "Hi, I'd love to set up your Instagram business profile so local customers can quickly see what you offer and how to reach you. I'll complete the full profile, with a clear bio, contact button and highlights, then publish your first posts. Would you like me to send a sample layout?",
-    "ai": true
-   },
-   {
-    "id": "40822970",
-    "title": "Social Media Intern for Brand Growth",
-    "brief": "We're Hiring! | Social Media Intern We’re looking for a creative and enthusiastic social media intern to join us and manage the social media presence of one of our upcoming brands! What you'll be responsible for: - Brainstorming creative content ideas and developing strategies to grow the Instagram account. - Planning, creating and publishing 2–3 reels/posts every week. - Managing daily Instagram stories and keeping the audience engaged. - Exploring trends, experimenting with content formats and identifying opportunities to grow the brand organically. What's in it for you? - Stipend + Certificate of Completion. - Hands-on experience in building and growing a brand from scratch. - Opportuniti",
-    "min": 16,
-    "max": 135,
-    "cur": "USD",
-    "bids": 41,
-    "posted": "2026-11-17T17:10:05.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/content-creation/Social-Media-Intern-for-Brand",
-    "beginner": false,
-    "summary": "Client wants an intern to plan, create and post 2-3 Instagram reels/posts weekly, run daily stories, and grow the brand organically.",
-    "practice": {
-     "q": "What does the client REALLY need from this intern?",
-     "options": [
-      "A steady flow of Instagram content that grows the audience",
-      "Someone to recruit more interns for the team",
-      "Filmed video ads for paid TV campaigns"
-     ],
-     "right": 0,
-     "why": "The brief is about consistent weekly posts, daily stories and organic growth on Instagram. Recruiting, TV ads and filming are outside this job, so the right pick is steady content that grows the account.",
-     "need": "I'll keep your Instagram growing with 2-3 posts and daily stories each week.",
-     "keys": [
-      "instagram",
-      "reels",
-      "organic"
-     ]
-    },
-    "lesson": "ig2",
-    "skill": "Pretty isn't the goal: content that grows the audience",
-    "pitch": "Hi, I saw you're building your brand's Instagram from scratch. I can plan and publish 2-3 posts or reels every week, plus daily stories to keep people engaged. I'd start by testing a few content formats to find what grows your audience. Would you like a sample content plan for your first month?",
-    "ai": true
-   },
-   {
-    "id": "40822921",
-    "title": "Dari Instagram Profile Overhaul",
-    "brief": "Salam alaikum! I’m Tamim and I’d love a Dari-speaking creative partner to give my personal Instagram a polished, professional feel while still reflecting my voice as a content creator. Here’s what I need help with right now: refining the profile picture, rewriting my bio so it instantly communicates who I am, and planning engaging posts, captions, stories, and reels that feel cohesive. The goal is not just aesthetics; I want every element to signal a clear, confident personal brand in fluent, natural Dari (sprinkling in English where it makes sense). I’m open to the tools you prefer—Canva, Lightroom, CapCut, or native Instagram editing—so long as the final assets are ready to upload without ",
-    "min": 30,
-    "max": 250,
-    "cur": "USD",
-    "bids": 76,
-    "posted": "2026-11-17T16:33:27.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/content-creation/Dari-Instagram-Profile-Overhaul",
-    "beginner": false,
-    "summary": "Tamim wants a polished, personal Instagram profile in fluent Dari: picture, bio, and cohesive posts, captions, stories and reels.",
-    "practice": {
-     "q": "Beyond looks, what does Tamim really need this profile to do?",
-     "options": [
-      "Just make the feed look pretty",
-      "Signal a clear, confident personal brand",
-      "Replace his content with stock images"
-     ],
-     "right": 1,
-     "why": "Aesthetics matter, but the brief asks every element to signal a clear personal brand. Look for the goal behind the polish, and keep his own voice in Dari.",
-     "need": "I'll polish your photo, bio and feed in fluent Dari so your personal brand reads clearly.",
-     "keys": [
-      "personal",
-      "brand",
-      "dari"
-     ]
-    },
-    "lesson": "ig2",
-    "skill": "Pretty isn't the goal; the brand must come through",
-    "pitch": "Salam Tamim, I'd be glad to help. I'll refine your profile picture, rewrite your bio in natural Dari, and plan a cohesive set of posts, captions and reels that keep your creator voice while signalling a clear personal brand. Would you like to start with the bio or the grid?",
-    "ai": true
-   },
-   {
-    "id": "40814085",
-    "title": "Minimalist Canva To-Do List Design",
-    "brief": "I need a clean, minimalist two-page to-do list created in Canva, sized for US Letter. Both pages must be fully editable so I can tweak colours, text and layout later. Page one carries the main heading “TO DO LIST”, then splits into two even columns: “PERSONAL” on the left, “WORK” on the right. Under each column the weekdays Monday through Friday appear as simple text labels only—no boxes or separator lines—leaving open space beneath every day for handwriting. Page two repeats the “TO DO LIST” heading and uses the same two-column structure for “PERSONAL” and “WORK”, but this time only Saturday and Sunday sit under each column. Directly below, the page divides horizontally into three clear sec",
-    "min": 7,
-    "max": 20,
-    "cur": "USD",
-    "bids": 71,
-    "posted": "2026-11-17T11:34:54.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/canva/Minimalist-Canva-List-Design",
-    "beginner": true,
-    "summary": "Client wants a minimalist, editable two-page US Letter to-do list in Canva with PERSONAL and WORK columns, weekdays on page one, weekends on page two.",
-    "practice": {
-     "q": "Which page should hold the weekend days, and why shouldn't weekdays have boxes or lines?",
-     "options": [
-      "Page two, with weekdays left as open handwriting space",
-      "Page one, with all seven days on it",
-      "Page two, with boxes under each weekend day"
-     ],
-     "right": 0,
-     "why": "The brief splits the week across two pages on purpose. Keep the labels as plain text with no boxes, so the space stays clean for handwriting. Editable Canva elements matter as much as the look.",
-     "need": "I'll build your editable two-page Canva to-do list, minimalist, sized for US Letter, with weekday and weekend layouts.",
-     "keys": [
-      "editable",
-      "minimalist",
-      "canva"
-     ]
-    },
-    "lesson": "ig5",
-    "skill": "Making the offer impossible to miss",
-    "pitch": "I can build your two-page minimalist to-do list in Canva, sized for US Letter, with PERSONAL and WORK columns and fully editable colours and text. Weekdays go on page one with open handwriting space, weekends on page two with the three-section layout below.",
     "ai": true
    }
   ]
