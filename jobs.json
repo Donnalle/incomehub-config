@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 13
+    "got": 18
    },
    {
     "svc": "wf",
@@ -54,7 +54,7 @@
    {
     "svc": "cv",
     "skills": 3,
-    "got": 10
+    "got": 15
    },
    {
     "svc": "cv",
@@ -172,13 +172,13 @@
    ]
   },
   "reasons": {
-   "off-topic": 850,
-   "excluded": 167,
-   "kept": 28,
-   "too big": 19,
-   "scam": 6,
+   "off-topic": 853,
+   "excluded": 173,
+   "kept": 32,
+   "too big": 15,
+   "scam": 4,
    "expert": 2,
-   "not english": 7
+   "not english": 8
   },
   "ownerKeys": null,
   "ownerLocation": null,
@@ -220,13 +220,13 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 13,
+   "ok": 15,
    "fail": 0,
    "lastError": null,
    "dropped": 10
   }
  },
- "updated": "2026-11-25T08:29:47.870Z",
+ "updated": "2026-11-25T21:39:52.358Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -237,42 +237,42 @@
  },
  "counts": {
   "wf": 10,
-  "cv": 2,
-  "ig": 6
+  "cv": 5,
+  "ig": 7
  },
  "services": {
   "wf": [
    {
-    "id": "40834180",
-    "title": "High-Resolution Print Banner Design",
-    "brief": "Need a high res banner for large format printing based on the attached design. Final must be 72\" x 39\" Final in vector or high res (150dpi min) for printing Match the attached design. Background image of lanterns does not need to be exact, can use stock photos or AI, but needs to be very similar to the example and high res. Text should match. Font and colors should match as closely as possible.",
-    "min": 30,
-    "max": 250,
+    "id": "40835515",
+    "title": "Enhance Posters for Professional Printing",
+    "brief": "Freelancer Required – High-Resolution Poster Enhancement We are looking for an experienced graphic designer to enhance the resolution and quality of a set of existing posters. Project Scope: Existing poster designs are ready. Improve image resolution to ultra-high quality. Enhance sharpness, clarity, and overall visual quality. Preserve the original designs, layouts, colours, text, logos, and all existing content. No redesign or creative changes are required. Prepare final files suitable for professional printing and large-format display. Requirements: Proven experience in high-resolution image enhancement. Professional graphic design skills. Ability to deliver print-ready files without alte",
+    "min": 10,
+    "max": 30,
     "cur": "USD",
-    "bids": 235,
-    "posted": "2026-11-24T22:39:33.000Z",
+    "bids": 118,
+    "posted": "2026-11-25T15:55:27.000Z",
     "country": "",
-    "url": "https://www.freelancer.com/projects/adobe-illustrator/High-Resolution-Print-Banner-Design",
+    "url": "https://www.freelancer.com/projects/photo-editing/Enhance-Posters-for-Professional",
     "beginner": false,
     "ai": true,
-    "summary": "Client wants a 72x39 inch print banner matching their reference design, with lantern background, same text, fonts and colors.",
+    "summary": "Client wants existing posters upscaled to ultra-high resolution for print, keeping all designs, text and logos unchanged.",
     "lesson": "wf4",
-    "skill": "Matching a client's reference design exactly",
-    "pitch": "I can build your 72x39 inch banner to match your reference, with the same text, fonts and colors and a similar lantern background. I'll deliver a print-ready file at 150dpi or in vector format. Would you like me to send a quick layout preview before final export?",
+    "skill": "Briefing the client: confirming exactly what to deliver",
+    "pitch": "Hi, I can upscale your existing posters to high resolution while keeping every layout, colour, logo and line of text exactly as it is. I'll deliver print-ready files for large-format display, ready to send to your printer. Would you like to share a sample poster so I can show you the result?",
     "practice": {
-     "q": "Which part of the brief is the client most likely to check first when they receive the banner?",
+     "q": "What does the client actually need delivered?",
      "options": [
-      "That the text, fonts and colors match the reference",
-      "That the lantern background is an exact copy",
-      "That the file is saved as a small web image"
+      "A redesigned poster with new layout",
+      "Sharper, print-ready files with the original design kept",
+      "Posters rewritten with new text and colours"
      ],
-     "right": 0,
-     "why": "Clients judge a match by whether the text, fonts and colors look like their reference. The background only needs to be similar in style, so spend your effort on the layout and typography.",
-     "need": "I'll match your text, fonts and colors exactly, and deliver a 72x39 print-ready file at 150dpi or vector.",
+     "right": 1,
+     "why": "The brief says no redesign or creative changes. Your job is to sharpen and upscale what exists, then deliver clean print-ready files. Read for what must stay the same.",
+     "need": "I'll upscale your posters to print-ready resolution without changing any design, text or logos.",
      "keys": [
-      "72",
-      "150dpi",
-      "match"
+      "print-ready",
+      "resolution",
+      "unchanged"
      ]
     }
    },
@@ -283,7 +283,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 43,
+    "bids": 45,
     "posted": "2026-11-24T12:00:21.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Promotional-Social-Media-Post-Graphics",
@@ -315,9 +315,9 @@
     "title": "Modern Company Brochure Design",
     "brief": "I'm looking for a modern and professional brochure to introduce my company and its services. The brochure will be shared with potential clients at meetings or events. The brochure should include: - Company story - Past jobs - Services - Contact details Ideal skills and experience: - Strong graphic design skills - Experience with brochure layouts - Ability to convey information clearly and attractively - Portfolio showcasing modern and professional designs Please provide samples of similar work.",
     "min": 13,
-    "max": 65,
+    "max": 66,
     "cur": "USD",
-    "bids": 142,
+    "bids": 144,
     "posted": "2026-11-23T13:48:42.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/creative-design/Modern-Company-Brochure-Design",
@@ -351,7 +351,7 @@
     "min": 100,
     "max": 150,
     "cur": "USD",
-    "bids": 156,
+    "bids": 157,
     "posted": "2026-11-21T23:46:31.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Event-Graphics-Design-Specialist",
@@ -419,7 +419,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 192,
+    "bids": 191,
     "posted": "2026-11-20T02:48:09.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Elegant-Christian-Crusade-Flyer",
@@ -552,7 +552,7 @@
     "id": "40825653",
     "title": "BuildSure Corporate Brochure Design",
     "brief": "Dear Sir/Madam, We invite creative designers to design an innovative, attractive and professionally crafted four-page A4-size brochure for: BuildSure – Centre for Construction Material Testing & Quality Assurance (Unit of JSS Academy of Technical Education, Bengaluru) NABL Accredited Laboratory The brochure should reflect BuildSure's professional identity, technical excellence and NABL accreditation. The design must be modern, visually appealing and innovative, with colour combinations that complement the official BuildSure logo. Key content to be highlighted: Introduction to BuildSure and its objectives NABL Accreditation and quality commitment Laboratory infrastructure and testing faciliti",
-    "min": 7,
+    "min": 6,
     "max": 16,
     "cur": "USD",
     "bids": 49,
@@ -585,13 +585,115 @@
   ],
   "cv": [
    {
+    "id": "40835475",
+    "title": "Administrative Supervisor CV & Cover Letter",
+    "brief": "I’m looking for a skilled résumé writer who can create a compelling CV and cover letter that will position me for an Administrative Officer Supervisor post. This will be my first step into a formal supervisory role, so the documents have to emphasise transferable strengths, leadership potential, and any administrative tasks I have already handled, while also showing how those skills translate to managing an office team. Because I’m eyeing openings across corporate environments—particularly banks and IT-heavy organisations—please weave in language and keywords that speak to compliance, customer service, data accuracy, and basic tech literacy so the file is ready for standard ATS scans. Delive",
+    "min": 135,
+    "max": 406,
+    "cur": "USD",
+    "bids": 42,
+    "posted": "2026-11-25T15:36:19.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/administrative-support/Administrative-Supervisor-Cover-Letter",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants a CV and cover letter for a first supervisory role as Administrative Officer Supervisor, ATS-ready for banks and IT firms.",
+    "lesson": "cv4",
+    "skill": "Interviewing your client to surface transferable wins",
+    "pitch": "Hi, I read your brief for an Administrative Officer Supervisor CV and cover letter, and I can help you make the leap into your first supervisory role.",
+    "practice": {
+     "q": "Which detail matters most for this client's ATS-scanned CV in banking and IT?",
+     "options": [
+      "Bold colours and a photo",
+      "Keywords on compliance, accuracy and customer service",
+      "A long list of hobbies"
+     ],
+     "right": 1,
+     "why": "Good call. ATS filters scan for role keywords, so compliance, customer service, data accuracy and tech literacy must appear naturally in the text. Show transferable admin wins, not just duties.",
+     "need": "I'll write an ATS-ready CV and cover letter that positions you for your first supervisory role.",
+     "keys": [
+      "cv",
+      "cover letter",
+      "supervisor"
+     ]
+    }
+   },
+   {
+    "id": "40835389",
+    "title": "Online Job Application Assistant Needed -- 2",
+    "brief": "looking for somone to help me appply for jobs on line must be english literate apply for jobs and also search for jobs for me.",
+    "min": 10,
+    "max": 30,
+    "cur": "USD",
+    "bids": 18,
+    "posted": "2026-11-25T14:34:30.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/proofreading/Online-Job-Application-Assistant-Needed",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants someone to apply for jobs online for them and also search for jobs on their behalf.",
+    "lesson": "cv2",
+    "skill": "Reading the full brief before you bid",
+    "pitch": "Hi, I can help with this. I'll search job boards for roles that fit your background and submit tailored applications for each one. I'll send you a short list every week so you can see what went out. Which kinds of roles and locations should I focus on?",
+    "practice": {
+     "q": "Which part of this brief is the real job the client needs done?",
+     "options": [
+      "Write a new CV from scratch",
+      "Apply to jobs and find listings for them",
+      "Interview them for a career plan"
+     ],
+     "right": 1,
+     "why": "The client wants two linked tasks: finding suitable listings and submitting applications. Read the whole brief and name both before pitching. A clear pitch shows you can handle both.",
+     "need": "I'll search job boards for you and submit tailored applications.",
+     "keys": [
+      "apply",
+      "search",
+      "jobs"
+     ]
+    }
+   },
+   {
+    "id": "40835384",
+    "title": "Online Job Application Assistant Needed",
+    "brief": "looking for somone to help me appply for jobs on line must be english literate apply for jobs and also search for jobs for me.",
+    "min": 10,
+    "max": 30,
+    "cur": "USD",
+    "bids": 16,
+    "posted": "2026-11-25T14:31:26.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/writing/Online-Job-Application-Assistant-Needed",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants someone to apply for jobs online for them and also search for jobs on their behalf.",
+    "lesson": "cv4",
+    "skill": "Interviewing your client to confirm the real scope",
+    "pitch": "Hi, I can help with this. I'll search for jobs that match your skills each week and send tailored online applications on your behalf, keeping you updated on every one. Which types of roles and locations are you aiming for?",
+    "practice": {
+     "q": "What does this client really need: someone to find and apply for jobs on their behalf, or someone to teach them to do it?",
+     "options": [
+      "Find and apply for jobs for them",
+      "Teach them how to search and apply",
+      "Write a company's job advert"
+     ],
+     "right": 0,
+     "why": "Read the brief closely: they want a person who searches and applies on their behalf. Teaching or advertising jobs would miss the point. Confirm the scope before you bid.",
+     "need": "I'll search for relevant jobs and submit tailored online applications for you.",
+     "keys": [
+      "apply",
+      "jobs",
+      "search"
+     ]
+    }
+   },
+   {
     "id": "40828900",
     "title": "Professional Document & Resume Editing",
     "brief": "I have several documents that need clear, error-free polishing. Most are business letters and résumés intended for formal submission, so tone, structure, and grammar must be spot-on. Your task is to review the existing drafts, tighten the language, fix any inconsistencies, and deliver a clean, ready-to-send version in Word (with tracked changes) and a final PDF. Accuracy, respect for confidentiality, and a quick turnaround are essential. If you have a keen eye for professional formatting and wording that gets results, I’d like to work with you.",
-    "min": 136,
-    "max": 407,
+    "min": 135,
+    "max": 406,
     "cur": "USD",
-    "bids": 74,
+    "bids": 75,
     "posted": "2026-11-21T12:28:46.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/business-writing/Professional-Document-Resume-Editing",
@@ -655,22 +757,52 @@
   ],
   "ig": [
    {
+    "id": "40835040",
+    "title": "Create Social Media Canva Templates for Pediatric Occupational Therapy",
+    "brief": "Looking to design 15–20 editable Canva templates for Instagram and Facebook. The templates will include 2–3 layout/color variations per post, covering sensory tips, fine motor activities, developmental milestones, and clinic promotion posts. The goal is to create clean, engaging, and informative designs that help parents and clinics share valuable content while attracting engagement. Use soft pastel colors like sage green, warm cream, soft coral, and gentle mustard yellow with rounded shapes and playful yet clear typography. Include a bold headline area for 'Sensory Tip' or 'Fine Motor Activity', a clean bulleted or short text section for practical home activities, space for a friendly illus",
+    "min": 43,
+    "max": 87,
+    "cur": "USD",
+    "bids": 44,
+    "posted": "2026-11-25T10:24:00.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/graphic-design/Create-Social-Media-Canva-Templates",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants 15-20 editable Canva templates for pediatric OT Instagram/Facebook posts, pastel colors, 2-3 variations each.",
+    "lesson": "ig5",
+    "skill": "Designing reusable templates that solve a real client need",
+    "pitch": "I'd love to create your 15-20 editable Canva templates for pediatric OT posts, in your soft sage, cream, coral and mustard palette. Each design will come with 2-3 layout variations so clinics and parents can reuse them easily. Would you like to see a sample template first?",
+    "practice": {
+     "q": "What does the client REALLY need from this job?",
+     "options": [
+      "Just pretty pastel graphics to post",
+      "Editable, on-brand templates clinics and parents can reuse",
+      "One-off custom designs for each post"
+     ],
+     "right": 1,
+     "why": "The brief asks for reusable, editable templates with variations, so the value is a flexible system clinics can reuse, not one-off art. Pretty alone misses the point. Check the editable requirement first.",
+     "need": "I'll build 15-20 editable Canva templates in your pastel palette, each with color variations.",
+     "keys": [
+      "editable",
+      "templates",
+      "variations"
+     ]
+    }
+   },
+   {
     "id": "40834870",
     "title": "Google & Instagram Profile Makeover",
     "brief": "We have recently renovated our restaurant and would like to update our online presence to reflect its new appearance and atmosphere. 1. Google Business Profile Remove all old photos uploaded by the business. Replace them with our new professional photos. Food and beverage photos uploaded by customers can remain. All new photos will be provided by us. 2. Instagram Account Remove all existing photos and posts. Upload the new photos provided by us. Create a fresh, modern and consistent appearance that reflects the newly renovated restaurant. Project Objective The goal is to refresh both platforms and ensure that our online presence accurately represents the restaurant's new design, atmosphere a",
     "min": 33,
-    "max": 273,
+    "max": 274,
     "cur": "USD",
-    "bids": 50,
+    "bids": 134,
     "posted": "2026-11-25T08:23:22.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-photoshop/Google-Instagram-Profile-Makeover",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants Google Business and Instagram cleared of old photos and refreshed with new restaurant renovation photos.",
-    "lesson": "ig4",
-    "skill": "Onboarding a shop properly",
-    "pitch": "Hi, I'd love to refresh your Google and Instagram for the renovation. I'll remove the outdated business photos, keep your customers' food shots, and upload your new photos into a clean, consistent look. Would you like me to start with Google or Instagram first?",
     "practice": {
      "q": "What does the client REALLY need from this job?",
      "options": [
@@ -686,7 +818,11 @@
       "google",
       "instagram"
      ]
-    }
+    },
+    "lesson": "ig4",
+    "skill": "Onboarding a shop properly",
+    "pitch": "Hi, I'd love to refresh your Google and Instagram for the renovation. I'll remove the outdated business photos, keep your customers' food shots, and upload your new photos into a clean, consistent look. Would you like me to start with Google or Instagram first?",
+    "ai": true
    },
    {
     "id": "40830708",
@@ -695,16 +831,12 @@
     "min": 7,
     "max": 20,
     "cur": "USD",
-    "bids": 57,
+    "bids": 59,
     "posted": "2026-11-25T01:19:23.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/facebook-ads/Drive-Gift-Sales-Via-Social",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants short Instagram tutorials teaching their small business to post on their own, for under $50.",
-    "lesson": "ig3",
-    "skill": "Teaching a small business to post on its own",
-    "pitch": "Hi, I read that you want short Instagram lessons so your team can post confidently on their own. I can deliver a focused, hands-on tutorial covering post planning, captions, and a simple weekly posting routine within your $50 budget. Would a short session like that work for you?",
     "practice": {
      "q": "What does this client REALLY need from you?",
      "options": [
@@ -720,7 +852,11 @@
       "learning",
       "budget"
      ]
-    }
+    },
+    "lesson": "ig3",
+    "skill": "Teaching a small business to post on its own",
+    "pitch": "Hi, I read that you want short Instagram lessons so your team can post confidently on their own. I can deliver a focused, hands-on tutorial covering post planning, captions, and a simple weekly posting routine within your $50 budget. Would a short session like that work for you?",
+    "ai": true
    },
    {
     "id": "40830812",
@@ -729,7 +865,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 91,
+    "bids": 92,
     "posted": "2026-11-23T00:11:29.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Daily-Posts-TikTok",
