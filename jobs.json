@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 14
+    "got": 13
    },
    {
     "svc": "wf",
@@ -54,7 +54,7 @@
    {
     "svc": "cv",
     "skills": 3,
-    "got": 12
+    "got": 10
    },
    {
     "svc": "cv",
@@ -119,7 +119,7 @@
    {
     "svc": "ig",
     "skills": 4,
-    "got": 7
+    "got": 5
    },
    {
     "svc": "ig",
@@ -172,14 +172,13 @@
    ]
   },
   "reasons": {
-   "off-topic": 849,
-   "excluded": 164,
-   "kept": 30,
-   "too big": 12,
+   "off-topic": 850,
+   "excluded": 167,
+   "kept": 28,
+   "too big": 19,
    "scam": 6,
    "expert": 2,
-   "not english": 16,
-   "old": 1
+   "not english": 7
   },
   "ownerKeys": null,
   "ownerLocation": null,
@@ -221,13 +220,13 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 14,
+   "ok": 13,
    "fail": 0,
    "lastError": null,
    "dropped": 10
   }
  },
- "updated": "2026-11-24T22:25:02.371Z",
+ "updated": "2026-11-25T08:29:47.870Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -237,43 +236,43 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 11,
+  "wf": 10,
   "cv": 2,
-  "ig": 7
+  "ig": 6
  },
  "services": {
   "wf": [
    {
-    "id": "40834040",
-    "title": "YouTube & LinkedIn Banners to state my value preposition",
-    "brief": "I need two cohesive banners—one for my YouTube channel and one for my LinkedIn profile. Once we start, I’ll send over my full brand kit, colour palette, fonts, logo files, and a mood-board of ideas I’ve already sketched out. The primary goal is to clearly state my value proposition so visitors instantly understand what I do and why I’m the right choice. Beyond the wording itself, the design must reflect my own tone of voice and the type of clients I want to attract, all while feeling unmistakably professional and confident. Here’s what I’m expecting: • Final artwork sized correctly for each platform (YouTube 2560 × 1440 px with safe zone respected; LinkedIn 1584 × 396 px). • Editable source ",
-    "min": 10,
-    "max": 20,
+    "id": "40834180",
+    "title": "High-Resolution Print Banner Design",
+    "brief": "Need a high res banner for large format printing based on the attached design. Final must be 72\" x 39\" Final in vector or high res (150dpi min) for printing Match the attached design. Background image of lanterns does not need to be exact, can use stock photos or AI, but needs to be very similar to the example and high res. Text should match. Font and colors should match as closely as possible.",
+    "min": 30,
+    "max": 250,
     "cur": "USD",
-    "bids": 77,
-    "posted": "2026-11-24T20:16:03.000Z",
+    "bids": 235,
+    "posted": "2026-11-24T22:39:33.000Z",
     "country": "",
-    "url": "https://www.freelancer.com/projects/branding/YouTube-LinkedIn-Banners-state-value",
-    "beginner": true,
+    "url": "https://www.freelancer.com/projects/adobe-illustrator/High-Resolution-Print-Banner-Design",
+    "beginner": false,
     "ai": true,
-    "summary": "Client wants two matching banners (YouTube 2560x1440, LinkedIn 1584x396) that state their value proposition, using their brand kit.",
+    "summary": "Client wants a 72x39 inch print banner matching their reference design, with lantern background, same text, fonts and colors.",
     "lesson": "wf4",
-    "skill": "Briefing the client: turning a request into the real goal",
-    "pitch": "Hi, I read your brief for matching YouTube and LinkedIn banners. I'll design both in your brand kit so your value proposition is clear within seconds, with the right sizes and safe zones respected. Could you share the one thing you most want visitors to remember?",
+    "skill": "Matching a client's reference design exactly",
+    "pitch": "I can build your 72x39 inch banner to match your reference, with the same text, fonts and colors and a similar lantern background. I'll deliver a print-ready file at 150dpi or in vector format. Would you like me to send a quick layout preview before final export?",
     "practice": {
-     "q": "Besides the wording, what must the banner design also show to the client's target audience?",
+     "q": "Which part of the brief is the client most likely to check first when they receive the banner?",
      "options": [
-      "Only the logo and a nice photo",
-      "Their tone of voice and the clients they want",
-      "As many services as possible to look busy"
+      "That the text, fonts and colors match the reference",
+      "That the lantern background is an exact copy",
+      "That the file is saved as a small web image"
      ],
-     "right": 1,
-     "why": "The client asked for more than pretty graphics. The design has to express their tone and attract the right clients, while the value proposition is understood in seconds. Always start by asking what the visitor should feel and do.",
-     "need": "I'll design both banners so your value proposition is clear at a glance, in your brand style.",
+     "right": 0,
+     "why": "Clients judge a match by whether the text, fonts and colors look like their reference. The background only needs to be similar in style, so spend your effort on the layout and typography.",
+     "need": "I'll match your text, fonts and colors exactly, and deliver a 72x39 print-ready file at 150dpi or vector.",
      "keys": [
-      "value",
-      "proposition",
-      "brand"
+      "72",
+      "150dpi",
+      "match"
      ]
     }
    },
@@ -284,16 +283,12 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 40,
+    "bids": 43,
     "posted": "2026-11-24T12:00:21.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Promotional-Social-Media-Post-Graphics",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants six cohesive social post graphics (Instagram, Facebook, LinkedIn) using their brand style guide, with editable text layers.",
-    "lesson": "wf4",
-    "skill": "Turning a client's brand brief into consistent visuals",
-    "pitch": "Hi, I can create six on-brand post graphics for Instagram, Facebook and LinkedIn using your colours and fonts, with editable text layers so you can update offers easily. I'll send native PSD or AI files plus ready-to-upload exports and a short layout guide.",
     "practice": {
      "q": "What does the client REALLY need beyond just pretty posts?",
      "options": [
@@ -309,25 +304,25 @@
       "platforms",
       "editable"
      ]
-    }
+    },
+    "lesson": "wf4",
+    "skill": "Turning a client's brand brief into consistent visuals",
+    "pitch": "Hi, I can create six on-brand post graphics for Instagram, Facebook and LinkedIn using your colours and fonts, with editable text layers so you can update offers easily. I'll send native PSD or AI files plus ready-to-upload exports and a short layout guide.",
+    "ai": true
    },
    {
     "id": "40831840",
     "title": "Modern Company Brochure Design",
     "brief": "I'm looking for a modern and professional brochure to introduce my company and its services. The brochure will be shared with potential clients at meetings or events. The brochure should include: - Company story - Past jobs - Services - Contact details Ideal skills and experience: - Strong graphic design skills - Experience with brochure layouts - Ability to convey information clearly and attractively - Portfolio showcasing modern and professional designs Please provide samples of similar work.",
     "min": 13,
-    "max": 66,
+    "max": 65,
     "cur": "USD",
-    "bids": 141,
+    "bids": 142,
     "posted": "2026-11-23T13:48:42.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/creative-design/Modern-Company-Brochure-Design",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants a modern, professional company brochure with company story, past jobs, services and contact details, shared at meetings and events.",
-    "lesson": "wf4",
-    "skill": "Briefing the client: finding the real goal behind the request",
-    "pitch": "Hi, I read your brief for a modern company brochure. I'll design a clean, professional layout covering your story, past jobs, services and contact details, with print-ready files. Would you like to see a sample layout first?",
     "practice": {
      "q": "What does the client really need the brochure to do once it's in a prospect's hands?",
      "options": [
@@ -343,7 +338,11 @@
       "professional",
       "services"
      ]
-    }
+    },
+    "lesson": "wf4",
+    "skill": "Briefing the client: finding the real goal behind the request",
+    "pitch": "Hi, I read your brief for a modern company brochure. I'll design a clean, professional layout covering your story, past jobs, services and contact details, with print-ready files. Would you like to see a sample layout first?",
+    "ai": true
    },
    {
     "id": "40829466",
@@ -352,7 +351,7 @@
     "min": 100,
     "max": 150,
     "cur": "USD",
-    "bids": 155,
+    "bids": 156,
     "posted": "2026-11-21T23:46:31.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Event-Graphics-Design-Specialist",
@@ -553,7 +552,7 @@
     "id": "40825653",
     "title": "BuildSure Corporate Brochure Design",
     "brief": "Dear Sir/Madam, We invite creative designers to design an innovative, attractive and professionally crafted four-page A4-size brochure for: BuildSure – Centre for Construction Material Testing & Quality Assurance (Unit of JSS Academy of Technical Education, Bengaluru) NABL Accredited Laboratory The brochure should reflect BuildSure's professional identity, technical excellence and NABL accreditation. The design must be modern, visually appealing and innovative, with colour combinations that complement the official BuildSure logo. Key content to be highlighted: Introduction to BuildSure and its objectives NABL Accreditation and quality commitment Laboratory infrastructure and testing faciliti",
-    "min": 6,
+    "min": 7,
     "max": 16,
     "cur": "USD",
     "bids": 49,
@@ -582,40 +581,6 @@
     "skill": "Briefing the client to pin down what success looks like",
     "pitch": "Hi, I'd like to design your BuildSure brochure. I'll build a clean 4-page A4 layout in your logo colours, with the NABL accreditation and lab facilities given clear space. Would you like to see a sample page first?",
     "ai": true
-   },
-   {
-    "id": "40823511",
-    "title": "Canva Package Info PDF Design",
-    "brief": "I need an information PDF created in Canva that lays out my program packages in a clean, warm style that matches my existing branding. The document’s primary goal is to present each package’s price and key details so prospects can quickly understand the options and feel confident choosing the right one. It is puppy related so adding in realistic puppy images is a must Scope of work • Translate the copy and basic structure I will supply into a visually appealing, brand-consistent PDF. • Highlight prices and inclusions clearly while keeping the overall look inviting rather than overly corporate. • Use my brand colours, fonts, and any imagery I provide; suggest subtle design touches that enhanc",
-    "min": 20,
-    "max": 166,
-    "cur": "USD",
-    "bids": 228,
-    "posted": "2026-11-18T02:00:53.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/canva/Canva-Package-Info-PDF-Design",
-    "beginner": false,
-    "summary": "Client wants a warm, brand-matched Canva info PDF showing puppy program packages with clear prices and inclusions, plus realistic puppy photos.",
-    "practice": {
-     "q": "What is the PDF's main job: showing off the design, or helping prospects compare packages and feel confident picking one?",
-     "options": [
-      "Show off the design and visual style",
-      "Help prospects compare packages and choose",
-      "List every detail about the puppy program"
-     ],
-     "right": 1,
-     "why": "The brief says the goal is quick comparison and confidence. Prices and inclusions must be easy to scan. Pretty alone won't win this job. Structure the layout around the decision.",
-     "need": "I'll lay out your puppy packages in a warm Canva PDF so prices are easy to compare.",
-     "keys": [
-      "packages",
-      "prices",
-      "puppy"
-     ]
-    },
-    "lesson": "wf4",
-    "skill": "Designing around the prospect's decision, not decoration",
-    "pitch": "Hi, I can turn your puppy package details into a warm, on-brand Canva PDF where prices and inclusions are easy to scan at a glance. I'll use your brand colours and fonts and add realistic puppy photos throughout. Would you like to send me your copy and images so I can draft a first layout?",
-    "ai": true
    }
   ],
   "cv": [
@@ -623,10 +588,10 @@
     "id": "40828900",
     "title": "Professional Document & Resume Editing",
     "brief": "I have several documents that need clear, error-free polishing. Most are business letters and résumés intended for formal submission, so tone, structure, and grammar must be spot-on. Your task is to review the existing drafts, tighten the language, fix any inconsistencies, and deliver a clean, ready-to-send version in Word (with tracked changes) and a final PDF. Accuracy, respect for confidentiality, and a quick turnaround are essential. If you have a keen eye for professional formatting and wording that gets results, I’d like to work with you.",
-    "min": 135,
-    "max": 404,
+    "min": 136,
+    "max": 407,
     "cur": "USD",
-    "bids": 72,
+    "bids": 74,
     "posted": "2026-11-21T12:28:46.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/business-writing/Professional-Document-Resume-Editing",
@@ -657,7 +622,7 @@
     "id": "40826534",
     "title": "ATS Optimized Finance Graduate Resume",
     "brief": "I’m an entry-level graduate aiming for finance, accounting, and banking positions within large multinational corporations. My current résumé needs a full professional overhaul so it can sail through modern Applicant Tracking Systems and showcase my potential to hiring managers in these high-stakes environments. You’ll start from my existing document and transform it into a clean, results-oriented résumé that speaks the language of finance while remaining fully ATS compliant. That means strategic keyword placement, metrics-driven bullet points, clear section hierarchy, and formatting that stays intact whether it’s scanned by software or reviewed by a human. I also want subtle tailoring toward",
-    "min": 6,
+    "min": 7,
     "max": 16,
     "cur": "USD",
     "bids": 20,
@@ -690,72 +655,72 @@
   ],
   "ig": [
    {
-    "id": "40833331",
-    "title": "Four-Week Social Media Content Plan",
-    "brief": "Hello, I would love to help build and grow Padmatalawar’s online presence through creative, engaging, and consistent social media content. I can create a complete four-week content calendar for Instagram, Facebook, and X, including: - Creative and engaging post ideas for each week. - Catchy, audience-friendly captions in modern English. - Relevant hashtags to improve reach and engagement. - Creative visual prompts and design directions for each post. - A practical posting schedule with recommended days and times. My focus is on creating content that reflects your brand’s personality, attracts attention, encourages audience interaction, and builds a consistent online identity. I am also happy",
-    "min": 30,
-    "max": 250,
+    "id": "40834870",
+    "title": "Google & Instagram Profile Makeover",
+    "brief": "We have recently renovated our restaurant and would like to update our online presence to reflect its new appearance and atmosphere. 1. Google Business Profile Remove all old photos uploaded by the business. Replace them with our new professional photos. Food and beverage photos uploaded by customers can remain. All new photos will be provided by us. 2. Instagram Account Remove all existing photos and posts. Upload the new photos provided by us. Create a fresh, modern and consistent appearance that reflects the newly renovated restaurant. Project Objective The goal is to refresh both platforms and ensure that our online presence accurately represents the restaurant's new design, atmosphere a",
+    "min": 33,
+    "max": 273,
     "cur": "USD",
-    "bids": 33,
-    "posted": "2026-11-24T10:37:44.000Z",
+    "bids": 50,
+    "posted": "2026-11-25T08:23:22.000Z",
     "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-management/Four-Week-Social-Media-Content",
+    "url": "https://www.freelancer.com/projects/adobe-photoshop/Google-Instagram-Profile-Makeover",
     "beginner": false,
     "ai": true,
-    "summary": "Client wants a 4-week Instagram, Facebook, and X content calendar with post ideas, captions, hashtags, visuals, and schedule.",
-    "lesson": "ig5",
-    "skill": "Delivering a complete, consistent content package",
-    "pitch": "I'd love to build Padmatalawar's 4-week content calendar across Instagram, Facebook, and X. I'll deliver post ideas, catchy captions, hashtags, visual directions, and a posting schedule that matches your brand's personality. Would you like the calendar to start next Monday?",
+    "summary": "Client wants Google Business and Instagram cleared of old photos and refreshed with new restaurant renovation photos.",
+    "lesson": "ig4",
+    "skill": "Onboarding a shop properly",
+    "pitch": "Hi, I'd love to refresh your Google and Instagram for the renovation. I'll remove the outdated business photos, keep your customers' food shots, and upload your new photos into a clean, consistent look. Would you like me to start with Google or Instagram first?",
     "practice": {
-     "q": "What is the client really asking for, beyond just making some posts?",
+     "q": "What does the client REALLY need from this job?",
      "options": [
-      "A full 4-week plan with posts, captions, visuals, and schedule",
-      "Paid ads management across all three platforms",
-      "A brand logo and website design"
+      "Write new captions for every old post",
+      "Replace old business photos with theirs, keep customer photos",
+      "Create new menus and run paid ads"
      ],
-     "right": 0,
-     "why": "The brief is a complete, consistent 4-week calendar covering ideas, captions, hashtags, visual direction, and timing. Ads, logos, and websites are outside it. Look for the full scope in one package.",
-     "need": "I'll build your 4-week Instagram, Facebook, and X calendar with captions, hashtags, and visuals.",
+     "right": 1,
+     "why": "Read the brief closely: remove old business photos, keep customer food photos, and upload the client's new photos to both platforms. Sticking to exactly that scope is the job.",
+     "need": "I'll replace your old photos on Google and Instagram with your new renovation shots, keeping a consistent look.",
      "keys": [
-      "four-week",
-      "content",
-      "calendar"
+      "renovated",
+      "google",
+      "instagram"
      ]
     }
    },
    {
-    "id": "40833268",
-    "title": "Social Media Promo Graphic",
-    "brief": "I need a clean, scroll-stopping graphic designed specifically for Instagram and Facebook to promote one of my products/services. The piece should instantly communicate the offer, follow current feed dimensions (1080 × 1080) and look just as good in a story format (1080 × 1920). I’ll provide the product photos, copy, logo assets, and brand colours; you translate them into a polished post that feels native to the platforms while staying true to my visual identity. Editable source files (PSD or AI), plus ready-to-upload PNG/JPEG exports, are expected on delivery. Please share relevant portfolio samples that show you can handle vibrant social ads geared toward conversion, and outline your turnar",
-    "min": 135,
-    "max": 404,
+    "id": "40830708",
+    "title": "Social Media Tutorials for a Small Business",
+    "brief": "My budget is under $50, and I’m just looking for a short-term learning opportunity rather than ongoing management or extensive projects.",
+    "min": 7,
+    "max": 20,
     "cur": "USD",
-    "bids": 65,
-    "posted": "2026-11-24T09:49:03.000Z",
+    "bids": 57,
+    "posted": "2026-11-25T01:19:23.000Z",
     "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-marketing/Social-Media-Promo-Graphic",
-    "beginner": false,
-    "summary": "Client wants a clean 1080x1080 Instagram/Facebook promo graphic that also works as a 1080x1920 story, with editable source files and PNG/JPEG exports.",
+    "url": "https://www.freelancer.com/projects/facebook-ads/Drive-Gift-Sales-Via-Social",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants short Instagram tutorials teaching their small business to post on their own, for under $50.",
+    "lesson": "ig3",
+    "skill": "Teaching a small business to post on its own",
+    "pitch": "Hi, I read that you want short Instagram lessons so your team can post confidently on their own. I can deliver a focused, hands-on tutorial covering post planning, captions, and a simple weekly posting routine within your $50 budget. Would a short session like that work for you?",
     "practice": {
-     "q": "Which format must the offer be readable in, and what should the client's product or offer be the first thing a viewer notices?",
+     "q": "What does this client REALLY need from you?",
      "options": [
-      "Both 1080x1080 feed and 1080x1920 story",
-      "Only 1080x1080 for the feed",
-      "Only 1080x1920 for stories"
+      "Full account management and daily posting",
+      "Short hands-on lessons they can apply themselves",
+      "Paid ads setup and campaign strategy"
      ],
-     "right": 0,
-     "why": "The brief asks for one design that works in two sizes, so the offer must read clearly in both. Plan the layout for both formats from the start, not as an afterthought. Keep the offer as the strongest element.",
-     "need": "I'll design a clean promo graphic in both 1080x1080 and 1080x1920 formats, with editable source files.",
+     "right": 1,
+     "why": "The brief says short-term learning, not ongoing management. Teach the owner to post well themselves, and keep the scope tight to fit the budget.",
+     "need": "I'll walk your team through a short, practical Instagram posting lesson within your $50 budget.",
      "keys": [
-      "promo",
-      "instagram",
-      "story"
+      "short",
+      "learning",
+      "budget"
      ]
-    },
-    "lesson": "ig5",
-    "skill": "Making the offer impossible to miss",
-    "pitch": "I can build your promo graphic in both 1080x1080 for feed and 1080x1920 for stories, keeping your offer front and centre in your brand colours. I'll deliver editable PSD or AI files plus ready-to-upload PNG and JPEG exports. Would you like to send over your product photos and copy so I can start?",
-    "ai": true
+    }
    },
    {
     "id": "40830812",
@@ -764,7 +729,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 89,
+    "bids": 91,
     "posted": "2026-11-23T00:11:29.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Daily-Posts-TikTok",
@@ -891,40 +856,6 @@
     "lesson": "ig2",
     "skill": "Pretty isn't the goal: matching the brand's look",
     "pitch": "Hi, I read your brief and I can help your feed feel consistently premium. I'll retouch your product and lifestyle shots and cut short reels that follow your colour palette, fonts and tone. Would you like to send over a few sample assets so I can show you a first edit?",
-    "ai": true
-   },
-   {
-    "id": "40823484",
-    "title": "DJ Profile Creation",
-    "brief": "I need a compelling written bio and engaging social media descriptions for my DJ profile. The style should be bright and energetic to match my brand. Requirements: - Tailored for Instagram and TikTok - Captivating and engaging language - Reflects a bright and energetic style",
-    "min": 23,
-    "max": 194,
-    "cur": "USD",
-    "bids": 69,
-    "posted": "2026-11-18T01:33:09.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-marketing/Profile-Creation",
-    "beginner": false,
-    "summary": "Client wants a bright, energetic bio and engaging captions for Instagram and TikTok to promote their DJ profile.",
-    "practice": {
-     "q": "What does the client REALLY need from this job?",
-     "options": [
-      "Long, formal bios for a press kit",
-      "Bright, short hooks tuned to Instagram and TikTok",
-      "A full social media strategy and posting schedule"
-     ],
-     "right": 1,
-     "why": "Match the length and tone to each platform. Short, punchy lines with energy and a clear call to action work best for DJs on Instagram and TikTok. Keep the brand voice consistent.",
-     "need": "I'll write a bright, energetic bio and short captions tailored for Instagram and TikTok.",
-     "keys": [
-      "bio",
-      "instagram",
-      "tiktok"
-     ]
-    },
-    "lesson": "ig5",
-    "skill": "Making the offer impossible to miss",
-    "pitch": "Hi, I'd love to help your DJ profile stand out. I'll write a bright, energetic bio and punchy captions tailored for Instagram and TikTok, so your personality comes through in every line. Would you like to see a short sample before we start?",
     "ai": true
    }
   ]
