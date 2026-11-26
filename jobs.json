@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 20
+    "got": 15
    },
    {
     "svc": "wf",
@@ -54,7 +54,7 @@
    {
     "svc": "cv",
     "skills": 3,
-    "got": 15
+    "got": 14
    },
    {
     "svc": "cv",
@@ -84,7 +84,7 @@
    {
     "svc": "cv",
     "q": "resume",
-    "got": 18
+    "got": 15
    },
    {
     "svc": "cv",
@@ -119,7 +119,7 @@
    {
     "svc": "ig",
     "skills": 4,
-    "got": 18
+    "got": 13
    },
    {
     "svc": "ig",
@@ -172,14 +172,13 @@
    ]
   },
   "reasons": {
-   "excluded": 167,
-   "off-topic": 862,
-   "kept": 30,
-   "too big": 18,
-   "old": 6,
-   "scam": 5,
-   "expert": 2,
-   "not english": 8
+   "not english": 8,
+   "excluded": 174,
+   "off-topic": 863,
+   "scam": 3,
+   "kept": 27,
+   "too big": 12,
+   "expert": 2
   },
   "ownerKeys": null,
   "ownerLocation": null,
@@ -221,13 +220,13 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 12,
+   "ok": 8,
    "fail": 0,
    "lastError": null,
-   "dropped": 9
+   "dropped": 6
   }
  },
- "updated": "2026-11-26T08:14:16.605Z",
+ "updated": "2026-11-26T21:29:06.057Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -237,9 +236,9 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 9,
-  "cv": 6,
-  "ig": 6
+  "wf": 8,
+  "cv": 5,
+  "ig": 8
  },
  "services": {
   "wf": [
@@ -248,18 +247,14 @@
     "title": "Canva Posts & Posters Designer",
     "brief": "I regularly announce events, limited-time offers, and other updates on social media and need a skilled Canva designer to translate each brief into polished visuals that fit my brand guidelines. Most of the work revolves around two key formats: • Instagram posts (square 1080×1080) • Posters suitable for both digital promotion and print On occasions when an Instagram story or an alternative size is requested, the same design language should carry across. For every assignment I’ll provide the copy, logo files, colour palette, and any reference imagery. Your deliverables will be: • An editable Canva link for each design • Exported high-resolution PNG/JPG files (and a print-ready PDF for posters)",
     "min": 135,
-    "max": 405,
+    "max": 406,
     "cur": "USD",
-    "bids": 69,
+    "bids": 89,
     "posted": "2026-11-26T05:34:28.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Canva-Posts-Posters-Designer",
     "beginner": false,
-    "ai": true,
     "summary": "Client needs Canva designs for Instagram posts (1080x1080), posters, and stories, matching brand guidelines and provided copy.",
-    "lesson": "wf4",
-    "skill": "Briefing the client and matching brand guidelines",
-    "pitch": "I'd love to design your Instagram posts and posters in Canva, keeping everything true to your brand colours and logo. For each brief I'll send an editable link plus high-res PNG/JPG files, and a print-ready PDF for posters. Would you like to share a sample brief to start?",
     "practice": {
      "q": "What does the client REALLY need from each design beyond looking nice?",
      "options": [
@@ -275,7 +270,11 @@
       "instagram posts",
       "posters"
      ]
-    }
+    },
+    "lesson": "wf4",
+    "skill": "Briefing the client and matching brand guidelines",
+    "pitch": "I'd love to design your Instagram posts and posters in Canva, keeping everything true to your brand colours and logo. For each brief I'll send an editable link plus high-res PNG/JPG files, and a print-ready PDF for posters. Would you like to share a sample brief to start?",
+    "ai": true
    },
    {
     "id": "40833432",
@@ -318,7 +317,7 @@
     "min": 13,
     "max": 66,
     "cur": "USD",
-    "bids": 145,
+    "bids": 147,
     "posted": "2026-11-23T13:48:42.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/creative-design/Modern-Company-Brochure-Design",
@@ -352,7 +351,7 @@
     "min": 100,
     "max": 150,
     "cur": "USD",
-    "bids": 158,
+    "bids": 157,
     "posted": "2026-11-21T23:46:31.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Event-Graphics-Design-Specialist",
@@ -488,7 +487,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 181,
+    "bids": 182,
     "posted": "2026-11-19T23:25:16.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-creative-suite/InDesign-create-new-workbook-from",
@@ -514,40 +513,6 @@
     "skill": "Briefing the client on the real deliverable",
     "pitch": "I'll format your Entrepreneurship 4 Teens workbook so every lesson matches your Film School template, with clean spacing, placed images, and print-ready PDF plus editable InDesign files. Could you share the template file and the print specs (page size, bleed) so I can start?",
     "ai": true
-   },
-   {
-    "id": "40826600",
-    "title": "Food Safety Class Marketing Materials -- 2",
-    "brief": "I need a flyer designed to get people to sign up for my online food safety class. The flyer should be engaging and informative. The flyer must include: - Class details: Online, 75 minutes, local only - Best price with discount code: This is fun Ideal Skills and Experience: - Graphic design expertise - Experience creating educational or promotional material - Ability to create eye-catching and informative layouts",
-    "min": 30,
-    "max": 250,
-    "cur": "USD",
-    "bids": 194,
-    "posted": "2026-11-19T19:38:20.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/advertisement-design/Food-Safety-Class-Marketing-Materials",
-    "beginner": false,
-    "summary": "Client wants an engaging, informative flyer to sign up people for a 75-min online food safety class, with discount code 'This is fun'.",
-    "practice": {
-     "q": "What must the flyer make impossible to miss, given the client wants sign-ups?",
-     "options": [
-      "The class topic and course history",
-      "The price with the discount code and a clear sign-up step",
-      "A long list of food safety rules"
-     ],
-     "right": 1,
-     "why": "Flyers get ignored when the offer is buried. Lead with the discount code, the 75-minute online format, and one clear next step. Everything else supports that.",
-     "need": "I'll design a clear, eye-catching flyer that puts your discount code and class details up front.",
-     "keys": [
-      "food safety",
-      "discount code",
-      "75 minutes"
-     ]
-    },
-    "lesson": "wf5",
-    "skill": "Making the offer impossible to miss",
-    "pitch": "Hi, I can design a bold, easy-to-read flyer for your online food safety class. The discount code 'This is fun' and the 75-minute online details will be front and centre so people know exactly how to sign up. Would you like a WhatsApp-ready version as well as print?",
-    "ai": true
    }
   ],
   "cv": [
@@ -558,16 +523,12 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 58,
+    "bids": 75,
     "posted": "2026-11-26T01:08:09.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/technical-writing/Tech-Resume-Enhancement",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a full refresh of a resume (2 pages) and expanded CV for tech/engineering roles, ATS-friendly.",
-    "lesson": "cv5",
-    "skill": "Turning existing experience into achievement bullets",
-    "pitch": "Hi, I read your brief for a tech and engineering CV refresh. I'll rewrite your two-page resume and expanded CV with sharp, achievement-focused bullets, clean formatting, and keywords that pass applicant-tracking systems. Could you share your current documents and a target role so I can start?",
     "practice": {
      "q": "What does the client most need from this job?",
      "options": [
@@ -583,16 +544,20 @@
       "cv",
       "ats"
      ]
-    }
+    },
+    "lesson": "cv5",
+    "skill": "Turning existing experience into achievement bullets",
+    "pitch": "Hi, I read your brief for a tech and engineering CV refresh. I'll rewrite your two-page resume and expanded CV with sharp, achievement-focused bullets, clean formatting, and keywords that pass applicant-tracking systems. Could you share your current documents and a target role so I can start?",
+    "ai": true
    },
    {
     "id": "40835475",
     "title": "Administrative Supervisor CV & Cover Letter",
     "brief": "I’m looking for a skilled résumé writer who can create a compelling CV and cover letter that will position me for an Administrative Officer Supervisor post. This will be my first step into a formal supervisory role, so the documents have to emphasise transferable strengths, leadership potential, and any administrative tasks I have already handled, while also showing how those skills translate to managing an office team. Because I’m eyeing openings across corporate environments—particularly banks and IT-heavy organisations—please weave in language and keywords that speak to compliance, customer service, data accuracy, and basic tech literacy so the file is ready for standard ATS scans. Delive",
     "min": 135,
-    "max": 405,
+    "max": 406,
     "cur": "USD",
-    "bids": 46,
+    "bids": 47,
     "posted": "2026-11-25T15:36:19.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/administrative-support/Administrative-Supervisor-Cover-Letter",
@@ -626,7 +591,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 22,
+    "bids": 23,
     "posted": "2026-11-25T14:34:30.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/proofreading/Online-Job-Application-Assistant-Needed",
@@ -660,7 +625,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 19,
+    "bids": 20,
     "posted": "2026-11-25T14:31:26.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/writing/Online-Job-Application-Assistant-Needed",
@@ -692,9 +657,9 @@
     "title": "Professional Document & Resume Editing",
     "brief": "I have several documents that need clear, error-free polishing. Most are business letters and résumés intended for formal submission, so tone, structure, and grammar must be spot-on. Your task is to review the existing drafts, tighten the language, fix any inconsistencies, and deliver a clean, ready-to-send version in Word (with tracked changes) and a final PDF. Accuracy, respect for confidentiality, and a quick turnaround are essential. If you have a keen eye for professional formatting and wording that gets results, I’d like to work with you.",
     "min": 135,
-    "max": 405,
+    "max": 406,
     "cur": "USD",
-    "bids": 76,
+    "bids": 77,
     "posted": "2026-11-21T12:28:46.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/business-writing/Professional-Document-Resume-Editing",
@@ -720,43 +685,77 @@
     "skill": "Matching the document to the formal submission goal",
     "pitch": "Hi, I'd be glad to help with your business letters and résumés. I'll tighten the wording, fix grammar and structure, and send you a tracked Word file plus a clean PDF. Would you like me to start with a sample page first?",
     "ai": true
-   },
-   {
-    "id": "40826534",
-    "title": "ATS Optimized Finance Graduate Resume",
-    "brief": "I’m an entry-level graduate aiming for finance, accounting, and banking positions within large multinational corporations. My current résumé needs a full professional overhaul so it can sail through modern Applicant Tracking Systems and showcase my potential to hiring managers in these high-stakes environments. You’ll start from my existing document and transform it into a clean, results-oriented résumé that speaks the language of finance while remaining fully ATS compliant. That means strategic keyword placement, metrics-driven bullet points, clear section hierarchy, and formatting that stays intact whether it’s scanned by software or reviewed by a human. I also want subtle tailoring toward",
-    "min": 6,
-    "max": 16,
-    "cur": "USD",
-    "bids": 20,
-    "posted": "2026-11-19T18:42:28.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/keyword-research/ATS-Optimized-Finance-Graduate-Resume",
-    "beginner": true,
-    "summary": "Client wants an ATS-friendly finance graduate CV for entry-level finance, accounting, and banking roles at multinationals.",
-    "practice": {
-     "q": "What does the client REALLY need beyond just a nicer-looking CV?",
-     "options": [
-      "A CV that passes ATS filters and reads well to humans",
-      "A fancy design with photos and graphics",
-      "A long, detailed list of every course taken"
-     ],
-     "right": 0,
-     "why": "Good work here means the CV must survive software scans and still impress a person. Fancy graphics often break ATS parsing, so clean formatting and keywords matter more than looks.",
-     "need": "I'll turn your CV into a clean, ATS-ready finance résumé with metrics-driven bullets.",
-     "keys": [
-      "ats",
-      "finance",
-      "graduate"
-     ]
-    },
-    "lesson": "cv3",
-    "skill": "Making the offer impossible to miss",
-    "pitch": "Hi, I'm interested in your finance graduate CV project. I'll rebuild your résumé with a clean section structure, strategic finance keywords, and metric-driven bullet points that pass ATS scans and still impress hiring managers. Could you share your current CV and the roles you're targeting?",
-    "ai": true
    }
   ],
   "ig": [
+   {
+    "id": "40837503",
+    "title": "Instagram Visual Overhaul for Barbershop",
+    "brief": "I’m ready to elevate LEVEL UP Barbershop’s feed into a refined, cohesive showcase of our work and atmosphere. The immediate priority is a complete visual style—grid posts, Story highlights, and a fresh profile picture—that feels modern yet timeless, with clean, natural edits and polished lighting that lets every fade and line-up speak for itself. Here’s what I need from you: • Signature look & feel: Develop a consistent color palette, typography choice, and post template that reads luxury without feeling forced. • Photo retouching: Turn raw haircut shots into scroll-stopping images—skin-tone true, details crisp, background distractions removed—using Lightroom or Photoshop. • Before-and-after",
+    "min": 9,
+    "max": 33,
+    "cur": "USD",
+    "bids": 65,
+    "posted": "2026-11-26T18:30:00.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/video-editing/Instagram-Visual-Overhaul-for-Barbershop",
+    "beginner": true,
+    "ai": true,
+    "summary": "Barbershop wants a cohesive Instagram look: palette, fonts, post templates, retouched haircut photos, and before-and-after posts.",
+    "lesson": "ig2",
+    "skill": "Building one cohesive visual system, not single pretty posts",
+    "pitch": "Hi, I'd love to help LEVEL UP's feed look sharp and consistent. I'll create a color palette, font pairing, and post template, then retouch your haircut photos to match. Would you like to see a sample grid first?",
+    "practice": {
+     "q": "What does the client most need from this job: a single cohesive visual style, or a stream of pretty individual photos?",
+     "options": [
+      "Pretty individual photos for each haircut",
+      "One cohesive, repeatable visual system",
+      "Heavy filters on every raw shot"
+     ],
+     "right": 1,
+     "why": "Coach note: the brief asks for a consistent look that makes the feed feel like one brand. Individual pretty photos miss that. Build a system first, then apply it to every post.",
+     "need": "I'll build LEVEL UP's palette, fonts, and post template, then retouch your cuts to match.",
+     "keys": [
+      "consistent",
+      "template",
+      "before-and-after"
+     ]
+    }
+   },
+   {
+    "id": "40837420",
+    "title": "TikTok Carousel Designer Needed – Clean, High-Engagement Educational Slideshows (Ongoing)",
+    "brief": "I’m looking for a reliable designer to create high-performing TikTok photo carousels (Photo Mode). **What you’ll create:** - Vertical carousels optimized for TikTok (1080 × 1920 px / 9:16) - Typically 5–8 slides per carousel (occasionally up to 10) - Clean, bold, highly readable designs with strong visual hierarchy - Strong hook on slide 1 that stops the scroll - One clear idea per slide - Payoff + simple CTA on the final slide **Style:** - Modern, minimal, high-contrast - Easy to read on mobile (large text, short lines) - Consistent branding across carousels - Suitable for educational / awareness / list-style content **What I’ll provide:** - Full text for every slide - Any key images, scree",
+    "min": 30,
+    "max": 250,
+    "cur": "USD",
+    "bids": 92,
+    "posted": "2026-11-26T17:05:22.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/graphic-design/TikTok-Carousel-Designer-Needed-Clean",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants a reliable designer for ongoing vertical TikTok photo carousels: 5-8 bold, minimal slides with a scroll-stopping hook and clear CTA.",
+    "lesson": "ig5",
+    "skill": "Making the offer impossible to miss",
+    "pitch": "Hi, I'd love to design your TikTok carousels. I'll build bold, minimal 9:16 slides with a scroll-stopping hook on slide 1, one clear idea per slide, and a simple CTA at the end. I can start with a sample of 2 carousels from your text. Would that work for you?",
+    "practice": {
+     "q": "What does this client really need from each carousel?",
+     "options": [
+      "Pretty, varied designs for each post",
+      "One strong hook, one clear idea per slide, and a clear CTA",
+      "Long paragraphs of detail to inform viewers"
+     ],
+     "right": 1,
+     "why": "The brief stresses a scroll-stopping hook, one idea per slide, and a clear payoff plus CTA. Pretty visuals matter less than clarity and hierarchy that holds attention on mobile.",
+     "need": "I'll design clean, bold 9:16 carousels with a scroll-stopping hook and a clear CTA on every slide deck.",
+     "keys": [
+      "hook",
+      "carousel",
+      "mobile"
+     ]
+    }
+   },
    {
     "id": "40836538",
     "title": "Graphic designer for designing digital planners for my Etsy store",
@@ -764,16 +763,12 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 29,
+    "bids": 62,
     "posted": "2026-11-26T06:55:07.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Graphic-designer-for-designing-digital",
     "beginner": true,
-    "ai": true,
     "summary": "Client needs a designer for digital planners on Etsy: a cover, 10 mockups, and a short preview video, using Canva or similar.",
-    "lesson": "ig5",
-    "skill": "Scoping deliverables from the brief before you bid",
-    "pitch": "Hi, I can design your digital planner in Canva, along with a matching cover image, 10 mockup images, and a short preview video for your Etsy listing. I'll keep the style consistent with your examples once you share them. Would you like to send the planner details when you're ready?",
     "practice": {
      "q": "What does the client actually need delivered for this one-planner job?",
      "options": [
@@ -789,16 +784,20 @@
       "mockup",
       "preview video"
      ]
-    }
+    },
+    "lesson": "ig5",
+    "skill": "Scoping deliverables from the brief before you bid",
+    "pitch": "Hi, I can design your digital planner in Canva, along with a matching cover image, 10 mockup images, and a short preview video for your Etsy listing. I'll keep the style consistent with your examples once you share them. Would you like to send the planner details when you're ready?",
+    "ai": true
    },
    {
     "id": "40835040",
     "title": "Create Social Media Canva Templates for Pediatric Occupational Therapy",
     "brief": "Looking to design 15–20 editable Canva templates for Instagram and Facebook. The templates will include 2–3 layout/color variations per post, covering sensory tips, fine motor activities, developmental milestones, and clinic promotion posts. The goal is to create clean, engaging, and informative designs that help parents and clinics share valuable content while attracting engagement. Use soft pastel colors like sage green, warm cream, soft coral, and gentle mustard yellow with rounded shapes and playful yet clear typography. Include a bold headline area for 'Sensory Tip' or 'Fine Motor Activity', a clean bulleted or short text section for practical home activities, space for a friendly illus",
     "min": 43,
-    "max": 86,
+    "max": 87,
     "cur": "USD",
-    "bids": 44,
+    "bids": 45,
     "posted": "2026-11-25T10:24:00.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/graphic-design/Create-Social-Media-Canva-Templates",
@@ -832,7 +831,7 @@
     "min": 33,
     "max": 274,
     "cur": "USD",
-    "bids": 141,
+    "bids": 144,
     "posted": "2026-11-25T08:23:22.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-photoshop/Google-Instagram-Profile-Makeover",
@@ -900,7 +899,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 92,
+    "bids": 93,
     "posted": "2026-11-23T00:11:29.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Daily-Posts-TikTok",
@@ -934,7 +933,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 110,
+    "bids": 111,
     "posted": "2026-11-20T07:00:22.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-management/Entry-Level-Social-Media-Assistant",
