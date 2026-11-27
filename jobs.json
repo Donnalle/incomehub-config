@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 15
+    "got": 12
    },
    {
     "svc": "wf",
@@ -119,7 +119,7 @@
    {
     "svc": "ig",
     "skills": 4,
-    "got": 13
+    "got": 9
    },
    {
     "svc": "ig",
@@ -172,11 +172,11 @@
    ]
   },
   "reasons": {
+   "excluded": 144,
+   "off-topic": 876,
+   "kept": 29,
    "not english": 8,
-   "excluded": 174,
-   "off-topic": 863,
    "scam": 3,
-   "kept": 27,
    "too big": 12,
    "expert": 2
   },
@@ -220,13 +220,13 @@
   ],
   "claude": {
    "keyPresent": true,
-   "ok": 8,
+   "ok": 12,
    "fail": 0,
    "lastError": null,
-   "dropped": 6
+   "dropped": 7
   }
  },
- "updated": "2026-11-26T21:29:06.057Z",
+ "updated": "2026-11-27T08:26:51.917Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -236,20 +236,54 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 8,
+  "wf": 6,
   "cv": 5,
-  "ig": 8
+  "ig": 11
  },
  "services": {
   "wf": [
+   {
+    "id": "40837829",
+    "title": "Logo Refinement and Marketing Material Design",
+    "brief": "I'm looking for a designer to refine my existing real estate logo and create cohesive business cards and marketing materials. Requirements: - Logo: Tweak text, spelling, or font for clarity while maintaining the current look. - Business Cards: Design to match the updated logo. - Marketing Materials: Flyers, brochures, etc., keeping a consistent brand image. Ideal Skills: - Graphic Design expertise - Experience in real estate branding - Attention to detail - Strong typography skills Please provide samples of previous work.",
+    "min": 176,
+    "max": 527,
+    "cur": "USD",
+    "bids": 167,
+    "posted": "2026-11-27T00:17:10.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/branding/Logo-Refinement-Marketing-Material",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants a real estate logo with clearer text/spelling, plus matching business cards and flyers/brochures.",
+    "lesson": "wf4",
+    "skill": "Briefing the client: confirming what must stay the same",
+    "pitch": "I'd love to help refine your real estate logo so the text is clearer while keeping the look you already have. I'll also design matching business cards and a flyer so your brand looks consistent everywhere. Would you like to share the current logo file so I can start?",
+    "practice": {
+     "q": "What does the client REALLY need most: a brand new logo, or a cleaned-up version of the existing logo that keeps its look?",
+     "options": [
+      "A brand new logo from scratch",
+      "A clearer version that keeps the current look",
+      "Only the business cards, no logo changes"
+     ],
+     "right": 1,
+     "why": "They asked to tweak text, spelling, or font while keeping the current look. Preserve the brand's recognition and fix clarity. Don't redesign it from zero. Matching the cards and flyers to that updated logo comes next.",
+     "need": "I'll refine your logo's text and typography while keeping its look, then match your cards and flyers to it.",
+     "keys": [
+      "logo",
+      "business cards",
+      "flyers"
+     ]
+    }
+   },
    {
     "id": "40836412",
     "title": "Canva Posts & Posters Designer",
     "brief": "I regularly announce events, limited-time offers, and other updates on social media and need a skilled Canva designer to translate each brief into polished visuals that fit my brand guidelines. Most of the work revolves around two key formats: • Instagram posts (square 1080×1080) • Posters suitable for both digital promotion and print On occasions when an Instagram story or an alternative size is requested, the same design language should carry across. For every assignment I’ll provide the copy, logo files, colour palette, and any reference imagery. Your deliverables will be: • An editable Canva link for each design • Exported high-resolution PNG/JPG files (and a print-ready PDF for posters)",
     "min": 135,
-    "max": 406,
+    "max": 404,
     "cur": "USD",
-    "bids": 89,
+    "bids": 99,
     "posted": "2026-11-26T05:34:28.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Canva-Posts-Posters-Designer",
@@ -317,7 +351,7 @@
     "min": 13,
     "max": 66,
     "cur": "USD",
-    "bids": 147,
+    "bids": 148,
     "posted": "2026-11-23T13:48:42.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/creative-design/Modern-Company-Brochure-Design",
@@ -351,7 +385,7 @@
     "min": 100,
     "max": 150,
     "cur": "USD",
-    "bids": 157,
+    "bids": 158,
     "posted": "2026-11-21T23:46:31.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/print-design/Event-Graphics-Design-Specialist",
@@ -411,108 +445,6 @@
     "skill": "Reading what the client really needs before designing",
     "pitch": "I can design a clean, modern fold-and-staple booklet that places your photos, family memories and personal messages neatly, and I can turn a print-ready file around quickly. Would it help if I sent you a quick layout preview today?",
     "ai": true
-   },
-   {
-    "id": "40826996",
-    "title": "Elegant Christian Crusade Flyer",
-    "brief": "I need a polished, print-ready poster or flyer that clearly shares our crusade’s full schedule and key information while keeping an elegant, formal tone. The finished design should present the date, time, and venue prominently, introduce the guest speaker alongside our church name, and round out the content with our contact number and social-media handles for follow-up inquiries. Clean typographic hierarchy, balanced white space, and a restrained color palette will communicate the reverent yet welcoming spirit we want. The layout must translate well for both digital distribution (JPEG/PNG for social posting) and high-resolution print (A4 or US Letter at 300 DPI). Deliverables: • Press-ready ",
-    "min": 10,
-    "max": 30,
-    "cur": "USD",
-    "bids": 191,
-    "posted": "2026-11-20T02:48:09.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/print-design/Elegant-Christian-Crusade-Flyer",
-    "beginner": true,
-    "summary": "Client wants an elegant, print-ready Christian crusade flyer with date, time, venue, speaker, church name, and contact/social handles.",
-    "practice": {
-     "q": "Which element must be the most prominent on the flyer, and why?",
-     "options": [
-      "The church logo, so it stays on brand",
-      "Date, time and venue, so people can act",
-      "The speaker's full biography paragraph"
-     ],
-     "right": 1,
-     "why": "Event flyers succeed when the when and where are impossible to miss. Put date, time and venue first, then speaker and contact details. Balance and white space make it feel elegant.",
-     "need": "I'll design a clean, print-ready crusade flyer with date, time and venue made prominent, for both A4 print and social posts.",
-     "keys": [
-      "date",
-      "time",
-      "venue"
-     ]
-    },
-    "lesson": "wf5",
-    "skill": "Making the event details impossible to miss",
-    "pitch": "Hello, I can create an elegant, print-ready crusade flyer with the date, time and venue clearly highlighted, plus your speaker, church name and contact details. I'll deliver A4 at 300 DPI and a social-ready PNG. Would you like to see a sample layout first?",
-    "ai": true
-   },
-   {
-    "id": "40826865",
-    "title": "Paket Branding Minimalis Modern",
-    "brief": "Saya memerlukan paket branding lengkap bergaya minimalis dan modern untuk sebuah bisnis baru. Ruang lingkup pekerjaan ini meliputi: • Logo utama dan variasi warna/monokrom dalam format vektor (AI, EPS) serta PNG transparan • Palet warna resmi beserta tipografi yang konsisten • Panduan singkat penggunaan logo dan elemen visual (brand guideline ringan) • 5–6 template posting media sosial siap pakai (Instagram square & story) • Satu brosur atau flyer satu halaman yang mengikuti gaya visual yang sama Desain harus bersih, mudah diaplikasikan, dan tetap terasa profesional. Pastikan semua file final dapat diedit sepenuhnya, tertata rapi dalam folder terstruktur, dan siap dicetak atau diunggah.",
-    "min": 30,
-    "max": 250,
-    "cur": "USD",
-    "bids": 30,
-    "posted": "2026-11-20T00:27:43.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/brochure-design/Paket-Branding-Minimalis-Modern",
-    "beginner": false,
-    "summary": "Client wants a full minimalist, modern branding kit: logo variants, palette, type, brief guide, 5-6 social templates, and a flyer.",
-    "practice": {
-     "q": "Which deliverable most directly protects the brand's consistency across everything else the client receives?",
-     "options": [
-      "The Instagram story templates",
-      "A locked palette and type system",
-      "The vector logo file format"
-     ],
-     "right": 1,
-     "why": "The brief asks for consistency across all pieces. A locked palette and type system is what every other file inherits from, so define it first and build everything on it.",
-     "need": "I'll build a clean, editable brand kit with logo, palette, type, and matching social and flyer templates.",
-     "keys": [
-      "minimalis",
-      "konsisten",
-      "template"
-     ]
-    },
-    "lesson": "wf4",
-    "skill": "Building one consistent visual system across all files",
-    "pitch": "Hi, I'd be happy to create your minimalist, modern brand kit. I'll deliver vector and PNG logo variants, a locked palette and type system, a short usage guide, six editable Instagram templates, and a matching one-page flyer. Which colours or feelings would you like the brand to communicate?",
-    "ai": true
-   },
-   {
-    "id": "40826815",
-    "title": "InDesign create a new workbook from the template of the photography 4 Teens workbook already made.",
-    "brief": "We are looking for someone to create and format a professional, full-color student workbook for our new Entrepreneurship 4 Teens course. We will provide all the written content, photos, graphics, and instructions. Your job will be to organize and design each lesson with a clean, creative, and consistent layout that matches our other Film School 4 Teens workbooks. This includes formatting text, adding images and graphics, creating attractive assignment pages, and making sure every lesson follows the same design style. The final workbook must be ready for professional printing, and we will need the editable design files as well.",
-    "min": 30,
-    "max": 250,
-    "cur": "USD",
-    "bids": 182,
-    "posted": "2026-11-19T23:25:16.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/adobe-creative-suite/InDesign-create-new-workbook-from",
-    "beginner": false,
-    "summary": "Client wants a full-color, print-ready InDesign student workbook for an Entrepreneurship 4 Teens course, matching existing Film School workbooks.",
-    "practice": {
-     "q": "What does the client really need from this job?",
-     "options": [
-      "A fresh writing project with new lesson content",
-      "Consistent, print-ready layout matching the existing series",
-      "Photo editing and video filming for the course"
-     ],
-     "right": 1,
-     "why": "The brief is about layout work, not writing or filming. Matching the existing template's style across every lesson, plus print-ready and editable files, is the core of the job.",
-     "need": "I'll build all lessons in one consistent InDesign template matching your Film School workbooks, print-ready.",
-     "keys": [
-      "indesign",
-      "template",
-      "consistent"
-     ]
-    },
-    "lesson": "wf4",
-    "skill": "Briefing the client on the real deliverable",
-    "pitch": "I'll format your Entrepreneurship 4 Teens workbook so every lesson matches your Film School template, with clean spacing, placed images, and print-ready PDF plus editable InDesign files. Could you share the template file and the print specs (page size, bleed) so I can start?",
-    "ai": true
    }
   ],
   "cv": [
@@ -523,7 +455,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 75,
+    "bids": 82,
     "posted": "2026-11-26T01:08:09.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/technical-writing/Tech-Resume-Enhancement",
@@ -555,9 +487,9 @@
     "title": "Administrative Supervisor CV & Cover Letter",
     "brief": "I’m looking for a skilled résumé writer who can create a compelling CV and cover letter that will position me for an Administrative Officer Supervisor post. This will be my first step into a formal supervisory role, so the documents have to emphasise transferable strengths, leadership potential, and any administrative tasks I have already handled, while also showing how those skills translate to managing an office team. Because I’m eyeing openings across corporate environments—particularly banks and IT-heavy organisations—please weave in language and keywords that speak to compliance, customer service, data accuracy, and basic tech literacy so the file is ready for standard ATS scans. Delive",
     "min": 135,
-    "max": 406,
+    "max": 404,
     "cur": "USD",
-    "bids": 47,
+    "bids": 48,
     "posted": "2026-11-25T15:36:19.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/administrative-support/Administrative-Supervisor-Cover-Letter",
@@ -657,9 +589,9 @@
     "title": "Professional Document & Resume Editing",
     "brief": "I have several documents that need clear, error-free polishing. Most are business letters and résumés intended for formal submission, so tone, structure, and grammar must be spot-on. Your task is to review the existing drafts, tighten the language, fix any inconsistencies, and deliver a clean, ready-to-send version in Word (with tracked changes) and a final PDF. Accuracy, respect for confidentiality, and a quick turnaround are essential. If you have a keen eye for professional formatting and wording that gets results, I’d like to work with you.",
     "min": 135,
-    "max": 406,
+    "max": 404,
     "cur": "USD",
-    "bids": 77,
+    "bids": 79,
     "posted": "2026-11-21T12:28:46.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/business-writing/Professional-Document-Resume-Editing",
@@ -689,22 +621,154 @@
   ],
   "ig": [
    {
+    "id": "40838223",
+    "title": "Edit Engaging Instagram/Facebook Videos",
+    "brief": "Short-form videos for Instagram and Facebook need dynamic, scroll-stopping edits that match current platform trends. I will supply raw footage, graphics, music, and a rough content outline for each clip; your task is to cut everything into polished 15–60-second posts with sharp pacing, on-brand captions, and subtle motion graphics or transitions where it enhances the story. Please keep colour consistent with my brand palette, add burned-in subtitles for silent autoplay, and export in vertical 1080 × 1920 at the smallest file size that still preserves quality. Turnaround is typically 48 hours per video and batches come weekly. When you reply, highlight the experience you have specifically wit",
+    "min": 16,
+    "max": 135,
+    "cur": "USD",
+    "bids": 24,
+    "posted": "2026-11-27T06:29:09.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/adobe-premiere-pro/Edit-Engaging-Instagram-Facebook-Videos",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants raw footage cut into 15-60s vertical Instagram/Facebook videos with brand colours, burned-in subtitles and small file sizes, 48h turnaround weekly.",
+    "lesson": "ig5",
+    "skill": "Making the hook land in the first 3 seconds",
+    "pitch": "I'd love to edit your weekly Instagram and Facebook videos. I'll cut each clip into a sharp 1080x1920 post with burned-in subtitles, your brand colours and light motion graphics, delivered within 48 hours. Would you like to see a sample edit from a short clip you've already shot?",
+    "practice": {
+     "q": "What does the client REALLY need from each clip to perform well on silent autoplay?",
+     "options": [
+      "Long cinematic shots with full audio",
+      "Fast, captioned, scroll-stopping edits on-brand",
+      "Static slideshows with a voiceover only"
+     ],
+     "right": 1,
+     "why": "Silent autoplay means the hook and captions must carry the message. Pacing, burned-in subtitles and brand colour are what stop the scroll, so the edit has to earn attention in the first seconds.",
+     "need": "I'll cut your raw footage into sharp, captioned vertical videos in your brand colours, within 48 hours.",
+     "keys": [
+      "subtitles",
+      "vertical",
+      "brand"
+     ]
+    }
+   },
+   {
+    "id": "40838178",
+    "title": "Instagram Expert Content Writer",
+    "brief": "I need a reliable specialist to craft and publish expert-level posts to my Instagram account. The goal is to deliver engaging, authoritative content that positions me as a knowledgeable voice in my field, drives meaningful interaction with my audience, and maintains a consistent visual and editorial style. You’ll be responsible for the whole cycle—researching each topic, writing concise captions with clear calls-to-action, selecting or creating on-brand visuals, adding appropriate hashtags, and scheduling or directly posting on the agreed dates. Accuracy, originality, and an eye for current Instagram trends are essential. Deliverables: • 3 high-quality Instagram posts per week for the next f",
+    "min": 135,
+    "max": 404,
+    "cur": "USD",
+    "bids": 33,
+    "posted": "2026-11-27T05:59:58.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-management/Instagram-Expert-Content-Writer",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants a freelancer to research, write, design and schedule 3 expert Instagram posts weekly for their account.",
+    "lesson": "ig2",
+    "skill": "Pretty isn't the goal: aiming at outcomes, not looks",
+    "pitch": "I'd like to help you build authority in your field with three well-researched posts a week, each with a clear call-to-action that invites replies. I'll keep your visual and editorial style consistent and handle scheduling end to end. Would you like to see a sample post for your niche first?",
+    "practice": {
+     "q": "What does the client really need from the freelancer beyond just making posts look nice?",
+     "options": [
+      "Pretty photos posted on schedule",
+      "Consistent, authoritative posts that drive audience interaction",
+      "Only hashtags and scheduling tools"
+     ],
+     "right": 1,
+     "why": "The brief asks for engagement, a credible expert voice, and a consistent style, not just attractive visuals. Pretty alone doesn't build authority or interaction. Read for the outcome the client wants.",
+     "need": "I'll write and schedule 3 expert posts weekly that build your authority and spark real audience replies.",
+     "keys": [
+      "expert",
+      "engagement",
+      "consistent"
+     ]
+    }
+   },
+   {
+    "id": "40838150",
+    "title": "Facebook Reels Scheduling Assistant",
+    "brief": "### Facebook Reels Scheduling Assistant – 30 Days I'm looking for a reliable freelancer to manage the scheduling and basic preparation of Facebook Reels for my Facebook Page for 30 days. This is a simple, ongoing task. I will provide the video content, and your responsibility will be to prepare and schedule it correctly. **Daily responsibilities:** - Schedule 5 Facebook Reels per day. - Use the videos provided by me. - Make simple edits when required, such as trimming, basic captions, or minor adjustments. - Keep the original video quality. - Follow the exact posting schedule below. - Check that all Reels are scheduled correctly. - Avoid uploading or publishing multiple Reels together. **Dai",
+    "min": 6,
+    "max": 16,
+    "cur": "USD",
+    "bids": 19,
+    "posted": "2026-11-27T05:43:37.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/social-media-management/Facebook-Reels-Scheduling-Assistant",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants 30 days of scheduling 5 Facebook Reels daily from their own videos, with light trims/captions, original quality kept, and no multiple Reels posted together.",
+    "lesson": "ig5",
+    "skill": "Following a precise plan without skipping steps",
+    "pitch": "Hi, I read your brief for 30 days of Reels scheduling. I'll schedule your 5 daily Reels exactly on your posting plan, keep the original quality intact, and make sure none go out together. Would you like a sample schedule from me first?",
+    "practice": {
+     "q": "What does the client REALLY need from you here, beyond just uploading videos?",
+     "options": [
+      "Creating new Reels ideas and scripts daily",
+      "Reliable, exact scheduling of 5 Reels a day, quality kept",
+      "Running paid ads to grow the Page fast"
+     ],
+     "right": 1,
+     "why": "The job is careful execution: the exact posting schedule, original quality, and spacing Reels out. Ideas, scripts, and ads aren't part of it, so don't pitch those.",
+     "need": "I'll schedule your 5 daily Reels exactly on your posting plan, keeping quality intact.",
+     "keys": [
+      "schedule",
+      "exact",
+      "quality"
+     ]
+    }
+   },
+   {
+    "id": "40837966",
+    "title": "Polish Social Media Clips",
+    "brief": "I have a series of existing short clips that need to be shaped into polished, scroll-stopping content for TikTok, Instagram Reels, and YouTube Shorts. The raw footage is already cut down; what it needs now is a clean, professional pass—simple on-screen captions, light colour correction, tasteful transitions, and subtle sound balancing so every clip feels crisp and consistent across platforms. Here’s what I’ll hand over: • A folder of pre-trimmed vertical videos (15–60 sec each) • Brand colours, fonts, and a caption style guide • Any original audio or music beds What I need back: • Finished 1080×1920 MP4 files, ready to upload • Burned-in captions that follow the guide and are perfectly timed",
+    "min": 6,
+    "max": 16,
+    "cur": "USD",
+    "bids": 21,
+    "posted": "2026-11-27T03:07:10.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/adobe-premiere-pro/Polish-Social-Media-Clips",
+    "beginner": true,
+    "ai": true,
+    "summary": "Client wants pre-trimmed vertical clips polished into 1080x1920 MP4s with brand-styled captions, color correction, transitions, and audio balance.",
+    "lesson": "ig5",
+    "skill": "Making every clip match the brand across platforms",
+    "pitch": "I'd love to polish your short clips for TikTok, Reels and Shorts. I'll match your brand colours, fonts and caption style, with burned-in captions timed cleanly and exported at 1080x1920. Would you like me to start with a sample clip from your folder?",
+    "practice": {
+     "q": "What does the client REALLY need delivered beyond just tidy-looking clips?",
+     "options": [
+      "Longer, more cinematic edits of each clip",
+      "Consistent, on-brand clips ready to post on each platform",
+      "Brand-new footage filmed to match the style"
+     ],
+     "right": 1,
+     "why": "The win is consistency: same brand colours, fonts, and caption style across all three platforms, exported in the exact format each one needs. Read the style guide before touching a single clip.",
+     "need": "I'll polish your clips to your brand style guide, ready to post on Reels, TikTok and Shorts.",
+     "keys": [
+      "brand",
+      "captions",
+      "consistent"
+     ]
+    }
+   },
+   {
     "id": "40837503",
     "title": "Instagram Visual Overhaul for Barbershop",
     "brief": "I’m ready to elevate LEVEL UP Barbershop’s feed into a refined, cohesive showcase of our work and atmosphere. The immediate priority is a complete visual style—grid posts, Story highlights, and a fresh profile picture—that feels modern yet timeless, with clean, natural edits and polished lighting that lets every fade and line-up speak for itself. Here’s what I need from you: • Signature look & feel: Develop a consistent color palette, typography choice, and post template that reads luxury without feeling forced. • Photo retouching: Turn raw haircut shots into scroll-stopping images—skin-tone true, details crisp, background distractions removed—using Lightroom or Photoshop. • Before-and-after",
     "min": 9,
     "max": 33,
     "cur": "USD",
-    "bids": 65,
+    "bids": 73,
     "posted": "2026-11-26T18:30:00.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/video-editing/Instagram-Visual-Overhaul-for-Barbershop",
     "beginner": true,
-    "ai": true,
     "summary": "Barbershop wants a cohesive Instagram look: palette, fonts, post templates, retouched haircut photos, and before-and-after posts.",
-    "lesson": "ig2",
-    "skill": "Building one cohesive visual system, not single pretty posts",
-    "pitch": "Hi, I'd love to help LEVEL UP's feed look sharp and consistent. I'll create a color palette, font pairing, and post template, then retouch your haircut photos to match. Would you like to see a sample grid first?",
     "practice": {
      "q": "What does the client most need from this job: a single cohesive visual style, or a stream of pretty individual photos?",
      "options": [
@@ -720,7 +784,11 @@
       "template",
       "before-and-after"
      ]
-    }
+    },
+    "lesson": "ig2",
+    "skill": "Building one cohesive visual system, not single pretty posts",
+    "pitch": "Hi, I'd love to help LEVEL UP's feed look sharp and consistent. I'll create a color palette, font pairing, and post template, then retouch your haircut photos to match. Would you like to see a sample grid first?",
+    "ai": true
    },
    {
     "id": "40837420",
@@ -729,16 +797,12 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 92,
+    "bids": 103,
     "posted": "2026-11-26T17:05:22.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/graphic-design/TikTok-Carousel-Designer-Needed-Clean",
     "beginner": false,
-    "ai": true,
     "summary": "Client wants a reliable designer for ongoing vertical TikTok photo carousels: 5-8 bold, minimal slides with a scroll-stopping hook and clear CTA.",
-    "lesson": "ig5",
-    "skill": "Making the offer impossible to miss",
-    "pitch": "Hi, I'd love to design your TikTok carousels. I'll build bold, minimal 9:16 slides with a scroll-stopping hook on slide 1, one clear idea per slide, and a simple CTA at the end. I can start with a sample of 2 carousels from your text. Would that work for you?",
     "practice": {
      "q": "What does this client really need from each carousel?",
      "options": [
@@ -754,7 +818,11 @@
       "carousel",
       "mobile"
      ]
-    }
+    },
+    "lesson": "ig5",
+    "skill": "Making the offer impossible to miss",
+    "pitch": "Hi, I'd love to design your TikTok carousels. I'll build bold, minimal 9:16 slides with a scroll-stopping hook on slide 1, one clear idea per slide, and a simple CTA at the end. I can start with a sample of 2 carousels from your text. Would that work for you?",
+    "ai": true
    },
    {
     "id": "40836538",
@@ -763,7 +831,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 62,
+    "bids": 66,
     "posted": "2026-11-26T06:55:07.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/canva/Graphic-designer-for-designing-digital",
@@ -795,7 +863,7 @@
     "title": "Create Social Media Canva Templates for Pediatric Occupational Therapy",
     "brief": "Looking to design 15–20 editable Canva templates for Instagram and Facebook. The templates will include 2–3 layout/color variations per post, covering sensory tips, fine motor activities, developmental milestones, and clinic promotion posts. The goal is to create clean, engaging, and informative designs that help parents and clinics share valuable content while attracting engagement. Use soft pastel colors like sage green, warm cream, soft coral, and gentle mustard yellow with rounded shapes and playful yet clear typography. Include a bold headline area for 'Sensory Tip' or 'Fine Motor Activity', a clean bulleted or short text section for practical home activities, space for a friendly illus",
     "min": 43,
-    "max": 87,
+    "max": 86,
     "cur": "USD",
     "bids": 45,
     "posted": "2026-11-25T10:24:00.000Z",
@@ -831,7 +899,7 @@
     "min": 33,
     "max": 274,
     "cur": "USD",
-    "bids": 144,
+    "bids": 145,
     "posted": "2026-11-25T08:23:22.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/adobe-photoshop/Google-Instagram-Profile-Makeover",
@@ -924,40 +992,6 @@
     "lesson": "ig5",
     "skill": "Making the offer impossible to miss",
     "pitch": "I can set up your daily Facebook and Instagram posts at 8am, noon, and 5pm, each with a clear 'come see us today' call, your address, hours, and specials. Would you like me to start with this week's offers?",
-    "ai": true
-   },
-   {
-    "id": "40827296",
-    "title": "Entry-Level Social Media Assistant",
-    "brief": "I’m ready to hand over day-to-day management of my Instagram, Facebook, and TikTok accounts so I can keep pushing the business forward. You’ll log in to my Content360 scheduler, upload the posts and short-form videos I provide (or that you help me brainstorm), and make sure everything goes out cleanly and on time. Besides clicking “publish,” I’ll lean on you to craft engaging captions, hooky headlines, and fresh post ideas that nudge viewers toward becoming customers while steadily building trust in the brand. When I have a question—anything from market trends to competitor moves—I’ll tap you for quick, well-sourced research so I can make faster decisions. Up front, the pay is modest; I’m a ",
-    "min": 10,
-    "max": 30,
-    "cur": "USD",
-    "bids": 111,
-    "posted": "2026-11-20T07:00:22.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/social-media-management/Entry-Level-Social-Media-Assistant",
-    "beginner": true,
-    "summary": "Client wants a freelancer to run Instagram, Facebook, and TikTok via a scheduler: publish posts, write captions, and suggest ideas.",
-    "practice": {
-     "q": "Which part of this job is most about turning viewers into customers rather than just posting on time?",
-     "options": [
-      "Publishing on schedule with no errors",
-      "Writing captions and headlines that drive sales",
-      "Doing deep market and competitor research"
-     ],
-     "right": 1,
-     "why": "Clicking publish is the easy part. Captions and headlines that nudge viewers toward buying are what the client is really paying for. Keep that focus.",
-     "need": "I'll write captions and headlines that move viewers toward buying, and schedule them cleanly on time.",
-     "keys": [
-      "captions",
-      "headlines",
-      "customers"
-     ]
-    },
-    "lesson": "ig5",
-    "skill": "Making the offer impossible to miss",
-    "pitch": "Hi, I can take over your Instagram, Facebook, and TikTok scheduling and keep posts going out on time. I'll write captions and hooky headlines that point viewers toward becoming customers, and suggest fresh post ideas. Would you like me to start with a sample week of posts?",
     "ai": true
    }
   ]
