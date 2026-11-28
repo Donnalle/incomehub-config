@@ -9,7 +9,7 @@
    {
     "svc": "wf",
     "skills": 4,
-    "got": 16
+    "got": 15
    },
    {
     "svc": "wf",
@@ -54,7 +54,7 @@
    {
     "svc": "cv",
     "skills": 3,
-    "got": 15
+    "got": 13
    },
    {
     "svc": "cv",
@@ -119,7 +119,7 @@
    {
     "svc": "ig",
     "skills": 4,
-    "got": 16
+    "got": 17
    },
    {
     "svc": "ig",
@@ -172,12 +172,12 @@
    ]
   },
   "reasons": {
-   "excluded": 193,
+   "off-topic": 847,
    "kept": 28,
-   "off-topic": 844,
-   "not english": 14,
-   "too big": 12,
-   "scam": 2
+   "too big": 21,
+   "excluded": 187,
+   "not english": 8,
+   "thin": 3
   },
   "ownerKeys": null,
   "ownerLocation": null,
@@ -225,7 +225,7 @@
    "dropped": 10
   }
  },
- "updated": "2026-11-27T21:15:19.063Z",
+ "updated": "2026-11-28T07:45:45.902Z",
  "source": "freelancer.com",
  "fx": {
   "USD": 1,
@@ -235,12 +235,46 @@
   "UGX": 3700
  },
  "counts": {
-  "wf": 7,
+  "wf": 6,
   "cv": 5,
-  "ig": 6
+  "ig": 7
  },
  "services": {
   "wf": [
+   {
+    "id": "40836412",
+    "title": "Canva Posts & Posters Designer",
+    "brief": "Seeking an experienced Canva designer skilled in creating high-quality, professional Instagram posts and promotional posters. Designs should feature: - Clean and balanced layouts - Eye-catching typography - A cohesive brand identity Most tasks will focus on these formats: 1. Instagram Posts: Square 1080×1080 2. Posters: Versatile for both digital use and print Deliverables include: - Editable Canva links - High-resolution PNG/JPG files - Print-ready PDFs (for posters) Delivery timeline will be flexible depending on the project scope. This is an ongoing collaboration with opportunities for fresh creative ideas while staying true to brand guidelines.",
+    "min": 134,
+    "max": 403,
+    "cur": "USD",
+    "bids": 133,
+    "posted": "2026-11-28T06:49:14.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/canva/Canva-Posts-Posters-Designer",
+    "beginner": false,
+    "summary": "Client needs Canva designs for Instagram posts (1080x1080), posters, and stories, matching brand guidelines and provided copy.",
+    "practice": {
+     "q": "What does the client REALLY need from each design beyond looking nice?",
+     "options": [
+      "Fancy artwork that impresses other designers",
+      "Consistent on-brand visuals that carry the event or offer clearly",
+      "The most colourful design possible every time"
+     ],
+     "right": 1,
+     "why": "Clients post these to announce events and offers, so each design must match the brand and make the message instantly clear. Pretty alone won't sell the offer.",
+     "need": "I'll turn your event and offer briefs into on-brand Canva posts and posters, ready for Instagram and print.",
+     "keys": [
+      "brand guidelines",
+      "instagram posts",
+      "posters"
+     ]
+    },
+    "lesson": "wf4",
+    "skill": "Briefing the client and matching brand guidelines",
+    "pitch": "I'd love to design your Instagram posts and posters in Canva, keeping everything true to your brand colours and logo. For each brief I'll send an editable link plus high-res PNG/JPG files, and a print-ready PDF for posters. Would you like to share a sample brief to start?",
+    "ai": true
+   },
    {
     "id": "40838899",
     "title": "Modern Cafe Wall Menu Design",
@@ -248,16 +282,12 @@
     "min": 6,
     "max": 16,
     "cur": "USD",
-    "bids": 41,
+    "bids": 51,
     "posted": "2026-11-27T15:13:14.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/menu-design/Modern-Cafe-Wall-Menu-Design",
     "beginner": true,
-    "ai": true,
     "summary": "Client wants a modern, clean wall menu board for their cafe with food and drink names and prices.",
-    "lesson": "wf5",
-    "skill": "Making the offer impossible to miss",
-    "pitch": "Hi, I'd love to design your cafe's wall menu board. I'll create a clean, modern layout where food and drink names and prices are easy to read from across the room. Would you like to see a sample layout before we start?",
     "practice": {
      "q": "What does the client REALLY need from this wall menu board?",
      "options": [
@@ -273,7 +303,11 @@
       "prices",
       "clean"
      ]
-    }
+    },
+    "lesson": "wf5",
+    "skill": "Making the offer impossible to miss",
+    "pitch": "Hi, I'd love to design your cafe's wall menu board. I'll create a clean, modern layout where food and drink names and prices are easy to read from across the room. Would you like to see a sample layout before we start?",
+    "ai": true
    },
    {
     "id": "40837829",
@@ -282,7 +316,7 @@
     "min": 175,
     "max": 526,
     "cur": "USD",
-    "bids": 195,
+    "bids": 200,
     "posted": "2026-11-27T00:17:10.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/branding/Logo-Refinement-Marketing-Material",
@@ -310,47 +344,13 @@
     "ai": true
    },
    {
-    "id": "40836412",
-    "title": "Canva Posts & Posters Designer",
-    "brief": "I regularly announce events, limited-time offers, and other updates on social media and need a skilled Canva designer to translate each brief into polished visuals that fit my brand guidelines. Most of the work revolves around two key formats: • Instagram posts (square 1080×1080) • Posters suitable for both digital promotion and print On occasions when an Instagram story or an alternative size is requested, the same design language should carry across. For every assignment I’ll provide the copy, logo files, colour palette, and any reference imagery. Your deliverables will be: • An editable Canva link for each design • Exported high-resolution PNG/JPG files (and a print-ready PDF for posters)",
-    "min": 134,
-    "max": 403,
-    "cur": "USD",
-    "bids": 107,
-    "posted": "2026-11-26T05:34:28.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/canva/Canva-Posts-Posters-Designer",
-    "beginner": false,
-    "summary": "Client needs Canva designs for Instagram posts (1080x1080), posters, and stories, matching brand guidelines and provided copy.",
-    "practice": {
-     "q": "What does the client REALLY need from each design beyond looking nice?",
-     "options": [
-      "Fancy artwork that impresses other designers",
-      "Consistent on-brand visuals that carry the event or offer clearly",
-      "The most colourful design possible every time"
-     ],
-     "right": 1,
-     "why": "Clients post these to announce events and offers, so each design must match the brand and make the message instantly clear. Pretty alone won't sell the offer.",
-     "need": "I'll turn your event and offer briefs into on-brand Canva posts and posters, ready for Instagram and print.",
-     "keys": [
-      "brand guidelines",
-      "instagram posts",
-      "posters"
-     ]
-    },
-    "lesson": "wf4",
-    "skill": "Briefing the client and matching brand guidelines",
-    "pitch": "I'd love to design your Instagram posts and posters in Canva, keeping everything true to your brand colours and logo. For each brief I'll send an editable link plus high-res PNG/JPG files, and a print-ready PDF for posters. Would you like to share a sample brief to start?",
-    "ai": true
-   },
-   {
     "id": "40833432",
     "title": "Promotional Social Media Post Graphics",
     "brief": "I need a creative designer to craft eye-catching post graphics for my feed that focus on promoting my products and services. The visuals must feel cohesive across Instagram, Facebook, and LinkedIn while still respecting the nuances of each platform. Expect to work with existing brand colours, fonts, and a style guide I will share, then translate that into scroll-stopping imagery paired with concise, high-impact copy placeholders. Deliverables: • At least six static feed posts, supplied in native design files (PSD or AI) plus ready-to-upload PNG/JPEG exports in platform-specific sizes. • Editable text layers so I can update offers and captions. • A quick usage note showing layout grids, font ",
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 45,
+    "bids": 46,
     "posted": "2026-11-24T12:00:21.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/social-media-marketing/Promotional-Social-Media-Post-Graphics",
@@ -444,40 +444,6 @@
     "skill": "Briefing the client: clarifying what 'recreate' means",
     "pitch": "Hi, I can design your performance poster by hand, keeping the layout and key details from your mockup while giving it my own clean style. I'll send you a first draft within two days for feedback. Would you like to share the event date, venue, and any brand colours?",
     "ai": true
-   },
-   {
-    "id": "40828284",
-    "title": "Modern Celebration of Life Booklet",
-    "brief": "I need a simple, modern fold-and-staple booklet for a celebration of life event. Content includes: - Photos - Family memories - Personal messages Requirements: - Design should be clean and modern - Quick turnaround is essential, as I need this ASAP Ideal Skills & Experience: - Graphic design proficiency - Experience with booklet layouts - Ability to meet tight deadlines Please provide samples of similar work.",
-    "min": 30,
-    "max": 250,
-    "cur": "USD",
-    "bids": 177,
-    "posted": "2026-11-21T00:12:16.000Z",
-    "country": "",
-    "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Celebration-Life-Booklet",
-    "beginner": false,
-    "summary": "Client wants a clean, modern fold-and-staple celebration of life booklet with photos, family memories and personal messages, fast.",
-    "practice": {
-     "q": "What does the client really need most, given the tight deadline?",
-     "options": [
-      "A fancy custom illustration style",
-      "A clean, simple layout delivered fast",
-      "A full brand identity and logo"
-     ],
-     "right": 1,
-     "why": "Speed and clarity matter most here. A clean, simple layout that fits photos and messages neatly beats fancy extras when the deadline is tight.",
-     "need": "I'll deliver a clean, modern fold-and-staple booklet layout fast, with photos and memories placed neatly.",
-     "keys": [
-      "clean",
-      "modern",
-      "fast"
-     ]
-    },
-    "lesson": "wf4",
-    "skill": "Reading what the client really needs before designing",
-    "pitch": "I can design a clean, modern fold-and-staple booklet that places your photos, family memories and personal messages neatly, and I can turn a print-ready file around quickly. Would it help if I sent you a quick layout preview today?",
-    "ai": true
    }
   ],
   "cv": [
@@ -488,7 +454,7 @@
     "min": 30,
     "max": 250,
     "cur": "USD",
-    "bids": 87,
+    "bids": 91,
     "posted": "2026-11-26T01:08:09.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/technical-writing/Tech-Resume-Enhancement",
@@ -522,7 +488,7 @@
     "min": 134,
     "max": 403,
     "cur": "USD",
-    "bids": 52,
+    "bids": 54,
     "posted": "2026-11-25T15:36:19.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/administrative-support/Administrative-Supervisor-Cover-Letter",
@@ -590,7 +556,7 @@
     "min": 10,
     "max": 30,
     "cur": "USD",
-    "bids": 20,
+    "bids": 21,
     "posted": "2026-11-25T14:31:26.000Z",
     "country": "",
     "url": "https://www.freelancer.com/projects/writing/Online-Job-Application-Assistant-Needed",
@@ -760,7 +726,7 @@
     "title": "Google & Instagram Profile Makeover",
     "brief": "We have recently renovated our restaurant and would like to update our online presence to reflect its new appearance and atmosphere. 1. Google Business Profile Remove all old photos uploaded by the business. Replace them with our new professional photos. Food and beverage photos uploaded by customers can remain. All new photos will be provided by us. 2. Instagram Account Remove all existing photos and posts. Upload the new photos provided by us. Create a fresh, modern and consistent appearance that reflects the newly renovated restaurant. Project Objective The goal is to refresh both platforms and ensure that our online presence accurately represents the restaurant's new design, atmosphere a",
     "min": 33,
-    "max": 273,
+    "max": 274,
     "cur": "USD",
     "bids": 145,
     "posted": "2026-11-25T08:23:22.000Z",
@@ -856,6 +822,40 @@
     "skill": "Making the offer impossible to miss",
     "pitch": "I can set up your daily Facebook and Instagram posts at 8am, noon, and 5pm, each with a clear 'come see us today' call, your address, hours, and specials. Would you like me to start with this week's offers?",
     "ai": true
+   },
+   {
+    "id": "40828812",
+    "title": "Multi-Platform Social Media Content Creation",
+    "brief": "I'm looking for a creative and skilled social media content creator to help me establish a strong presence on Instagram, Facebook, and LinkedIn. The main goal is to create regular posts and visuals that engage our audience and promote our brand. Content Categories: - Promotions and product or service highlights - Helpful tips and educational posts - Company updates, team stories, and customer reviews Ideal Skills and Experience: - Proven experience in social media content creation - Strong visual design skills - Ability to write engaging and concise copy - Familiarity with Instagram, Facebook, and LinkedIn algorithms and best practices - Excellent organizational skills to plan and schedule p",
+    "min": 134,
+    "max": 403,
+    "cur": "USD",
+    "bids": 53,
+    "posted": "2026-11-21T10:57:46.000Z",
+    "country": "",
+    "url": "https://www.freelancer.com/projects/graphic-design/Multi-Platform-Social-Media-Content-40828812",
+    "beginner": false,
+    "ai": true,
+    "summary": "Client wants a creator for regular Instagram, Facebook, and LinkedIn posts: promos, helpful tips, and team/customer stories.",
+    "lesson": "ig5",
+    "skill": "Making the offer impossible to miss",
+    "pitch": "I'd love to help build your presence on Instagram, Facebook, and LinkedIn. I can design a simple monthly schedule of promo posts, helpful tips, and team or customer stories, with clear calls to action in every caption. Would you like to see a sample post first?",
+    "practice": {
+     "q": "What does this client REALLY need from a beginner creator?",
+     "options": [
+      "Just pretty pictures to look busy online",
+      "A steady plan of posts that sell and engage on each platform",
+      "Running their ads and handling sales calls"
+     ],
+     "right": 1,
+     "why": "The brief asks for regular, engaging posts that promote the brand on three platforms. Look for planned content that sells, not just decoration, and that fits each platform's style.",
+     "need": "I'll plan and design posts for your Instagram, Facebook, and LinkedIn so each one promotes your brand.",
+     "keys": [
+      "instagram",
+      "facebook",
+      "linkedin"
+     ]
+    }
    }
   ]
  }
